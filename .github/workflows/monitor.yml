@@ -1,0 +1,41 @@
+name: Monitor Rinoleggio Quoter
+
+on:
+  schedule:
+    # Esegue ogni 15 minuti
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Permette l'esecuzione manuale di prova
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v3
+
+      - name: Configura Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Installa dipendenze
+        run: |
+          pip install requests
+
+      - name: Esegui controllo vetture
+        env:
+          TOKEN_TELEGRAM: ${{ secrets.TOKEN_TELEGRAM }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          QUOTER_USER: ${{ secrets.QUOTER_USER }}
+          QUOTER_PASS: ${{ secrets.QUOTER_PASS }}
+        run: |
+          python controlla_auto.py
+
+      - name: Salva la memoria delle vetture aggiornata
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add vetture_salvate.json || true
+          git commit -m "Aggiornamento memoria vetture" || true
+          git push || true
