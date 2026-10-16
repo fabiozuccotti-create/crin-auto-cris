@@ -86,7 +86,7 @@
   },
   "GP554MY": {
     "desc": "<b>HYUNDAI TUCSON 1.6 CRDi MHEV 2wd 136cv Xline DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP554MY",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/1be27586fdf3ac92b4a2575cf8a81f3c585ceaeaa18ab17e8abc99dd925e8080a61c7ab47744a770260eaadd650ad7f69fcd3f87e9eeae7b84a35362c5fcc69c"
   },
   "FF15396": {
@@ -438,11 +438,6 @@
     "desc": "<b>CITRO\u00cbN C5 AIRCROSS BlueHDi 130 S&S Business Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK737ZD",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/47d0fbce642e7cfd05d356f5d0f447cf72e5c438ace99d590a672f568fb034b96177565fa24dc7e97251feab48d70f249a97d8d7744b251d9ad508f3f9b41f93"
-  },
-  "GK656RX": {
-    "desc": "<b>NISSAN JUKE 1.0 DIG-T 114 N-Connecta Dct Cross over 5-door (Euro 6D)</b> | Targa: GK656RX",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/9199f4e284147598664e1fa5ba54fa79f146bd3949a8c19454087dff7fba642e387ffd2dba935568c8c52fe67999a352db8142699a4909bdfe3a5045366f9d50"
   },
   "GK483ZL": {
     "desc": "<b>FORD FIESTA 1.0 EcoBoost Hybrid 125CV Titanium Hatchback 5-door (Euro 6.2)</b> | Targa: GK483ZL",
@@ -821,7 +816,7 @@
   },
   "GP923FL": {
     "desc": "<b>FORD KUGA 2.5 BENZINA FHEV 190CV AWD ST-LINE AUT FP</b> | Targa: GP923FL",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/40f415ce791f01844ecb6800d12657ec2dfe9fb9f12277f5751f2b829c852e4285936167d249d05fb49f3105062c60d09113c96e3bb2125ddda6d7165baf7214"
   },
   "GN543LL": {
@@ -871,7 +866,7 @@
   },
   "GR764ER": {
     "desc": "<b>ALFA ROMEO TONALE 1.6 DIESEL 130CV TCT6 TI FP</b> | Targa: GR764ER",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/3962516089eb904c00b0c58f3b9a33393f4b24ddf7b8017ef87e7ba5bc689eccea9c7e36840685e578e528950581ff9024b3b081c789c13cc71d4b11ed1946d0"
   },
   "GK815ZF": {
