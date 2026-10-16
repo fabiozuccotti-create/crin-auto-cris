@@ -32,24 +32,25 @@ def invia_telegram(messaggio):
         print(f"Errore connessione Telegram: {e}")
 
 
-def invia_notifica_frazionata(nuove_vetture):
-    lista_auto = list(nuove_vetture)
-    totale = len(lista_auto)
-    dimensione_blocco = 5
-
-    for i in range(0, totale, dimensione_blocco):
-        blocco = lista_auto[i : i + dimensione_blocco]
-        msg = f"🚨 RINOLEGGIO QUOTER: NUOVE VETTURE ({i+1}-{min(i+dimensione_blocco, totale)} di {totale})\n\n"
-        for v in blocco:
-            msg += f"• {v}\n\n"
-        invia_telegram(msg)
+def calcola_opzioni(auto):
+    """Estrae e conta il numero di opzioni associate alla vettura (max 2)."""
+    # Verifica presenza campi list/count delle opzioni nel JSON
+    if "options" in auto and isinstance(auto["options"], list):
+        return min(len(auto["options"]), 2)
+    if "OPTIONS_COUNT" in auto:
+        try:
+            return min(int(auto["OPTIONS_COUNT"]), 2)
+        except (ValueError, TypeError):
+            pass
+    if "OPTIONS" in auto and isinstance(auto["OPTIONS"], list):
+        return min(len(auto["OPTIONS"]), 2)
+    return 0
 
 
 def controlla_sito():
     session = requests.Session()
     session.headers.update(HEADERS)
 
-    print("1. Login in corso su Quoter.it...")
     payload_login = {
         "LoginForm[username]": USERNAME,
         "LoginForm[password]": PASSWORD,
@@ -69,10 +70,9 @@ def controlla_sito():
     except Exception:
         pass
 
-    vetture_attuali = set()
+    vetture_attuali = {}  # { chiave_auto: num_opzioni }
     pagina = 1
 
-    print("2. Scaricamento pagine vetture...")
     while True:
         try:
             res_api = session.get(URL_API_BASE.format(pagina), timeout=15)
@@ -113,6 +113,7 @@ def controlla_sito():
                 modello = auto.get("NAME", "").strip()
                 targa = auto.get("LICENSEPLATE", "").strip()
                 id_auto = str(auto.get("ID", "")).strip()
+
                 info = " | ".join(
                     filter(
                         None,
@@ -123,39 +124,67 @@ def controlla_sito():
                         ],
                     )
                 )
-                vetture_attuali.add(info if info else f"Vettura ID: {id_auto}")
-                trovate_in_pagina += 1
+                chiave = info if info else f"Vettura ID: {id_auto}"
+                num_opzioni = calcola_opzioni(auto)
 
-        print(f"   -> Pagina {pagina}: trovate {trovate_in_pagina} vetture.")
+                vetture_attuali[chiave] = num_opzioni
+                trovate_in_pagina += 1
 
         if trovate_in_pagina == 0 or pagina >= 10:
             break
-
         pagina += 1
-
-    print(f"Totale vetture estratte: {len(vetture_attuali)}")
 
     if not vetture_attuali:
         print("Nessuna vettura estratta.")
         return
 
-    vetture_salvate = set()
+    vetture_salvate = {}
     if os.path.exists(FILE_MEMORIA):
-        with open(FILE_MEMORIA, "r", encoding="utf-8") as f:
-            vetture_salvate = set(json.load(f))
+        try:
+            with open(FILE_MEMORIA, "r", encoding="utf-8") as f:
+                dati_salvati = json.load(f)
+                # Conversione retrocompatibile se il vecchio file era una lista
+                if isinstance(dati_salvati, list):
+                    vetture_salvate = {k: 0 for k in dati_salvati}
+                elif isinstance(dati_salvati, dict):
+                    vetture_salvate = dati_salvati
+        except Exception:
+            vetture_salvate = {}
 
-    nuove = vetture_attuali - vetture_salvate
+    nuove_vetture = []
+    variazioni_opzioni = []
 
-    if nuove:
-        print(f"Trovate {len(nuove)} nuove vetture! Invio notifiche...")
-        invia_notifica_frazionata(nuove)
-        with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
-            json.dump(list(vetture_attuali.union(vetture_salvate)), f)
-        print("Notifiche inviate su Telegram!")
-    else:
-        print(
-            "Nessun nuovo inserimento in Rinoleggio rispetto all'ultimo controllo."
-        )
+    # Confronto stato attuale con memoria salvata
+    for auto, opzioni_attuali in vetture_attuali.items():
+        if auto not in vetture_salvate:
+            nuove_vetture.append((auto, opzioni_attuali))
+        else:
+            opzioni_precedenti = vetture_salvate[auto]
+            if opzioni_attuali != opzioni_precedenti:
+                variazioni_opzioni.append(
+                    (auto, opzioni_precedenti, opzioni_attuali)
+                )
+
+    # 1. Notifica Nuove Vetture
+    if nuove_vetture:
+        msg = f"🚨 NUOVE VETTURE RILEVATE ({len(nuove_vetture)}):\n\n"
+        for auto, opt in nuove_vetture:
+            msg += f"• {auto}\n  👉 Opzioni attuali: {opt}/2\n\n"
+        invia_telegram(msg)
+
+    # 2. Notifica Variazioni Opzioni
+    if variazioni_opzioni:
+        msg = f"🔄 VARIAZIONE OPZIONI RILEVATA ({len(variazioni_opzioni)}):\n\n"
+        for auto, vecchie, nuove in variazioni_opzioni:
+            msg += f"• {auto}\n  👉 Cambio opzioni: da {vecchie} a {nuove}\n\n"
+        invia_telegram(msg)
+
+    # Salva lo stato corrente
+    with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
+        json.dump(vetture_attuali, f, indent=2)
+
+    if not nuove_vetture and not variazioni_opzioni:
+        print("Nessuna variazione o nuova vettura rilevata.")
 
 
 if __name__ == "__main__":
