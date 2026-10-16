@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import requests
 
 TOKEN_TELEGRAM = os.environ.get("TOKEN_TELEGRAM")
@@ -15,9 +16,8 @@ FILE_MEMORIA = "vetture_salvate.json"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "application/json, text/plain, */*",
-    "X-Requested-With": "XMLHttpRequest",
-    "Referer": "https://quoter.it/v2/deal",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
 }
 
 
@@ -33,8 +33,7 @@ def invia_telegram(messaggio):
 
 
 def calcola_opzioni(auto):
-    """Estrae e conta il numero di opzioni associate alla vettura (max 2)."""
-    # Verifica presenza campi list/count delle opzioni nel JSON
+    """Estrae e conta le opzioni della vettura (massimo 2)."""
     if "options" in auto and isinstance(auto["options"], list):
         return min(len(auto["options"]), 2)
     if "OPTIONS_COUNT" in auto:
@@ -51,35 +50,64 @@ def controlla_sito():
     session = requests.Session()
     session.headers.update(HEADERS)
 
+    print("1. Richiesta pagina di login per recupero CSRF token...")
+    try:
+        r_page = session.get(URL_LOGIN, timeout=15)
+        csrf_token = ""
+        match = re.search(
+            r'name="_csrf"\s+value="([^"]+)"', r_page.text
+        ) or re.search(r'name="_csrf-frontend"\s+value="([^"]+)"', r_page.text)
+        if match:
+            csrf_token = match.group(1)
+    except Exception as e:
+        print(f"Errore caricamento login: {e}")
+        return
+
+    print("2. Invio credenziali di login...")
     payload_login = {
         "LoginForm[username]": USERNAME,
         "LoginForm[password]": PASSWORD,
     }
+    if csrf_token:
+        payload_login["_csrf"] = csrf_token
 
     try:
-        res_login = session.post(URL_LOGIN, data=payload_login, timeout=15)
-        if res_login.status_code != 200:
-            print(f"Errore login HTTP {res_login.status_code}")
-            return
+        # allow_redirects=True gestisce il codice 302 del login con successo
+        res_login = session.post(
+            URL_LOGIN, data=payload_login, timeout=15, allow_redirects=True
+        )
+        print(f"Risposta login: HTTP {res_login.status_code}")
     except Exception as e:
-        print(f"Errore connessione login: {e}")
+        print(f"Errore invio login: {e}")
         return
+
+    print("3. Inizializzazione sessione Rinoleggio...")
+    session.headers.update(
+        {
+            "Accept": "application/json, text/plain, */*",
+            "X-Requested-With": "XMLHttpRequest",
+            "Referer": "https://quoter.it/v2/deal",
+        }
+    )
 
     try:
         session.get(URL_RINOLEGGIO, timeout=15)
     except Exception:
         pass
 
-    vetture_attuali = {}  # { chiave_auto: num_opzioni }
+    vetture_attuali = {}
     pagina = 1
 
+    print("4. Estrazione vetture dalle pagine API...")
     while True:
         try:
             res_api = session.get(URL_API_BASE.format(pagina), timeout=15)
             if res_api.status_code != 200:
+                print(f"Fine pagine o errore HTTP {res_api.status_code}")
                 break
             dati = res_api.json()
-        except Exception:
+        except Exception as e:
+            print(f"Interruzione lettura JSON a pagina {pagina}: {e}")
             break
 
         lista_veicoli = []
@@ -130,12 +158,16 @@ def controlla_sito():
                 vetture_attuali[chiave] = num_opzioni
                 trovate_in_pagina += 1
 
+        print(f"   -> Pagina {pagina}: estratte {trovate_in_pagina} vetture.")
+
         if trovate_in_pagina == 0 or pagina >= 10:
             break
         pagina += 1
 
+    print(f"Totale vetture trovate sul sito: {len(vetture_attuali)}")
+
     if not vetture_attuali:
-        print("Nessuna vettura estratta.")
+        print("Nessuna vettura trovata.")
         return
 
     vetture_salvate = {}
@@ -143,7 +175,6 @@ def controlla_sito():
         try:
             with open(FILE_MEMORIA, "r", encoding="utf-8") as f:
                 dati_salvati = json.load(f)
-                # Conversione retrocompatibile se il vecchio file era una lista
                 if isinstance(dati_salvati, list):
                     vetture_salvate = {k: 0 for k in dati_salvati}
                 elif isinstance(dati_salvati, dict):
@@ -154,7 +185,6 @@ def controlla_sito():
     nuove_vetture = []
     variazioni_opzioni = []
 
-    # Confronto stato attuale con memoria salvata
     for auto, opzioni_attuali in vetture_attuali.items():
         if auto not in vetture_salvate:
             nuove_vetture.append((auto, opzioni_attuali))
@@ -179,12 +209,12 @@ def controlla_sito():
             msg += f"• {auto}\n  👉 Cambio opzioni: da {vecchie} a {nuove}\n\n"
         invia_telegram(msg)
 
-    # Salva lo stato corrente
+    # Salvataggio dello stato
     with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
         json.dump(vetture_attuali, f, indent=2)
 
     if not nuove_vetture and not variazioni_opzioni:
-        print("Nessuna variazione o nuova vettura rilevata.")
+        print("Nessun nuovo inserimento o cambio opzioni.")
 
 
 if __name__ == "__main__":
