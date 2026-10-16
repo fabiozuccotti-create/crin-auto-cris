@@ -38,7 +38,7 @@ def invia_telegram(messaggio):
 
 
 def invia_notifica_frazionata(titolo, lista_elementi):
-    """Spezza l'invio in blocchi da 5 elementi per evitare limiti di caratteri di Telegram."""
+    """Spezza l'invio in blocchi da 5 elementi per rispettare i limiti di Telegram."""
     totale = len(lista_elementi)
     dimensione_blocco = 5
 
@@ -50,18 +50,67 @@ def invia_notifica_frazionata(titolo, lista_elementi):
         invia_telegram(msg)
 
 
+def is_opzione_attiva(valore):
+    """Verifica se il campo stato opzione indica un'opzione occupata/attiva."""
+    if valore is None:
+        return False
+    val_str = str(valore).strip().lower()
+    # Se il valore contiene codici di stato attivo, testo, '1', 'true', 'opzionato', ecc.
+    if val_str in ["1", "true", "opzionata", "opzionato", "occupato", "active", "yes"]:
+        return True
+    if len(val_str) > 0 and val_str not in ["0", "false", "libero", "null", "none", "attesa", ""]:
+        return True
+    return False
+
+
 def calcola_opzioni(auto):
-    """Estrae e conta il numero di opzioni associate (massimo 2)."""
-    if "options" in auto and isinstance(auto["options"], list):
-        return min(len(auto["options"]), 2)
-    if "OPTIONS_COUNT" in auto:
-        try:
-            return min(int(auto["OPTIONS_COUNT"]), 2)
-        except (ValueError, TypeError):
-            pass
-    if "OPTIONS" in auto and isinstance(auto["OPTIONS"], list):
-        return min(len(auto["OPTIONS"]), 2)
-    return 0
+    """Verifica specificamente i campi 'Stato Opzione 1' e 'Stato Opzione 2'."""
+    opt1_active = False
+    opt2_active = False
+
+    # Nomi dei campi possibili nell'API/CSV per Opzione 1
+    chiavi_opt1 = [
+        "STATO OPZIONE 1", "STATO_OPZIONE_1", "stato_opzione_1", 
+        "OPTION_1_STATUS", "option_1_status", "OPTION_1", "option_1", "statoOpzione1"
+    ]
+    # Nomi dei campi possibili nell'API/CSV per Opzione 2
+    chiavi_opt2 = [
+        "STATO OPZIONE 2", "STATO_OPZIONE_2", "stato_opzione_2", 
+        "OPTION_2_STATUS", "option_2_status", "OPTION_2", "option_2", "statoOpzione2"
+    ]
+
+    for k in chiavi_opt1:
+        if k in auto and is_opzione_attiva(auto[k]):
+            opt1_active = True
+            break
+
+    for k in chiavi_opt2:
+        if k in auto and is_opzione_attiva(auto[k]):
+            opt2_active = True
+            break
+
+    # Conteggio totale opzioni attive
+    conteggio = (1 if opt1_active else 0) + (1 if opt2_active else 0)
+
+    # Fallback se le opzioni sono contenute in una lista interna 'options' o 'deal_options'
+    if conteggio == 0:
+        for chiavi_lista in ["options", "OPTIONS", "deal_options", "DEAL_OPTIONS"]:
+            valore = auto.get(chiavi_lista)
+            if isinstance(valore, list) and len(valore) > 0:
+                conteggio = min(len(valore), 2)
+                break
+
+    return min(conteggio, 2)
+
+
+def get_pallini_opzioni(num_opzioni):
+    """Restituisce le icone dei pallini colorati in base alle opzioni occupate."""
+    if num_opzioni == 0:
+        return "🟢🟢 (0 opzioni)"
+    elif num_opzioni == 1:
+        return "🔴🟢 (1 opzione)"
+    else:
+        return "🔴🔴 (2 opzioni)"
 
 
 def controlla_sito():
@@ -111,10 +160,10 @@ def controlla_sito():
     except Exception:
         pass
 
-    vetture_attuali = {}  # { id_auto: { "desc": ..., "options": ..., "url": ... } }
+    vetture_attuali = {}
     pagina = 1
 
-    print("3. Estrazione vetture dalle pagine API...")
+    print("3. Estrazione vetture...")
     while True:
         try:
             res_api = session.get(URL_API_BASE.format(pagina), timeout=15)
@@ -167,13 +216,11 @@ def controlla_sito():
                 desc_parti.append(f"ID: {id_auto}")
 
                 descrizione = " | ".join(desc_parti)
-                link_foto = f"https://quoter.it/v2/deal/view?id={id_auto}"
                 num_opzioni = calcola_opzioni(auto)
 
                 vetture_attuali[id_auto] = {
                     "desc": descrizione,
                     "options": num_opzioni,
-                    "url": link_foto,
                 }
                 trovate_in_pagina += 1
 
@@ -199,30 +246,42 @@ def controlla_sito():
         except Exception:
             vetture_salvate = {}
 
-    nuove_vetture_testo = []
-    variazioni_opzioni_testo = []
+    nuove_vetture_lista = []
+    variazioni_opzioni_lista = []
 
     for id_auto, dati in vetture_attuali.items():
         desc = dati["desc"]
         opt_attuali = dati["options"]
-        url_foto = dati["url"]
 
         if id_auto not in vetture_salvate:
-            nuove_vetture_testo.append(
-                f"• {desc}\n"
-                f"  👉 Opzioni: {opt_attuali}/2\n"
-                f'  📷 <a href="{url_foto}">Vedi Scheda e Foto</a>'
-            )
+            nuove_vetture_lista.append((id_auto, desc, opt_attuali))
         else:
             opt_precedenti = vetture_salvate[id_auto].get("options", 0)
             if opt_attuali != opt_precedenti:
-                variazioni_opzioni_testo.append(
-                    f"• {desc}\n"
-                    f"  👉 Cambio opzioni: da {opt_precedenti} a {opt_attuali}\n"
-                    f'  📷 <a href="{url_foto}">Vedi Scheda e Foto</a>'
+                variazioni_opzioni_lista.append(
+                    (id_auto, desc, opt_precedenti, opt_attuali)
                 )
 
-    # UNICO INVIO NOTIFICHE SENZA DOPPIONI
+    # Ordinamento: per prime 0 opzioni (🟢🟢), poi 1 (🔴🟢), poi 2 (🔴🔴)
+    nuove_vetture_lista.sort(key=lambda x: x[2])
+    variazioni_opzioni_lista.sort(key=lambda x: x[3])
+
+    # Formattazione messaggi nuove vetture
+    nuove_vetture_testo = []
+    for _, desc, opt in nuove_vetture_lista:
+        pallini = get_pallini_opzioni(opt)
+        nuove_vetture_testo.append(f"• {desc}\n  👉 Stato: {pallini}")
+
+    # Formattazione messaggi variazioni opzioni
+    variazioni_opzioni_testo = []
+    for _, desc, opt_vecchie, opt_nuove in variazioni_opzioni_lista:
+        pallini_vecchi = get_pallini_opzioni(opt_vecchie)
+        pallini_nuovi = get_pallini_opzioni(opt_nuove)
+        variazioni_opzioni_testo.append(
+            f"• {desc}\n  👉 Variazione: da {pallini_vecchi} a {pallini_nuovi}"
+        )
+
+    # Invio notifiche
     if nuove_vetture_testo:
         invia_notifica_frazionata("🚨 NUOVE VETTURE RILEVATE", nuove_vetture_testo)
 
@@ -231,7 +290,7 @@ def controlla_sito():
             "🔄 VARIAZIONE OPZIONI RILEVATA", variazioni_opzioni_testo
         )
 
-    # Salvataggio dello stato
+    # Salvataggio stato memoria
     with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
         json.dump(vetture_attuali, f, indent=2)
 
