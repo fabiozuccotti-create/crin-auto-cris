@@ -11,8 +11,6 @@ USERNAME = os.environ.get("QUOTER_USER")
 PASSWORD = os.environ.get("QUOTER_PASS")
 
 URL_LOGIN = "https://quoter.it/site/login"
-URL_RINOLEGGIO = "https://quoter.it/v2/deal"
-# Endpoint per l'esportazione CSV completa di Rinoleggio
 URL_EXPORT_CSV = "https://quoter.it/proxy/deal/export?action=leaseafter"
 
 FILE_MEMORIA = "vetture_salvate.json"
@@ -41,7 +39,7 @@ def invia_telegram(messaggio):
 
 
 def invia_notifica_frazionata(titolo, lista_elementi):
-    """Spezza l'invio in blocchi da 5 per rispettare i limiti di Telegram."""
+    """Spezza l'invio in blocchi da 5 elementi per non superare i limiti di Telegram."""
     totale = len(lista_elementi)
     dimensione_blocco = 5
 
@@ -53,26 +51,12 @@ def invia_notifica_frazionata(titolo, lista_elementi):
         invia_telegram(msg)
 
 
-def is_opzione_occupata(valore):
-    """Verifica se lo stato dell'opzione è occupato/attivo."""
-    if valore is None:
+def is_opzionato(valore):
+    """Verifica se il valore del CSV corrisponde a OPZIONATO."""
+    if not valore:
         return False
-    v = str(valore).strip().lower()
-    if v in [
-        "1",
-        "true",
-        "opzionata",
-        "opzionato",
-        "occupato",
-        "active",
-        "yes",
-        "si",
-        "sì",
-    ]:
-        return True
-    if len(v) > 0 and v not in ["0", "false", "libero", "null", "none", "no", ""]:
-        return True
-    return False
+    v = str(valore).strip().upper()
+    return "OPZIONATO" in v or v in ["1", "TRUE", "ACTIVE", "SI", "SÌ"]
 
 
 def get_pallini_opzioni(num_opzioni):
@@ -127,39 +111,41 @@ def controlla_sito():
             print(f"Errore scaricamento CSV: HTTP {res_csv.status_code}")
             return
 
-        # Decodifica contenuto CSV
         contenuto_csv = res_csv.content.decode("utf-8-sig", errors="ignore")
         f_csv = io.StringIO(contenuto_csv)
 
-        # Rileva separatore CSV (, oppure ;)
         dialetto = csv.Sniffer().sniff(contenuto_csv[:2000])
         reader = csv.DictReader(f_csv, dialect=dialetto)
 
         for row in reader:
-            # Normalizza nomi colonne in maiuscolo
-            riga = {str(k).strip().upper(): str(v).strip() for k, v in row.items() if k}
+            # Normalizza chiavi in minuscolo senza spazi
+            riga = {
+                str(k).strip().lower().replace(" ", "_"): str(v).strip()
+                for k, v in row.items()
+                if k
+            }
 
             id_auto = (
-                riga.get("ID")
-                or riga.get("ID VETTURA")
-                or riga.get("CODICE")
-                or riga.get("DEAL_ID")
+                riga.get("id")
+                or riga.get("id_vettura")
+                or riga.get("codice")
                 or ""
             )
-            modello = riga.get("MODELLO") or riga.get("NAME") or riga.get("DESCRIZIONE") or ""
-            targa = riga.get("TARGA") or riga.get("LICENSEPLATE") or ""
+            modello = riga.get("modello") or riga.get("name") or riga.get("descrizione") or ""
+            targa = riga.get("targa") or riga.get("licenseplate") or ""
 
             if not id_auto and not targa:
                 continue
 
             chiave_id = id_auto if id_auto else targa
 
-            # Lettura precisa dei campi "STATO OPZIONE 1" e "STATO OPZIONE 2"
-            opt1_val = riga.get("STATO OPZIONE 1") or riga.get("STATO_OPZIONE_1") or riga.get("OPZIONE 1") or ""
-            opt2_val = riga.get("STATO OPZIONE 2") or riga.get("STATO_OPZIONE_2") or riga.get("OPZIONE 2") or ""
+            # Lettura esatta dai campi identificati dallo screenshot
+            opt1_val = riga.get("stato_opzione1") or riga.get("stato_opzione_1") or ""
+            opt2_val = riga.get("stato_opzione2") or riga.get("stato_opzione_2") or ""
+            url_foto = riga.get("link2lifeimage") or riga.get("link_image") or ""
 
-            opt1_active = is_opzione_occupata(opt1_val)
-            opt2_active = is_opzione_occupata(opt2_val)
+            opt1_active = is_opzionato(opt1_val)
+            opt2_active = is_opzionato(opt2_val)
 
             num_opzioni = (1 if opt1_active else 0) + (1 if opt2_active else 0)
 
@@ -176,10 +162,11 @@ def controlla_sito():
             vetture_attuali[chiave_id] = {
                 "desc": descrizione,
                 "options": num_opzioni,
+                "url_foto": url_foto,
             }
 
     except Exception as e:
-        print(f"Errore durante l'elaborazione del CSV: {e}")
+        print(f"Errore elaborazione CSV: {e}")
         return
 
     print(f"Totale vetture lette dal CSV: {len(vetture_attuali)}")
@@ -204,32 +191,37 @@ def controlla_sito():
     for id_auto, dati in vetture_attuali.items():
         desc = dati["desc"]
         opt_attuali = dati["options"]
+        url_foto = dati["url_foto"]
 
         if id_auto not in vetture_salvate:
-            nuove_vetture_lista.append((id_auto, desc, opt_attuali))
+            nuove_vetture_lista.append((id_auto, desc, opt_attuali, url_foto))
         else:
             opt_precedenti = vetture_salvate[id_auto].get("options", 0)
             if opt_attuali != opt_precedenti:
                 variazioni_opzioni_lista.append(
-                    (id_auto, desc, opt_precedenti, opt_attuali)
+                    (id_auto, desc, opt_precedenti, opt_attuali, url_foto)
                 )
 
-    # Ordinamento: 0 opzioni (🟢🟢) per prime, poi 1 (🔴🟢), poi 2 (🔴🔴)
+    # Ordinamento: per prime 0 opzioni (🟢🟢), poi 1 (🔴🟢), infine 2 (🔴🔴)
     nuove_vetture_lista.sort(key=lambda x: x[2])
     variazioni_opzioni_lista.sort(key=lambda x: x[3])
 
     nuove_vetture_testo = []
-    for _, desc, opt in nuove_vetture_lista:
+    for _, desc, opt, url_f in nuove_vetture_lista:
         pallini = get_pallini_opzioni(opt)
-        nuove_vetture_testo.append(f"• {desc}\n  👉 Stato: {pallini}")
+        riga_msg = f"• {desc}\n  👉 Stato: {pallini}"
+        if url_f and url_f.startswith("http"):
+            riga_msg += f'\n  📷 <a href="{url_f}">Vedi Foto</a>'
+        nuove_vetture_testo.append(riga_msg)
 
     variazioni_opzioni_testo = []
-    for _, desc, opt_vecchie, opt_nuove in variazioni_opzioni_lista:
-        pallini_vecchi = get_pallini_opzioni(opt_vecchie)
-        pallini_nuovi = get_pallini_opzioni(opt_nuove)
-        variazioni_opzioni_testo.append(
-            f"• {desc}\n  👉 Variazione: da {pallini_vecchi} a {pallini_nuovi}"
-        )
+    for _, desc, opt_v, opt_n, url_f in variazioni_opzioni_lista:
+        p_vecchi = get_pallini_opzioni(opt_v)
+        p_nuovi = get_pallini_opzioni(opt_n)
+        riga_msg = f"• {desc}\n  👉 Variazione: da {p_vecchi} a {p_nuovi}"
+        if url_f and url_f.startswith("http"):
+            riga_msg += f'\n  📷 <a href="{url_f}">Vedi Foto</a>'
+        variazioni_opzioni_testo.append(riga_msg)
 
     if nuove_vetture_testo:
         invia_notifica_frazionata("🚨 NUOVE VETTURE RILEVATE", nuove_vetture_testo)
