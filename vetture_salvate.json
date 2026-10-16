@@ -136,7 +136,7 @@
   },
   "GV441ZT": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV441ZT",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/19dfa81fe3be52b1ad83fc441e5dae7f9d4e6b72b16186e2b900ff88132ecdf75bf06d1220884cea7a4577a96ba152da27a09dd64c9ee35771557333e7940ec2"
   },
   "GV467ZT": {
@@ -196,7 +196,7 @@
   },
   "GP824MG": {
     "desc": "<b>FIAT TIPO SW (PC) 1.6 MJT 130CV S&S FP</b> | Targa: GP824MG",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/eec8122cc27b9d419eeff631943c55570d82c4dbc7d23a677bfe21058ee59aee2585fa3dc93eed6e2387d8055d2006ed2c42c8104362ed3fc83ff61cdf174ca8"
   },
   "GW950VR": {
@@ -221,7 +221,7 @@
   },
   "GR775MK": {
     "desc": "<b>KIA SPORTAGE 1.6 TGDI MHEV BUSINESS 2WD DCT FP</b> | Targa: GR775MK",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/cebf34fc78e1b01b7b69d805423396edb45b0a28bb7ee36d6a225f316cc50d87356edfa434cfe78506f7c9f7767808ab61064fca24933cf592899b05274fda21"
   },
   "GP295ZX": {
@@ -286,7 +286,7 @@
   },
   "GG252RV": {
     "desc": "<b>OPEL GRANDLAND X(PC) 1.5 DIESEL 130CV ELEGANCE S&S AT8 FP</b> | Targa: GG252RV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/2bf35e229f0f2b0d5ce3b3f965e3cbdb2179482ed4a8d9a9f74ef11a7cba942ce68ed99f1dd9e3953c472f08c24e4f2eeeb1f4ddb13554bbfa6d1de654a6ec39"
   },
   "GG741AS": {
@@ -311,7 +311,7 @@
   },
   "GK815RJ": {
     "desc": "<b>PEUGEOT 5008 BLUEHDI 130 GT EAT8 S/S AUT. FP</b> | Targa: GK815RJ",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/e8ee5d932e43d0ec7ade9aac7f44c51f24086b1a18bb3efeeebfc43eb620313b092cccdc25c0ef175fe84b63346cf0d7777a6da2ada47cafe14c77a5da7b15ca"
   },
   "GH030HS": {
@@ -374,20 +374,10 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/dc836a9b4085c6efe4f38d8be3d4df37b1b34fe0934cd90adb3639e12d7f6b3ce3885dcc56914790e263f1afa7995696f612e0eb666b88110b28bdfba334bfe6"
   },
-  "GH511PX": {
-    "desc": "<b>VOLKSWAGEN T-ROC 2.0 TDI 150cv SCR Advanced DSG Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GH511PX",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/df44ed188764563779c0f22136bec34348f2d6b4028b39e4576df71ecd1c14ed80f1893c348af3acb4ba10d125841388b4f7c2692a646055b8bb2e09a407967a"
-  },
   "GJ859AF": {
     "desc": "<b>FORD FIESTA 1.0 EcoBoost Hybrid 125CV Titanium Hatchback 5-door (Euro 6.2)</b> | Targa: GJ859AF",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/37ef2803c095edf5d69321f8ab23bfddf6fa926c0605f50da5fdbe73a7921071100c0846a5b949dfcacab3f7abff72dfb154fdc7c74b46145fa4d8ae5ae17ba7"
-  },
-  "GJ058JN": {
-    "desc": "<b>CITRO\u00cbN C3 AIRCROSS BlueHDi 120 S&S Feel EAT6 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ058JN",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/40ebf26039c29bf58dbc62f17cf0d69fb2e6de346691f3e43875637a3ce283f546a17f5581f8c92ce6bdd5565d4e09aaacf5f2925b59b02fbe1e2f2764f74557"
   },
   "GM830PJ": {
     "desc": "<b>MERCEDES-BENZ GLC COUP\u00c8 300 e 4Matic Plug-in Hybr. Business aut. Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GM830PJ",
@@ -636,7 +626,7 @@
   },
   "GN927XF": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV ST-Line X Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GN927XF",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/ca9b0b532e754eedd32e7e0f956a4fa0877af4dea1dc33e7aa8f9ddb6aee574fef5be4d6513bd2a56da0737ae1084388cb6c10f02f14e30db1942ba70b1eb3f1"
   },
   "GP417FS": {
@@ -746,7 +736,7 @@
   },
   "GW114WC": {
     "desc": "<b>VOLKSWAGEN GOLF 2.0 TDI SCR 110KW Edition Plus DSG Hatchback 5-door (Euro 6E)</b> | Targa: GW114WC",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/89914eef56c0675da5cb7ad2c465edfad28f87636de33e027cca33c75287f10c7473e515e2a5e733f765e64a7867322a9c37f28d17375407bd73a8852a794b0d"
   },
   "GW065YD": {
