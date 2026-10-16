@@ -1,5 +1,3 @@
-import csv
-import io
 import json
 import os
 import re
@@ -11,7 +9,8 @@ USERNAME = os.environ.get("QUOTER_USER")
 PASSWORD = os.environ.get("QUOTER_PASS")
 
 URL_LOGIN = "https://quoter.it/site/login"
-URL_EXPORT_CSV = "https://quoter.it/proxy/deal/export?action=leaseafter"
+URL_RINOLEGGIO = "https://quoter.it/v2/deal"
+URL_API_BASE = "https://quoter.it/proxy/deal/list?action=leaseafter&target=list&page={}&refresh=false&filters=%7B%22generic%22%3Anull%7D"
 
 FILE_MEMORIA = "vetture_salvate.json"
 
@@ -39,7 +38,7 @@ def invia_telegram(messaggio):
 
 
 def invia_notifica_frazionata(titolo, lista_elementi):
-    """Spezza l'invio in blocchi da 5 elementi per non superare i limiti di Telegram."""
+    """Spezza l'invio in blocchi da 5 per rispettare i limiti di Telegram."""
     totale = len(lista_elementi)
     dimensione_blocco = 5
 
@@ -52,11 +51,60 @@ def invia_notifica_frazionata(titolo, lista_elementi):
 
 
 def is_opzionato(valore):
-    """Verifica se il valore del CSV corrisponde a OPZIONATO."""
-    if not valore:
+    """Verifica se lo stato dell'opzione indica un'opzione occupata."""
+    if valore is None:
         return False
     v = str(valore).strip().upper()
-    return "OPZIONATO" in v or v in ["1", "TRUE", "ACTIVE", "SI", "SÌ"]
+    return "OPZIONATO" in v or v in ["1", "TRUE", "ACTIVE", "SI", "SÌ", "OCCUPATO"]
+
+
+def calcola_opzioni_auto(auto):
+    """Cerca i campi stato_opzione1 e stato_opzione2 in tutte le possibili forme."""
+    opt1_val = (
+        auto.get("stato_opzione1")
+        or auto.get("STATO_OPZIONE1")
+        or auto.get("stato_opzione_1")
+        or auto.get("STATO_OPZIONE_1")
+        or auto.get("option_1_status")
+        or ""
+    )
+    opt2_val = (
+        auto.get("stato_opzione2")
+        or auto.get("STATO_OPZIONE2")
+        or auto.get("stato_opzione_2")
+        or auto.get("STATO_OPZIONE_2")
+        or auto.get("option_2_status")
+        or ""
+    )
+
+    opt1_active = is_opzionato(opt1_val)
+    opt2_active = is_opzionato(opt2_val)
+
+    conteggio = (1 if opt1_active else 0) + (1 if opt2_active else 0)
+
+    # Fallback su liste o conteggi generici se le chiavi specifiche non sono presenti
+    if conteggio == 0:
+        for k in ["options", "OPTIONS", "deal_options", "DEAL_OPTIONS"]:
+            val = auto.get(k)
+            if isinstance(val, list):
+                conteggio = len(val)
+                break
+
+    return min(conteggio, 2)
+
+
+def estrai_url_foto(auto):
+    """Estrae l'URL per le immagini (link2lifeimage o link generico quoter)."""
+    url_f = (
+        auto.get("link2lifeimage")
+        or auto.get("LINK2LIFEIMAGE")
+        or auto.get("link_image")
+        or auto.get("image_link")
+        or ""
+    )
+    if not url_f and auto.get("ID"):
+        url_f = f"https://quoter.it/v2/deal/view?id={auto.get('ID')}"
+    return url_f
 
 
 def get_pallini_opzioni(num_opzioni):
@@ -102,77 +150,95 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    print("3. Scaricamento ed analisi file CSV Rinoleggio...")
-    vetture_attuali = {}
+    session.headers.update(
+        {
+            "Accept": "application/json, text/plain, */*",
+            "X-Requested-With": "XMLHttpRequest",
+            "Referer": "https://quoter.it/v2/deal",
+        }
+    )
 
     try:
-        res_csv = session.get(URL_EXPORT_CSV, timeout=30)
-        if res_csv.status_code != 200:
-            print(f"Errore scaricamento CSV: HTTP {res_csv.status_code}")
-            return
+        session.get(URL_RINOLEGGIO, timeout=15)
+    except Exception:
+        pass
 
-        contenuto_csv = res_csv.content.decode("utf-8-sig", errors="ignore")
-        f_csv = io.StringIO(contenuto_csv)
+    vetture_attuali = {}
+    pagina = 1
 
-        dialetto = csv.Sniffer().sniff(contenuto_csv[:2000])
-        reader = csv.DictReader(f_csv, dialect=dialetto)
+    print("3. Estrazione vetture da API...")
+    while True:
+        try:
+            res_api = session.get(URL_API_BASE.format(pagina), timeout=15)
+            if res_api.status_code != 200:
+                break
+            dati = res_api.json()
+        except Exception:
+            break
 
-        for row in reader:
-            # Normalizza chiavi in minuscolo senza spazi
-            riga = {
-                str(k).strip().lower().replace(" ", "_"): str(v).strip()
-                for k, v in row.items()
-                if k
-            }
+        lista_veicoli = []
+        if isinstance(dati, dict):
+            for k in [
+                "data",
+                "items",
+                "deals",
+                "list",
+                "rows",
+                "results",
+                "stock",
+            ]:
+                if k in dati and isinstance(dati[k], list):
+                    lista_veicoli = dati[k]
+                    break
+            if not lista_veicoli:
+                for k, v in dati.items():
+                    if isinstance(v, list) and len(v) > 0:
+                        lista_veicoli = v
+                        break
+        elif isinstance(dati, list):
+            lista_veicoli = dati
 
-            id_auto = (
-                riga.get("id")
-                or riga.get("id_vettura")
-                or riga.get("codice")
-                or ""
-            )
-            modello = riga.get("modello") or riga.get("name") or riga.get("descrizione") or ""
-            targa = riga.get("targa") or riga.get("licenseplate") or ""
+        if not lista_veicoli:
+            break
 
-            if not id_auto and not targa:
-                continue
+        trovate_in_pagina = 0
+        for auto in lista_veicoli:
+            if isinstance(auto, dict):
+                id_auto = str(auto.get("ID", "")).strip()
+                if not id_auto:
+                    continue
 
-            chiave_id = id_auto if id_auto else targa
+                modello = auto.get("NAME", "").strip()
+                targa = auto.get("LICENSEPLATE", "").strip()
 
-            # Lettura esatta dai campi identificati dallo screenshot
-            opt1_val = riga.get("stato_opzione1") or riga.get("stato_opzione_1") or ""
-            opt2_val = riga.get("stato_opzione2") or riga.get("stato_opzione_2") or ""
-            url_foto = riga.get("link2lifeimage") or riga.get("link_image") or ""
-
-            opt1_active = is_opzionato(opt1_val)
-            opt2_active = is_opzionato(opt2_val)
-
-            num_opzioni = (1 if opt1_active else 0) + (1 if opt2_active else 0)
-
-            desc_parti = []
-            if modello:
-                desc_parti.append(f"<b>{modello}</b>")
-            if targa:
-                desc_parti.append(f"Targa: {targa}")
-            if id_auto:
+                desc_parti = []
+                if modello:
+                    desc_parti.append(f"<b>{modello}</b>")
+                if targa:
+                    desc_parti.append(f"Targa: {targa}")
                 desc_parti.append(f"ID: {id_auto}")
 
-            descrizione = " | ".join(desc_parti)
+                descrizione = " | ".join(desc_parti)
+                num_opzioni = calcola_opzioni_auto(auto)
+                url_foto = estrai_url_foto(auto)
 
-            vetture_attuali[chiave_id] = {
-                "desc": descrizione,
-                "options": num_opzioni,
-                "url_foto": url_foto,
-            }
+                vetture_attuali[id_auto] = {
+                    "desc": descrizione,
+                    "options": num_opzioni,
+                    "url_foto": url_foto,
+                }
+                trovate_in_pagina += 1
 
-    except Exception as e:
-        print(f"Errore elaborazione CSV: {e}")
-        return
+        print(f"   -> Pagina {pagina}: estratte {trovate_in_pagina} vetture.")
 
-    print(f"Totale vetture lette dal CSV: {len(vetture_attuali)}")
+        if trovate_in_pagina == 0 or pagina >= 10:
+            break
+        pagina += 1
+
+    print(f"Totale vetture lette: {len(vetture_attuali)}")
 
     if not vetture_attuali:
-        print("Nessuna vettura trovata nel CSV.")
+        print("Nessuna vettura trovata.")
         return
 
     vetture_salvate = {}
