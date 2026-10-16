@@ -11,6 +11,7 @@ PASSWORD = os.environ.get("QUOTER_PASS")
 URL_LOGIN = "https://quoter.it/site/login"
 URL_RINOLEGGIO = "https://quoter.it/v2/deal"
 URL_API_BASE = "https://quoter.it/proxy/deal/list?action=leaseafter&target=list&page={}&refresh=false&filters=%7B%22generic%22%3Anull%7D"
+URL_API_DETAIL = "https://quoter.it/proxy/deal/view?id={}"
 
 FILE_MEMORIA = "vetture_salvate.json"
 
@@ -51,60 +52,96 @@ def invia_notifica_frazionata(titolo, lista_elementi):
 
 
 def is_opzionato(valore):
-    """Verifica se lo stato dell'opzione indica un'opzione occupata."""
+    """Verifica se il valore indica una posizione opzionata/occupata."""
     if valore is None:
         return False
     v = str(valore).strip().upper()
     return "OPZIONATO" in v or v in ["1", "TRUE", "ACTIVE", "SI", "SÌ", "OCCUPATO"]
 
 
-def calcola_opzioni_auto(auto):
-    """Cerca i campi stato_opzione1 e stato_opzione2 in tutte le possibili forme."""
-    opt1_val = (
-        auto.get("stato_opzione1")
-        or auto.get("STATO_OPZIONE1")
-        or auto.get("stato_opzione_1")
-        or auto.get("STATO_OPZIONE_1")
-        or auto.get("option_1_status")
-        or ""
-    )
-    opt2_val = (
-        auto.get("stato_opzione2")
-        or auto.get("STATO_OPZIONE2")
-        or auto.get("stato_opzione_2")
-        or auto.get("STATO_OPZIONE_2")
-        or auto.get("option_2_status")
-        or ""
-    )
+def estrai_dettagli_vettura(session, auto_summary):
+    """Ottiene le informazioni complete dell'auto cercando i campi stato_opzione1, stato_opzione2 e link2lifeimage."""
+    id_auto = str(auto_summary.get("ID", "")).strip()
+
+    # Dati di default ricavati dalla lista principale
+    modello = auto_summary.get("NAME", "").strip()
+    targa = auto_summary.get("LICENSEPLATE", "").strip()
+
+    opt1_val = ""
+    opt2_val = ""
+    url_foto = ""
+
+    # Tentativo di recuperare i dettagli estesi dall'API della singola vettura
+    if id_auto:
+        try:
+            res_det = session.get(URL_API_DETAIL.format(id_auto), timeout=10)
+            if res_det.status_code == 200:
+                dettagli = res_det.json()
+                if isinstance(dettagli, dict):
+                    # Se i dati sono incapsulati in sotto-oggetti (es. "data" o "deal")
+                    d_obj = dettagli.get("data") or dettagli.get("deal") or dettagli
+
+                    opt1_val = (
+                        d_obj.get("stato_opzione1")
+                        or d_obj.get("stato_opzione_1")
+                        or d_obj.get("STATO_OPZIONE1")
+                        or ""
+                    )
+                    opt2_val = (
+                        d_obj.get("stato_opzione2")
+                        or d_obj.get("stato_opzione_2")
+                        or d_obj.get("STATO_OPZIONE2")
+                        or ""
+                    )
+                    url_foto = (
+                        d_obj.get("link2lifeimage")
+                        or d_obj.get("LINK2LIFEIMAGE")
+                        or d_obj.get("link_image")
+                        or ""
+                    )
+        except Exception:
+            pass
+
+    # Fallback ricerca nei campi diretti del summary se la chiamata di dettaglio non li contiene
+    if not opt1_val and not opt2_val:
+        opt1_val = (
+            auto_summary.get("stato_opzione1")
+            or auto_summary.get("stato_opzione_1")
+            or ""
+        )
+        opt2_val = (
+            auto_summary.get("stato_opzione2")
+            or auto_summary.get("stato_opzione_2")
+            or ""
+        )
+
+    if not url_foto:
+        url_foto = (
+            auto_summary.get("link2lifeimage")
+            or auto_summary.get("LINK2LIFEIMAGE")
+            or f"https://quoter.it/v2/deal/view?id={id_auto}"
+        )
 
     opt1_active = is_opzionato(opt1_val)
     opt2_active = is_opzionato(opt2_val)
 
-    conteggio = (1 if opt1_active else 0) + (1 if opt2_active else 0)
+    num_opzioni = (1 if opt1_active else 0) + (1 if opt2_active else 0)
 
-    # Fallback su liste o conteggi generici se le chiavi specifiche non sono presenti
-    if conteggio == 0:
-        for k in ["options", "OPTIONS", "deal_options", "DEAL_OPTIONS"]:
-            val = auto.get(k)
-            if isinstance(val, list):
-                conteggio = len(val)
-                break
+    desc_parti = []
+    if modello:
+        desc_parti.append(f"<b>{modello}</b>")
+    if targa:
+        desc_parti.append(f"Targa: {targa}")
+    if id_auto:
+        desc_parti.append(f"ID: {id_auto}")
 
-    return min(conteggio, 2)
+    descrizione = " | ".join(desc_parti)
 
-
-def estrai_url_foto(auto):
-    """Estrae l'URL per le immagini (link2lifeimage o link generico quoter)."""
-    url_f = (
-        auto.get("link2lifeimage")
-        or auto.get("LINK2LIFEIMAGE")
-        or auto.get("link_image")
-        or auto.get("image_link")
-        or ""
-    )
-    if not url_f and auto.get("ID"):
-        url_f = f"https://quoter.it/v2/deal/view?id={auto.get('ID')}"
-    return url_f
+    return {
+        "desc": descrizione,
+        "options": num_opzioni,
+        "url_foto": url_foto,
+    }
 
 
 def get_pallini_opzioni(num_opzioni):
@@ -166,7 +203,7 @@ def controlla_sito():
     vetture_attuali = {}
     pagina = 1
 
-    print("3. Estrazione vetture da API...")
+    print("3. Estrazione elenco vetture...")
     while True:
         try:
             res_api = session.get(URL_API_BASE.format(pagina), timeout=15)
@@ -208,34 +245,17 @@ def controlla_sito():
                 if not id_auto:
                     continue
 
-                modello = auto.get("NAME", "").strip()
-                targa = auto.get("LICENSEPLATE", "").strip()
-
-                desc_parti = []
-                if modello:
-                    desc_parti.append(f"<b>{modello}</b>")
-                if targa:
-                    desc_parti.append(f"Targa: {targa}")
-                desc_parti.append(f"ID: {id_auto}")
-
-                descrizione = " | ".join(desc_parti)
-                num_opzioni = calcola_opzioni_auto(auto)
-                url_foto = estrai_url_foto(auto)
-
-                vetture_attuali[id_auto] = {
-                    "desc": descrizione,
-                    "options": num_opzioni,
-                    "url_foto": url_foto,
-                }
+                dettagli_vettura = estrai_dettagli_vettura(session, auto)
+                vetture_attuali[id_auto] = dettagli_vettura
                 trovate_in_pagina += 1
 
-        print(f"   -> Pagina {pagina}: estratte {trovate_in_pagina} vetture.")
+        print(f"   -> Pagina {pagina}: estratte {trovate_in_pagina} vetture con dettagli.")
 
         if trovate_in_pagina == 0 or pagina >= 10:
             break
         pagina += 1
 
-    print(f"Totale vetture lette: {len(vetture_attuali)}")
+    print(f"Totale vetture analizzate: {len(vetture_attuali)}")
 
     if not vetture_attuali:
         print("Nessuna vettura trovata.")
@@ -260,49 +280,3 @@ def controlla_sito():
         url_foto = dati["url_foto"]
 
         if id_auto not in vetture_salvate:
-            nuove_vetture_lista.append((id_auto, desc, opt_attuali, url_foto))
-        else:
-            opt_precedenti = vetture_salvate[id_auto].get("options", 0)
-            if opt_attuali != opt_precedenti:
-                variazioni_opzioni_lista.append(
-                    (id_auto, desc, opt_precedenti, opt_attuali, url_foto)
-                )
-
-    # Ordinamento: per prime 0 opzioni (🟢🟢), poi 1 (🔴🟢), infine 2 (🔴🔴)
-    nuove_vetture_lista.sort(key=lambda x: x[2])
-    variazioni_opzioni_lista.sort(key=lambda x: x[3])
-
-    nuove_vetture_testo = []
-    for _, desc, opt, url_f in nuove_vetture_lista:
-        pallini = get_pallini_opzioni(opt)
-        riga_msg = f"• {desc}\n  👉 Stato: {pallini}"
-        if url_f and url_f.startswith("http"):
-            riga_msg += f'\n  📷 <a href="{url_f}">Vedi Foto</a>'
-        nuove_vetture_testo.append(riga_msg)
-
-    variazioni_opzioni_testo = []
-    for _, desc, opt_v, opt_n, url_f in variazioni_opzioni_lista:
-        p_vecchi = get_pallini_opzioni(opt_v)
-        p_nuovi = get_pallini_opzioni(opt_n)
-        riga_msg = f"• {desc}\n  👉 Variazione: da {p_vecchi} a {p_nuovi}"
-        if url_f and url_f.startswith("http"):
-            riga_msg += f'\n  📷 <a href="{url_f}">Vedi Foto</a>'
-        variazioni_opzioni_testo.append(riga_msg)
-
-    if nuove_vetture_testo:
-        invia_notifica_frazionata("🚨 NUOVE VETTURE RILEVATE", nuove_vetture_testo)
-
-    if variazioni_opzioni_testo:
-        invia_notifica_frazionata(
-            "🔄 VARIAZIONE OPZIONI RILEVATA", variazioni_opzioni_testo
-        )
-
-    with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
-        json.dump(vetture_attuali, f, indent=2)
-
-    if not nuove_vetture_testo and not variazioni_opzioni_testo:
-        print("Nessun nuovo inserimento o variazione opzioni.")
-
-
-if __name__ == "__main__":
-    controlla_sito()
