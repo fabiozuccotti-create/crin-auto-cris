@@ -50,61 +50,41 @@ def invia_notifica_frazionata(titolo, lista_elementi):
         invia_telegram(msg)
 
 
-def is_opzione_attiva(valore):
-    """Verifica se il campo stato opzione indica un'opzione occupata/attiva."""
-    if valore is None:
+def is_attivo(val):
+    if val is None:
         return False
-    val_str = str(valore).strip().lower()
-    # Se il valore contiene codici di stato attivo, testo, '1', 'true', 'opzionato', ecc.
-    if val_str in ["1", "true", "opzionata", "opzionato", "occupato", "active", "yes"]:
+    v = str(val).strip().lower()
+    if v in ["1", "true", "opzionata", "opzionato", "occupato", "active", "yes"]:
         return True
-    if len(val_str) > 0 and val_str not in ["0", "false", "libero", "null", "none", "attesa", ""]:
+    if len(v) > 0 and v not in ["0", "false", "libero", "null", "none", "attesa", "", "[]", "{}"]:
         return True
     return False
 
 
 def calcola_opzioni(auto):
-    """Verifica specificamente i campi 'Stato Opzione 1' e 'Stato Opzione 2'."""
-    opt1_active = False
-    opt2_active = False
+    """Ispeziona tutti i campi possibili per 'Stato Opzione 1' e 'Stato Opzione 2'."""
+    conteggio = 0
 
-    # Nomi dei campi possibili nell'API/CSV per Opzione 1
-    chiavi_opt1 = [
-        "STATO OPZIONE 1", "STATO_OPZIONE_1", "stato_opzione_1", 
-        "OPTION_1_STATUS", "option_1_status", "OPTION_1", "option_1", "statoOpzione1"
-    ]
-    # Nomi dei campi possibili nell'API/CSV per Opzione 2
-    chiavi_opt2 = [
-        "STATO OPZIONE 2", "STATO_OPZIONE_2", "stato_opzione_2", 
-        "OPTION_2_STATUS", "option_2_status", "OPTION_2", "option_2", "statoOpzione2"
-    ]
+    # Ricerca dinamica delle chiavi per opzioni
+    for k, v in auto.items():
+        k_upper = str(k).upper()
+        if "OPZI" in k_upper or "OPT" in k_upper:
+            if is_attivo(v):
+                if isinstance(v, list):
+                    conteggio += len(v)
+                else:
+                    conteggio += 1
 
-    for k in chiavi_opt1:
-        if k in auto and is_opzione_attiva(auto[k]):
-            opt1_active = True
-            break
-
-    for k in chiavi_opt2:
-        if k in auto and is_opzione_attiva(auto[k]):
-            opt2_active = True
-            break
-
-    # Conteggio totale opzioni attive
-    conteggio = (1 if opt1_active else 0) + (1 if opt2_active else 0)
-
-    # Fallback se le opzioni sono contenute in una lista interna 'options' o 'deal_options'
+    # Controllo specifico strutture note
     if conteggio == 0:
-        for chiavi_lista in ["options", "OPTIONS", "deal_options", "DEAL_OPTIONS"]:
-            valore = auto.get(chiavi_lista)
-            if isinstance(valore, list) and len(valore) > 0:
-                conteggio = min(len(valore), 2)
-                break
+        opt1 = any(is_attivo(auto.get(k)) for k in ["STATO OPZIONE 1", "STATO_OPZIONE_1", "OPTION_1", "option_1", "stato_opzione_1"])
+        opt2 = any(is_attivo(auto.get(k)) for k in ["STATO OPZIONE 2", "STATO_OPZIONE_2", "OPTION_2", "option_2", "stato_opzione_2"])
+        conteggio = (1 if opt1 else 0) + (1 if opt2 else 0)
 
     return min(conteggio, 2)
 
 
 def get_pallini_opzioni(num_opzioni):
-    """Restituisce le icone dei pallini colorati in base alle opzioni occupate."""
     if num_opzioni == 0:
         return "🟢🟢 (0 opzioni)"
     elif num_opzioni == 1:
@@ -198,6 +178,10 @@ def controlla_sito():
         if not lista_veicoli:
             break
 
+        # Debug: Stampa le chiavi della prima vettura per identificare i nomi esatti delle opzioni nel JSON
+        if pagina == 1 and len(lista_veicoli) > 0:
+            print("CHIAVI ESEMPIO VETTURA API:", list(lista_veicoli[0].keys()))
+
         trovate_in_pagina = 0
         for auto in lista_veicoli:
             if isinstance(auto, dict):
@@ -262,17 +246,15 @@ def controlla_sito():
                     (id_auto, desc, opt_precedenti, opt_attuali)
                 )
 
-    # Ordinamento: per prime 0 opzioni (🟢🟢), poi 1 (🔴🟢), poi 2 (🔴🔴)
+    # Ordinamento: 0 opzioni (🟢🟢) per prime, poi 1 (🔴🟢), poi 2 (🔴🔴)
     nuove_vetture_lista.sort(key=lambda x: x[2])
     variazioni_opzioni_lista.sort(key=lambda x: x[3])
 
-    # Formattazione messaggi nuove vetture
     nuove_vetture_testo = []
     for _, desc, opt in nuove_vetture_lista:
         pallini = get_pallini_opzioni(opt)
         nuove_vetture_testo.append(f"• {desc}\n  👉 Stato: {pallini}")
 
-    # Formattazione messaggi variazioni opzioni
     variazioni_opzioni_testo = []
     for _, desc, opt_vecchie, opt_nuove in variazioni_opzioni_lista:
         pallini_vecchi = get_pallini_opzioni(opt_vecchie)
@@ -281,7 +263,6 @@ def controlla_sito():
             f"• {desc}\n  👉 Variazione: da {pallini_vecchi} a {pallini_nuovi}"
         )
 
-    # Invio notifiche
     if nuove_vetture_testo:
         invia_notifica_frazionata("🚨 NUOVE VETTURE RILEVATE", nuove_vetture_testo)
 
@@ -290,7 +271,6 @@ def controlla_sito():
             "🔄 VARIAZIONE OPZIONI RILEVATA", variazioni_opzioni_testo
         )
 
-    # Salvataggio stato memoria
     with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
         json.dump(vetture_attuali, f, indent=2)
 
