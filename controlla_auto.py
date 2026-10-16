@@ -12,7 +12,6 @@ PASSWORD = os.environ.get("QUOTER_PASS")
 
 URL_LOGIN = "https://quoter.it/site/login"
 URL_RINOLEGGIO = "https://quoter.it/v2/deal"
-# URL ESATTO estratto dal tuo cURL per scaricare il report CSV
 URL_REPORT_CSV = (
     "https://quoter.it/proxy/deal/list?target=report&action=leaseafter"
 )
@@ -43,7 +42,7 @@ def invia_telegram(messaggio):
 
 
 def invia_notifica_frazionata(titolo, lista_elementi):
-    """Spezza l'invio in blocchi da 5 elementi per rispettare i limiti di Telegram."""
+    """Spezza l'invio in blocchi da 5 per non superare i limiti di Telegram."""
     totale = len(lista_elementi)
     dimensione_blocco = 5
 
@@ -56,7 +55,6 @@ def invia_notifica_frazionata(titolo, lista_elementi):
 
 
 def is_opzionato(valore):
-    """Verifica se il valore del CSV indica che la posizione è OPZIONATA."""
     if not valore:
         return False
     v = str(valore).strip().upper()
@@ -70,6 +68,26 @@ def get_pallini_opzioni(num_opzioni):
         return "🔴🟢 (1 opzione)"
     else:
         return "🔴🔴 (2 opzioni)"
+
+
+def estrai_modello_da_riga(riga):
+    """Estrae la descrizione completa usando le colonne esatte dello screenshot."""
+    # 1. Colonna description completa
+    if riga.get("description"):
+        return riga["description"]
+
+    # 2. Combinazione di makename e modelname
+    make = riga.get("makename") or riga.get("marca") or ""
+    model = riga.get("modelname") or riga.get("modello") or ""
+    if make or model:
+        return f"{make} {model}".strip()
+
+    # 3. Fallback per altri possibili campi
+    for k in ["modello", "name", "descrizione", "veicolo"]:
+        if riga.get(k):
+            return riga[k]
+
+    return ""
 
 
 def controlla_sito():
@@ -106,7 +124,6 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    # Visita preliminare alla sezione Rinoleggio per consolidare i cookie
     try:
         session.get(URL_RINOLEGGIO, timeout=15)
     except Exception:
@@ -134,12 +151,10 @@ def controlla_sito():
         contenuto_csv = res_csv.content.decode("utf-8-sig", errors="ignore")
         f_csv = io.StringIO(contenuto_csv)
 
-        # Rilevamento automatico del separatore CSV (, oppure ;)
         dialetto = csv.Sniffer().sniff(contenuto_csv[:2000])
         reader = csv.DictReader(f_csv, dialect=dialetto)
 
         for row in reader:
-            # Normalizzazione chiavi in minuscolo e senza spazi
             riga = {
                 str(k).strip().lower().replace(" ", "_"): str(v).strip()
                 for k, v in row.items()
@@ -153,20 +168,14 @@ def controlla_sito():
                 or riga.get("deal_id")
                 or ""
             )
-            modello = (
-                riga.get("modello")
-                or riga.get("name")
-                or riga.get("descrizione")
-                or ""
-            )
             targa = riga.get("targa") or riga.get("licenseplate") or ""
+            modello = estrai_modello_da_riga(riga)
 
             if not id_auto and not targa:
                 continue
 
             chiave_id = id_auto if id_auto else targa
 
-            # Lettura esatta dei campi rilevati dallo screenshot
             opt1_val = (
                 riga.get("stato_opzione1")
                 or riga.get("stato_opzione_1")
@@ -273,7 +282,7 @@ def controlla_sito():
             "🔄 VARIAZIONE OPZIONI RILEVATA", variazioni_opzioni_testo
         )
 
-    # Salvataggio della memoria aggiornata
+    # Salvataggio memoria aggiornata
     with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
         json.dump(vetture_attuali, f, indent=2)
 
