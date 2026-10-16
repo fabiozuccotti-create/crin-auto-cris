@@ -146,7 +146,7 @@
   },
   "GV380ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV380ZS",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/0f2c00eff4bb58dd570f70df572c0a6844a69f49c1b25579b443aa07d99c89e9b47975840812519700377acc36a01160a93dc7ed1e192f71b1c3f94a45c054dc"
   },
   "GV659ZS": {
@@ -201,7 +201,7 @@
   },
   "GT555LP": {
     "desc": "<b>KIA SPORTAGE 1.6 TGDI MHEV BUSINESS 2WD DCT FP</b> | Targa: GT555LP",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/0c0e21812a00c6532184d48c4475a0511e86e29bed662ff9af8983eb82a65d4d9141cc9b16fe7a8f3742f17ec2a80d8da719588e9a64cb978f8ac935788a2331"
   },
   "GG780AN": {
@@ -251,7 +251,7 @@
   },
   "GG252RV": {
     "desc": "<b>OPEL GRANDLAND X(PC) 1.5 DIESEL 130CV ELEGANCE S&S AT8 FP</b> | Targa: GG252RV",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/2bf35e229f0f2b0d5ce3b3f965e3cbdb2179482ed4a8d9a9f74ef11a7cba942ce68ed99f1dd9e3953c472f08c24e4f2eeeb1f4ddb13554bbfa6d1de654a6ec39"
   },
   "GG741AS": {
@@ -866,7 +866,7 @@
   },
   "GR280YR": {
     "desc": "<b>FORD PUMA 1.0 ECOBOOST HYBRID 125CV ST-LINE</b> | Targa: GR280YR",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/cc1f69b9adc63379b72100bdd938e9b144086b0672ba81c6c2807b7e475c4ac7da1e7b3878f53074934b2e260e7f418206b3b645ed1b01e6fa7666b8e9b65c0a"
   },
   "GK419ZG": {
