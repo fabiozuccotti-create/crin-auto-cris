@@ -32,6 +32,19 @@ def invia_telegram(messaggio):
         print(f"Errore connessione Telegram: {e}")
 
 
+def invia_notifica_frazionata(titolo, lista_elementi):
+    """Spezza l'invio dei messaggi in blocchi da 5 per evitare il limite di Telegram."""
+    totale = len(lista_elementi)
+    dimensione_blocco = 5
+
+    for i in range(0, totale, dimensione_blocco):
+        blocco = lista_elementi[i : i + dimensione_blocco]
+        msg = f"{titolo} ({i+1}-{min(i+dimensione_blocco, totale)} di {totale}):\n\n"
+        for voce in blocco:
+            msg += f"{voce}\n\n"
+        invia_telegram(msg)
+
+
 def calcola_opzioni(auto):
     """Estrae e conta le opzioni della vettura (massimo 2)."""
     if "options" in auto and isinstance(auto["options"], list):
@@ -72,7 +85,6 @@ def controlla_sito():
         payload_login["_csrf"] = csrf_token
 
     try:
-        # allow_redirects=True gestisce il codice 302 del login con successo
         res_login = session.post(
             URL_LOGIN, data=payload_login, timeout=15, allow_redirects=True
         )
@@ -182,38 +194,32 @@ def controlla_sito():
         except Exception:
             vetture_salvate = {}
 
-    nuove_vetture = []
-    variazioni_opzioni = []
+    nuove_vetture_testo = []
+    variazioni_opzioni_testo = []
 
     for auto, opzioni_attuali in vetture_attuali.items():
         if auto not in vetture_salvate:
-            nuove_vetture.append((auto, opzioni_attuali))
+            nuove_vetture_testo.append(f"• {auto}\n  👉 Opzioni: {opzioni_attuali}/2")
         else:
             opzioni_precedenti = vetture_salvate[auto]
             if opzioni_attuali != opzioni_precedenti:
-                variazioni_opzioni.append(
-                    (auto, opzioni_precedenti, opzioni_attuali)
+                variazioni_opzioni_testo.append(
+                    f"• {auto}\n  👉 Cambio opzioni: da {opzioni_precedenti} a {opzioni_attuali}"
                 )
 
     # 1. Notifica Nuove Vetture
-    if nuove_vetture:
-        msg = f"🚨 NUOVE VETTURE RILEVATE ({len(nuove_vetture)}):\n\n"
-        for auto, opt in nuove_vetture:
-            msg += f"• {auto}\n  👉 Opzioni attuali: {opt}/2\n\n"
-        invia_telegram(msg)
+    if nuove_vetture_testo:
+        invia_notifica_frazionata("🚨 NUOVE VETTURE RILEVATE", nuove_vetture_testo)
 
     # 2. Notifica Variazioni Opzioni
-    if variazioni_opzioni:
-        msg = f"🔄 VARIAZIONE OPZIONI RILEVATA ({len(variazioni_opzioni)}):\n\n"
-        for auto, vecchie, nuove in variazioni_opzioni:
-            msg += f"• {auto}\n  👉 Cambio opzioni: da {vecchie} a {nuove}\n\n"
-        invia_telegram(msg)
+    if variazioni_opzioni_testo:
+        invia_notifica_frazionata("🔄 VARIAZIONE OPZIONI RILEVATA", variazioni_opzioni_testo)
 
     # Salvataggio dello stato
     with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
         json.dump(vetture_attuali, f, indent=2)
 
-    if not nuove_vetture and not variazioni_opzioni:
+    if not nuove_vetture_testo and not variazioni_opzioni_testo:
         print("Nessun nuovo inserimento o cambio opzioni.")
 
 
