@@ -23,7 +23,12 @@ HEADERS = {
 
 def invia_telegram(messaggio):
     url = f"https://api.telegram.org/bot{TOKEN_TELEGRAM}/sendMessage"
-    payload = {"chat_id": CHAT_ID, "text": messaggio}
+    payload = {
+        "chat_id": CHAT_ID,
+        "text": messaggio,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True,
+    }
     try:
         r = requests.post(url, json=payload, timeout=10)
         if not r.ok:
@@ -33,20 +38,20 @@ def invia_telegram(messaggio):
 
 
 def invia_notifica_frazionata(titolo, lista_elementi):
-    """Spezza l'invio dei messaggi in blocchi da 5 per evitare il limite di Telegram."""
+    """Spezza l'invio in blocchi da 5 elementi per evitare limiti di caratteri di Telegram."""
     totale = len(lista_elementi)
     dimensione_blocco = 5
 
     for i in range(0, totale, dimensione_blocco):
         blocco = lista_elementi[i : i + dimensione_blocco]
-        msg = f"{titolo} ({i+1}-{min(i+dimensione_blocco, totale)} di {totale}):\n\n"
+        msg = f"<b>{titolo}</b> ({i+1}-{min(i+dimensione_blocco, totale)} di {totale}):\n\n"
         for voce in blocco:
             msg += f"{voce}\n\n"
         invia_telegram(msg)
 
 
 def calcola_opzioni(auto):
-    """Estrae e conta le opzioni della vettura (massimo 2)."""
+    """Estrae e conta il numero di opzioni associate (massimo 2)."""
     if "options" in auto and isinstance(auto["options"], list):
         return min(len(auto["options"]), 2)
     if "OPTIONS_COUNT" in auto:
@@ -63,7 +68,7 @@ def controlla_sito():
     session = requests.Session()
     session.headers.update(HEADERS)
 
-    print("1. Richiesta pagina di login per recupero CSRF token...")
+    print("1. Recupero token CSRF...")
     try:
         r_page = session.get(URL_LOGIN, timeout=15)
         csrf_token = ""
@@ -73,10 +78,10 @@ def controlla_sito():
         if match:
             csrf_token = match.group(1)
     except Exception as e:
-        print(f"Errore caricamento login: {e}")
+        print(f"Errore caricamento pagina login: {e}")
         return
 
-    print("2. Invio credenziali di login...")
+    print("2. Autenticazione...")
     payload_login = {
         "LoginForm[username]": USERNAME,
         "LoginForm[password]": PASSWORD,
@@ -93,7 +98,6 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    print("3. Inizializzazione sessione Rinoleggio...")
     session.headers.update(
         {
             "Accept": "application/json, text/plain, */*",
@@ -107,19 +111,17 @@ def controlla_sito():
     except Exception:
         pass
 
-    vetture_attuali = {}
+    vetture_attuali = {}  # { id_auto: { "desc": ..., "options": ..., "url": ... } }
     pagina = 1
 
-    print("4. Estrazione vetture dalle pagine API...")
+    print("3. Estrazione vetture dalle pagine API...")
     while True:
         try:
             res_api = session.get(URL_API_BASE.format(pagina), timeout=15)
             if res_api.status_code != 200:
-                print(f"Fine pagine o errore HTTP {res_api.status_code}")
                 break
             dati = res_api.json()
-        except Exception as e:
-            print(f"Interruzione lettura JSON a pagina {pagina}: {e}")
+        except Exception:
             break
 
         lista_veicoli = []
@@ -150,24 +152,29 @@ def controlla_sito():
         trovate_in_pagina = 0
         for auto in lista_veicoli:
             if isinstance(auto, dict):
+                id_auto = str(auto.get("ID", "")).strip()
+                if not id_auto:
+                    continue
+
                 modello = auto.get("NAME", "").strip()
                 targa = auto.get("LICENSEPLATE", "").strip()
-                id_auto = str(auto.get("ID", "")).strip()
 
-                info = " | ".join(
-                    filter(
-                        None,
-                        [
-                            modello,
-                            f"Targa: {targa}" if targa else "",
-                            f"ID: {id_auto}" if id_auto else "",
-                        ],
-                    )
-                )
-                chiave = info if info else f"Vettura ID: {id_auto}"
+                desc_parti = []
+                if modello:
+                    desc_parti.append(f"<b>{modello}</b>")
+                if targa:
+                    desc_parti.append(f"Targa: {targa}")
+                desc_parti.append(f"ID: {id_auto}")
+
+                descrizione = " | ".join(desc_parti)
+                link_foto = f"https://quoter.it/v2/deal/view?id={id_auto}"
                 num_opzioni = calcola_opzioni(auto)
 
-                vetture_attuali[chiave] = num_opzioni
+                vetture_attuali[id_auto] = {
+                    "desc": descrizione,
+                    "options": num_opzioni,
+                    "url": link_foto,
+                }
                 trovate_in_pagina += 1
 
         print(f"   -> Pagina {pagina}: estratte {trovate_in_pagina} vetture.")
@@ -176,7 +183,7 @@ def controlla_sito():
             break
         pagina += 1
 
-    print(f"Totale vetture trovate sul sito: {len(vetture_attuali)}")
+    print(f"Totale vetture univoche lette: {len(vetture_attuali)}")
 
     if not vetture_attuali:
         print("Nessuna vettura trovata.")
@@ -187,9 +194,7 @@ def controlla_sito():
         try:
             with open(FILE_MEMORIA, "r", encoding="utf-8") as f:
                 dati_salvati = json.load(f)
-                if isinstance(dati_salvati, list):
-                    vetture_salvate = {k: 0 for k in dati_salvati}
-                elif isinstance(dati_salvati, dict):
+                if isinstance(dati_salvati, dict):
                     vetture_salvate = dati_salvati
         except Exception:
             vetture_salvate = {}
@@ -197,30 +202,41 @@ def controlla_sito():
     nuove_vetture_testo = []
     variazioni_opzioni_testo = []
 
-    for auto, opzioni_attuali in vetture_attuali.items():
-        if auto not in vetture_salvate:
-            nuove_vetture_testo.append(f"• {auto}\n  👉 Opzioni: {opzioni_attuali}/2")
+    for id_auto, dati in vetture_attuali.items():
+        desc = dati["desc"]
+        opt_attuali = dati["options"]
+        url_foto = dati["url"]
+
+        if id_auto not in vetture_salvate:
+            nuove_vetture_testo.append(
+                f"• {desc}\n"
+                f"  👉 Opzioni: {opt_attuali}/2\n"
+                f'  📷 <a href="{url_foto}">Vedi Scheda e Foto</a>'
+            )
         else:
-            opzioni_precedenti = vetture_salvate[auto]
-            if opzioni_attuali != opzioni_precedenti:
+            opt_precedenti = vetture_salvate[id_auto].get("options", 0)
+            if opt_attuali != opt_precedenti:
                 variazioni_opzioni_testo.append(
-                    f"• {auto}\n  👉 Cambio opzioni: da {opzioni_precedenti} a {opzioni_attuali}"
+                    f"• {desc}\n"
+                    f"  👉 Cambio opzioni: da {opt_precedenti} a {opt_attuali}\n"
+                    f'  📷 <a href="{url_foto}">Vedi Scheda e Foto</a>'
                 )
 
-    # 1. Notifica Nuove Vetture
+    # UNICO INVIO NOTIFICHE SENZA DOPPIONI
     if nuove_vetture_testo:
         invia_notifica_frazionata("🚨 NUOVE VETTURE RILEVATE", nuove_vetture_testo)
 
-    # 2. Notifica Variazioni Opzioni
     if variazioni_opzioni_testo:
-        invia_notifica_frazionata("🔄 VARIAZIONE OPZIONI RILEVATA", variazioni_opzioni_testo)
+        invia_notifica_frazionata(
+            "🔄 VARIAZIONE OPZIONI RILEVATA", variazioni_opzioni_testo
+        )
 
     # Salvataggio dello stato
     with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
         json.dump(vetture_attuali, f, indent=2)
 
     if not nuove_vetture_testo and not variazioni_opzioni_testo:
-        print("Nessun nuovo inserimento o cambio opzioni.")
+        print("Nessun nuovo inserimento o variazione opzioni.")
 
 
 if __name__ == "__main__":
