@@ -1,3 +1,5 @@
+import csv
+import io
 import json
 import os
 import re
@@ -10,7 +12,8 @@ PASSWORD = os.environ.get("QUOTER_PASS")
 
 URL_LOGIN = "https://quoter.it/site/login"
 URL_RINOLEGGIO = "https://quoter.it/v2/deal"
-URL_API_BASE = "https://quoter.it/proxy/deal/list?action=leaseafter&target=list&page={}&refresh=false&filters=%7B%22generic%22%3Anull%7D"
+# Endpoint per l'esportazione CSV completa di Rinoleggio
+URL_EXPORT_CSV = "https://quoter.it/proxy/deal/export?action=leaseafter"
 
 FILE_MEMORIA = "vetture_salvate.json"
 
@@ -38,7 +41,7 @@ def invia_telegram(messaggio):
 
 
 def invia_notifica_frazionata(titolo, lista_elementi):
-    """Spezza l'invio in blocchi da 5 elementi per rispettare i limiti di Telegram."""
+    """Spezza l'invio in blocchi da 5 per rispettare i limiti di Telegram."""
     totale = len(lista_elementi)
     dimensione_blocco = 5
 
@@ -50,38 +53,26 @@ def invia_notifica_frazionata(titolo, lista_elementi):
         invia_telegram(msg)
 
 
-def is_attivo(val):
-    if val is None:
+def is_opzione_occupata(valore):
+    """Verifica se lo stato dell'opzione è occupato/attivo."""
+    if valore is None:
         return False
-    v = str(val).strip().lower()
-    if v in ["1", "true", "opzionata", "opzionato", "occupato", "active", "yes"]:
+    v = str(valore).strip().lower()
+    if v in [
+        "1",
+        "true",
+        "opzionata",
+        "opzionato",
+        "occupato",
+        "active",
+        "yes",
+        "si",
+        "sì",
+    ]:
         return True
-    if len(v) > 0 and v not in ["0", "false", "libero", "null", "none", "attesa", "", "[]", "{}"]:
+    if len(v) > 0 and v not in ["0", "false", "libero", "null", "none", "no", ""]:
         return True
     return False
-
-
-def calcola_opzioni(auto):
-    """Ispeziona tutti i campi possibili per 'Stato Opzione 1' e 'Stato Opzione 2'."""
-    conteggio = 0
-
-    # Ricerca dinamica delle chiavi per opzioni
-    for k, v in auto.items():
-        k_upper = str(k).upper()
-        if "OPZI" in k_upper or "OPT" in k_upper:
-            if is_attivo(v):
-                if isinstance(v, list):
-                    conteggio += len(v)
-                else:
-                    conteggio += 1
-
-    # Controllo specifico strutture note
-    if conteggio == 0:
-        opt1 = any(is_attivo(auto.get(k)) for k in ["STATO OPZIONE 1", "STATO_OPZIONE_1", "OPTION_1", "option_1", "stato_opzione_1"])
-        opt2 = any(is_attivo(auto.get(k)) for k in ["STATO OPZIONE 2", "STATO_OPZIONE_2", "OPTION_2", "option_2", "stato_opzione_2"])
-        conteggio = (1 if opt1 else 0) + (1 if opt2 else 0)
-
-    return min(conteggio, 2)
 
 
 def get_pallini_opzioni(num_opzioni):
@@ -127,97 +118,74 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    session.headers.update(
-        {
-            "Accept": "application/json, text/plain, */*",
-            "X-Requested-With": "XMLHttpRequest",
-            "Referer": "https://quoter.it/v2/deal",
-        }
-    )
+    print("3. Scaricamento ed analisi file CSV Rinoleggio...")
+    vetture_attuali = {}
 
     try:
-        session.get(URL_RINOLEGGIO, timeout=15)
-    except Exception:
-        pass
+        res_csv = session.get(URL_EXPORT_CSV, timeout=30)
+        if res_csv.status_code != 200:
+            print(f"Errore scaricamento CSV: HTTP {res_csv.status_code}")
+            return
 
-    vetture_attuali = {}
-    pagina = 1
+        # Decodifica contenuto CSV
+        contenuto_csv = res_csv.content.decode("utf-8-sig", errors="ignore")
+        f_csv = io.StringIO(contenuto_csv)
 
-    print("3. Estrazione vetture...")
-    while True:
-        try:
-            res_api = session.get(URL_API_BASE.format(pagina), timeout=15)
-            if res_api.status_code != 200:
-                break
-            dati = res_api.json()
-        except Exception:
-            break
+        # Rileva separatore CSV (, oppure ;)
+        dialetto = csv.Sniffer().sniff(contenuto_csv[:2000])
+        reader = csv.DictReader(f_csv, dialect=dialetto)
 
-        lista_veicoli = []
-        if isinstance(dati, dict):
-            for k in [
-                "data",
-                "items",
-                "deals",
-                "list",
-                "rows",
-                "results",
-                "stock",
-            ]:
-                if k in dati and isinstance(dati[k], list):
-                    lista_veicoli = dati[k]
-                    break
-            if not lista_veicoli:
-                for k, v in dati.items():
-                    if isinstance(v, list) and len(v) > 0:
-                        lista_veicoli = v
-                        break
-        elif isinstance(dati, list):
-            lista_veicoli = dati
+        for row in reader:
+            # Normalizza nomi colonne in maiuscolo
+            riga = {str(k).strip().upper(): str(v).strip() for k, v in row.items() if k}
 
-        if not lista_veicoli:
-            break
+            id_auto = (
+                riga.get("ID")
+                or riga.get("ID VETTURA")
+                or riga.get("CODICE")
+                or riga.get("DEAL_ID")
+                or ""
+            )
+            modello = riga.get("MODELLO") or riga.get("NAME") or riga.get("DESCRIZIONE") or ""
+            targa = riga.get("TARGA") or riga.get("LICENSEPLATE") or ""
 
-        # Debug: Stampa le chiavi della prima vettura per identificare i nomi esatti delle opzioni nel JSON
-        if pagina == 1 and len(lista_veicoli) > 0:
-            print("CHIAVI ESEMPIO VETTURA API:", list(lista_veicoli[0].keys()))
+            if not id_auto and not targa:
+                continue
 
-        trovate_in_pagina = 0
-        for auto in lista_veicoli:
-            if isinstance(auto, dict):
-                id_auto = str(auto.get("ID", "")).strip()
-                if not id_auto:
-                    continue
+            chiave_id = id_auto if id_auto else targa
 
-                modello = auto.get("NAME", "").strip()
-                targa = auto.get("LICENSEPLATE", "").strip()
+            # Lettura precisa dei campi "STATO OPZIONE 1" e "STATO OPZIONE 2"
+            opt1_val = riga.get("STATO OPZIONE 1") or riga.get("STATO_OPZIONE_1") or riga.get("OPZIONE 1") or ""
+            opt2_val = riga.get("STATO OPZIONE 2") or riga.get("STATO_OPZIONE_2") or riga.get("OPZIONE 2") or ""
 
-                desc_parti = []
-                if modello:
-                    desc_parti.append(f"<b>{modello}</b>")
-                if targa:
-                    desc_parti.append(f"Targa: {targa}")
+            opt1_active = is_opzione_occupata(opt1_val)
+            opt2_active = is_opzione_occupata(opt2_val)
+
+            num_opzioni = (1 if opt1_active else 0) + (1 if opt2_active else 0)
+
+            desc_parti = []
+            if modello:
+                desc_parti.append(f"<b>{modello}</b>")
+            if targa:
+                desc_parti.append(f"Targa: {targa}")
+            if id_auto:
                 desc_parti.append(f"ID: {id_auto}")
 
-                descrizione = " | ".join(desc_parti)
-                num_opzioni = calcola_opzioni(auto)
+            descrizione = " | ".join(desc_parti)
 
-                vetture_attuali[id_auto] = {
-                    "desc": descrizione,
-                    "options": num_opzioni,
-                }
-                trovate_in_pagina += 1
+            vetture_attuali[chiave_id] = {
+                "desc": descrizione,
+                "options": num_opzioni,
+            }
 
-        print(f"   -> Pagina {pagina}: estratte {trovate_in_pagina} vetture.")
+    except Exception as e:
+        print(f"Errore durante l'elaborazione del CSV: {e}")
+        return
 
-        if trovate_in_pagina == 0 or pagina >= 10:
-            break
-        pagina += 1
-
-    print(f"Totale vetture univoche lette: {len(vetture_attuali)}")
+    print(f"Totale vetture lette dal CSV: {len(vetture_attuali)}")
 
     if not vetture_attuali:
-        print("Nessuna vettura trovata.")
+        print("Nessuna vettura trovata nel CSV.")
         return
 
     vetture_salvate = {}
