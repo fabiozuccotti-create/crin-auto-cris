@@ -136,7 +136,7 @@
   },
   "GV441ZT": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV441ZT",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/19dfa81fe3be52b1ad83fc441e5dae7f9d4e6b72b16186e2b900ff88132ecdf75bf06d1220884cea7a4577a96ba152da27a09dd64c9ee35771557333e7940ec2"
   },
   "GV467ZT": {
@@ -181,7 +181,7 @@
   },
   "GV250ZV": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV250ZV",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/895cf7721baa58e7e34746f93b54298fc483878f29529e8891bb7ac2675579372068d76df71cab71aa4572012ebe5fa2537aae3f8e55c9bf2dc21033d146281f"
   },
   "GJ950FD": {
@@ -286,7 +286,7 @@
   },
   "GG252RV": {
     "desc": "<b>OPEL GRANDLAND X(PC) 1.5 DIESEL 130CV ELEGANCE S&S AT8 FP</b> | Targa: GG252RV",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/2bf35e229f0f2b0d5ce3b3f965e3cbdb2179482ed4a8d9a9f74ef11a7cba942ce68ed99f1dd9e3953c472f08c24e4f2eeeb1f4ddb13554bbfa6d1de654a6ec39"
   },
   "GG741AS": {
@@ -376,7 +376,7 @@
   },
   "GH511PX": {
     "desc": "<b>VOLKSWAGEN T-ROC 2.0 TDI 150cv SCR Advanced DSG Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GH511PX",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/df44ed188764563779c0f22136bec34348f2d6b4028b39e4576df71ecd1c14ed80f1893c348af3acb4ba10d125841388b4f7c2692a646055b8bb2e09a407967a"
   },
   "GJ859AF": {
@@ -421,7 +421,7 @@
   },
   "GK052RD": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK052RD",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/a6bba0ce0054f103d03fc622ceba23de40388e0cadb6fa3dadd135effcdae668eeb14eadf6f70abdf6c60356e956a59eeeff8dcd889096002d56413ad3c34d6a"
   },
   "GL900HL": {
@@ -654,11 +654,6 @@
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/7412e90eb270017ce96abc49cd4c6264ed8b01b0c619c72580df22ec8db30564681a1f98a97021fcf12c1449e0f905af50f602d9f81372f5570e63f8352b75a3"
   },
-  "FF49771": {
-    "desc": "<b>HONDA SH 150 ABS BAULETTO E PARABREZZA Scooter 2-door (Euro 5)</b> | Targa: FF49771",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/4f26a0864014ec11a3e745636f2b4dc15c51d3f01b6abb680f6b36021d3e9fc6214b0a49f8af78044cf4ad9d6340834c1a212435dc3ef7584ee28d2081791514"
-  },
   "GS935JY": {
     "desc": "<b>MINI MINI Cooper SE Classic Hatchback 3-door</b> | Targa: GS935JY",
     "options": 2,
@@ -756,7 +751,7 @@
   },
   "GW065YD": {
     "desc": "<b>FORD TRANSIT 310 L2H2 Trend 2.0 Eco 130 cv Auto8 Furgone 4-door (Euro 6.2)</b> | Targa: GW065YD",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/2d03a1d2117d9f3e69c809345eb5a838e0bdd6a1861a06bb1c72c78c3f7bd90f72fac7ecd10c33ae9649c61156a3df43625319e5547a7fe6d709a90303d21aac"
   },
   "GW744NZ": {
@@ -791,7 +786,7 @@
   },
   "GW123EN": {
     "desc": "<b>CITROEN C3 AIRCROSS(PC) BLUEHDI 110 S&S YOU FP</b> | Targa: GW123EN",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9a1a2d025123e376b85a1f096b228cc64e599f71903df07fad194fc6b299df57fb1f0b95fa4421c06c1373305294717e3e777f54691504b927b0fdc772887274"
   },
   "GG714ZW": {
@@ -906,17 +901,17 @@
   },
   "GK815ZF": {
     "desc": "<b>RENAULT CLIO (PC) 1.5 DCI BLUE 74KW BUSINESS FP</b> | Targa: GK815ZF",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/aaf1678c40157eb2d91bfd6d212771a9a245bb105653165c032babdeb549a19e7e0118c60732aa046cd21fa6bb9e6ad22c4b48dfd0787d8ca49024a1258b7982"
   },
   "GK701ZM": {
     "desc": "<b>AUDI Q3 SPORTBACK PC 45 TFSI E S TRONIC BUSINESS PLUS FP</b> | Targa: GK701ZM",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/3f9e7b4a31fe16de06af91922541510e988c380b2f12d06a4e8166bf19b83e3843e50bc4e4f7096e8d67f2a2993b6d041185219609a430a24ab084aa527e3800"
   },
   "GN854DJ": {
     "desc": "<b>KIA SPORTAGE CONSIP 1.6 CRDI MHEV STYLE 2WD FP</b> | Targa: GN854DJ",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/e34975fc43161eed03bbb7636cbf86e514f5edd6c7ae96928f64e8a665e0da3f998ee58287833d6ea6e98fb7af611f0a06885f7668818816f3fe78c64fd1ae71"
   },
   "GK398ZB": {
