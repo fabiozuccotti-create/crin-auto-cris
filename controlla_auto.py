@@ -148,16 +148,16 @@ def controlla_sito():
 
             id_auto = (
                 riga.get("id")
-                riga.get("id_vettura")
-                riga.get("codice")
-                riga.get("deal_id")
-                ""
+                or riga.get("id_vettura")
+                or riga.get("codice")
+                or riga.get("deal_id")
+                or ""
             )
             modello = (
                 riga.get("modello")
-                riga.get("name")
-                riga.get("descrizione")
-                ""
+                or riga.get("name")
+                or riga.get("descrizione")
+                or ""
             )
             targa = riga.get("targa") or riga.get("licenseplate") or ""
 
