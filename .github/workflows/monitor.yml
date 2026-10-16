@@ -4,7 +4,10 @@ on:
   schedule:
     # Esegue ogni 15 minuti
     - cron: '*/15 * * * *'
-  workflow_dispatch: # Permette l'esecuzione manuale di prova
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run-monitor:
