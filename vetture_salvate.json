@@ -24,11 +24,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/f6936c2a120f20b9146a69dbb98e1c7426b747c418edf6d2f7c0fbaba19117cb463e3086fab575245bd1c65c854d44e62bffad0fd7bbb5094ccfc66e676b4016"
   },
-  "GK347FZ": {
-    "desc": "<b>PEUGEOT 3008 BlueHDI 130 S&S Active Pack Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK347FZ",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/55278d6fd54c381428b7e7fbf600d1c093fc93246dcaa21530594bb112f4d4746be5695f78c58e622f89ec16872b3a4b6d10b47d271f4d8dd8c84c422e31f64d"
-  },
   "GK167RR": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK167RR",
     "options": 2,
@@ -401,7 +396,7 @@
   },
   "GL900HL": {
     "desc": "<b>FORD KUGA 1.5 EcoBlue 120CV 2WD ST-Line Auto Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL900HL",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/44d9276dbb8109f338d8c12f5e011501d5d3121dd2fff1d2c456b0764eea7d56bd6c614320f5853ed8e70d27e201e8b095f222e2614562e81678144c4a1c10c4"
   },
   "GJ701EK": {
@@ -906,7 +901,7 @@
   },
   "GP470ZR": {
     "desc": "<b>PEUGEOT 3008 N1 BLUEHDI 130 EAT8 S&S ALLURE PACK FP</b> | Targa: GP470ZR",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/38d88f0adeb907510800a8a56012a3adf3ce582b45bc76ca74e78c8771ba03b310ea992b8d0470e546be6726c0c9d39071946f23afc2cb5bb88fd72db0b6658b"
   },
   "GP442AV": {
@@ -991,7 +986,7 @@
   },
   "GL779EW": {
     "desc": "<b>VOLKSWAGEN TIGUAN (PC) 2.0 TDI SCR 110KW LIFE DSG FP</b> | Targa: GL779EW",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/dc6f0550ea4342f7177b5e121bad34ead093b66368b751cc5ec98ba79ffd10c0c9ee27a868ac024c7d71bf9718d59fd94f238cad273855dc8b35af27ba1c3a92"
   },
   "GM992PZ": {
@@ -1011,7 +1006,7 @@
   },
   "HA192HZ": {
     "desc": "<b>TOYOTA AYGO X 1.0B (72 CV) Active Sport utility vehicle 5-door (Euro 6E)</b> | Targa: HA192HZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/a5a20d187b7ac86f45318d0d6a5ad6eb71fb575e4b782a9504ac170769af7530846d76cb3f9dc7ad5605efc45f53cb8646bd07dedc33b5125f1a330691aea9ef"
   },
   "HD459NV": {
