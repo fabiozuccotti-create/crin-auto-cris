@@ -249,11 +249,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/0a322620a12dd95e8f10612322e5644b42ed1b7f98364b789fd833fc9972e333dad67614f0866660ef080440b5088ba85d14d15eeab895c3e493792ab63a1306"
   },
-  "GJ323YT": {
-    "desc": "<b>FIAT 500X (PC) 1.6 MJET 130CV E6D CONNECT FP</b> | Targa: GJ323YT",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/6f7ec3dfb1204cbc2418a528c7a3ca54fd3b588fb2f4ecc5f1168a996a6e8766e18b256fc5244545b80070f367f59fe903d7a96587d1385cde3c9326ae6ede5b"
-  },
   "GK707ZF": {
     "desc": "<b>BMW SERIES 5 520D AUT BUSINESS MH48V FP</b> | Targa: GK707ZF",
     "options": 2,
@@ -266,7 +261,7 @@
   },
   "GF709RM": {
     "desc": "<b>FIAT DOBLO CARGO(PC) MAXI LH1 LOUNGE 1.6 MJET 105CV E6D S&S FP</b> | Targa: GF709RM",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/a48b567d99f69686bdcab193c681660b5674270c97d2a954bf755d5ba101f1c9d38dff149b047d03a921ffee8b8321f81acd850ceaacc7bf314ebb8f8020b01e"
   },
   "GG252RV": {
@@ -616,7 +611,7 @@
   },
   "GS935JY": {
     "desc": "<b>MINI MINI Cooper SE Classic Hatchback 3-door</b> | Targa: GS935JY",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/fb9945921c8698980867f49ee25d40512d8beb3f8d4857e12150df3e05b63486d65b7c85babacd32ab7c274fb9d89218415b5a33cec3710164fcaa39a1150453"
   },
   "GS752VL": {
