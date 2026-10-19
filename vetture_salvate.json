@@ -46,7 +46,7 @@
   },
   "GN042LP": {
     "desc": "<b>AUDI Q3 SPORTBACK 35 TDI S tronic Business Plus Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GN042LP",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/9c980c3d2a6b1c6d014097d236890de075575e2f3e8199336df42be199c638e817deaee2a58a2ee727857193c628854e375f35c81b0df830724f092033c93453"
   },
   "GT574LV": {
@@ -61,7 +61,7 @@
   },
   "FF15396": {
     "desc": "<b>PEUGEOT TWEET 125i ACTIVE Scooter (Euro 5)</b> | Targa: FF15396",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/f3504fb73e69c0076ffb1c9e7e1d2f8a3b1eeea18c08d5096d84f90ee431561d90b834576a395a1a75693f1beb69cff7cae98a72cbae5d9f6ca7f84ac3d7292c"
   },
   "FJ92407": {
@@ -211,7 +211,7 @@
   },
   "HA412HN": {
     "desc": "<b>TOYOTA AYGO X 1.0B (72 CV) Active Sport utility vehicle 5-door (Euro 6E)</b> | Targa: HA412HN",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/1f31ed62dbd2b0ac6e5bf7db156fca1dbcf0c305424de176b1c3e7e547838e553b97c05217766d05830e75df947f525604dede7cafd9d84962444362767d99df"
   },
   "GJ543YL": {
@@ -258,11 +258,6 @@
     "desc": "<b>BMW X3 sDrive 18d MH48V Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK416RK",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/51c38db678dcd77d223167120b539d7a39008188d99595af804b57243d268170508109f7105d3261219a6eb7c7ca002d56a6ee44f6756f156bcfa24064d56765"
-  },
-  "GK821ZV": {
-    "desc": "<b>BMW X3 xDrive 20d MH48V Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK821ZV",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/1cd59e1193c24116f655f594208982280773a92d3f6672cd763138c7a5819047fadd98fecbcbd8cd590f9aeebb622a99e1dc54dfe58096655f4fab33ae1d1e9f"
   },
   "GK642RL": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK642RL",
@@ -401,7 +396,7 @@
   },
   "GM577YG": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S You! Neo patentati Hatchback 5-door</b> | Targa: GM577YG",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/f92ecb14c998d818e896f1d0b5a4db1df9b179939456dff06f6139d92fb7fa6e0ef5546ea310caced02ad8e4c9eb5af2d08f9bf63e9b385c42dd074d4c18f722"
   },
   "GS189EL": {
