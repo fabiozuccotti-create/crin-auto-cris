@@ -161,7 +161,7 @@
   },
   "GG252RV": {
     "desc": "<b>OPEL GRANDLAND X(PC) 1.5 DIESEL 130CV ELEGANCE S&S AT8 FP</b> | Targa: GG252RV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/2bf35e229f0f2b0d5ce3b3f965e3cbdb2179482ed4a8d9a9f74ef11a7cba942ce68ed99f1dd9e3953c472f08c24e4f2eeeb1f4ddb13554bbfa6d1de654a6ec39"
   },
   "GN766SP": {
@@ -184,11 +184,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/35b7d528d0ee6ef19d402b0e182164af1bbba3f80b1eb5973bf41be74968df4820d88a797661712f3a5067d06a54a1e1cc22a0ad0dc5e4348a674a491ccd6bbd"
   },
-  "GK827ZF": {
-    "desc": "<b>FIAT FIORINO (PC) 1.3 MULTIJET 95 CV E6D-FINAL SX FP</b> | Targa: GK827ZF",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/7f4c3d7ae08bc963f13c672b91018a838b27f020fff5877c3e2ecb14c88901dc423ed9b49c782fd0f85b8f673802f95d53291ed08e3f5c1aad2fb3049114f6f5"
-  },
   "GL040ZX": {
     "desc": "<b>FIAT 500 (PC) 1.0 70CV IBRIDO CLUB FP</b> | Targa: GL040ZX",
     "options": 1,
@@ -201,7 +196,7 @@
   },
   "HA412HN": {
     "desc": "<b>TOYOTA AYGO X 1.0B (72 CV) Active Sport utility vehicle 5-door (Euro 6E)</b> | Targa: HA412HN",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/1f31ed62dbd2b0ac6e5bf7db156fca1dbcf0c305424de176b1c3e7e547838e553b97c05217766d05830e75df947f525604dede7cafd9d84962444362767d99df"
   },
   "GJ960AL": {
@@ -419,11 +414,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/017dcecbcc0e48b87d18dd50cbd8ca1befbc0e0c52ac3cbc7db80023d1a8377d18b31437e9a0d77868d8e3ec3e778f228e77b554eea6321f887dc1db25e94f24"
   },
-  "GP041ML": {
-    "desc": "<b>BMW X3 xDrive 20d MH48V Msport Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP041ML",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/efd2568c881154726154ae8d27b32d2facec307f77d7de68a982f86e3327b4dde311af24f81a93ae99504e2907ba3ef551932d2d50f0e3cfa3bb38cc41e36425"
-  },
   "GP536FX": {
     "desc": "<b>TESLA MODEL Y 75 kWh Dual Motor Long Range 4WD aut. Sport utility vehicle 5-door</b> | Targa: GP536FX",
     "options": 2,
@@ -523,11 +513,6 @@
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV400ZS",
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/a2a8834e80ec8d4757caa7cda2e079173050b62be6c5c86004b4d444d2b4bfd4fe647450a0afd5b6e30ce526bdeb353a266d314bbdd3688971adb7d0b68c8928"
-  },
-  "GV537ZS": {
-    "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV537ZS",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/f795bc3b8ef47b13d714ae6858e4901604275becb1cead1ea3ab8e994ae462349ccbd194569c8c25eea0ffb42a3c74ab02be68945de82fc54c76423f850fc570"
   },
   "GV567ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV567ZS",
