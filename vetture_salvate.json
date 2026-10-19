@@ -104,11 +104,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/997b66f71ab09f1aefe68727e13a37ce26903ff4100d337ef5584d723bfe42962a080964c919355661beaabba4f1bd56775b8548ac59e327dadd0102f4894dd0"
   },
-  "GV479ZT": {
-    "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV479ZT",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/6987a0945a72c25edda3743f52f8bdb46f2645d3212c377296d15d007e6eaf32122a7abc89272fb494c0007b88a3eefed308455f8e09d07b94d6c5d5f7c00614"
-  },
   "GV532ZT": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV532ZT",
     "options": 0,
@@ -371,7 +366,7 @@
   },
   "GP076MT": {
     "desc": "<b>AUDI Q5 40 TDI Busin. Advanced quattro S tronic Sport utility vehicle 5-door (Euro 6D) mild hybrid</b> | Targa: GP076MT",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/9cc126ba523d9dce831ea3c950590c00be9f02b6a6e0d634721779b5fe4ffbe264100fb63408334a33c3f47c2d56332b5d32d16ffc5538335ba78b9b65e7ef31"
   },
   "GK283ZF": {
@@ -453,11 +448,6 @@
     "desc": "<b>BMW X3 xDrive 20d MH48V Msport Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP041ML",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/efd2568c881154726154ae8d27b32d2facec307f77d7de68a982f86e3327b4dde311af24f81a93ae99504e2907ba3ef551932d2d50f0e3cfa3bb38cc41e36425"
-  },
-  "GN001SW": {
-    "desc": "<b>TESLA MODEL Y 75 kWh Dual Motor Long Range 4WD aut. Sport utility vehicle 5-door</b> | Targa: GN001SW",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/1bed4f33c48c6fdc1a6117770038e974d3a7be05159f035f06d1304b715deb55a151c7b1303553d5c69814a7a056fcbf2c694f72292fed4ec4960bf010153a7e"
   },
   "GP536FX": {
     "desc": "<b>TESLA MODEL Y 75 kWh Dual Motor Long Range 4WD aut. Sport utility vehicle 5-door</b> | Targa: GP536FX",
@@ -816,7 +806,7 @@
   },
   "GN641LG": {
     "desc": "<b>BMW SERIES 2 ACTIVE 218D LUXURY AUTO</b> | Targa: GN641LG",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/a894b0e794139c6c5e4b0b41105ac865fd984c6a8a7df65f70e7e026e1e61e1227bdd160194716fdeabbde2d8bed0ec3d9cee2d7bfc8866589a013f9b9b4536b"
   },
   "GD554BF": {
