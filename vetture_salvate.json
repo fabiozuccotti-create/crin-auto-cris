@@ -101,7 +101,7 @@
   },
   "GV476ZT": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV476ZT",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/997b66f71ab09f1aefe68727e13a37ce26903ff4100d337ef5584d723bfe42962a080964c919355661beaabba4f1bd56775b8548ac59e327dadd0102f4894dd0"
   },
   "GV479ZT": {
@@ -353,11 +353,6 @@
     "desc": "<b>JEEP COMPASS 1.3 T4 PHEV 190cv Limited 4xe Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK524RW",
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/4e70aa004e0c251eff9fdc026052fa9414f5a7659dcbc02e3c015095a35276bcc0db50db4bc7552d424f6f8fa74542560987def74db5f404b47f88a3310f35c5"
-  },
-  "GN411LH": {
-    "desc": "<b>FORD KUGA 2.5 Benzina FHEV 190CV 2WD ST-Line X Aut Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GN411LH",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/68688159280146b14685b81fbd168576499bdc9e8296cb3af62ea7a721e192ef37c0ccbdaf42a2cdf915c33b27cbe06acc3502042e28002b8a0a2553e6c56981"
   },
   "GP201TE": {
     "desc": "<b>BMW SERIE 1 116d Business Advantage Hatchback 5-door (Euro 6D)</b> | Targa: GP201TE",
@@ -706,7 +701,7 @@
   },
   "GP162ZJ": {
     "desc": "<b>FIAT 500X (PC) 1.3 MJET 95CV MT6</b> | Targa: GP162ZJ",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/5727aa20432f5240bdd495fdb57b4118945e750150aab387b4017a219175b8e07fc6890a44cea568cc3d9596594845a9121f6a6c9b247b2d5852ba3a9327b778"
   },
   "GY267FN": {
@@ -791,7 +786,7 @@
   },
   "GP442AV": {
     "desc": "<b>KIA SPORTAGE 1.6 TGDI HEV STYLE 2WD AUTO</b> | Targa: GP442AV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e8857776772148ba787cd3a4d25aaf38c1ef37d4d5676a9878263d9a35bc55c639e929e14e142302a6099e85b5445fad666c41e0616d0818d01ba859bbbb6d57"
   },
   "GK637RS": {
