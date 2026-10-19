@@ -119,11 +119,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/b36b9c5c8239e459fa12ef2d8bfcccf8112a3b7721fc7a628d1736ae6923817a303535322478e9cb981e907c765b8ac488e5077bed23ecf4f6abe56ffccbff3d"
   },
-  "GV659ZS": {
-    "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV659ZS",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/d4f22c52ec2d7bc16b35132bb00d572701db905e0070ba7550dd9ab01ec27d12c13c69258698963f66be2e59038c52aff54a7997879a76fb8b6ed17980334391"
-  },
   "GV250ZV": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV250ZV",
     "options": 1,
@@ -196,7 +191,7 @@
   },
   "GL040ZX": {
     "desc": "<b>FIAT 500 (PC) 1.0 70CV IBRIDO CLUB FP</b> | Targa: GL040ZX",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/44cffc5d8b581786dd4ee6b07c0aae75653859dfe5347120ca101375820c073577e91368c07c1dfe4c2de0cacb961938289825b7cf2402f34c4e2c40f618523d"
   },
   "GK976RJ": {
@@ -208,11 +203,6 @@
     "desc": "<b>TOYOTA AYGO X 1.0B (72 CV) Active Sport utility vehicle 5-door (Euro 6E)</b> | Targa: HA412HN",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/1f31ed62dbd2b0ac6e5bf7db156fca1dbcf0c305424de176b1c3e7e547838e553b97c05217766d05830e75df947f525604dede7cafd9d84962444362767d99df"
-  },
-  "GJ543YL": {
-    "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Shine Pack Hatchback 5-door (Euro 6D)</b> | Targa: GJ543YL",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/a5c537c42ca0ab83e3afb571f4640832dad685ae6733dbc3ca2485932a8c4dfec9b682de8c859a92f51e7006f51c6dc398a4e876a4518e4387020a757a09b58b"
   },
   "GJ960AL": {
     "desc": "<b>RENAULT ZOE ZOE LIFE R110 Hatchback 5-door</b> | Targa: GJ960AL",
@@ -396,7 +386,7 @@
   },
   "GM924EZ": {
     "desc": "<b>BMW I3 120 Ah Advantage Auto Hatchback 5-door</b> | Targa: GM924EZ",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/30efdb772ed7aeba17e205d48dd17898d7f34dca32a6e7fa88e20b769aa770696d58e557d58f23e929ad09d7af6cb7b771360d60e4294c80bbdae3f22f71cc2d"
   },
   "GP250BG": {
@@ -551,7 +541,7 @@
   },
   "GW114WC": {
     "desc": "<b>VOLKSWAGEN GOLF 2.0 TDI SCR 110KW Edition Plus DSG Hatchback 5-door (Euro 6E)</b> | Targa: GW114WC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/89914eef56c0675da5cb7ad2c465edfad28f87636de33e027cca33c75287f10c7473e515e2a5e733f765e64a7867322a9c37f28d17375407bd73a8852a794b0d"
   },
   "GW065YD": {
