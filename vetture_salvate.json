@@ -666,7 +666,7 @@
   },
   "GK722ZM": {
     "desc": "<b>BMW SERIES 5 SW (PC 530D 183KW XD BUSINESS AUTO TOURING FP</b> | Targa: GK722ZM",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/5b9c853f389edfa86b36fc591f17db849a65d55b88b9dc5eeeac30321c2a96379ed1a65d0aa0cdf484c53ef65709b20478a0066683623c7470f2a6e1a0413600"
   },
   "GV838ZD": {
@@ -714,11 +714,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/8b3a852aa6f33b7179c57489291176b578d1b56bf0c4bb2467492833ef09de575d3b4db072c0d551a4c26fde6a7f68b5077b6df03664465b0d7986be61bf845c"
   },
-  "GR280YR": {
-    "desc": "<b>FORD PUMA 1.0 ECOBOOST HYBRID 125CV ST-LINE</b> | Targa: GR280YR",
-    "options": 0,
-    "url_foto": "https://auto.nextlane.com/public/player/cc1f69b9adc63379b72100bdd938e9b144086b0672ba81c6c2807b7e475c4ac7da1e7b3878f53074934b2e260e7f418206b3b645ed1b01e6fa7666b8e9b65c0a"
-  },
   "GC941GL": {
     "desc": "<b>DACIA DOKKER DOKKER PICK-UP 1.5 BLUE DCI 75CV FP</b> | Targa: GC941GL",
     "options": 2,
@@ -746,7 +741,7 @@
   },
   "GD554BF": {
     "desc": "<b>IVECO DAILY 35S12 V 3520 H2 FP</b> | Targa: GD554BF",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/9a994e3bbd2f48a1589b2254f6eb9054a21b0e0abbf3f8cd3a1d71f1c9f208f35da6beb6c44ba4ae59caa11fb93f14069029671c4cbf67038fbb0daf33cb8f4f"
   },
   "GK625ZM": {
