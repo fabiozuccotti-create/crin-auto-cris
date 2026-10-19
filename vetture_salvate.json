@@ -156,7 +156,7 @@
   },
   "GX701ST": {
     "desc": "<b>LAND ROVER RANGE ROVER SPO 3.0D I6 300 MHEV DYNAMIC SE AUT.</b> | Targa: GX701ST",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/029a47d6bf4b5c9366844a91f8d714ff7b3d05055ebe2c4feac954bbb021dc58a6545d81eaf3bd0b502cb9931b937aeb9bf15890429f78179526ac6d8203f836"
   },
   "GZ823KL": {
@@ -419,11 +419,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/63ab8379cbabab5e8f6e933617deb5be289b39fc1733046d2998611152a807b6236518a9e6b6ff4ddfdb92a25b8bdbeb09d9dfe84e173654ac379014ad139954"
   },
-  "GP404NZ": {
-    "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV ST-Line Auto Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GP404NZ",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/b8000769500622f39eb58cab299a0fb57462727b7489c03b79c4421d8526ae78086a1f70da1e24dbcee229b675e083b5f484b4dc243ecea384a467d9907874ea"
-  },
   "GM924EZ": {
     "desc": "<b>BMW I3 120 Ah Advantage Auto Hatchback 5-door</b> | Targa: GM924EZ",
     "options": 2,
@@ -496,7 +491,7 @@
   },
   "GS935JY": {
     "desc": "<b>MINI MINI Cooper SE Classic Hatchback 3-door</b> | Targa: GS935JY",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/fb9945921c8698980867f49ee25d40512d8beb3f8d4857e12150df3e05b63486d65b7c85babacd32ab7c274fb9d89218415b5a33cec3710164fcaa39a1150453"
   },
   "GS752VL": {
@@ -624,11 +619,6 @@
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/f5eac462b5a82be64f4c74423b74a7d4c8cfa942318898b45bb0634de8bc841ce226150a6750a82105e6031ca7a7b8087f47eeb96130fe377c5eca44b1d8d2fc"
   },
-  "GW123EN": {
-    "desc": "<b>CITROEN C3 AIRCROSS(PC) BLUEHDI 110 S&S YOU FP</b> | Targa: GW123EN",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/9a1a2d025123e376b85a1f096b228cc64e599f71903df07fad194fc6b299df57fb1f0b95fa4421c06c1373305294717e3e777f54691504b927b0fdc772887274"
-  },
   "GG714ZW": {
     "desc": "<b>RENAULT CLIO CONSIPAQ1 1.0 TCE 66KW BUSINESS FP</b> | Targa: GG714ZW",
     "options": 2,
@@ -681,7 +671,7 @@
   },
   "GP923FL": {
     "desc": "<b>FORD KUGA 2.5 BENZINA FHEV 190CV AWD ST-LINE AUT FP</b> | Targa: GP923FL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/40f415ce791f01844ecb6800d12657ec2dfe9fb9f12277f5751f2b829c852e4285936167d249d05fb49f3105062c60d09113c96e3bb2125ddda6d7165baf7214"
   },
   "GN543LL": {
