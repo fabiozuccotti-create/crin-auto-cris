@@ -464,11 +464,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9a3b982c00b28a73447acdb81a1cf94cf60c8f99d1a635ae093cf4a06793670bbea71be78e5478e9dac28f1659478f6b619a2de2e344afd57ba3af470afae39f"
   },
-  "GV829ZR": {
-    "desc": "<b>HYUNDAI I20 1.0 T-GDI 48V 100cv ConnectLine Hatchback 5-door (Euro 6D)</b> | Targa: GV829ZR",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/9b1116a2cec1bfe4c17c790278c3f76da7ef26c9cb3584b8c9b67e67162c6136a29a8b8a328bae228bafb649ebdec133a47adf9aa8bf5dbfa9b2493b809400a5"
-  },
   "GV197ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV197ZS",
     "options": 1,
@@ -556,7 +551,7 @@
   },
   "GL156FA": {
     "desc": "<b>AUDI Q2 2.0 30 TDI BUSINESS FP</b> | Targa: GL156FA",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/be33c3be56df438e81ed531f638ef8243e6d43c3521764d4cc5a6b8ba3ccec3f2f3355f4e6bdeb417502f80b64e5c029cc3d1aceb676024404d82786359e2d61"
   },
   "GL894FC": {
