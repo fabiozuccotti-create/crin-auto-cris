@@ -2,9 +2,8 @@ import csv
 import io
 import json
 import os
-import sys
+import re
 import requests
-from playwright.sync_api import sync_playwright
 
 TOKEN_TELEGRAM = os.environ.get("TOKEN_TELEGRAM", "").strip()
 CHAT_ID = os.environ.get("CHAT_ID", "").strip()
@@ -13,12 +12,23 @@ PASSWORD = os.environ.get("QUOTER_PASS", "").strip()
 
 URL_LOGIN = "https://quoter.it/site/login"
 URL_RINOLEGGIO = "https://quoter.it/v2/deal"
+URL_FILTER = "https://quoter.it/proxy/deal/deal-filter"
+URL_REPORT_CSV = "https://quoter.it/proxy/deal/list?target=report&action=leaseafter"
+
 FILE_MEMORIA = "vetture_salvate.json"
+
+HEADERS_BASE = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
+    "sec-ch-ua": '"Not;A=Brand";v="8", "Chromium";v="150", "Google Chrome";v="150"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"macOS"',
+}
 
 
 def invia_telegram(messaggio):
     if not TOKEN_TELEGRAM or not CHAT_ID:
-        print("Avviso: TOKEN_TELEGRAM o CHAT_ID non trovati.")
+        print("Telegram non configurato (secret mancanti).")
         return
     url = f"https://api.telegram.org/bot{TOKEN_TELEGRAM}/sendMessage"
     payload = {
@@ -75,130 +85,143 @@ def estrai_modello_da_riga(riga):
     return ""
 
 
-def scarica_csv_con_browser():
-    # Verifica preventiva della presenza dei secret
-    print(f"Verifica utente: {'OK' if USERNAME else 'MANCANTE'}")
-    print(f"Verifica password: {'OK' if PASSWORD else 'MANCANTE'}")
-
-    if not USERNAME or not PASSWORD:
-        print("ERRORE: Credenziali QUOTER_USER o QUOTER_PASS vuote nei secrets!")
-        sys.exit(1)
-
-    contenuto_csv = ""
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
-        )
-        page = context.new_page()
-
-        print("1. Apertura pagina di Login...")
-        page.goto(URL_LOGIN, wait_until="domcontentloaded")
-
-        print("2. Attesa campi form di login...")
-        input_user = page.wait_for_selector('input[name*="username"]', timeout=15000)
-        input_pass = page.wait_for_selector('input[name*="password"]', timeout=15000)
-
-        print("3. Inserimento credenziali...")
-        input_user.fill(str(USERNAME))
-        input_pass.fill(str(PASSWORD))
-
-        print("4. Invio Login...")
-        page.click('button[type="submit"]')
-        page.wait_for_load_state("networkidle")
-
-        print("5. Navigazione sulla sezione Rinoleggio...")
-        page.goto(URL_RINOLEGGIO, wait_until="networkidle")
-        page.wait_for_timeout(3000)
-
-        print("6. Scaricamento CSV tramite clic...")
-        try:
-            with page.expect_download(timeout=30000) as download_info:
-                btn_export = page.locator('a[href*="target=report"], button:has-text("CSV"), a:has-text("Export"), .btn-export').first
-                btn_export.click()
-
-            download = download_info.value
-            temp_path = download.path()
-            with open(temp_path, "r", encoding="utf-8-sig", errors="ignore") as f:
-                contenuto_csv = f.read()
-            print("CSV scaricato con successo dal browser!")
-        except Exception as e:
-            print(f"Errore intercettazione download CSV: {e}")
-
-        browser.close()
-    return contenuto_csv
-
-
 def controlla_sito():
-    contenuto_csv = scarica_csv_con_browser()
+    session = requests.Session()
+    session.headers.update(HEADERS_BASE)
+
+    print("1. Recupero token CSRF di login...")
+    csrf_token = ""
+    try:
+        r_page = session.get(URL_LOGIN, timeout=15)
+        match = re.search(
+            r'name="_csrf"\s+value="([^"]+)"', r_page.text
+        ) or re.search(r'name="_csrf-frontend"\s+value="([^"]+)"', r_page.text)
+        if match:
+            csrf_token = match.group(1)
+    except Exception as e:
+        print(f"Errore caricamento pagina login: {e}")
+        return
+
+    print("2. Autenticazione su Quoter.it...")
+    payload_login = {
+        "LoginForm[username]": USERNAME,
+        "LoginForm[password]": PASSWORD,
+    }
+    if csrf_token:
+        payload_login["_csrf"] = csrf_token
+
+    try:
+        res_login = session.post(
+            URL_LOGIN, data=payload_login, timeout=15, allow_redirects=True
+        )
+        print(f"Risposta login: HTTP {res_login.status_code}")
+    except Exception as e:
+        print(f"Errore invio login: {e}")
+        return
+
+    print("3. Preparazione sessione e passaggio filtri...")
+    try:
+        # Visita la pagina principale di Rinoleggio
+        session.get(URL_RINOLEGGIO, headers={"Referer": URL_LOGIN}, timeout=15)
+
+        # Chiamata di sblocco all'endpoint filtri (il "passaggio segreto" che evita il 404)
+        headers_filter = {
+            "Accept": "application/json",
+            "Referer": URL_RINOLEGGIO,
+            "X-Requested-With": "XMLHttpRequest",
+        }
+        session.get(URL_FILTER, headers=headers_filter, timeout=10)
+    except Exception as e:
+        print(f"Avviso sblocco filtri: {e}")
+
+    print("4. Scaricamento report CSV...")
     vetture_attuali = {}
 
-    if contenuto_csv and len(contenuto_csv) > 50:
-        f_csv = io.StringIO(contenuto_csv)
-        try:
-            dialetto = csv.Sniffer().sniff(contenuto_csv[:2000])
-            reader = csv.DictReader(f_csv, dialect=dialetto)
-        except Exception:
-            reader = csv.DictReader(f_csv)
+    headers_csv = {
+        "Accept": "application/octet-stream",
+        "Referer": URL_RINOLEGGIO,
+        "X-Requested-With": "XMLHttpRequest",
+    }
 
-        for row in reader:
-            riga = {
-                str(k).strip().lower().replace(" ", "_"): str(v).strip()
-                for k, v in row.items()
-                if k
-            }
+    try:
+        res_csv = session.get(
+            URL_REPORT_CSV, headers=headers_csv, timeout=30, allow_redirects=True
+        )
+        print(f"Risposta scaricamento CSV: HTTP {res_csv.status_code}")
 
-            id_auto = (
-                riga.get("id")
-                or riga.get("id_vettura")
-                or riga.get("codice")
-                or riga.get("deal_id")
-                or ""
-            )
-            targa = riga.get("targa") or riga.get("licenseplate") or ""
-            modello = estrai_modello_da_riga(riga)
+        if res_csv.status_code == 200 and len(res_csv.content) > 50:
+            contenuto_csv = res_csv.content.decode("utf-8-sig", errors="ignore")
+            f_csv = io.StringIO(contenuto_csv)
 
-            if not id_auto and not targa:
-                continue
+            try:
+                dialetto = csv.Sniffer().sniff(contenuto_csv[:2000])
+                reader = csv.DictReader(f_csv, dialect=dialetto)
+            except Exception:
+                reader = csv.DictReader(f_csv)
 
-            chiave_id = id_auto if id_auto else targa
+            for row in reader:
+                riga = {
+                    str(k).strip().lower().replace(" ", "_"): str(v).strip()
+                    for k, v in row.items()
+                    if k
+                }
 
-            opt1_val = (
-                riga.get("stato_opzione1")
-                or riga.get("stato_opzione_1")
-                or riga.get("opzione1")
-                or ""
-            )
-            opt2_val = (
-                riga.get("stato_opzione2")
-                or riga.get("stato_opzione_2")
-                or riga.get("opzione2")
-                or ""
-            )
-            url_foto = (
-                riga.get("link2lifeimage")
-                or riga.get("link_image")
-                or riga.get("image_link")
-                or ""
-            )
+                id_auto = (
+                    riga.get("id")
+                    or riga.get("id_vettura")
+                    or riga.get("codice")
+                    or riga.get("deal_id")
+                    or ""
+                )
+                targa = riga.get("targa") or riga.get("licenseplate") or ""
+                modello = estrai_modello_da_riga(riga)
 
-            opt1_active = is_opzionato(opt1_val)
-            opt2_active = is_opzionato(opt2_val)
-            num_opzioni = (1 if opt1_active else 0) + (1 if opt2_active else 0)
+                if not id_auto and not targa:
+                    continue
 
-            desc_parti = []
-            if modello:
-                desc_parti.append(f"<b>{modello}</b>")
-            if targa:
-                desc_parti.append(f"Targa: {targa}")
-            if id_auto:
-                desc_parti.append(f"ID: {id_auto}")
+                chiave_id = id_auto if id_auto else targa
 
-            vetture_attuali[chiave_id] = {
-                "desc": " | ".join(desc_parti),
-                "options": num_opzioni,
-                "url_foto": url_foto,
-            }
+                opt1_val = (
+                    riga.get("stato_opzione1")
+                    or riga.get("stato_opzione_1")
+                    or riga.get("opzione1")
+                    or ""
+                )
+                opt2_val = (
+                    riga.get("stato_opzione2")
+                    or riga.get("stato_opzione_2")
+                    or riga.get("opzione2")
+                    or ""
+                )
+                url_foto = (
+                    riga.get("link2lifeimage")
+                    or riga.get("link_image")
+                    or riga.get("image_link")
+                    or ""
+                )
+
+                opt1_active = is_opzionato(opt1_val)
+                opt2_active = is_opzionato(opt2_val)
+                num_opzioni = (1 if opt1_active else 0) + (1 if opt2_active else 0)
+
+                desc_parti = []
+                if modello:
+                    desc_parti.append(f"<b>{modello}</b>")
+                if targa:
+                    desc_parti.append(f"Targa: {targa}")
+                if id_auto:
+                    desc_parti.append(f"ID: {id_auto}")
+
+                vetture_attuali[chiave_id] = {
+                    "desc": " | ".join(desc_parti),
+                    "options": num_opzioni,
+                    "url_foto": url_foto,
+                }
+        else:
+            print(f"Impossibile scaricare il CSV (Status: {res_csv.status_code})")
+
+    except Exception as e:
+        print(f"Errore scaricamento file CSV: {e}")
 
     print(f"Totale vetture lette dal CSV: {len(vetture_attuali)}")
 
