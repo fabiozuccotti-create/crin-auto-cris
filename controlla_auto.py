@@ -99,25 +99,32 @@ def controlla_sito():
     if res_page.status_code == 200:
         html = res_page.text
 
-        # Tentativo A: Cerca JSON interno nello script
-        match_json = re.search(
-            r"var\s+deals\s*=\s*(\[.*?\]);", html, re.DOTALL
-        ) or re.search(r"data-deals=\'([^\']+)\'", html)
-        if match_json:
+        # LOG DI DEBUG: Stampa i primi 500 caratteri dell'HTML e cerca tabelle/script
+        print(f"--- DEBUG HTML (Lunghezza: {len(html)}) ---")
+        soup = BeautifulSoup(html, "html.parser")
+        tabelle = soup.find_all("table")
+        print(f"Tabelle trovate nella pagina: {len(tabelle)}")
+        
+        # Cerca eventuali script contenenti JSON o variabili
+        scripts = soup.find_all("script")
+        print(f"Tag <script> trovati: {len(scripts)}")
+        
+        # Ricerca pattern JSON estesi
+        m_json = re.search(r'data\s*:\s*(\[.*?\])', html, re.DOTALL) or re.search(r'var\s+\w+\s*=\s*(\[.*?\]);', html, re.DOTALL)
+        if m_json:
+            print("Trovato blocco dati JSON nello script HTML!")
             try:
-                data = json.loads(match_json.group(1))
+                data = json.loads(m_json.group(1))
                 for item in data:
+                    if not isinstance(item, dict):
+                        continue
                     id_auto = str(item.get("id") or item.get("deal_id") or "")
-                    targa = str(
-                        item.get("licenseplate") or item.get("targa") or ""
-                    )
-                    modello = str(
-                        item.get("description") or item.get("modelname") or ""
-                    )
+                    targa = str(item.get("licenseplate") or item.get("targa") or "")
+                    modello = str(item.get("description") or item.get("modelname") or item.get("modello") or "")
                     chiave = id_auto if id_auto else targa
                     if not chiave:
                         continue
-
+                    
                     num_opzioni = 0
                     if "OPZIONATO" in str(item.get("status1", "")).upper():
                         num_opzioni += 1
@@ -125,42 +132,35 @@ def controlla_sito():
                         num_opzioni += 1
 
                     vetture_attuali[chiave] = {
-                        "desc": f"<b>{modello}</b> | Targa: {targa} | ID: {id_auto}",
+                        "desc": f"<b>{modello}</b> | Targa: {targa}",
                         "options": num_opzioni,
-                        "url_foto": str(item.get("link2lifeimage") or ""),
+                        "url_foto": str(item.get("link2lifeimage") or "")
                     }
             except Exception as e:
-                print(f"Errore parsing JSON interno: {e}")
+                print(f"Errore parsing JSON: {e}")
 
-        # Tentativo B: Parsing della tabella HTML tramite BeautifulSoup
-        if not vetture_attuali:
-            soup = BeautifulSoup(html, "html.parser")
-            righe = soup.find_all("tr")
-            for riga in righe:
-                celle = riga.find_all("td")
-                if len(celle) < 3:
-                    continue
-
-                testo = " ".join([c.get_text(strip=True) for c in celle])
-                if len(testo) < 10:
-                    continue
-
-                img = riga.find("img")
-                url_foto = img["src"] if img and "src" in img.attrs else ""
-
-                num_opzioni = testo.upper().count("OPZIONATO")
-
-                chiave = str(hash(testo[:60]))
-                vetture_attuali[chiave] = {
-                    "desc": f"<b>{testo[:80]}</b>",
-                    "options": min(num_opzioni, 2),
-                    "url_foto": url_foto,
-                }
+        # Parsing classico della tabella HTML
+        if not vetture_attuali and tabelle:
+            for t in tabelle:
+                righe = t.find_all("tr")
+                for riga in righe:
+                    celle = riga.find_all(["td", "th"])
+                    testo = " ".join([c.get_text(strip=True) for c in celle if c.get_text(strip=True)])
+                    if len(testo) > 15 and not testo.startswith("Marca"):
+                        img = riga.find("img")
+                        url_foto = img["src"] if img and "src" in img.attrs else ""
+                        num_opzioni = testo.upper().count("OPZIONATO")
+                        chiave = str(hash(testo[:50]))
+                        vetture_attuali[chiave] = {
+                            "desc": f"<b>{testo[:80]}</b>",
+                            "options": min(num_opzioni, 2),
+                            "url_foto": url_foto
+                        }
 
     print(f"Totale vetture estratte dall'HTML: {len(vetture_attuali)}")
 
     if not vetture_attuali:
-        print("Nessuna vettura trovata.")
+        print("Nessuna vettura trovata nell'HTML.")
         if not os.path.exists(FILE_MEMORIA):
             with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
                 json.dump({}, f)
