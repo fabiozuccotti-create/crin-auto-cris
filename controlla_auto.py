@@ -12,16 +12,15 @@ PASSWORD = os.environ.get("QUOTER_PASS")
 
 URL_LOGIN = "https://quoter.it/site/login"
 URL_RINOLEGGIO = "https://quoter.it/v2/deal"
-# Endpoint API nativo di Quoter usato dalla tabella web
-URL_API_DEALS = "https://quoter.it/proxy/deal/list?target=deal&action=leaseafter"
+URL_REPORT_CSV = (
+    "https://quoter.it/proxy/deal/list?target=report&action=leaseafter"
+)
 
 FILE_MEMORIA = "vetture_salvate.json"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
     "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Referer": "https://quoter.it/v2/deal",
-    "X-Requested-With": "XMLHttpRequest",
 }
 
 
@@ -69,6 +68,22 @@ def get_pallini_opzioni(num_opzioni):
         return "🔴🔴 (2 opzioni)"
 
 
+def estrai_modello_da_riga(riga):
+    if riga.get("description"):
+        return riga["description"]
+
+    make = riga.get("makename") or riga.get("marca") or ""
+    model = riga.get("modelname") or riga.get("modello") or ""
+    if make or model:
+        return f"{make} {model}".strip()
+
+    for k in ["modello", "name", "descrizione", "veicolo"]:
+        if riga.get(k):
+            return riga[k]
+
+    return ""
+
+
 def controlla_sito():
     session = requests.Session()
     session.headers.update(HEADERS)
@@ -103,107 +118,104 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    print("3. Navigazione e consolidamento sessione Rinoleggio...")
-    res_rinoleggio = session.get(URL_RINOLEGGIO, timeout=15)
+    print("3. Navigazione sulla pagina Rinoleggio...")
+    try:
+        session.get(URL_RINOLEGGIO, timeout=15)
+    except Exception:
+        pass
 
+    print("4. Scaricamento report CSV...")
     vetture_attuali = {}
 
-    # Tentativo A: Lettura via API JSON
-    print("4a. Recupero dati via API JSON...")
     try:
-        res_api = session.get(URL_API_DEALS, timeout=20)
-        print(f"Risposta API: HTTP {res_api.status_code}")
+        res_csv = session.get(URL_REPORT_CSV, timeout=30, allow_redirects=True)
+        print(f"Risposta scaricamento CSV: HTTP {res_csv.status_code}")
 
-        if res_api.status_code == 200:
-            dati = res_api.json()
-            # Gestione risposta sia come lista sia come oggetto dict
-            lista_deals = dati.get("data", dati) if isinstance(dati, dict) else dati
+        if res_csv.status_code == 200 and len(res_csv.content) > 50:
+            contenuto_csv = res_csv.content.decode("utf-8-sig", errors="ignore")
+            f_csv = io.StringIO(contenuto_csv)
 
-            if isinstance(lista_deals, list):
-                for item in lista_deals:
-                    id_auto = str(item.get("id") or item.get("deal_id") or "")
-                    targa = str(item.get("licenseplate") or item.get("targa") or "")
-                    modello = str(
-                        item.get("description")
-                        or item.get("modelname")
-                        or item.get("modello")
-                        or ""
-                    )
-                    make = str(item.get("makename") or item.get("marca") or "")
-
-                    if make and modello and make not in modello:
-                        modello_completo = f"{make} {modello}"
-                    else:
-                        modello_completo = modello
-
-                    chiave_id = id_auto if id_auto else targa
-                    if not chiave_id:
-                        continue
-
-                    opt1_val = str(item.get("status1") or item.get("stato_opzione1") or "")
-                    opt2_val = str(item.get("status2") or item.get("stato_opzione2") or "")
-                    url_foto = str(item.get("link2lifeimage") or item.get("image_link") or "")
-
-                    num_opzioni = (1 if is_opzionato(opt1_val) else 0) + (1 if is_opzionato(opt2_val) else 0)
-
-                    desc_parti = []
-                    if modello_completo:
-                        desc_parti.append(f"<b>{modello_completo}</b>")
-                    if targa:
-                        desc_parti.append(f"Targa: {targa}")
-                    if id_auto:
-                        desc_parti.append(f"ID: {id_auto}")
-
-                    vetture_attuali[chiave_id] = {
-                        "desc": " | ".join(desc_parti),
-                        "options": num_opzioni,
-                        "url_foto": url_foto,
-                    }
-    except Exception as e:
-        print(f"Chiamata API non riuscita o risposta non JSON: {e}")
-
-    # Tentativo B: Fallback estrazione JSON da HTML
-    if not vetture_attuali:
-        print("4b. Fallback: Estrazione dati dal sorgente HTML...")
-        html = res_rinoleggio.text
-        blocchi_json = re.findall(r"var\_deals\s*=\s*(\[.*?\]);", html, re.DOTALL) or re.findall(
-            r'data-deals=\'([^\']+)\'', html
-        )
-
-        if blocchi_json:
             try:
-                dati = json.loads(blocchi_json[0])
-                for item in dati:
-                    id_auto = str(item.get("id") or "")
-                    targa = str(item.get("licenseplate") or item.get("targa") or "")
-                    modello = str(item.get("description") or item.get("modelname") or "")
-                    chiave_id = id_auto if id_auto else targa
-                    if not chiave_id:
-                        continue
+                dialetto = csv.Sniffer().sniff(contenuto_csv[:2000])
+                reader = csv.DictReader(f_csv, dialect=dialetto)
+            except Exception:
+                reader = csv.DictReader(f_csv)
 
-                    num_opzioni = (1 if is_opzionato(str(item.get("status1"))) else 0) + (
-                        1 if is_opzionato(str(item.get("status2"))) else 0
-                    )
-                    url_foto = str(item.get("link2lifeimage") or "")
+            for row in reader:
+                riga = {
+                    str(k).strip().lower().replace(" ", "_"): str(v).strip()
+                    for k, v in row.items()
+                    if k
+                }
 
-                    desc_parti = []
-                    if modello:
-                        desc_parti.append(f"<b>{modello}</b>")
-                    if targa:
-                        desc_parti.append(f"Targa: {targa}")
+                id_auto = (
+                    riga.get("id")
+                    or riga.get("id_vettura")
+                    or riga.get("codice")
+                    or riga.get("deal_id")
+                    or ""
+                )
+                targa = riga.get("targa") or riga.get("licenseplate") or ""
+                modello = estrai_modello_da_riga(riga)
 
-                    vetture_attuali[chiave_id] = {
-                        "desc": " | ".join(desc_parti),
-                        "options": num_opzioni,
-                        "url_foto": url_foto,
-                    }
-            except Exception as e:
-                print(f"Errore parsing HTML fallback: {e}")
+                if not id_auto and not targa:
+                    continue
 
-    print(f"Totale vetture lette: {len(vetture_attuali)}")
+                chiave_id = id_auto if id_auto else targa
 
+                opt1_val = (
+                    riga.get("stato_opzione1")
+                    or riga.get("stato_opzione_1")
+                    or riga.get("opzione1")
+                    or ""
+                )
+                opt2_val = (
+                    riga.get("stato_opzione2")
+                    or riga.get("stato_opzione_2")
+                    or riga.get("opzione2")
+                    or ""
+                )
+                url_foto = (
+                    riga.get("link2lifeimage")
+                    or riga.get("link_image")
+                    or riga.get("image_link")
+                    or ""
+                )
+
+                opt1_active = is_opzionato(opt1_val)
+                opt2_active = is_opzionato(opt2_val)
+
+                num_opzioni = (1 if opt1_active else 0) + (1 if opt2_active else 0)
+
+                desc_parti = []
+                if modello:
+                    desc_parti.append(f"<b>{modello}</b>")
+                if targa:
+                    desc_parti.append(f"Targa: {targa}")
+                if id_auto:
+                    desc_parti.append(f"ID: {id_auto}")
+
+                vetture_attuali[chiave_id] = {
+                    "desc": " | ".join(desc_parti),
+                    "options": num_opzioni,
+                    "url_foto": url_foto,
+                }
+        else:
+            print(
+                f"Impossibile scaricare il CSV (Status: {res_csv.status_code})"
+            )
+
+    except Exception as e:
+        print(f"Errore durante l'elaborazione del file CSV: {e}")
+
+    print(f"Totale vetture lette dal CSV: {len(vetture_attuali)}")
+
+    # Garantiamo sempre la creazione del file memoria per evitare errori in Git
     if not vetture_attuali:
-        print("Nessuna vettura trovata su Quoter.it.")
+        print("Nessuna vettura estratta.")
+        if not os.path.exists(FILE_MEMORIA):
+            with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
+                json.dump({}, f)
         return
 
     vetture_salvate = {}
