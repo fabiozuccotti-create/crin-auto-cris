@@ -12,6 +12,7 @@ PASSWORD = os.environ.get("QUOTER_PASS")
 
 URL_LOGIN = "https://quoter.it/site/login"
 URL_RINOLEGGIO = "https://quoter.it/v2/deal"
+URL_API_LIST = "https://quoter.it/proxy/deal/list?action=leaseafter&target=list&page=1"
 URL_REPORT_CSV = "https://quoter.it/proxy/deal/list?target=report&action=leaseafter"
 
 FILE_MEMORIA = "vetture_salvate.json"
@@ -109,16 +110,15 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    print("3. Consolidamento sessione su Rinoleggio...")
+    print("3. Inizializzazione sessione Rinoleggio...")
     try:
-        # Passaggio fondamentale: Chiamata GET con Referer per attivare il proxy interno
-        headers_rinoleggio = {"Referer": URL_LOGIN}
-        res_v2 = session.get(URL_RINOLEGGIO, headers=headers_rinoleggio, timeout=15)
+        # Carica la pagina web principale
+        session.get(URL_RINOLEGGIO, headers={"Referer": URL_LOGIN}, timeout=15)
         
-        # Ping al proxy per sbloccare la rotte del report CSV
-        session.get("https://quoter.it/proxy/deal/list?action=leaseafter&target=list&page=1", timeout=10)
+        # Ping all'API lista per generare il cookie/sessione del proxy
+        session.get(URL_API_LIST, headers={"Referer": URL_RINOLEGGIO, "Accept": "application/json"}, timeout=10)
     except Exception as e:
-        print(f"Avviso consolidamento sessione: {e}")
+        print(f"Avviso inizializzazione sessione: {e}")
 
     print("4. Scaricamento report CSV...")
     vetture_attuali = {}
