@@ -12,12 +12,13 @@ PASSWORD = os.environ.get("QUOTER_PASS", "").strip()
 
 URL_LOGIN = "https://quoter.it/site/login"
 URL_RINOLEGGIO = "https://quoter.it/v2/deal"
-URL_FILTER = "https://quoter.it/proxy/deal/deal-filter"
-URL_REPORT_CSV = "https://quoter.it/proxy/deal/list?target=report&action=leaseafter"
+URL_REPORT_CSV = (
+    "https://quoter.it/proxy/deal/list?target=report&action=leaseafter"
+)
 
 FILE_MEMORIA = "vetture_salvate.json"
 
-HEADERS_BASE = {
+HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
     "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
     "sec-ch-ua": '"Not;A=Brand";v="8", "Chromium";v="150", "Google Chrome";v="150"',
@@ -87,9 +88,9 @@ def estrai_modello_da_riga(riga):
 
 def controlla_sito():
     session = requests.Session()
-    session.headers.update(HEADERS_BASE)
+    session.headers.update(HEADERS)
 
-    print("1. Recupero token CSRF di login...")
+    print("1. Recupero token CSRF...")
     csrf_token = ""
     try:
         r_page = session.get(URL_LOGIN, timeout=15)
@@ -119,28 +120,22 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    print("3. Preparazione sessione e passaggio filtri...")
+    print("3. Navigazione sulla pagina Rinoleggio...")
     try:
-        # Visita la pagina principale di Rinoleggio
         session.get(URL_RINOLEGGIO, headers={"Referer": URL_LOGIN}, timeout=15)
+    except Exception:
+        pass
 
-        # Chiamata di sblocco all'endpoint filtri (il "passaggio segreto" che evita il 404)
-        headers_filter = {
-            "Accept": "application/json",
-            "Referer": URL_RINOLEGGIO,
-            "X-Requested-With": "XMLHttpRequest",
-        }
-        session.get(URL_FILTER, headers=headers_filter, timeout=10)
-    except Exception as e:
-        print(f"Avviso sblocco filtri: {e}")
-
-    print("4. Scaricamento report CSV...")
+    print("4. Scaricamento report CSV con headers esatti...")
     vetture_attuali = {}
 
     headers_csv = {
         "Accept": "application/octet-stream",
-        "Referer": URL_RINOLEGGIO,
+        "Referer": "https://quoter.it/v2/deal",
         "X-Requested-With": "XMLHttpRequest",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
     }
 
     try:
