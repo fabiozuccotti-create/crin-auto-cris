@@ -17,9 +17,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Installa dipendenze
+      - name: Installa dipendenze e Playwright
         run: |
-          pip install requests beautifulsoup4
+          pip install requests playwright
+          playwright install --with-deps chromium
 
       - name: Esegui controllo vetture
         env:
