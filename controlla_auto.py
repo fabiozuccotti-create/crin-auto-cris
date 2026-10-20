@@ -1,9 +1,8 @@
 import os
 import json
 import requests
-import csv
-import io
 import re
+from bs4 import BeautifulSoup
 
 TOKEN_TELEGRAM = os.environ.get("TOKEN_TELEGRAM")
 CHAT_ID = os.environ.get("CHAT_ID")
@@ -12,16 +11,12 @@ PASSWORD = os.environ.get("QUOTER_PASS")
 
 URL_LOGIN = "https://quoter.it/site/login"
 URL_RINOLEGGIO = "https://quoter.it/v2/deal"
-URL_API_LIST = "https://quoter.it/proxy/deal/list"
 
 FILE_MEMORIA = "vetture_salvate.json"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
     "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
-    "sec-ch-ua": '"Not;A=Brand";v="8", "Chromium";v="150", "Google Chrome";v="150"',
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": '"macOS"',
 }
 
 def invia_telegram(messaggio):
@@ -48,12 +43,6 @@ def invia_notifica_frazionata(titolo, lista_elementi):
         for voce in blocco:
             msg += f"{voce}\n\n"
         invia_telegram(msg)
-
-def is_opzionato(valore):
-    if not valore:
-        return False
-    v = str(valore).strip().upper()
-    return "OPZIONATO" in v or v in ["1", "TRUE", "ACTIVE", "SI", "SÌ", "OCCUPATO"]
 
 def get_pallini_opzioni(num_opzioni):
     if num_opzioni == 0:
@@ -97,107 +86,71 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    print("3. Navigazione e consolidamento sessione Rinoleggio...")
-    try:
-        session.get(URL_RINOLEGGIO, headers={"Referer": URL_LOGIN}, timeout=15)
-    except Exception:
-        pass
+    print("3. Scaricamento pagina HTML Rinoleggio...")
+    res_page = session.get(URL_RINOLEGGIO, timeout=20)
+    print(f"Risposta pagina Rinoleggio: HTTP {res_page.status_code}")
 
     vetture_attuali = {}
 
-    print("4. Lettura dati dalla tabella web via API JSON...")
-    headers_api = {
-        "Accept": "application/json, text/javascript, */*; q=0.01",
-        "Referer": URL_RINOLEGGIO,
-        "X-Requested-With": "XMLHttpRequest",
-    }
+    if res_page.status_code == 200:
+        html = res_page.text
+        
+        # Tentativo A: Cerca se i dati delle vetture sono salvati come JSON dentro lo script JS della pagina
+        match_json = re.search(r'var\s+deals\s*=\s*(\[.*?\]);', html, re.DOTALL) or re.search(r'data-deals=\'([^\']+)\'', html)
+        if match_json:
+            try:
+                data = json.loads(match_json.group(1))
+                for item in data:
+                    id_auto = str(item.get("id") or item.get("deal_id") or "")
+                    targa = str(item.get("licenseplate") or item.get("targa") or "")
+                    modello = str(item.get("description") or item.get("modelname") or "")
+                    chiave = id_auto if id_auto else targa
+                    if not chiave:
+                        continue
+                    
+                    num_opzioni = 0
+                    if "OPZIONATO" in str(item.get("status1", "")).upper():
+                        num_opzioni += 1
+                    if "OPZIONATO" in str(item.get("status2", "")).upper():
+                        num_opzioni += 1
 
-    page = 1
-    while True:
-        params = {
-            "action": "leaseafter",
-            "target": "list",
-            "page": page,
-            "refresh": "false",
-            "filters": '{"generic":null}',
-        }
+                    vetture_attuali[chiave] = {
+                        "desc": f"<b>{modello}</b> | Targa: {targa} | ID: {id_auto}",
+                        "options": num_opzioni,
+                        "url_foto": str(item.get("link2lifeimage") or "")
+                    }
+            except Exception as e:
+                print(f"Errore parsing JSON interno: {e}")
 
-        try:
-            res_api = session.get(
-                URL_API_LIST, headers=headers_api, params=params, timeout=15
-            )
-            print(f"Pagina {page} - Risposta API: HTTP {res_api.status_code}")
-
-            if res_api.status_code != 200:
-                print(f"Errore durante la chiamata API alla pagina {page}")
-                break
-
-            data = res_api.json()
-            
-            # Navigazione flessibile nella struttura del JSON
-            items = []
-            if isinstance(data, list):
-                items = data
-            elif isinstance(data, dict):
-                items = data.get("data") or data.get("items") or data.get("rows") or data.get("deals") or []
-
-            if not items:
-                print(f"Nessun elemento trovato alla pagina {page}.")
-                break
-
-            print(f"Pagina {page}: lette {len(items)} vetture dalla tabella.")
-
-            for item in items:
-                if not isinstance(item, dict):
+        # Tentativo B: Parsing diretto della tabella HTML tramite BeautifulSoup
+        if not vetture_attuali:
+            soup = BeautifulSoup(html, "html.parser")
+            righe = soup.find_all("tr")
+            for riga in righe:
+                celle = riga.find_all("td")
+                if len(celle) < 3:
                     continue
-
-                id_auto = str(item.get("id") or item.get("deal_id") or item.get("code") or "")
-                targa = str(item.get("licenseplate") or item.get("targa") or item.get("licensePlate") or "")
-                modello = str(item.get("description") or item.get("modelname") or item.get("modello") or item.get("model") or "")
-                marca = str(item.get("makename") or item.get("marca") or item.get("make") or "")
-
-                if marca and modello and marca.lower() not in modello.lower():
-                    desc_completa = f"{marca} {modello}".strip()
-                else:
-                    desc_completa = modello
-
-                chiave_id = id_auto if id_auto else targa
-                if not chiave_id:
+                
+                testo = " ".join([c.get_text(strip=True) for c in celle])
+                if len(testo) < 10:
                     continue
+                
+                img = riga.find("img")
+                url_foto = img["src"] if img and "src" in img.attrs else ""
 
-                opt1 = is_opzionato(str(item.get("status1") or item.get("option1") or item.get("stato_opzione1") or ""))
-                opt2 = is_opzionato(str(item.get("status2") or item.get("option2") or item.get("stato_opzione2") or ""))
-                num_opzioni = (1 if opt1 else 0) + (1 if opt2 else 0)
-
-                desc_parti = []
-                if desc_completa:
-                    desc_parti.append(f"<b>{desc_completa}</b>")
-                if targa:
-                    desc_parti.append(f"Targa: {targa}")
-                if id_auto:
-                    desc_parti.append(f"ID: {id_auto}")
-
-                vetture_attuali[chiave_id] = {
-                    "desc": " | ".join(desc_parti),
-                    "options": num_opzioni,
-                    "url_foto": str(item.get("link2lifeimage") or item.get("image") or item.get("image_link") or ""),
+                num_opzioni = testo.upper().count("OPZIONATO")
+                
+                chiave = str(hash(testo[:60]))
+                vetture_attuali[chiave] = {
+                    "desc": f"<b>{testo[:80]}</b>",
+                    "options": min(num_opzioni, 2),
+                    "url_foto": url_foto
                 }
 
-            # Se ci sono meno di 5 elementi, abbiamo raggiunto l'ultima pagina
-            if len(items) < 5:
-                break
+    print(f"Totale vetture estratte dall'HTML: {len(vetture_attuali)}")
 
-            page += 1
-
-        except Exception as e:
-            print(f"Errore lettura API alla pagina {page}: {e}")
-            break
-
-    print(f"Totale vetture lette dalla tabella: {len(vetture_attuali)}")
-
-    # Mantenimento del file memoria per evitare blocchi Git
     if not vetture_attuali:
-        print("Nessuna vettura trovata sulla tabella.")
+        print("Nessuna vettura trovata.")
         if not os.path.exists(FILE_MEMORIA):
             with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
                 json.dump({}, f)
