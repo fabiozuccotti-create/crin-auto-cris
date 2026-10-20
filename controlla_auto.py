@@ -18,10 +18,9 @@ URL_REPORT_CSV = (
 
 FILE_MEMORIA = "vetture_salvate.json"
 
-HEADERS_LOGIN = {
+HEADERS_BASE = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
     "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Referer": "https://quoter.it/site/login",
 }
 
 
@@ -86,9 +85,9 @@ def estrai_modello_da_riga(riga):
 
 def controlla_sito():
     session = requests.Session()
-    session.headers.update(HEADERS_LOGIN)
+    session.headers.update(HEADERS_BASE)
 
-    print("1. Recupero token CSRF per il login...")
+    print("1. Recupero token CSRF...")
     csrf_token = ""
     try:
         r_page = session.get(URL_LOGIN, timeout=15)
@@ -118,7 +117,7 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    print("3. Navigazione preliminare sulla sezione Rinoleggio...")
+    print("3. Navigazione pagina Rinoleggio...")
     try:
         session.get(URL_RINOLEGGIO, headers={"Referer": URL_LOGIN}, timeout=15)
     except Exception:
@@ -127,7 +126,6 @@ def controlla_sito():
     print("4. Scaricamento report CSV...")
     vetture_attuali = {}
 
-    # Intestazioni esatte estratte dal tuo cURL
     headers_csv = {
         "Accept": "application/octet-stream",
         "Referer": "https://quoter.it/v2/deal",
@@ -135,7 +133,6 @@ def controlla_sito():
         "Sec-Fetch-Dest": "empty",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Site": "same-origin",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
     }
 
     try:
@@ -216,7 +213,7 @@ def controlla_sito():
             print(f"Impossibile scaricare il CSV (Status: {res_csv.status_code})")
 
     except Exception as e:
-        print(f"Errore durante l'elaborazione del file CSV: {e}")
+        print(f"Errore scaricamento file CSV: {e}")
 
     print(f"Totale vetture lette dal CSV: {len(vetture_attuali)}")
 
