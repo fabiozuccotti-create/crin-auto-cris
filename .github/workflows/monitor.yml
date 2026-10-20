@@ -17,10 +17,9 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Installa dipendenze e Playwright
+      - name: Installa dipendenze
         run: |
-          pip install requests playwright
-          playwright install --with-deps chromium
+          pip install requests
 
       - name: Esegui controllo vetture
         env:
@@ -36,6 +35,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           touch vetture_salvate.json
-          git add vetture_salvate.json
-          git commit -m "Aggiornamento memoria vetture" || exit 0
-          git push
+          git add
