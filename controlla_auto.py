@@ -21,6 +21,9 @@ FILE_MEMORIA = "vetture_salvate.json"
 HEADERS_BASE = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
     "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
+    "sec-ch-ua": '"Not;A=Brand";v="8", "Chromium";v="150", "Google Chrome";v="150"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"macOS"',
 }
 
 
@@ -117,9 +120,16 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    print("3. Navigazione pagina Rinoleggio...")
+    print("3. Navigazione sulla pagina Rinoleggio...")
     try:
-        session.get(URL_RINOLEGGIO, headers={"Referer": URL_LOGIN}, timeout=15)
+        r_rinoleggio = session.get(
+            URL_RINOLEGGIO, headers={"Referer": URL_LOGIN}, timeout=15
+        )
+        match_inner = re.search(
+            r'meta\s+name="csrf-token"\s+content="([^"]+)"', r_rinoleggio.text
+        )
+        if match_inner:
+            session.headers.update({"X-CSRF-Token": match_inner.group(1)})
     except Exception:
         pass
 
@@ -128,12 +138,14 @@ def controlla_sito():
 
     headers_csv = {
         "Accept": "application/octet-stream",
-        "Referer": "https://quoter.it/v2/deal",
+        "Referer": URL_RINOLEGGIO,
         "X-Requested-With": "XMLHttpRequest",
         "Sec-Fetch-Dest": "empty",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Site": "same-origin",
     }
+    if csrf_token:
+        headers_csv["X-CSRF-Token"] = csrf_token
 
     try:
         res_csv = session.get(
