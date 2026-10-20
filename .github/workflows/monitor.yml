@@ -35,4 +35,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           touch vetture_salvate.json
-          git add
+          git add vetture_salvate.json
+          git commit -m "Aggiornamento memoria vetture" || exit 0
+          git push
