@@ -12,7 +12,7 @@ PASSWORD = os.environ.get("QUOTER_PASS")
 
 URL_LOGIN = "https://quoter.it/site/login"
 URL_RINOLEGGIO = "https://quoter.it/v2/deal"
-URL_API_LIST = "https://quoter.it/proxy/deal/list?action=leaseafter&target=list&page=1"
+URL_FILTER_INIT = "https://quoter.it/proxy/deal/deal-filter"
 URL_REPORT_CSV = "https://quoter.it/proxy/deal/list?target=report&action=leaseafter"
 
 FILE_MEMORIA = "vetture_salvate.json"
@@ -110,15 +110,21 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    print("3. Inizializzazione sessione Rinoleggio...")
+    print("3. Inizializzazione sessione e filtri proxy...")
     try:
-        # Carica la pagina web principale
+        # Carica la pagina Rinoleggio
         session.get(URL_RINOLEGGIO, headers={"Referer": URL_LOGIN}, timeout=15)
-        
-        # Ping all'API lista per generare il cookie/sessione del proxy
-        session.get(URL_API_LIST, headers={"Referer": URL_RINOLEGGIO, "Accept": "application/json"}, timeout=10)
+
+        # Chiamata chiave al deal-filter per sbloccare la rotte del report CSV
+        headers_filter = {
+            "Accept": "application/json",
+            "Referer": URL_RINOLEGGIO,
+            "X-Requested-With": "XMLHttpRequest"
+        }
+        res_filter = session.get(URL_FILTER_INIT, headers=headers_filter, timeout=15)
+        print(f"Inizializzazione filtri proxy: HTTP {res_filter.status_code}")
     except Exception as e:
-        print(f"Avviso inizializzazione sessione: {e}")
+        print(f"Avviso inizializzazione filtri: {e}")
 
     print("4. Scaricamento report CSV...")
     vetture_attuali = {}
