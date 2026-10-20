@@ -2,7 +2,6 @@ name: Monitor Rinoleggio Quoter
 
 on:
   schedule:
-    # Parte al minuto 32 di ogni ora e gira ogni 10 minuti (es. 06:32 UTC = 07:32 ITA)
     - cron: '32/10 * * * *'
   workflow_dispatch:
 
@@ -35,6 +34,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          touch vetture_salvate.json
           git add vetture_salvate.json
           git commit -m "Aggiornamento memoria vetture" || exit 0
           git push
