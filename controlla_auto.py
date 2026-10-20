@@ -18,12 +18,10 @@ URL_REPORT_CSV = (
 
 FILE_MEMORIA = "vetture_salvate.json"
 
-HEADERS = {
+HEADERS_LOGIN = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
     "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
-    "sec-ch-ua": '"Not;A=Brand";v="8", "Chromium";v="150", "Google Chrome";v="150"',
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": '"macOS"',
+    "Referer": "https://quoter.it/site/login",
 }
 
 
@@ -88,9 +86,9 @@ def estrai_modello_da_riga(riga):
 
 def controlla_sito():
     session = requests.Session()
-    session.headers.update(HEADERS)
+    session.headers.update(HEADERS_LOGIN)
 
-    print("1. Recupero token CSRF...")
+    print("1. Recupero token CSRF per il login...")
     csrf_token = ""
     try:
         r_page = session.get(URL_LOGIN, timeout=15)
@@ -120,15 +118,16 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    print("3. Navigazione sulla pagina Rinoleggio...")
+    print("3. Navigazione preliminare sulla sezione Rinoleggio...")
     try:
         session.get(URL_RINOLEGGIO, headers={"Referer": URL_LOGIN}, timeout=15)
     except Exception:
         pass
 
-    print("4. Scaricamento report CSV con headers esatti...")
+    print("4. Scaricamento report CSV...")
     vetture_attuali = {}
 
+    # Intestazioni esatte estratte dal tuo cURL
     headers_csv = {
         "Accept": "application/octet-stream",
         "Referer": "https://quoter.it/v2/deal",
@@ -136,6 +135,7 @@ def controlla_sito():
         "Sec-Fetch-Dest": "empty",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
     }
 
     try:
@@ -216,7 +216,7 @@ def controlla_sito():
             print(f"Impossibile scaricare il CSV (Status: {res_csv.status_code})")
 
     except Exception as e:
-        print(f"Errore scaricamento file CSV: {e}")
+        print(f"Errore durante l'elaborazione del file CSV: {e}")
 
     print(f"Totale vetture lette dal CSV: {len(vetture_attuali)}")
 
