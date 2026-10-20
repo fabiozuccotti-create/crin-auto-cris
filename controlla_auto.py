@@ -2,13 +2,14 @@ import csv
 import io
 import json
 import os
+import sys
 import requests
 from playwright.sync_api import sync_playwright
 
-TOKEN_TELEGRAM = os.environ.get("TOKEN_TELEGRAM")
-CHAT_ID = os.environ.get("CHAT_ID")
-USERNAME = os.environ.get("QUOTER_USER")
-PASSWORD = os.environ.get("QUOTER_PASS")
+TOKEN_TELEGRAM = os.environ.get("TOKEN_TELEGRAM", "").strip()
+CHAT_ID = os.environ.get("CHAT_ID", "").strip()
+USERNAME = os.environ.get("QUOTER_USER", "").strip()
+PASSWORD = os.environ.get("QUOTER_PASS", "").strip()
 
 URL_LOGIN = "https://quoter.it/site/login"
 URL_RINOLEGGIO = "https://quoter.it/v2/deal"
@@ -16,6 +17,9 @@ FILE_MEMORIA = "vetture_salvate.json"
 
 
 def invia_telegram(messaggio):
+    if not TOKEN_TELEGRAM or not CHAT_ID:
+        print("Avviso: TOKEN_TELEGRAM o CHAT_ID non trovati.")
+        return
     url = f"https://api.telegram.org/bot{TOKEN_TELEGRAM}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
@@ -72,6 +76,14 @@ def estrai_modello_da_riga(riga):
 
 
 def scarica_csv_con_browser():
+    # Verifica preventiva della presenza dei secret
+    print(f"Verifica utente: {'OK' if USERNAME else 'MANCANTE'}")
+    print(f"Verifica password: {'OK' if PASSWORD else 'MANCANTE'}")
+
+    if not USERNAME or not PASSWORD:
+        print("ERRORE: Credenziali QUOTER_USER o QUOTER_PASS vuote nei secrets!")
+        sys.exit(1)
+
     contenuto_csv = ""
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -81,22 +93,27 @@ def scarica_csv_con_browser():
         page = context.new_page()
 
         print("1. Apertura pagina di Login...")
-        page.goto(URL_LOGIN, wait_until="networkidle")
+        page.goto(URL_LOGIN, wait_until="domcontentloaded")
 
-        print("2. Esecuzione Login...")
-        page.fill('input[name="LoginForm[username]"]', USERNAME)
-        page.fill('input[name="LoginForm[password]"]', PASSWORD)
+        print("2. Attesa campi form di login...")
+        input_user = page.wait_for_selector('input[name*="username"]', timeout=15000)
+        input_pass = page.wait_for_selector('input[name*="password"]', timeout=15000)
+
+        print("3. Inserimento credenziali...")
+        input_user.fill(str(USERNAME))
+        input_pass.fill(str(PASSWORD))
+
+        print("4. Invio Login...")
         page.click('button[type="submit"]')
         page.wait_for_load_state("networkidle")
 
-        print("3. Navigazione su Rinoleggio...")
+        print("5. Navigazione sulla sezione Rinoleggio...")
         page.goto(URL_RINOLEGGIO, wait_until="networkidle")
         page.wait_for_timeout(3000)
 
-        print("4. Clic su Export CSV...")
+        print("6. Scaricamento CSV tramite clic...")
         try:
             with page.expect_download(timeout=30000) as download_info:
-                # Cerca e clicca il pulsante di esportazione nella pagina
                 btn_export = page.locator('a[href*="target=report"], button:has-text("CSV"), a:has-text("Export"), .btn-export').first
                 btn_export.click()
 
@@ -104,9 +121,9 @@ def scarica_csv_con_browser():
             temp_path = download.path()
             with open(temp_path, "r", encoding="utf-8-sig", errors="ignore") as f:
                 contenuto_csv = f.read()
-            print("CSV scaricato con successo tramite browser!")
+            print("CSV scaricato con successo dal browser!")
         except Exception as e:
-            print(f"Errore durante il download via browser: {e}")
+            print(f"Errore intercettazione download CSV: {e}")
 
         browser.close()
     return contenuto_csv
@@ -186,7 +203,7 @@ def controlla_sito():
     print(f"Totale vetture lette dal CSV: {len(vetture_attuali)}")
 
     if not vetture_attuali:
-        print("Nessuna vettura trovata.")
+        print("Nessuna vettura estratta dal CSV.")
         if not os.path.exists(FILE_MEMORIA):
             with open(FILE_MEMORIA, "w", encoding="utf-8") as f:
                 json.dump({}, f)
