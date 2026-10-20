@@ -27,7 +27,7 @@ jobs:
           TOKEN_TELEGRAM: ${{ secrets.TOKEN_TELEGRAM }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
           QUOTER_USER: ${{ secrets.QUOTER_USER }}
-          PASSWORD: ${{ secrets.QUOTER_PASS }}
+          QUOTER_PASS: ${{ secrets.QUOTER_PASS }}
         run: |
           python controlla_auto.py
 
