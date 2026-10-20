@@ -19,7 +19,6 @@ FILE_MEMORIA = "vetture_salvate.json"
 HEADERS_BASE = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
     "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Referer": "https://quoter.it/v2/deal",
     "sec-ch-ua": '"Not;A=Brand";v="8", "Chromium";v="150", "Google Chrome";v="150"',
     "sec-ch-ua-mobile": "?0",
     "sec-ch-ua-platform": '"macOS"',
@@ -110,17 +109,24 @@ def controlla_sito():
         print(f"Errore invio login: {e}")
         return
 
-    print("3. Navigazione sulla pagina Rinoleggio...")
+    print("3. Consolidamento sessione su Rinoleggio...")
     try:
-        session.get(URL_RINOLEGGIO, timeout=15)
-    except Exception:
-        pass
+        # Passaggio fondamentale: Chiamata GET con Referer per attivare il proxy interno
+        headers_rinoleggio = {"Referer": URL_LOGIN}
+        res_v2 = session.get(URL_RINOLEGGIO, headers=headers_rinoleggio, timeout=15)
+        
+        # Ping al proxy per sbloccare la rotte del report CSV
+        session.get("https://quoter.it/proxy/deal/list?action=leaseafter&target=list&page=1", timeout=10)
+    except Exception as e:
+        print(f"Avviso consolidamento sessione: {e}")
 
     print("4. Scaricamento report CSV...")
     vetture_attuali = {}
 
     headers_csv = {
         "Accept": "application/octet-stream",
+        "Referer": URL_RINOLEGGIO,
+        "X-Requested-With": "XMLHttpRequest",
         "Sec-Fetch-Dest": "empty",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Site": "same-origin",
