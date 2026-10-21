@@ -131,7 +131,7 @@
   },
   "GP250BG": {
     "desc": "<b>SUZUKI S-CROSS 1.5 Dualjet 140V Starview auto</b> | Targa: GP250BG",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/c4bc1e6c4e72aa68b22afe6f082e671061f2702fe0b95c1a37a4d837cb8b158535e6a045c34a7f31a051e9e4b8ebc1b2c2316f653b40118b58bacf5afd8927d1"
   },
   "GP090MK": {
@@ -356,7 +356,7 @@
   },
   "GN390WZ": {
     "desc": "<b>CITROEN C3 AIRCROSS(PC) PURETECH 110 S&S SHINE FP</b> | Targa: GN390WZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/8942d03613deb313c2805a4aadb9f09706fa794e96025f9502c6dc739823b21d322b68065ac29cb0901b5a8257487f8640e970829044a7ae6ff5254ca5e7e7ef"
   },
   "GN766SP": {
@@ -941,7 +941,7 @@
   },
   "GN641LG": {
     "desc": "<b>BMW SERIES 2 ACTIVE 218D LUXURY AUTO</b> | Targa: GN641LG",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/a894b0e794139c6c5e4b0b41105ac865fd984c6a8a7df65f70e7e026e1e61e1227bdd160194716fdeabbde2d8bed0ec3d9cee2d7bfc8866589a013f9b9b4536b"
   },
   "GD554BF": {
