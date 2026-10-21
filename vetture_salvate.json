@@ -126,7 +126,7 @@
   },
   "GS189EL": {
     "desc": "<b>RENAULT CLIO 1.6 E-TECH full hybrid 103KW EQUILIBRE Hatchback 5-door (Euro 6D)</b> | Targa: GS189EL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/63ab8379cbabab5e8f6e933617deb5be289b39fc1733046d2998611152a807b6236518a9e6b6ff4ddfdb92a25b8bdbeb09d9dfe84e173654ac379014ad139954"
   },
   "GP250BG": {
@@ -171,7 +171,7 @@
   },
   "GV169ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV169ZS",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/eca5239d2da910bee31bee3d9fa89c12cf43c908f87dd7e705276848609de31a9dadfd9bc6e1ba03495ecaa08dedb9174d225fd8aecd0a89de5c2de5f3575e85"
   },
   "GV189ZS": {
@@ -431,7 +431,7 @@
   },
   "GP139MH": {
     "desc": "<b>BMW SERIE 1 116i MSport Exterior Hatchback 5-door (Euro 6D)</b> | Targa: GP139MH",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/6eecfeaf0a7ed89b9b969f61c3cc63994ed360d62a48fa28385b51c8ff9069ace9a6ecea1eeb00fe47a9a3f2476ee48e9626643078284fc51c7cb85061297453"
   },
   "GK052RD": {
@@ -543,11 +543,6 @@
     "desc": "<b>JEEP RENEGADE 1.6 MJet 130cv Limited Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK283ZF",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/dde24b7cfe619ae0dac026120045724f413ac56a142b87213df1027b98b94a2276c9af001d8a95634a310d7e3ffa06c42826dee0536fdbcc55ee6c941918525f"
-  },
-  "GK057ZX": {
-    "desc": "<b>FORD TRANSIT COURIER 1.0 Ecoboost 100 cv Trend Vettura Furgonata 4-door (Euro 6.2)</b> | Targa: GK057ZX",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/9e96f4b7a7123157fdc84905b762d3f97e79e8b1b38571a71062a9702d33d58461c18b7cb8d2a7c42eb7ba0dc05409c8247e1a7eed60df1dedd6c89e1b6b6bb9"
   },
   "GP301MG": {
     "desc": "<b>AUDI Q3 SPORTBACK 35 TDI S tronic Business Plus Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP301MG",
@@ -681,7 +676,7 @@
   },
   "GW065YD": {
     "desc": "<b>FORD TRANSIT 310 L2H2 Trend 2.0 Eco 130 cv Auto8 Furgone 4-door (Euro 6.2)</b> | Targa: GW065YD",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/2d03a1d2117d9f3e69c809345eb5a838e0bdd6a1861a06bb1c72c78c3f7bd90f72fac7ecd10c33ae9649c61156a3df43625319e5547a7fe6d709a90303d21aac"
   },
   "GW878NW": {
