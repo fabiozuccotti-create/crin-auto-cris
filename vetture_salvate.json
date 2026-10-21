@@ -46,7 +46,7 @@
   },
   "GK648RL": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK648RL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ea030a61d7646b27f4d66df34c978442deb773b5a67cd04d0d16667f9fd25c1206e2bfe1b685303aba78d193764fa54aeeec591094c1cc3cd8db49e2ba35d9d7"
   },
   "GK167RR": {
@@ -56,7 +56,7 @@
   },
   "GK642RL": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK642RL",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/b38fe6e0f67af2fc5ef86b12d4d78505e7e77c62993b408406a4c137eb5ea6ce66a71d1332d72399acefe84632b2e90acbbb6c1b443ee33c97d6918c241af131"
   },
   "GK863ZH": {
@@ -176,7 +176,7 @@
   },
   "GV189ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV189ZS",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/03b78df612244c9b409d766f6e545738db101b53d8c0e41f35d8964edf375127beb98955700d1073b214ec9a06fc966cc9de4a879bb21d35c8a66cef755e1e9c"
   },
   "GV205ZS": {
@@ -221,7 +221,7 @@
   },
   "GV512ZT": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV512ZT",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/2642d255c24fdae342767e97800429a8a38c1d8c83a35ae1f410ee44d5e2cfa0ec77954af3ff6a7ecc9b326076d3e9d4df59575a4b136be137157693a132dd0b"
   },
   "GV532ZT": {
@@ -343,11 +343,6 @@
     "desc": "<b>OPEL GRANDLAND X(PC) 1.5 DIESEL 130CV ELEGANCE S&S AT8 FP</b> | Targa: GG252RV",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/2bf35e229f0f2b0d5ce3b3f965e3cbdb2179482ed4a8d9a9f74ef11a7cba942ce68ed99f1dd9e3953c472f08c24e4f2eeeb1f4ddb13554bbfa6d1de654a6ec39"
-  },
-  "GN390WZ": {
-    "desc": "<b>CITROEN C3 AIRCROSS(PC) PURETECH 110 S&S SHINE FP</b> | Targa: GN390WZ",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/8942d03613deb313c2805a4aadb9f09706fa794e96025f9502c6dc739823b21d322b68065ac29cb0901b5a8257487f8640e970829044a7ae6ff5254ca5e7e7ef"
   },
   "GN766SP": {
     "desc": "<b>BMW X4 XDRIVE 20D MH48V FP</b> | Targa: GN766SP",
@@ -476,7 +471,7 @@
   },
   "GK578ZT": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK578ZT",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/7c3f449f708d27d5e26e5976a0bccb9b7778966b07b9526fa34e232a7efd3c9905074adbd8376d47502299ac2c7e6f084dbf7a4a8e805f876bdc79cc942be8b2"
   },
   "GJ877JK": {
@@ -698,11 +693,6 @@
     "desc": "<b>FORD EXPLORER 286CV Extended Range Premium Sport utility vehicle 5-door</b> | Targa: GW878NW",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e4500e6fc5c85681be37fae69fb81ac7285ccd7b8b55c7ecd58fcc6bae4075370d68ca62bcf61b46e2eff1d5f68bea5d5ae42d4350d27df7620c68ccc8054980"
-  },
-  "GW744NZ": {
-    "desc": "<b>FORD KUGA 2.5 Benzina FHEV 180CV 2WD Active Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GW744NZ",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/0885953a9f8dda5b0430278e6bd6e619671f646bd2139246a9f1d3dc8bc768e51524cfe6e1b0954c37c91cd8ce98596eb5f09bfc00c12fe992b23919ee8401ad"
   },
   "GJ681AT": {
     "desc": "<b>PEUGEOT 5008 BLUEHDI 130 ACTIVE PACK EAT8 S/S AUT. FP</b> | Targa: GJ681AT",
