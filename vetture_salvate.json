@@ -24,11 +24,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/f6936c2a120f20b9146a69dbb98e1c7426b747c418edf6d2f7c0fbaba19117cb463e3086fab575245bd1c65c854d44e62bffad0fd7bbb5094ccfc66e676b4016"
   },
-  "GJ281EL": {
-    "desc": "<b>FIAT DOBL\u00d2 CARGO CH1 EASY 1.6 Mjet 90cv E6D-f N1 Combi 5-door (Euro 6D)</b> | Targa: GJ281EL",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/21766f86eeb8dd0add5efd2597dfceed0f3f36ebbe5e381e79e78caf876acf3f2a1958b74cfa4ab20971c7cfea8a12bfd27e3de5879301ad67bb7fa94a77ef8c"
-  },
   "GM830PJ": {
     "desc": "<b>MERCEDES-BENZ GLC COUP\u00c8 300 e 4Matic Plug-in Hybr. Business aut. Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GM830PJ",
     "options": 2,
@@ -79,11 +74,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/62b4e32712888aacf9c5113ef8c08356a894a978e23f954a517ac3d4cb2c2c12a472211310c3e5c8c3dadf0c2282d7c2d9ebd5d0c2bdf0cb3163d0c95947ccb2"
   },
-  "GK958RH": {
-    "desc": "<b>AUDI Q3 SPORTBACK 45 TFSI e S tronic Business Plus Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK958RH",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/657d1e9c68ea46188857d5da7bf8d2c49e3f82f6697f43775255bf34354b14232004a5645b1e096cdc5141a8f87992a8affa340db36a99ab5aff3d2994658d35"
-  },
   "GK345RT": {
     "desc": "<b>PEUGEOT 3008 BlueHDI 130 S&S Allure Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK345RT",
     "options": 1,
@@ -116,7 +106,7 @@
   },
   "GN262WK": {
     "desc": "<b>JEEP RENEGADE 1.3 T4 PHEV 190cv Limited 4xe Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GN262WK",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/1bb875cdce276036e86fe5e9dc2cf5c86a938f3cc5c6457ba72e170c8fcb28756a88692e447c87b284843bc5a579efe83ffcb1246d268ad74499f584eced1392"
   },
   "GP329FX": {
@@ -351,7 +341,7 @@
   },
   "GK558RM": {
     "desc": "<b>PEUGEOT 3008 (PC) BLUEHDI 130 EAT8 S&S ALLURE FP</b> | Targa: GK558RM",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/045143db2f1691ef91383e271c0d698f1983c987f6ecb562cc0510e6660702a61e4dd1d4823d96fd33fae2e33a5fff5e1d8a72b76b11cab69183b6c0c7b15619"
   },
   "GK815RJ": {
@@ -706,7 +696,7 @@
   },
   "GN719LV": {
     "desc": "<b>BMW X2 XDRIVE 18D BUSINESS X AUTOMATICO FP</b> | Targa: GN719LV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/d3c161e489e1576905637e76cd64eff647c4e7dfaa94be95c42850f4541f43d6633a9b6934855fa7bc27dd1397f5de53483eed7365b72667c59e34a873f3ae76"
   },
   "GP141MN": {
@@ -746,7 +736,7 @@
   },
   "GK966FJ": {
     "desc": "<b>OPEL MOKKA (PC) 1.5 110CV ELEGANCE MT6 FP</b> | Targa: GK966FJ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/4b6cdbd7efdefb4678b17a5a187ea78068331a451f6965f6762a28b7f2189365f8208d74aaeb393f8b6a7478bd34b64e58d5c18684ea6f688ce560b33804f2f0"
   },
   "GJ184YR": {
