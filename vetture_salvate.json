@@ -6,7 +6,7 @@
   },
   "GW771YC": {
     "desc": "<b>VOLKSWAGEN TRANSPORTER 2.0 TDI 110kW Business p.l. Furgone 4-door (Euro 6.2)</b> | Targa: GW771YC",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/11b8a7c7b64551a0a9cdb2e6f59c63fc406b1e6959507986271efd35118eaf5e424cdef10d4fe8f41cfdcec39b5c7e378545be692b0922189969b2215366220b"
   },
   "GJ314JC": {
@@ -556,7 +556,7 @@
   },
   "GK778ZD": {
     "desc": "<b>BMW I3 Auto 120 Ah S Advantage Hatchback 5-door</b> | Targa: GK778ZD",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/9089b4f34e1f42047c34496ba77185456cf691c48642d149140980d0a433d627cda7f1fc607d16de6ca641fcb78079315c32ffc65d20150bdbe9561ece2245a0"
   },
   "GP076MT": {
@@ -596,7 +596,7 @@
   },
   "GP708MN": {
     "desc": "<b>ALFA ROMEO TONALE 1.6 Diesel 130cv TCT6 Sprint Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP708MN",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/8947f7e895a0501b1c37a39fcbaffa28125fd928f06b43252528f7c596809c3d5e9291e508336e09ea2e082597f4c2fa3ee6b390dea86c816b806d31d452919b"
   },
   "GP518AX": {
@@ -664,11 +664,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/51d7eb97377763756f633d29070dd5c053e46f1d3af1b3e6356d1311533d86a48d181b5468554d0e943ec89754cbc552d27ad78ab587b715dc41171b8036b2ef"
   },
-  "GR085VN": {
-    "desc": "<b>PEUGEOT 3008 BlueHDI 130 EAT8 S&S Allure Pack Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR085VN",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/a3c74be651cffe14dd88f7426a92a9a19d120991f0ac433bd7d47db5956648ed724a7b4c71ae9d0cd83bc370286bca9d81738338203c07723ea39bb8ccafd4c5"
-  },
   "GR368EX": {
     "desc": "<b>FORD FOCUS 1.0 EcoBoost Hybrid 125cv ST-Line Hatchback 5-door (Euro 6D)</b> | Targa: GR368EX",
     "options": 1,
@@ -681,7 +676,7 @@
   },
   "GV197ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV197ZS",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/a145f4cbf4a56a81fd8b2133339cd8df71fcc9b397c08bf396363e5e61d3ddbed1d33d6f461fb63c79898c8e542469a6efd2c3452d6b6cad18b62d639f366611"
   },
   "GV316ZT": {
@@ -876,7 +871,7 @@
   },
   "GJ365JL": {
     "desc": "<b>CITROEN C5 AIRCROSS(PC) HYBRID 225 E-EAT8 SHINE FP</b> | Targa: GJ365JL",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/d5ae2957f7d23978c2fe6d64003765f945bec8dc10e749c88fd505109e3ecb0d8f06cfdf56a67ad3d8ded3e9885aabd3be2846fa0625bc6f920c89310eca8d9d"
   },
   "GP470ZR": {
