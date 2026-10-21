@@ -46,7 +46,7 @@
   },
   "GK648RL": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK648RL",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/ea030a61d7646b27f4d66df34c978442deb773b5a67cd04d0d16667f9fd25c1206e2bfe1b685303aba78d193764fa54aeeec591094c1cc3cd8db49e2ba35d9d7"
   },
   "GK167RR": {
@@ -186,7 +186,7 @@
   },
   "GV205ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV205ZS",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/467fe2d97a2501bf710df56bf2a11cfa02f9ce54df4565c0a0c3d7abd475499ee65f714fd6f4fb2847ed832ecddb5c62f340f4668972dd9510960f47cfae9ecb"
   },
   "GV288ZT": {
@@ -256,7 +256,7 @@
   },
   "GV250ZV": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV250ZV",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/895cf7721baa58e7e34746f93b54298fc483878f29529e8891bb7ac2675579372068d76df71cab71aa4572012ebe5fa2537aae3f8e55c9bf2dc21033d146281f"
   },
   "GJ950FD": {
@@ -431,13 +431,8 @@
   },
   "GH041JF": {
     "desc": "<b>TOYOTA C-HR 1.8H (122CV) E-CVT Trend Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GH041JF",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/bdc11d71ba38cb9891a1a62c96de7aab61d77d8db5c084b9d731d26d1c1e03525d226ce5316962c7dc7045659497c27521a74612b60e7a5fda5732ae9a17dbdf"
-  },
-  "GJ960AL": {
-    "desc": "<b>RENAULT ZOE ZOE LIFE R110 Hatchback 5-door</b> | Targa: GJ960AL",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/46eabb6c4f594833c850b4654c9a2521d2d33475680668af42cd2e3a80306161b1d3f450044472f455c551c8b40c92f0312189ddbd32af5967cdca7df015d9fc"
   },
   "GJ008AT": {
     "desc": "<b>PEUGEOT 2008 PureTech 100 Active Pack S/S Cross over 5-door (Euro 6D)</b> | Targa: GJ008AT",
@@ -631,7 +626,7 @@
   },
   "GN927XF": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV ST-Line X Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GN927XF",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/ca9b0b532e754eedd32e7e0f956a4fa0877af4dea1dc33e7aa8f9ddb6aee574fef5be4d6513bd2a56da0737ae1084388cb6c10f02f14e30db1942ba70b1eb3f1"
   },
   "GN785DC": {
