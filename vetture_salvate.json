@@ -46,7 +46,7 @@
   },
   "GK648RL": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK648RL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ea030a61d7646b27f4d66df34c978442deb773b5a67cd04d0d16667f9fd25c1206e2bfe1b685303aba78d193764fa54aeeec591094c1cc3cd8db49e2ba35d9d7"
   },
   "GK167RR": {
@@ -61,7 +61,7 @@
   },
   "GK863ZH": {
     "desc": "<b>AUDI Q5 SPORTBACK 40 TDI S Line Plus quattro S tronic Sport utility vehicle 5-door (Euro 6D) mild hybrid</b> | Targa: GK863ZH",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/52613e0b4b77b17a543438b9b5da6e268c209efe39937d50ec7c41e815c8ad9eeeda7d968c907c10ca2150eebad0e7ad6e2a58f0f7eb2b55c30517eb4d4cf795"
   },
   "GK537FW": {
@@ -126,7 +126,7 @@
   },
   "GS189EL": {
     "desc": "<b>RENAULT CLIO 1.6 E-TECH full hybrid 103KW EQUILIBRE Hatchback 5-door (Euro 6D)</b> | Targa: GS189EL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/63ab8379cbabab5e8f6e933617deb5be289b39fc1733046d2998611152a807b6236518a9e6b6ff4ddfdb92a25b8bdbeb09d9dfe84e173654ac379014ad139954"
   },
   "GP250BG": {
@@ -136,7 +136,7 @@
   },
   "GP090MK": {
     "desc": "<b>BMW SERIE 3 318d 48V Touring auto SW 5-door (Euro 6D)</b> | Targa: GP090MK",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/86e10b0409b8b52e60cf7a2c77017fe7d79fe5b8d87aebeb2322587167ed096b4f5224e2bc9e4f0e694fc8942aa674336a3c9cb6b818f42873a790cbd07c7a60"
   },
   "GP417FS": {
@@ -266,7 +266,7 @@
   },
   "GP112BA": {
     "desc": "<b>PEUGEOT 3008 PURETECH TURBO 130 S&S ACTIVE PACK FP</b> | Targa: GP112BA",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/ec08fc2d74e5fefa9fdb93045275e83162bf5719362a8f063bac239afb784bc0526198e97a4b0f90ec29a758619a14110ef6f0952a3f5aafcd5c5c3468dc6c2f"
   },
   "GV240VT": {
@@ -291,7 +291,7 @@
   },
   "GY267FN": {
     "desc": "<b>TOYOTA RAV4 (PC) 2.5 HV (218CV) E-CVT STYLE 2WD FP</b> | Targa: GY267FN",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/a673aed84914d6e1a826a0d7b4f5ff19038d6cbd1797f36c7a04324dc23f3a2235ad716a70f3b1ffed4cdac7fd19cc23098f6c2a12892eaedf6e0d13abc766c4"
   },
   "GG627RF": {
@@ -491,7 +491,7 @@
   },
   "GK578ZT": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK578ZT",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/7c3f449f708d27d5e26e5976a0bccb9b7778966b07b9526fa34e232a7efd3c9905074adbd8376d47502299ac2c7e6f084dbf7a4a8e805f876bdc79cc942be8b2"
   },
   "GJ877JK": {
@@ -714,11 +714,6 @@
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/f6b1cc8f15b337b8d642a6b7ed9a5f935532e9318d4a98cf5f55d45db185b28e3cbb2169acc8666c5927fdbfd7ea104db7551f7637949cecee5e8a9e2f45f086"
   },
-  "GV228ZV": {
-    "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV228ZV",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/a8368dd47c4b61f07062b42162f3af3bc543b7cd10b68a7b078eab501949871bf39ff25a9e418f249ab1a745482bba5f96d94c552377785a8c8c292d31f40095"
-  },
   "GW114WC": {
     "desc": "<b>VOLKSWAGEN GOLF 2.0 TDI SCR 110KW Edition Plus DSG Hatchback 5-door (Euro 6E)</b> | Targa: GW114WC",
     "options": 2,
@@ -806,7 +801,7 @@
   },
   "GJ184YR": {
     "desc": "<b>FIAT 500X (PC) 1.6 MJET 130CV E6D CONNECT FP</b> | Targa: GJ184YR",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/e6fbd4cb91c30d94efa37ec22ea88404ad26854b4fb0ce479a23a85050e32e09c933fe5a7c8092a6faeb67aef00994fa8239f3b9852f06fe742d57ee5320eb6a"
   },
   "GK426RW": {
@@ -896,12 +891,12 @@
   },
   "GP442AV": {
     "desc": "<b>KIA SPORTAGE 1.6 TGDI HEV STYLE 2WD AUTO</b> | Targa: GP442AV",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/e8857776772148ba787cd3a4d25aaf38c1ef37d4d5676a9878263d9a35bc55c639e929e14e142302a6099e85b5445fad666c41e0616d0818d01ba859bbbb6d57"
   },
   "FN29040": {
     "desc": "<b>XEV YOYO EASY (PC)</b> | Targa: FN29040",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/7609299a274bc9c7f2aee90d543d9c634e7fd09ab35f14da5c4b145734a92e429e6ded5c5e9431541a670cea14c1b2368485c29171b5fdf2b6e16290ff4c2781"
   },
   "GP163FL": {
@@ -986,7 +981,7 @@
   },
   "HA059BX": {
     "desc": "<b>FIAT PANDA 1.0 Hybrid S&S 70cv E6.4 Van 2 posti Commercial hatch 5-door (Euro 6E)</b> | Targa: HA059BX",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/508fa0e20bf5d656c4d60b1add2650c5c7ed198aaabe4daf8d69ad83f183230d9464bba6c2c6db14bd3692d0181aa8fae218f99b5e18631f490f103af4033a81"
   },
   "GZ570LX": {
