@@ -536,7 +536,7 @@
   },
   "GR850YY": {
     "desc": "<b>AUDI Q2 2.0 30 TDI BUSINESS S TRONIC Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR850YY",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/0078cce65aaa268b383476d7316852dcb84a8451b9d370c69b73bb3ae7d813b02323f85a5575a913ccf60fabb99d96697839cf214f7ef41c76d4eff2cd8531f8"
   },
   "GN927XF": {
@@ -716,7 +716,7 @@
   },
   "GN854DJ": {
     "desc": "<b>KIA SPORTAGE CONSIP 1.6 CRDI MHEV STYLE 2WD FP</b> | Targa: GN854DJ",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/e34975fc43161eed03bbb7636cbf86e514f5edd6c7ae96928f64e8a665e0da3f998ee58287833d6ea6e98fb7af611f0a06885f7668818816f3fe78c64fd1ae71"
   },
   "GK398ZB": {
@@ -801,7 +801,7 @@
   },
   "GK131ZM": {
     "desc": "<b>AUDI A3 30 TDI S TRONIC BUSINESS S.BACK FP</b> | Targa: GK131ZM",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/677e3021126e184b87b95142603eaf65bceeacdb35f5b09064bffc397db667a3fab92fd8b47375ba5a79cbb794d8f13a274a99aebc3dee1f19395859ef40c0ef"
   },
   "GK625ZM": {
