@@ -6,7 +6,7 @@
   },
   "GJ314JC": {
     "desc": "<b>AUDI Q3 35 TDI quattro S tronic S Line Edition Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ314JC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9ccdecaae6fc11dce4440372c8d2b986e23a652194fb8ac34d49523fba15de4b4042083ae9a9012cb24b48b18b7bca601c77c76bb7bb625e7fbec14a8f39d106"
   },
   "GJ521JM": {
@@ -61,7 +61,7 @@
   },
   "GK935RC": {
     "desc": "<b>AUDI Q3 SPORTBACK 45 TFSI e S tronic Business Plus Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK935RC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/62b4e32712888aacf9c5113ef8c08356a894a978e23f954a517ac3d4cb2c2c12a472211310c3e5c8c3dadf0c2282d7c2d9ebd5d0c2bdf0cb3163d0c95947ccb2"
   },
   "GK345RT": {
@@ -136,7 +136,7 @@
   },
   "GW947JE": {
     "desc": "<b>FORD KUGA 1.5 EcoBoost 150CV 2WD ST-Line Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GW947JE",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/b6012bfcf7b4a8611cd38feec8bbabfd1e9b2b8e229047dc55244244490a33d119fb8e8881e5e0210b683003d01df9dd274538e9b3502f290cd24aa2042cf519"
   },
   "FJ92407": {
@@ -156,7 +156,7 @@
   },
   "GV189ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV189ZS",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/03b78df612244c9b409d766f6e545738db101b53d8c0e41f35d8964edf375127beb98955700d1073b214ec9a06fc966cc9de4a879bb21d35c8a66cef755e1e9c"
   },
   "GV205ZS": {
@@ -351,7 +351,7 @@
   },
   "GK786ZW": {
     "desc": "<b>CITROEN C3 AIRCROSS(PC) PURETECH 110 S&S SHINE</b> | Targa: GK786ZW",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/322d14e20765bda39731a715b4b47cc9e668b57d40ff2f8e36609faa9526e1319396b9dca17ff26028a5c7d04e581289be55b9f97ab157b4bf829eb7e45fcfc5"
   },
   "GK700ZR": {
@@ -511,7 +511,7 @@
   },
   "GP076MT": {
     "desc": "<b>AUDI Q5 40 TDI Busin. Advanced quattro S tronic Sport utility vehicle 5-door (Euro 6D) mild hybrid</b> | Targa: GP076MT",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9cc126ba523d9dce831ea3c950590c00be9f02b6a6e0d634721779b5fe4ffbe264100fb63408334a33c3f47c2d56332b5d32d16ffc5538335ba78b9b65e7ef31"
   },
   "GK283ZF": {
@@ -561,13 +561,8 @@
   },
   "GR850YY": {
     "desc": "<b>AUDI Q2 2.0 30 TDI BUSINESS S TRONIC Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR850YY",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/0078cce65aaa268b383476d7316852dcb84a8451b9d370c69b73bb3ae7d813b02323f85a5575a913ccf60fabb99d96697839cf214f7ef41c76d4eff2cd8531f8"
-  },
-  "GP536FX": {
-    "desc": "<b>TESLA MODEL Y 75 kWh Dual Motor Long Range 4WD aut. Sport utility vehicle 5-door</b> | Targa: GP536FX",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/8595a29981e6b36363664d1ffcbb40c314f6ce2a197454db6d1a332c2c5808834e14b35ede6ca4e3934a46ccfecda1b30b2f4cdb2603bdfa123330c12648f52b"
   },
   "GN927XF": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV ST-Line X Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GN927XF",
@@ -588,11 +583,6 @@
     "desc": "<b>MINI MINI Cooper SE Classic Hatchback 3-door</b> | Targa: GS935JY",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/fb9945921c8698980867f49ee25d40512d8beb3f8d4857e12150df3e05b63486d65b7c85babacd32ab7c274fb9d89218415b5a33cec3710164fcaa39a1150453"
-  },
-  "GP783MH": {
-    "desc": "<b>TESLA MODEL Y 75 kWh Dual Motor Long Range 4WD aut. Sport utility vehicle 5-door</b> | Targa: GP783MH",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/e3aacd59a1844e42f9d93e4c787d534d4b97c925cb9a0f4cb27e03dfb3fd2a3e1b5478be4d63d07f15478d8c3606b81056ac992c8891fa8b5192d4042e2b9bad"
   },
   "GS752VL": {
     "desc": "<b>AUDI Q3 35 TDI quattro S tronic Business Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GS752VL",
@@ -654,11 +644,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e4500e6fc5c85681be37fae69fb81ac7285ccd7b8b55c7ecd58fcc6bae4075370d68ca62bcf61b46e2eff1d5f68bea5d5ae42d4350d27df7620c68ccc8054980"
   },
-  "GJ681AT": {
-    "desc": "<b>PEUGEOT 5008 BLUEHDI 130 ACTIVE PACK EAT8 S/S AUT. FP</b> | Targa: GJ681AT",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/f773b3b23ef338178bd78c509be5af203b6da964f7bff6a175a161b067b4c1b8a0d67cd38b8f887818157ba75e51d431b45d485b5abc0d3b40d137db41827ab5"
-  },
   "GJ422AC": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ422AC",
     "options": 2,
@@ -671,7 +656,7 @@
   },
   "GL660XF": {
     "desc": "<b>CITROEN C3 (PC) PURETECH 110S&S SHINE PACK FP</b> | Targa: GL660XF",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/21c4d07507603a52f610d7d2d1c64eee246d72e714211fb7acaf51edbdc175a19c1b8d6c4c3e952c322699bc6dc7990aa97d3cb39186e8067654eb13bdcc7de6"
   },
   "GN719LV": {
@@ -749,11 +734,6 @@
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/3962516089eb904c00b0c58f3b9a33393f4b24ddf7b8017ef87e7ba5bc689eccea9c7e36840685e578e528950581ff9024b3b081c789c13cc71d4b11ed1946d0"
   },
-  "GK815ZF": {
-    "desc": "<b>RENAULT CLIO (PC) 1.5 DCI BLUE 74KW BUSINESS FP</b> | Targa: GK815ZF",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/aaf1678c40157eb2d91bfd6d212771a9a245bb105653165c032babdeb549a19e7e0118c60732aa046cd21fa6bb9e6ad22c4b48dfd0787d8ca49024a1258b7982"
-  },
   "GK701ZM": {
     "desc": "<b>AUDI Q3 SPORTBACK PC 45 TFSI E S TRONIC BUSINESS PLUS FP</b> | Targa: GK701ZM",
     "options": 1,
@@ -761,7 +741,7 @@
   },
   "GN854DJ": {
     "desc": "<b>KIA SPORTAGE CONSIP 1.6 CRDI MHEV STYLE 2WD FP</b> | Targa: GN854DJ",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/e34975fc43161eed03bbb7636cbf86e514f5edd6c7ae96928f64e8a665e0da3f998ee58287833d6ea6e98fb7af611f0a06885f7668818816f3fe78c64fd1ae71"
   },
   "GK398ZB": {
