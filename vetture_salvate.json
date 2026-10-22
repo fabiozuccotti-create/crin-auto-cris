@@ -229,11 +229,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/895cf7721baa58e7e34746f93b54298fc483878f29529e8891bb7ac2675579372068d76df71cab71aa4572012ebe5fa2537aae3f8e55c9bf2dc21033d146281f"
   },
-  "GJ950FD": {
-    "desc": "<b>FIAT FIORINO CONSIPA 1.3 MULTIJET 80 CV E6D-FINAL FP</b> | Targa: GJ950FD",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/8a55c3dd01f69aaf1d9d08cd5adacd1b53662e3e081273db0ea1f9ed8f6d950a883b765b1178b8bafbe779b5235d04ebcf9a6885c2a0cce6d20a6531d7a5c0fe"
-  },
   "GP112BA": {
     "desc": "<b>PEUGEOT 3008 PURETECH TURBO 130 S&S ACTIVE PACK FP</b> | Targa: GP112BA",
     "options": 0,
@@ -331,7 +326,7 @@
   },
   "GK558RM": {
     "desc": "<b>PEUGEOT 3008 (PC) BLUEHDI 130 EAT8 S&S ALLURE FP</b> | Targa: GK558RM",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/045143db2f1691ef91383e271c0d698f1983c987f6ecb562cc0510e6660702a61e4dd1d4823d96fd33fae2e33a5fff5e1d8a72b76b11cab69183b6c0c7b15619"
   },
   "GK815RJ": {
@@ -464,11 +459,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9e5386fca8a0ef98c47c80041fb021d8a46d498ffc889347306e80337b10d51b19469e2360018805473228e0cf13d2ce9dec782b07b4044374fa5da4bdf9fef6"
   },
-  "GK041FZ": {
-    "desc": "<b>AUDI Q3 SPORTBACK 35 TDI quattro S tronic Business Plus Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK041FZ",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/316315729cfd4760df44eebe469f93be23cc499500e177646f8713c9e55714132c7da9659914e921d21e4f33c035837a757865e551f66a59074ea444b6470755"
-  },
   "GJ667JH": {
     "desc": "<b>PEUGEOT 2008 e 100kW Allure Pack Cross over 5-door</b> | Targa: GJ667JH",
     "options": 2,
@@ -478,11 +468,6 @@
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV ST-Line Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL903ZV",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/cc09205e71db059f3d89ee58a10faf1213b0e943a6ae22098ead7c4abcd274876e8665ea285bbc24f2207e814cd3101c72fe360e15798405b409bb1bbc585e69"
-  },
-  "GL865FD": {
-    "desc": "<b>FORD TRANSIT CUSTOM 300 L1H1 Trend 2.0 EcoBlue 130 Cv Furgone 4-door (Euro 6.2)</b> | Targa: GL865FD",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/26972f6317a59319fa34ef320a0fdcc27ed8fec555c591df7fe44e330baf1d1303275c226f67b28362b7ea440f09f9cc57578d268ecaf5eea7fcdfe06e8478bb"
   },
   "GK720ZR": {
     "desc": "<b>ALFA ROMEO STELVIO 2.2 TD 190 CV Sprint AT8 Q4 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK720ZR",
@@ -496,13 +481,8 @@
   },
   "GL619JC": {
     "desc": "<b>LAND ROVER DEFENDER 2.0 Si4 PHEV 404 110 SE AWD auto. Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GL619JC",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/6d05e4bb68d5f9b82e649e4f551b03b3e914f0b395d46afc99cbaf43f8e114eeaa33b4080bc5ad57413dca3885c91408a74deee03c94c8b32c967654d440e355"
-  },
-  "GR196SG": {
-    "desc": "<b>AUDI Q3 SPORTBACK 35 TDI quattro S tronic S Line Edition Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR196SG",
     "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/406d657d5d8d1b470ea4d9813a521b7bc7ac706cd808650966085025ba07f1a1f15d80ff4a22e3051139cb4f6fe0d7a9951f37abded001e1242f50adb96b555f"
+    "url_foto": "https://auto.nextlane.com/public/player/6d05e4bb68d5f9b82e649e4f551b03b3e914f0b395d46afc99cbaf43f8e114eeaa33b4080bc5ad57413dca3885c91408a74deee03c94c8b32c967654d440e355"
   },
   "GK778ZD": {
     "desc": "<b>BMW I3 Auto 120 Ah S Advantage Hatchback 5-door</b> | Targa: GK778ZD",
@@ -741,7 +721,7 @@
   },
   "GN854DJ": {
     "desc": "<b>KIA SPORTAGE CONSIP 1.6 CRDI MHEV STYLE 2WD FP</b> | Targa: GN854DJ",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/e34975fc43161eed03bbb7636cbf86e514f5edd6c7ae96928f64e8a665e0da3f998ee58287833d6ea6e98fb7af611f0a06885f7668818816f3fe78c64fd1ae71"
   },
   "GK398ZB": {
@@ -801,7 +781,7 @@
   },
   "GJ708AD": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ708AD",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/084b74847742e64d83ab7433068a8ba7f5fc1b41d3aa565045167211a60e7b2e6980e3019d8e8a41731a7ac00e85368de97e5fab61c21701e3d23b03fa59a0f7"
   },
   "GK419ZG": {
