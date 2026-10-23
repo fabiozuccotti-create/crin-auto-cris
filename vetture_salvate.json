@@ -121,7 +121,7 @@
   },
   "GL310ZW": {
     "desc": "<b>AUDI Q3 35 TDI S tronic Business Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GL310ZW",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/c61457e3cea2b3829051293738af7af0a993aa85b27647bcb385cb10c38702eae2b73fd265e95e66499e4d3fb659cba85a5ca997f7c12fafdf9aa938ba9ddc23"
   },
   "GL858HZ": {
@@ -644,11 +644,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e529ae894b3f1783b396b40243b80e2c73f24ee8cfe0ae5a5af72708eac6bd48ad49d86ef1810a78b6da7fea36e67daa54cc524352c5c43e87f2d9679e6d6c0b"
   },
-  "GJ752JM": {
-    "desc": "<b>VOLKSWAGEN T-CROSS 1.0 TSI 81kW Style DSG Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ752JM",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/eabe35e1f8606bd1f213fb7c6adae4689ad82d2b00e5de226b8bb6aaabc870bbe741d985ba24e61cf37965e588ce36ce96fdfde10ecf3773dc91f041110c211e"
-  },
   "GL154JA": {
     "desc": "<b>OPEL CORSA 1.2 75cv Edition MT5 Hatchback 5-door (Euro 6D)</b> | Targa: GL154JA",
     "options": 2,
@@ -1111,7 +1106,7 @@
   },
   "GV215ZE": {
     "desc": "<b>BMW X3 (PC) SDRIVE 18D MH48V AUTO FP</b> | Targa: GV215ZE",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/3f045ef46f9173aa77e57a88839c9b25f0db9de4639de4f0d33b0ba29be3056e4b07cd6d838b6504e9253715d9ef7e651d8c00a315495699e3b0abf4ff4ef356"
   },
   "GR045SG": {
