@@ -181,7 +181,7 @@
   },
   "GV094ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV094ZS",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/a94879d326ba11fdeca5101d7ec47e75b9f93afd1623d923d21181e65ca38c7e368b62c49b18db56be83923217891d750b5f3d1c40d85230330820158bb01627"
   },
   "GV098ZS": {
@@ -356,7 +356,7 @@
   },
   "GG262WE": {
     "desc": "<b>JEEP COMPASS CONSIPA 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GG262WE",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/ce379143ac11563f3c4e7a23b57b29aa64342b47c5423658c3b5f7c06de7373766ed3eacf5a144a77c0bba2bfbba152d8b23f83c0afcb9c016e117a7b949e439"
   },
   "GK413RR": {
@@ -811,7 +811,7 @@
   },
   "GJ708AD": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ708AD",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/084b74847742e64d83ab7433068a8ba7f5fc1b41d3aa565045167211a60e7b2e6980e3019d8e8a41731a7ac00e85368de97e5fab61c21701e3d23b03fa59a0f7"
   },
   "GK348FT": {
