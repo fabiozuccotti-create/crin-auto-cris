@@ -21,7 +21,7 @@
   },
   "GK416RK": {
     "desc": "<b>BMW X3 sDrive 18d MH48V Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK416RK",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/51c38db678dcd77d223167120b539d7a39008188d99595af804b57243d268170508109f7105d3261219a6eb7c7ca002d56a6ee44f6756f156bcfa24064d56765"
   },
   "GJ672ZB": {
@@ -151,7 +151,7 @@
   },
   "GT574LV": {
     "desc": "<b>BMW X3 xDrive 20d MH48V Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GT574LV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c97904bbc5360c43ac6bf23937e712c2835c5593aaebf65987f4e988151a991edb82919e0c1dce4f27a6f01592a23960d505fb17c92df193f0242fda4c9f4323"
   },
   "GS468ED": {
@@ -186,7 +186,7 @@
   },
   "GV098ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV098ZS",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/5a0f5b74997ec9db926a1fec8756e1bfc4691b480aa65402fb782d91261d5fcc720dcccedfb4c6db42e10d94e2bbfa081340c6c93bf7b2f880e862895528d6e7"
   },
   "GV102ZS": {
@@ -311,7 +311,7 @@
   },
   "GP608ZJ": {
     "desc": "<b>CITROEN C3 (PC) PURETECH 83 S&S SHINE NEO PATENTATI FP</b> | Targa: GP608ZJ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/8673839839ef8110380275363f0b926f1a5bd0579526e6f4a783cdf8e66a5c38ee84155fe744c6c2e12201986ed0e3ac920143fe01d8431f5cd69bfd7ae8bedd"
   },
   "GV240VT": {
@@ -808,11 +808,6 @@
     "desc": "<b>KIA SPORTAGE 1.6 TGDI HEV STYLE 2WD AUTO</b> | Targa: GP442AV",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e8857776772148ba787cd3a4d25aaf38c1ef37d4d5676a9878263d9a35bc55c639e929e14e142302a6099e85b5445fad666c41e0616d0818d01ba859bbbb6d57"
-  },
-  "FN29040": {
-    "desc": "<b>XEV YOYO EASY (PC)</b> | Targa: FN29040",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/7609299a274bc9c7f2aee90d543d9c634e7fd09ab35f14da5c4b145734a92e429e6ded5c5e9431541a670cea14c1b2368485c29171b5fdf2b6e16290ff4c2781"
   },
   "GC941GL": {
     "desc": "<b>DACIA DOKKER DOKKER PICK-UP 1.5 BLUE DCI 75CV FP</b> | Targa: GC941GL",
