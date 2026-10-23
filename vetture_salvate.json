@@ -91,7 +91,7 @@
   },
   "GK953GB": {
     "desc": "<b>CITRO\u00cbN C3 AIRCROSS PureTech 110 S&S Feel Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK953GB",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/39f7ac2427a31cccfa8a2ef419438bf63d1e7583dbdb8a08c2ebdcb81eb7bee6d07497d8ec74d62969106882d193eca1c3942cef83b4c40580cafc3d7b8a21b0"
   },
   "GK744GC": {
@@ -201,7 +201,7 @@
   },
   "GV094ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV094ZS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/a94879d326ba11fdeca5101d7ec47e75b9f93afd1623d923d21181e65ca38c7e368b62c49b18db56be83923217891d750b5f3d1c40d85230330820158bb01627"
   },
   "GV098ZS": {
@@ -266,7 +266,7 @@
   },
   "GV532ZT": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV532ZT",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/cbb9c0ff15d092632ca71bbe8a0fb5fdaec362259815756dd73fca407afd20f187b366eb1168bfdff096246f1e3f882905c84976be335bb55c6397eaf80a30ee"
   },
   "GV320ZS": {
@@ -604,11 +604,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/44d9276dbb8109f338d8c12f5e011501d5d3121dd2fff1d2c456b0764eea7d56bd6c614320f5853ed8e70d27e201e8b095f222e2614562e81678144c4a1c10c4"
   },
-  "GK448ZD": {
-    "desc": "<b>HYUNDAI I10 1.0 MPI Ecopack Advanced Hatchback 5-door (Euro 6.2)</b> | Targa: GK448ZD",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/04b5adea04d0ecfcd9bd42c40d3a3797d89ce7644b6ba55e016b4bb6c14f22c8a9101c5772a556ecea6e571e96b496314f24d2b48f9d6e84d24f80e0583194cf"
-  },
   "GJ727FC": {
     "desc": "<b>FIAT DOBL\u00d2 CARGO CH1 EASY 1.6 Mjet 90cv E6D-f N1 Combi 5-door (Euro 6D)</b> | Targa: GJ727FC",
     "options": 2,
@@ -641,7 +636,7 @@
   },
   "GK986BZ": {
     "desc": "<b>OPEL CROSSLAND 1.5 Diesel 120cv Elegance S&S AT6 Cross over 5-door (Euro 6D)</b> | Targa: GK986BZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/bb274dd3532dcf2f176c58fd4e7f433303fdd9302d088f2a6e2a1985fe6bc210fe3bd43e6412cac0a81ed8fa868354f11fee60ae440c084519b09ea1206a7c7c"
   },
   "GK483ZL": {
@@ -656,7 +651,7 @@
   },
   "GL240EZ": {
     "desc": "<b>FORD TRANSIT 350 L2H2 Trend 2.0 Eco MHEV 130 Cv Furgone 4-door (Euro 6.2)</b> | Targa: GL240EZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/f10762e2ad99301270eb8684b4a150a07b76a3e16a6e9b627213e7b53c6a41fda5a8011b94e3d67fdff330f90d4a928943f00dd7914fde6cf469640c5e9d7341"
   },
   "GL647EY": {
@@ -668,11 +663,6 @@
     "desc": "<b>FORD TRANSIT CUSTOM 280 L1H1 Trend 2.0 EcoBlue 130 Cv Furgone 4-door (Euro 6.2)</b> | Targa: GL648EY",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/6c0a52fc6839c7d18aee1018109ec31e68d01c07bfc638b1a11117d00e23681c653a18e3e437f93b4602bba35f732d21e3152f390f3ad1349cf40a46f94cc2aa"
-  },
-  "GL903ZV": {
-    "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV ST-Line Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL903ZV",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/cc09205e71db059f3d89ee58a10faf1213b0e943a6ae22098ead7c4abcd274876e8665ea285bbc24f2207e814cd3101c72fe360e15798405b409bb1bbc585e69"
   },
   "GL580FF": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium X Aut Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL580FF",
@@ -751,7 +741,7 @@
   },
   "GP640FT": {
     "desc": "<b>ALFA ROMEO TONALE 1.6 Diesel 130cv TCT6 Sprint Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP640FT",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/2ada09d1df6d122a9e323ab7b03bf0f5ee12225e1f4ebd07908d7ece4c2d6530350a9a40baf70047dd0305bf4af689952828755d05166e1d8d43f98ed1f3c451"
   },
   "GP518AX": {
