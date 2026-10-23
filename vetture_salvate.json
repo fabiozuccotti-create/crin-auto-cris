@@ -96,7 +96,7 @@
   },
   "GK580ZC": {
     "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid Hatchback 5-door (Euro 6D)</b> | Targa: GK580ZC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/fcc894ac3b48fcfd8b713ca23d22ca1283091932f239d1fc01d3a2101e665d5e96d2d0d6edd0ad92fd3996cf97e1d3a2fbcbfab3f8455de79cc5e644aee88eb3"
   },
   "GK524RW": {
@@ -131,7 +131,7 @@
   },
   "GP250BG": {
     "desc": "<b>SUZUKI S-CROSS 1.5 Dualjet 140V Starview auto</b> | Targa: GP250BG",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c4bc1e6c4e72aa68b22afe6f082e671061f2702fe0b95c1a37a4d837cb8b158535e6a045c34a7f31a051e9e4b8ebc1b2c2316f653b40118b58bacf5afd8927d1"
   },
   "GP090MK": {
@@ -278,6 +278,11 @@
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV443ZS",
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/b9582c1174a947307f60ed966c4f515da8b182fbddd0c18c2bef87ef86dc293f40d11c46562cb8940f9001acc97e6a33cda289d8dc4584f84b1da107977f9492"
+  },
+  "GV458ZS": {
+    "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV458ZS",
+    "options": 0,
+    "url_foto": "https://auto.nextlane.com/public/player/525be88739cffce4dedd30c27c74ea70fd32f87e88ea06bc79d5c7574cb061fc4db6d4fe484e1020a17053bd2cd29af08bdf31a8c080297de900f537045c955d"
   },
   "GV567ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV567ZS",
