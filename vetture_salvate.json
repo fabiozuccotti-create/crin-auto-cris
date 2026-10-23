@@ -151,7 +151,7 @@
   },
   "GP417FS": {
     "desc": "<b>LANCIA YPSILON 1.0 FireFly 70cv Hybrid Silver Plus Hatchback 5-door</b> | Targa: GP417FS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/d5a47c48b9ddc3be6cba9ed1956a0020a222f06c3ea54a692147e93771898f9e49d4ed47765867744ed3b34d26faa328f5fe53f50adeb14c261a23b0354d55c3"
   },
   "GT574LV": {
@@ -168,11 +168,6 @@
     "desc": "<b>YAMAHA TRICITY 155 ABS Scooter (Euro 5)</b> | Targa: FF49744",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/b4647689fda65b489bbc4a9c7d0ef92da2f637b263c8b7dfbdf67f741668eb3548d0210d16e460e67b44e5997d02865de2f6c621e5c908371b427908be379149"
-  },
-  "FF50496": {
-    "desc": "<b>KYMCO DOWNTOWN 350i TCS Scooter (Euro 5)</b> | Targa: FF50496",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/dcf440df19c6eda8439ed794e23d65256bef0d447ddc8cccae2eddfbab4f0539c737bc85a9662c22738d23914b7026c9e3e65a7d2bcdc6b47892983809df5ed1"
   },
   "GW519RY": {
     "desc": "<b>TESLA MODEL X 100 kWh Dual Motor 4WD aut. Sport utility vehicle 5-door</b> | Targa: GW519RY",
@@ -241,7 +236,7 @@
   },
   "GV316ZT": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV316ZT",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/5c17827aa59da7a542e328f779fc66cca32a184dd3855fb31e88fdd8c6f0c37b3a207e4b59258efdfba13fb4c57dfcd28b17c1029234ed0873ea8414de864aca"
   },
   "GV329ZT": {
@@ -316,7 +311,7 @@
   },
   "GV250ZV": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV250ZV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/895cf7721baa58e7e34746f93b54298fc483878f29529e8891bb7ac2675579372068d76df71cab71aa4572012ebe5fa2537aae3f8e55c9bf2dc21033d146281f"
   },
   "GW065YD": {
@@ -396,7 +391,7 @@
   },
   "GG262WE": {
     "desc": "<b>JEEP COMPASS CONSIPA 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GG262WE",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ce379143ac11563f3c4e7a23b57b29aa64342b47c5423658c3b5f7c06de7373766ed3eacf5a144a77c0bba2bfbba152d8b23f83c0afcb9c016e117a7b949e439"
   },
   "GK413RR": {
@@ -971,7 +966,7 @@
   },
   "GN854DJ": {
     "desc": "<b>KIA SPORTAGE CONSIP 1.6 CRDI MHEV STYLE 2WD FP</b> | Targa: GN854DJ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e34975fc43161eed03bbb7636cbf86e514f5edd6c7ae96928f64e8a665e0da3f998ee58287833d6ea6e98fb7af611f0a06885f7668818816f3fe78c64fd1ae71"
   },
   "GP743AV": {
@@ -1026,7 +1021,7 @@
   },
   "GJ478EL": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ478EL",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/908431eb4abcebcba31e90fd028088b2c3d1b0e280a1afd8b0673b6ebe5487f547730cd3a7d47f46fa2ef8f1867ffdaaae34039300af7089feb1f435eeff1cf8"
   },
   "GG334WE": {
@@ -1116,7 +1111,7 @@
   },
   "GH074GX": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GH074GX",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/f024855ef4240dbe679c0c662036159bedd38668f4c087bb3f1069519ee8665002c2b37deda5a47c0326185dce980170ecaca883301e3604f36fadf4a1fab157"
   },
   "GL779EW": {
