@@ -41,7 +41,7 @@
   },
   "GK167RR": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK167RR",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/08da8f21d54a213c6b2b1ce70d754b821f9db757bead50f08da320501fcc074475a2ae5993e02d7085cbfc4d68c2fbf1619b665f5a7a2f69dc6cb47e80945242"
   },
   "GK642RL": {
@@ -226,7 +226,7 @@
   },
   "GV102ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV102ZS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/cff6db214fc7306b175e96c04401532ba780e9cd7a38e688d85a80b2a398991e63feb9838d543a5f07d40196c2bf3bd435ece38eab9009dda5b0a842f94ab742"
   },
   "GV169ZS": {
@@ -236,7 +236,7 @@
   },
   "GV189ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV189ZS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/03b78df612244c9b409d766f6e545738db101b53d8c0e41f35d8964edf375127beb98955700d1073b214ec9a06fc966cc9de4a879bb21d35c8a66cef755e1e9c"
   },
   "GV288ZT": {
@@ -586,7 +586,7 @@
   },
   "GJ264YZ": {
     "desc": "<b>PEUGEOT 3008 BlueHDI 130 EAT8 S&S Allure Pack Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ264YZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/3605ef0630af5cf6f3075ded6b49e3ce673e2252d93bf6f07cc8e382994156024254a2b00c319e45c51961e269d9fd054f8ad32dea746f280336c0243a4df5d5"
   },
   "GH041JF": {
@@ -646,7 +646,7 @@
   },
   "GK578ZT": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK578ZT",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/7c3f449f708d27d5e26e5976a0bccb9b7778966b07b9526fa34e232a7efd3c9905074adbd8376d47502299ac2c7e6f084dbf7a4a8e805f876bdc79cc942be8b2"
   },
   "GK737ZD": {
@@ -786,7 +786,7 @@
   },
   "GN288LT": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Xline Auto Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GN288LT",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/0eb1f75a2b5c903e1471268b4518f9681404d014c26c7540bce399ef355b9cd2f54cd3ffdd3f894f341b8ed2ae6d007a242c08bb0b988fcdfae974100a63c533"
   },
   "GN927XF": {
@@ -1176,7 +1176,7 @@
   },
   "HD459NV": {
     "desc": "<b>FIAT PANDINA 1.0 FireFly 65cv S&S 6m Hybrid Icon Hatchback 5-door (Euro 6E)</b> | Targa: HD459NV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/4d600d0d436d886732338aa1557ee46eda0e4872f448cec77c3eaa4d67e0c420b1905470d110718091a1c3aa4e78cf0009d66c39ccf8bf23f5effe398c6bc890"
   }
 }
