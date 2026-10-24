@@ -41,7 +41,7 @@
   },
   "GK167RR": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK167RR",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/08da8f21d54a213c6b2b1ce70d754b821f9db757bead50f08da320501fcc074475a2ae5993e02d7085cbfc4d68c2fbf1619b665f5a7a2f69dc6cb47e80945242"
   },
   "GK642RL": {
@@ -106,7 +106,7 @@
   },
   "GL557PK": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 155CV ST-Line Vignal Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL557PK",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c2c364939abd5413e8eccdf8a50266934f7321d51dd3983e958c013b0266fb48f18547271a13c0ea489d118e66915ca9edb364de066dae57edc6f5eec310565a"
   },
   "GK524RW": {
@@ -578,11 +578,6 @@
     "desc": "<b>RENAULT TWINGO 22KWH AUTHENTIC FP</b> | Targa: GP357FN",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9c38dc869c99cd9b14db29704e8e1df5e218c675df58da1aa8529cd3b69de938b306313a91b19e432f80050cc708d9c42e1bb457a492672af46cb1242e93f081"
-  },
-  "HA412HN": {
-    "desc": "<b>TOYOTA AYGO X 1.0B (72 CV) Active Sport utility vehicle 5-door (Euro 6E)</b> | Targa: HA412HN",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/1f31ed62dbd2b0ac6e5bf7db156fca1dbcf0c305424de176b1c3e7e547838e553b97c05217766d05830e75df947f525604dede7cafd9d84962444362767d99df"
   },
   "GL381YA": {
     "desc": "<b>FORD FOCUS 1.5 Ecoblue 120cv Business Auto SW SW 5-door (Euro 6.2)</b> | Targa: GL381YA",
@@ -1096,7 +1091,7 @@
   },
   "GZ240VM": {
     "desc": "<b>FORD TRANSIT CASSONE T/P 350 L2 TREND 2.0 ECO 130CV SCAT FP</b> | Targa: GZ240VM",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/7ba4060db08bfd66f2bf6d37d0be97a68b6da6d4accd4c5cda04555d6dce77b0220ce0db89f442234805365743797a9a9b6520bd191e154cf532fdc3d9bfc4a3"
   },
   "GV215ZE": {
