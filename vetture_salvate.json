@@ -194,11 +194,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/b6012bfcf7b4a8611cd38feec8bbabfd1e9b2b8e229047dc55244244490a33d119fb8e8881e5e0210b683003d01df9dd274538e9b3502f290cd24aa2042cf519"
   },
-  "FJ92407": {
-    "desc": "<b>PIAGGIO VESPA PRIMAVERA 3V 125 ABS Scooter (Euro 5)</b> | Targa: FJ92407",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/e40a6a099ddec54622672ccda559c44241037fa4e143f1a80cf06373370b65232cc78d5fee383839a1bf26efaa701ab858b4bb200b7c91c0b2eb85d4b487f891"
-  },
   "GV771ZW": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV771ZW",
     "options": 1,
@@ -701,7 +696,7 @@
   },
   "GP201TE": {
     "desc": "<b>BMW SERIE 1 116d Business Advantage Hatchback 5-door (Euro 6D)</b> | Targa: GP201TE",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/de999dd6835aaec1eb8bbb20f65b6b3db5841e26cb585af0db947d103f835b3a1507f86c88e45a99c5722fb257281427f527b7b57f7bd534a1014fcc57a5e151"
   },
   "GL619JC": {
