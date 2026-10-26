@@ -459,11 +459,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/7290dc213216b7b2023290f84a76b16db2770668e719499df926130f9ba091d59f09451acc88066c459bc341695d9a467e963c124d538f2a5eb7d9e04d40315a"
   },
-  "GL381YA": {
-    "desc": "<b>FORD FOCUS 1.5 Ecoblue 120cv Business Auto SW SW 5-door (Euro 6.2)</b> | Targa: GL381YA",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/46d16fc840fbb90dbfcfbfbd4cea518cb523d50b60604f87bc5a89e5a1f78fa8941064ae73a5670ab5a6a3ae9d61910709e229b5095ad83f01bd8e30afd04b2d"
-  },
   "GJ264YZ": {
     "desc": "<b>PEUGEOT 3008 BlueHDI 130 EAT8 S&S Allure Pack Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ264YZ",
     "options": 2,
@@ -571,7 +566,7 @@
   },
   "GK720ZR": {
     "desc": "<b>ALFA ROMEO STELVIO 2.2 TD 190 CV Sprint AT8 Q4 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK720ZR",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/68d3f9ee31fdb353f0eb9f11732d6218f148d124cd7e6f6051ce9993f289e8e99a603d9e96cba4396417bfe11efa1a1e626bd8749bed74ed576a3722425c7b02"
   },
   "GP201TE": {
@@ -606,7 +601,7 @@
   },
   "GL298PP": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL298PP",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c690070f6a6c2ed9844e124f4bbe83b03183503f0e3251236341f4efb29fe3062a95ee6a32213c4308a8c37544d72b46c2431cdfd20eddb9bca9dad0e6048fe6"
   },
   "GK875ZN": {
@@ -888,11 +883,6 @@
     "desc": "<b>KIA SPORTAGE CONSIP 1.6 CRDI MHEV STYLE 2WD FP</b> | Targa: GN854DJ",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e34975fc43161eed03bbb7636cbf86e514f5edd6c7ae96928f64e8a665e0da3f998ee58287833d6ea6e98fb7af611f0a06885f7668818816f3fe78c64fd1ae71"
-  },
-  "GK988ZY": {
-    "desc": "<b>FORD TRANSIT COURIER 1.5 TDCI 100 CV TREND FP</b> | Targa: GK988ZY",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/4665b605e82e9a831ee1c69cb9e7a855ab5f658373b9bff84906743d654d31ded7ea14a6578b77e3e954df8b89a78745bf26303d1970967badf3ec903b8322be"
   },
   "GV838ZD": {
     "desc": "<b>AUDI Q5 (PC) 40 TDI BUSINESS QUATTRO S TRONIC FP</b> | Targa: GV838ZD",
