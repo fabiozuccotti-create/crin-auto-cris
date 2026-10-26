@@ -196,7 +196,7 @@
   },
   "GV303ZT": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV303ZT",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/6ccceab3d48c167f8b26208fe74a63b7227d3dcfc7c9f2f6d05c4405154263c16af6abceda5421c7fb5ca2d6c7f98bc8e9b40850dbd17b009878cae1a2f77c71"
   },
   "GV316ZT": {
@@ -536,7 +536,7 @@
   },
   "GK986BZ": {
     "desc": "<b>OPEL CROSSLAND 1.5 Diesel 120cv Elegance S&S AT6 Cross over 5-door (Euro 6D)</b> | Targa: GK986BZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/bb274dd3532dcf2f176c58fd4e7f433303fdd9302d088f2a6e2a1985fe6bc210fe3bd43e6412cac0a81ed8fa868354f11fee60ae440c084519b09ea1206a7c7c"
   },
   "GK483ZL": {
@@ -888,11 +888,6 @@
     "desc": "<b>KIA SPORTAGE CONSIP 1.6 CRDI MHEV STYLE 2WD FP</b> | Targa: GN854DJ",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e34975fc43161eed03bbb7636cbf86e514f5edd6c7ae96928f64e8a665e0da3f998ee58287833d6ea6e98fb7af611f0a06885f7668818816f3fe78c64fd1ae71"
-  },
-  "GP743AV": {
-    "desc": "<b>KIA SPORTAGE 1.6 CRDI MHEV GT-LINE PLUS 4WD DCT FP</b> | Targa: GP743AV",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/c9608a2fbd3acf75369d95a95e88d342e1b0a44226348361b5369d03bcaedffa7c484dc1f60e0cdcb17225ccc559ab18cbdaeb14020421be9f9cbdd8f9fd831f"
   },
   "GK988ZY": {
     "desc": "<b>FORD TRANSIT COURIER 1.5 TDCI 100 CV TREND FP</b> | Targa: GK988ZY",
