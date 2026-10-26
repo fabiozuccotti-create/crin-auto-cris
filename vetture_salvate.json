@@ -14,11 +14,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9ccdecaae6fc11dce4440372c8d2b986e23a652194fb8ac34d49523fba15de4b4042083ae9a9012cb24b48b18b7bca601c77c76bb7bb625e7fbec14a8f39d106"
   },
-  "GJ521JM": {
-    "desc": "<b>BMW X4 xDrive 20d MH48V Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ521JM",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/f6936c2a120f20b9146a69dbb98e1c7426b747c418edf6d2f7c0fbaba19117cb463e3086fab575245bd1c65c854d44e62bffad0fd7bbb5094ccfc66e676b4016"
-  },
   "GM830PJ": {
     "desc": "<b>MERCEDES-BENZ GLC COUP\u00c8 300 e 4Matic Plug-in Hybr. Business aut. Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GM830PJ",
     "options": 2,
@@ -39,11 +34,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ea030a61d7646b27f4d66df34c978442deb773b5a67cd04d0d16667f9fd25c1206e2bfe1b685303aba78d193764fa54aeeec591094c1cc3cd8db49e2ba35d9d7"
   },
-  "GK167RR": {
-    "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK167RR",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/08da8f21d54a213c6b2b1ce70d754b821f9db757bead50f08da320501fcc074475a2ae5993e02d7085cbfc4d68c2fbf1619b665f5a7a2f69dc6cb47e80945242"
-  },
   "GK642RL": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK642RL",
     "options": 2,
@@ -58,11 +48,6 @@
     "desc": "<b>SKODA KAMIQ 1.0 TSI 81KW AMBITION Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK537FW",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/55e6951d38f4455ee3a0deff118f6057df76c4f21fd129a8faa98b26fa3349da3af473406a21eab1de30c849ccbcf7d5c0ee1e2ae31b83fe7e20e44d68c92aca"
-  },
-  "GK042RP": {
-    "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid City Life Hatchback 5-door (Euro 6D)</b> | Targa: GK042RP",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/eaf0603de43a9ebde01dcc5adc4cd0cd7511cd0456e7f7e35bafcb9b1a2726246b03cc224655bc9b35a003edffbafb30c747ec6398cef356666d6422e29d00be"
   },
   "GJ701EK": {
     "desc": "<b>FIAT DOBL\u00d2 CARGO CH1 EASY 1.6 Mjet 90cv E6D-f S&S Vettura Furgonata 3-door (Euro 6D)</b> | Targa: GJ701EK",
@@ -168,11 +153,6 @@
     "desc": "<b>LANCIA YPSILON 1.0 FireFly 70cv Hybrid Silver Plus Hatchback 5-door</b> | Targa: GP417FS",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/d5a47c48b9ddc3be6cba9ed1956a0020a222f06c3ea54a692147e93771898f9e49d4ed47765867744ed3b34d26faa328f5fe53f50adeb14c261a23b0354d55c3"
-  },
-  "GT574LV": {
-    "desc": "<b>BMW X3 xDrive 20d MH48V Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GT574LV",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/c97904bbc5360c43ac6bf23937e712c2835c5593aaebf65987f4e988151a991edb82919e0c1dce4f27a6f01592a23960d505fb17c92df193f0242fda4c9f4323"
   },
   "GS468ED": {
     "desc": "<b>VOLVO XC90 B5 D AWD automatico Core Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GS468ED",
@@ -429,11 +409,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/00519988843d4db68aa3345dc0c4ac98bc71e799a4c4e7a2059d0c924f990e39e9fdd61f711a0d01994cc7fedc7f26e3f0b6aac5bcd5fec98540ff5c367f3367"
   },
-  "GN488ST": {
-    "desc": "<b>BMW X4 XDRIVE 30I MH48V FP</b> | Targa: GN488ST",
-    "options": 0,
-    "url_foto": "https://auto.nextlane.com/public/player/d7546ad9050d7764a9e568e4e7584bec461cec9f4afdf9a8703460e2fe4e614ce7857a5a3334698c7a4a389a91be9fb3abedfda9bdc0bbcdc7510bd901269379"
-  },
   "GP862SW": {
     "desc": "<b>VOLVO XC60 T8 PLUG-IN AWD AUTO PLUS DARK FP</b> | Targa: GP862SW",
     "options": 0,
@@ -483,16 +458,6 @@
     "desc": "<b>OPEL GRANDLAND X(PC) 1.5 DIESEL 130CV ELEGANCE S&S AT8 FP</b> | Targa: GG252RV",
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/2bf35e229f0f2b0d5ce3b3f965e3cbdb2179482ed4a8d9a9f74ef11a7cba942ce68ed99f1dd9e3953c472f08c24e4f2eeeb1f4ddb13554bbfa6d1de654a6ec39"
-  },
-  "GN766SP": {
-    "desc": "<b>BMW X4 XDRIVE 20D MH48V FP</b> | Targa: GN766SP",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/a6ff053cd857a4a3ed42c10ee37a6b1b3e246652c627ab34c05a8526af4ce3ee3ec210f1da123154304459ad2958a9f881dd2c693a6b3da0c22689cfffce3e88"
-  },
-  "GK715RY": {
-    "desc": "<b>AUDI Q3 35 TFSI S TRONIC BUSINESS FP</b> | Targa: GK715RY",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/4a97962d1ee30c372aa3c0fe8a6dc5459b188482e9d4f75296010af3d5bc89506375a187b80bf02ee915806e41ae822cefcc1c4b5572d37333fab28928fb72ef"
   },
   "GK558RM": {
     "desc": "<b>PEUGEOT 3008 (PC) BLUEHDI 130 EAT8 S&S ALLURE FP</b> | Targa: GK558RM",
@@ -544,16 +509,6 @@
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/d70392f7a49a2f04c77e356117838c089ffe75b6ab471befa523c77bbc607c5368a1d11236e3ae761703fe1399749979c9619284849246ec52cc63795d299f41"
   },
-  "GL040ZX": {
-    "desc": "<b>FIAT 500 (PC) 1.0 70CV IBRIDO CLUB FP</b> | Targa: GL040ZX",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/44cffc5d8b581786dd4ee6b07c0aae75653859dfe5347120ca101375820c073577e91368c07c1dfe4c2de0cacb961938289825b7cf2402f34c4e2c40f618523d"
-  },
-  "GK976RJ": {
-    "desc": "<b>AUDI Q3 45 TFSI E S TRONIC FP</b> | Targa: GK976RJ",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/475757c498f7ff9e5e64f7bc4fbda7bfc7b03db6e9a0766007bde8af73a1eeac82061c4c3105e99e2dbe0072e9c3873fe3a56d179cd72be7a98d47829f39f606"
-  },
   "GV225PB": {
     "desc": "<b>VOLKSWAGEN GOLF 1.5 ETSI EVO ACT 96KW LIFE DSG FP</b> | Targa: GV225PB",
     "options": 1,
@@ -586,7 +541,7 @@
   },
   "GJ008AT": {
     "desc": "<b>PEUGEOT 2008 PureTech 100 Active Pack S/S Cross over 5-door (Euro 6D)</b> | Targa: GJ008AT",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/9579ceb1c4c7913cb7be1fc8bb17cca6a184e6053714e6045e854c9a8928305e4bfe7ea96eaedd0bdad585b4450e15b5214e1a9eb6f56bb27a248c899936e19a"
   },
   "GK339ZH": {
