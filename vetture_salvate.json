@@ -34,20 +34,10 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/b38fe6e0f67af2fc5ef86b12d4d78505e7e77c62993b408406a4c137eb5ea6ce66a71d1332d72399acefe84632b2e90acbbb6c1b443ee33c97d6918c241af131"
   },
-  "GJ694PX": {
-    "desc": "<b>FIAT DOBL\u00d2 CARGO CH1 EASY 1.6 Mjet 90cv E6D-f S&S Vettura Furgonata 3-door (Euro 6D)</b> | Targa: GJ694PX",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/662fd4ed81527e425d29ba9a09522ce5cef362e39c834c44d9485d32960f46f3df5d5cf8595d5651c1ef6e4c1e7383f51ecdd559cea9fb1939cbe38cbd67fbed"
-  },
   "GK537FW": {
     "desc": "<b>SKODA KAMIQ 1.0 TSI 81KW AMBITION Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK537FW",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/55e6951d38f4455ee3a0deff118f6057df76c4f21fd129a8faa98b26fa3349da3af473406a21eab1de30c849ccbcf7d5c0ee1e2ae31b83fe7e20e44d68c92aca"
-  },
-  "GJ701EK": {
-    "desc": "<b>FIAT DOBL\u00d2 CARGO CH1 EASY 1.6 Mjet 90cv E6D-f S&S Vettura Furgonata 3-door (Euro 6D)</b> | Targa: GJ701EK",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/bc83335b03ac124d400e278c90c7f16faf083354a6ecf96276cb1b0670b26ae5fff6b34d7d81a09eb5f16d8d2edc73078a07018fef19880a2e63fc506618b807"
   },
   "GJ289EL": {
     "desc": "<b>FIAT DOBL\u00d2 CARGO CH1 EASY 1.6 Mjet 90cv E6D-f S&S Vettura Furgonata 3-door (Euro 6D)</b> | Targa: GJ289EL",
@@ -386,7 +376,7 @@
   },
   "GK413RR": {
     "desc": "<b>BMW X3 (PC) XDRIVE 20D MH48V MSPORT FP</b> | Targa: GK413RR",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/4f230baff0fff0ce53a6638764b8d7e4639e738d6894b415f599abf2f27f4d706b34b2d747f2635b0786ec56d001ce8186880171f054ec5eb3977a0ffbf23b8f"
   },
   "GG627RF": {
@@ -421,7 +411,7 @@
   },
   "GK355RR": {
     "desc": "<b>VOLKSWAGEN TIGUAN (PC) 2.0 TDI SCR 110KW LIFE DSG FP</b> | Targa: GK355RR",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/8fe98e505fb77b943571ad77ee2fc1098763e0d19712cf3dfcaf2157bf592ab0d45e81d4a4832a29469fd16884b5dc200b350e56db4606b2622ab91bd6a7642a"
   },
   "GJ730JL": {
@@ -641,7 +631,7 @@
   },
   "GK778ZD": {
     "desc": "<b>BMW I3 Auto 120 Ah S Advantage Hatchback 5-door</b> | Targa: GK778ZD",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9089b4f34e1f42047c34496ba77185456cf691c48642d149140980d0a433d627cda7f1fc607d16de6ca641fcb78079315c32ffc65d20150bdbe9561ece2245a0"
   },
   "GP076MT": {
@@ -1076,7 +1066,7 @@
   },
   "GP212MT": {
     "desc": "<b>AUDI Q3 SPORTBACK 45 TFSI E S TRONIC FP</b> | Targa: GP212MT",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c22c90924d5616fed32e98918163c74b82bf3de8fc7cd874af066a838476597377317a51090270f019aa286920377f05c47010a0076354ad9486255cb2db9ae0"
   },
   "GS179JY": {
