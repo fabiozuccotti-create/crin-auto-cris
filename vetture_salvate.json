@@ -26,7 +26,7 @@
   },
   "GK642RL": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK642RL",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/b38fe6e0f67af2fc5ef86b12d4d78505e7e77c62993b408406a4c137eb5ea6ce66a71d1332d72399acefe84632b2e90acbbb6c1b443ee33c97d6918c241af131"
   },
   "GJ289EL": {
@@ -91,7 +91,7 @@
   },
   "GS189EL": {
     "desc": "<b>RENAULT CLIO 1.6 E-TECH full hybrid 103KW EQUILIBRE Hatchback 5-door (Euro 6D)</b> | Targa: GS189EL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/63ab8379cbabab5e8f6e933617deb5be289b39fc1733046d2998611152a807b6236518a9e6b6ff4ddfdb92a25b8bdbeb09d9dfe84e173654ac379014ad139954"
   },
   "GP250BG": {
@@ -376,7 +376,7 @@
   },
   "GK558RM": {
     "desc": "<b>PEUGEOT 3008 (PC) BLUEHDI 130 EAT8 S&S ALLURE FP</b> | Targa: GK558RM",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/045143db2f1691ef91383e271c0d698f1983c987f6ecb562cc0510e6660702a61e4dd1d4823d96fd33fae2e33a5fff5e1d8a72b76b11cab69183b6c0c7b15619"
   },
   "GP163FL": {
@@ -521,7 +521,7 @@
   },
   "GL647EY": {
     "desc": "<b>FORD TRANSIT CONNECT 1.5 TDCi 100cv S&S Trend 210 L2H1 Vettura Furgonata 4-door (Euro 6.2)</b> | Targa: GL647EY",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/d211e948343a887a4abd45acc1aa4996783e8b53d1ff55a42a6cdc641ca95963355fdd61a60a1007e735dbe17d09f2dd6614dc4e1d851d3f5f9ae514219e73c2"
   },
   "GL648EY": {
@@ -581,7 +581,7 @@
   },
   "GL574FF": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV ST-Line Design Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL574FF",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/20ca7aedc0749cfe280be7db7c33252023b4626988a9d231e3f79b74ee745fcb78d681fa56b893316c6124c11e914977a9894b3982685f79a47fcc1029a43fe1"
   },
   "GP301MG": {
@@ -736,7 +736,7 @@
   },
   "GW878NW": {
     "desc": "<b>FORD EXPLORER 286CV Extended Range Premium Sport utility vehicle 5-door</b> | Targa: GW878NW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e4500e6fc5c85681be37fae69fb81ac7285ccd7b8b55c7ecd58fcc6bae4075370d68ca62bcf61b46e2eff1d5f68bea5d5ae42d4350d27df7620c68ccc8054980"
   },
   "GW462VZ": {
