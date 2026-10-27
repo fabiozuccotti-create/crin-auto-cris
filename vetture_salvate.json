@@ -41,18 +41,13 @@
   },
   "GK176RR": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK176RR",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/cfe9709ff1ed22c1bd10ce37f1f690a0a94d6d95f3618e3073497c89e56005ccf07b11b9b7bb7ad3321a2c751ebb56a706e474936eca2bac02e15810a3d50de9"
   },
   "GK642RL": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK642RL",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/b38fe6e0f67af2fc5ef86b12d4d78505e7e77c62993b408406a4c137eb5ea6ce66a71d1332d72399acefe84632b2e90acbbb6c1b443ee33c97d6918c241af131"
-  },
-  "GK071RD": {
-    "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK071RD",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/51b9dec1ddf8bca64961808a2bf62a2f7252b6ff23a2b656950bc58ad1dbe57b828510e5a9db4cea3c7ec2808beab5380fe89f701745613ef155db1c330df23d"
   },
   "GJ289EL": {
     "desc": "<b>FIAT DOBL\u00d2 CARGO CH1 EASY 1.6 Mjet 90cv E6D-f S&S Vettura Furgonata 3-door (Euro 6D)</b> | Targa: GJ289EL",
@@ -99,11 +94,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/c2c364939abd5413e8eccdf8a50266934f7321d51dd3983e958c013b0266fb48f18547271a13c0ea489d118e66915ca9edb364de066dae57edc6f5eec310565a"
   },
-  "GK784ZC": {
-    "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid City Life Hatchback 5-door (Euro 6D)</b> | Targa: GK784ZC",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/b27c0e0b432ba6fe08f9757a0ac292e3e0cd588b35570abd2b17b3517ea24378a4dd2cf40a76ead1f1636924aaab9b890cff044d308e3d4513382786f9152180"
-  },
   "GK524RW": {
     "desc": "<b>JEEP COMPASS 1.3 T4 PHEV 190cv Limited 4xe Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK524RW",
     "options": 2,
@@ -136,7 +126,7 @@
   },
   "GR850YY": {
     "desc": "<b>AUDI Q2 2.0 30 TDI BUSINESS S TRONIC Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR850YY",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/0078cce65aaa268b383476d7316852dcb84a8451b9d370c69b73bb3ae7d813b02323f85a5575a913ccf60fabb99d96697839cf214f7ef41c76d4eff2cd8531f8"
   },
   "GP417FS": {
@@ -246,7 +236,7 @@
   },
   "GV359ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV359ZS",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/0a393f9c88c333da698e09037aa20fe0818069bc468d7ec130bea46ed9776197babea47076e53e1f3c54261d5f653ddbb4a99f51af1761b7035b16cb7560eaee"
   },
   "GV362ZS": {
@@ -396,7 +386,7 @@
   },
   "GX701ST": {
     "desc": "<b>LAND ROVER RANGE ROVER SPO 3.0D I6 300 MHEV DYNAMIC SE AUT.</b> | Targa: GX701ST",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/029a47d6bf4b5c9366844a91f8d714ff7b3d05055ebe2c4feac954bbb021dc58a6545d81eaf3bd0b502cb9931b937aeb9bf15890429f78179526ac6d8203f836"
   },
   "GZ823KL": {
@@ -494,11 +484,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/7290dc213216b7b2023290f84a76b16db2770668e719499df926130f9ba091d59f09451acc88066c459bc341695d9a467e963c124d538f2a5eb7d9e04d40315a"
   },
-  "GJ264YZ": {
-    "desc": "<b>PEUGEOT 3008 BlueHDI 130 EAT8 S&S Allure Pack Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ264YZ",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/3605ef0630af5cf6f3075ded6b49e3ce673e2252d93bf6f07cc8e382994156024254a2b00c319e45c51961e269d9fd054f8ad32dea746f280336c0243a4df5d5"
-  },
   "GH041JF": {
     "desc": "<b>TOYOTA C-HR 1.8H (122CV) E-CVT Trend Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GH041JF",
     "options": 2,
@@ -536,7 +521,7 @@
   },
   "GL154JA": {
     "desc": "<b>OPEL CORSA 1.2 75cv Edition MT5 Hatchback 5-door (Euro 6D)</b> | Targa: GL154JA",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/3902c9ace820a9d0024ecd1c42e3e36d2d3e48bed2f26d0b3444864bcf7ee4ead42f1a72d8d3981e441a2ab54cea2459e62a44af6ae387fe82e1bf0fa9744d80"
   },
   "GK578ZT": {
@@ -646,7 +631,7 @@
   },
   "GP640FT": {
     "desc": "<b>ALFA ROMEO TONALE 1.6 Diesel 130cv TCT6 Sprint Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP640FT",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/2ada09d1df6d122a9e323ab7b03bf0f5ee12225e1f4ebd07908d7ece4c2d6530350a9a40baf70047dd0305bf4af689952828755d05166e1d8d43f98ed1f3c451"
   },
   "GP518AX": {
@@ -816,7 +801,7 @@
   },
   "GN083RZ": {
     "desc": "<b>VOLVO XC40 (PC) T4 RECHARGE PLUG-IN AUTO CORE FP</b> | Targa: GN083RZ",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/3b9d4827aa8002d87b8b704123c26c4e1cf602e5ad4b2e2d90c511d36d33552f250272664941bd7d79c2738655917845943a2f595efd148386918503079c20a6"
   },
   "GR764ER": {
