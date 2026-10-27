@@ -26,7 +26,7 @@
   },
   "GK642RL": {
     "desc": "<b>RENAULT CAPTUR 1.3TCE 103KW INTENS Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK642RL",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/b38fe6e0f67af2fc5ef86b12d4d78505e7e77c62993b408406a4c137eb5ea6ce66a71d1332d72399acefe84632b2e90acbbb6c1b443ee33c97d6918c241af131"
   },
   "GJ289EL": {
@@ -36,7 +36,7 @@
   },
   "GK935RC": {
     "desc": "<b>AUDI Q3 SPORTBACK 45 TFSI e S tronic Business Plus Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK935RC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/62b4e32712888aacf9c5113ef8c08356a894a978e23f954a517ac3d4cb2c2c12a472211310c3e5c8c3dadf0c2282d7c2d9ebd5d0c2bdf0cb3163d0c95947ccb2"
   },
   "GK345RT": {
@@ -276,7 +276,7 @@
   },
   "GP335ST": {
     "desc": "<b>FORD FOCUS SW (PC) 1.0 ECOB. HYBR. 125CV ST-LINE DES.AUTOSW</b> | Targa: GP335ST",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/dbb843da0c196b746dad681a3c4dfe0a07ea7a7dbb6f00e5caff2afa9ec0e51b9166e94db7af0554e26633b1e3070b1d70a1d10c93ec541c46524d977cb67e3b"
   },
   "GP733BG": {
@@ -536,7 +536,7 @@
   },
   "GL619JC": {
     "desc": "<b>LAND ROVER DEFENDER 2.0 Si4 PHEV 404 110 SE AWD auto. Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GL619JC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/6d05e4bb68d5f9b82e649e4f551b03b3e914f0b395d46afc99cbaf43f8e114eeaa33b4080bc5ad57413dca3885c91408a74deee03c94c8b32c967654d440e355"
   },
   "GM910PS": {
@@ -596,7 +596,7 @@
   },
   "GP708MN": {
     "desc": "<b>ALFA ROMEO TONALE 1.6 Diesel 130cv TCT6 Sprint Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP708MN",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/8947f7e895a0501b1c37a39fcbaffa28125fd928f06b43252528f7c596809c3d5e9291e508336e09ea2e082597f4c2fa3ee6b390dea86c816b806d31d452919b"
   },
   "GP640FT": {
@@ -613,11 +613,6 @@
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Tit. Design Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GM911KR",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/4ae103cc2f9e51bff06d672934e130f854c74618940113f8b9b65b3914c544ee939f7eea319bfd5cf5b33977906f198983a693dd0d25e3305971d40512a9ae2c"
-  },
-  "GM924EZ": {
-    "desc": "<b>BMW I3 120 Ah Advantage Auto Hatchback 5-door</b> | Targa: GM924EZ",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/30efdb772ed7aeba17e205d48dd17898d7f34dca32a6e7fa88e20b769aa770696d58e557d58f23e929ad09d7af6cb7b771360d60e4294c80bbdae3f22f71cc2d"
   },
   "GP099FM": {
     "desc": "<b>PEUGEOT 208 Active BlueHDi 100 S/S Hatchback 5-door (Euro 6D)</b> | Targa: GP099FM",
@@ -646,7 +641,7 @@
   },
   "GN785DC": {
     "desc": "<b>ALFA ROMEO TONALE 1.6 Diesel 130cv TCT6 Sprint Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GN785DC",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/7412e90eb270017ce96abc49cd4c6264ed8b01b0c619c72580df22ec8db30564681a1f98a97021fcf12c1449e0f905af50f602d9f81372f5570e63f8352b75a3"
   },
   "GN324WZ": {
@@ -743,11 +738,6 @@
     "desc": "<b>RENAULT CLIO (PC) 1.5 DCI BLUE 74KW BUSINESS FP</b> | Targa: GJ412JN",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/82f724aed1d74e1343ff719f41e89a3ce356b78437b09727d5c420cab2b8ed7cc06b6463969325b12e8f0be469dd1ae08263c20dd703b7d87109d4b69ab0fab0"
-  },
-  "GK313ZR": {
-    "desc": "<b>AUDI A3 (PC) 35 TDI S TRONIC BUSINESS ADVANCED S.BACK F FP</b> | Targa: GK313ZR",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/497d0788c353af175a467f4163767070c19e99ba9dee61ceb299efeb1e0000b313cf6d8827500acab6a010ab21cc15e84c13a8bf1590f67bda3e29c2fbec9c3f"
   },
   "GL660XF": {
     "desc": "<b>CITROEN C3 (PC) PURETECH 110S&S SHINE PACK FP</b> | Targa: GL660XF",
@@ -926,7 +916,7 @@
   },
   "GN641LG": {
     "desc": "<b>BMW SERIES 2 ACTIVE 218D LUXURY AUTO</b> | Targa: GN641LG",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/a894b0e794139c6c5e4b0b41105ac865fd984c6a8a7df65f70e7e026e1e61e1227bdd160194716fdeabbde2d8bed0ec3d9cee2d7bfc8866589a013f9b9b4536b"
   },
   "GJ689AD": {
