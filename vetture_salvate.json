@@ -451,13 +451,8 @@
   },
   "GK339ZH": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK339ZH",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/124b2dd45452f0e2e49bcc5764d95e363bd3377033dea86c67d065f93542018fd2a5b07f597f0a792f8b77dbc9fc66701bef526245d2e3f1693bec03d560fc64"
-  },
-  "GL840XA": {
-    "desc": "<b>FORD TRANSIT CONNECT 1.5 TDCi 100cv S&S Trend 200 L1H1 Vettura Furgonata 4-door (Euro 6.2)</b> | Targa: GL840XA",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/85c3904680af8e48df9139983c4712b6dd42c4aa45a4a5875288d0e2029f846f3f3bead0baee34e05e32661db54c6d0250d98ab68569fa8cf643635be9d3b835"
   },
   "GP349MJ": {
     "desc": "<b>BMW SERIE 1 116i MSport Exterior Hatchback 5-door (Euro 6D)</b> | Targa: GP349MJ",
@@ -631,7 +626,7 @@
   },
   "GP099FM": {
     "desc": "<b>PEUGEOT 208 Active BlueHDi 100 S/S Hatchback 5-door (Euro 6D)</b> | Targa: GP099FM",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/60b7e4f62231f51ab53d0a4d8fe8ea4203a35b42d26cdc4746cd72229b900afe070ade74ed6643ab1bcf9a4dba6aa09001c85ee0b1b6ce36fe011054b8d44eda"
   },
   "GP158FM": {
@@ -754,11 +749,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/82f724aed1d74e1343ff719f41e89a3ce356b78437b09727d5c420cab2b8ed7cc06b6463969325b12e8f0be469dd1ae08263c20dd703b7d87109d4b69ab0fab0"
   },
-  "GK674ZX": {
-    "desc": "<b>OPEL COMBO (PC) 1.5 DIESEL 100CV EDITION L1 650 KG MT5</b> | Targa: GK674ZX",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/6ec6ab1717c95e17762a7a8aff890681aa3346da47afebf05271951cd51ef7739927d946426d444b6f6e64bcdb7f50af043c163c890c8e829ffc52c665623a12"
-  },
   "GK313ZR": {
     "desc": "<b>AUDI A3 (PC) 35 TDI S TRONIC BUSINESS ADVANCED S.BACK F FP</b> | Targa: GK313ZR",
     "options": 2,
@@ -771,7 +761,7 @@
   },
   "GP517AZ": {
     "desc": "<b>RENAULT ARKANA 1.3 MILD HYBRID 103KW TECHNO EDC</b> | Targa: GP517AZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/4942c3a618a050804624c625b577834029dbf10365665feb55b12d7ed4066ddd132f571510cfdd2f724ec5b80cbb48748b8abb94e2b740581b0a07f8c4b58688"
   },
   "GK577RS": {
@@ -996,7 +986,7 @@
   },
   "HA059BX": {
     "desc": "<b>FIAT PANDA 1.0 Hybrid S&S 70cv E6.4 Van 2 posti Commercial hatch 5-door (Euro 6E)</b> | Targa: HA059BX",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/508fa0e20bf5d656c4d60b1add2650c5c7ed198aaabe4daf8d69ad83f183230d9464bba6c2c6db14bd3692d0181aa8fae218f99b5e18631f490f103af4033a81"
   },
   "GZ570LX": {
