@@ -1,0 +1,40 @@
+name: Monitor Stock Auto Nuove
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configura Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: |
+          pip install requests
+
+      - name: Esegui controllo vetture nuove
+        env:
+          TOKEN_TELEGRAM: ${{ secrets.TOKEN_TELEGRAM }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          QUOTER_USER: ${{ secrets.QUOTER_USER }}
+          QUOTER_PASS: ${{ secrets.QUOTER_PASS }}
+        run: |
+          python controlla_auto_nuove.py
+
+      - name: Salva la memoria aggiornata su GitHub
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          touch vetture_nuove_salvate.json
+          git add vetture_nuove_salvate.json
+          git commit -m "Aggiornamento memoria stock auto nuove" || exit 0
+          git push
