@@ -44,6 +44,11 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/b38fe6e0f67af2fc5ef86b12d4d78505e7e77c62993b408406a4c137eb5ea6ce66a71d1332d72399acefe84632b2e90acbbb6c1b443ee33c97d6918c241af131"
   },
+  "GK042RP": {
+    "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid City Life Hatchback 5-door (Euro 6D)</b> | Targa: GK042RP",
+    "options": 2,
+    "url_foto": "https://auto.nextlane.com/public/player/eaf0603de43a9ebde01dcc5adc4cd0cd7511cd0456e7f7e35bafcb9b1a2726246b03cc224655bc9b35a003edffbafb30c747ec6398cef356666d6422e29d00be"
+  },
   "GL940XB": {
     "desc": "<b>VOLKSWAGEN GOLF 1.0 eTSI 81kW EVO Life DSG Hatchback 5-door (Euro 6D)</b> | Targa: GL940XB",
     "options": 2,
@@ -626,7 +631,7 @@
   },
   "GR388MB": {
     "desc": "<b>FORD S-MAX 2.5 Benz.-Full Hybr.190 ST-L. B. Auto 7p MPV 5-door (Euro 6.2)</b> | Targa: GR388MB",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c783bd04f40a8328f43c2b76eb3be4b17125f43ee0644847bbbb9eeedf7ab92c5ddc590883989040ba5f8f426a7d37a09c523d55370d432154df3b6d467d6de0"
   },
   "GN785DC": {
@@ -756,7 +761,7 @@
   },
   "GT701DN": {
     "desc": "<b>RENAULT MEGANE SW 1.5 DCI 85KW BLUE EQUILIBRE EDC FP</b> | Targa: GT701DN",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/90ff591c400f4ed4bec4ea5ea13ea7998c380f6ec4ed6d2e6987f4bb691dfe7cd46e7a7908c34ee1e36cd424ff392979334da0488426ad8ec207a8b7f4e95e8f"
   },
   "GJ339JE": {
@@ -911,7 +916,7 @@
   },
   "GP722TC": {
     "desc": "<b>AUDI A3 30 TDI S TRONIC BUSINESS S.BACK FP</b> | Targa: GP722TC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/3466384bd11bacb0be55ba537d1f0d50e7588823f452ddc8ff9b64694da3e1c4aa5d08ff27d58de855018f6f355896b71bf724cd74ba18f6a17889e1308000cc"
   },
   "GK348FT": {
