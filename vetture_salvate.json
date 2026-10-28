@@ -39,11 +39,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/b38fe6e0f67af2fc5ef86b12d4d78505e7e77c62993b408406a4c137eb5ea6ce66a71d1332d72399acefe84632b2e90acbbb6c1b443ee33c97d6918c241af131"
   },
-  "GJ289EL": {
-    "desc": "<b>FIAT DOBL\u00d2 CARGO CH1 EASY 1.6 Mjet 90cv E6D-f S&S Vettura Furgonata 3-door (Euro 6D)</b> | Targa: GJ289EL",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/c3ea7418a5e32fdab1b6b3ee0d236322cb16fac8de90a146c8233ca3c5bb648213a5a5f99437ff1c95dee594a2c9f6d3e8e30c8082db761f9e89a55e08ab1932"
-  },
   "GL940XB": {
     "desc": "<b>VOLKSWAGEN GOLF 1.0 eTSI 81kW EVO Life DSG Hatchback 5-door (Euro 6D)</b> | Targa: GL940XB",
     "options": 2,
@@ -101,7 +96,7 @@
   },
   "GM577YG": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S You! Neo patentati Hatchback 5-door</b> | Targa: GM577YG",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/f92ecb14c998d818e896f1d0b5a4db1df9b179939456dff06f6139d92fb7fa6e0ef5546ea310caced02ad8e4c9eb5af2d08f9bf63e9b385c42dd074d4c18f722"
   },
   "GS189EL": {
@@ -251,7 +246,7 @@
   },
   "GP112BA": {
     "desc": "<b>PEUGEOT 3008 PURETECH TURBO 130 S&S ACTIVE PACK FP</b> | Targa: GP112BA",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/ec08fc2d74e5fefa9fdb93045275e83162bf5719362a8f063bac239afb784bc0526198e97a4b0f90ec29a758619a14110ef6f0952a3f5aafcd5c5c3468dc6c2f"
   },
   "GN719LV": {
@@ -296,7 +291,7 @@
   },
   "GP155FL": {
     "desc": "<b>PEUGEOT 3008 (PC) BLUEHDI 130 EAT8 S&S ALLURE PACK</b> | Targa: GP155FL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/94aab28ed4b31d4fe1702ee38295e2859fd84756f1e895f72cbd7bc99a0ce45338724dceca2277fbd856b9727ed19cf091ead089b8c614174fd6670f6e8285b6"
   },
   "GN832LK": {
@@ -306,7 +301,7 @@
   },
   "GP082MG": {
     "desc": "<b>PEUGEOT 5008 (PC) BLUEHDI 130 ALLURE EAT8 S/S AUT. FP</b> | Targa: GP082MG",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/a1331d73633b5a9dc0a0a1e3890b555afa44abe86ec1a198203202d141c46a2042610359476b305d55831431560b72d095761e9239935cb37e725137397c90fc"
   },
   "GN543LL": {
@@ -376,7 +371,7 @@
   },
   "GK683ZC": {
     "desc": "<b>FIAT TIPO SW 1.6 MJT 130CV S&S LIFE FP</b> | Targa: GK683ZC",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/0df64eca71ef21b5c9b603e34611ffc55dfd38cf61281029fc4aab451a65c49dc9f70f27153d36cf02ea06a5661e7e377e1f4e77f421f748550d827c6bcc6820"
   },
   "GK558RM": {
@@ -841,7 +836,7 @@
   },
   "GJ490AW": {
     "desc": "<b>BMW X1 SDRIVE 20D BUSINESS ADVANTAGE AUTOMATICO FP</b> | Targa: GJ490AW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/60cbbe975668e9c1ea8df950155a6a4c997eed2db40fe2967e38314f243d921559d52113fa09873dccd200ee37e3c17fd0457319fe8cf26187692cd95ded69e9"
   },
   "GK625ZM": {
