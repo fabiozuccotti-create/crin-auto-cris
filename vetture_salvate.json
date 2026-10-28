@@ -11,7 +11,7 @@
   },
   "GJ314JC": {
     "desc": "<b>AUDI Q3 35 TDI quattro S tronic S Line Edition Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ314JC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9ccdecaae6fc11dce4440372c8d2b986e23a652194fb8ac34d49523fba15de4b4042083ae9a9012cb24b48b18b7bca601c77c76bb7bb625e7fbec14a8f39d106"
   },
   "GJ008AT": {
@@ -141,7 +141,7 @@
   },
   "GR368EX": {
     "desc": "<b>FORD FOCUS 1.0 EcoBoost Hybrid 125cv ST-Line Hatchback 5-door (Euro 6D)</b> | Targa: GR368EX",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/4cb74a58efe5c2c1210baaa66860861569dbeae8fb71bf879cdd31979cddf775ea2c0a5fba8be318511790f299a03380b5f479cbaeabcd4377934a77f822d66e"
   },
   "GW519RY": {
@@ -341,7 +341,7 @@
   },
   "GK413RR": {
     "desc": "<b>BMW X3 (PC) XDRIVE 20D MH48V MSPORT FP</b> | Targa: GK413RR",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/4f230baff0fff0ce53a6638764b8d7e4639e738d6894b415f599abf2f27f4d706b34b2d747f2635b0786ec56d001ce8186880171f054ec5eb3977a0ffbf23b8f"
   },
   "GP862SW": {
@@ -486,7 +486,7 @@
   },
   "GK877ZV": {
     "desc": "<b>BMW SERIE 5 520d aut Business MH48V Touring SW 5-door (Euro 6D)</b> | Targa: GK877ZV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/d5db4afb874953ab75477f3b13fd3ad4bf920271094dea24d3fe5e33ff82f2ea0fec2d2c408c7aa73d0d536c6e78fff45d91e05e0ba765665ee5ca892b6924c4"
   },
   "GL240EZ": {
@@ -516,7 +516,7 @@
   },
   "GP201TE": {
     "desc": "<b>BMW SERIE 1 116d Business Advantage Hatchback 5-door (Euro 6D)</b> | Targa: GP201TE",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/de999dd6835aaec1eb8bbb20f65b6b3db5841e26cb585af0db947d103f835b3a1507f86c88e45a99c5722fb257281427f527b7b57f7bd534a1014fcc57a5e151"
   },
   "GL619JC": {
@@ -536,7 +536,7 @@
   },
   "GR231MA": {
     "desc": "<b>AUDI Q3 35 TDI quattro S tronic S Line Edition Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR231MA",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/80f6d628a448201989b6fe39180b21e9fc1e0d0eb35343b06eb24a4170791b5820c706b52e3936544f39ad6a58e1c33c6d4416893af460ecafea708582cdee66"
   },
   "GP076MT": {
@@ -556,7 +556,7 @@
   },
   "GL574FF": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV ST-Line Design Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL574FF",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/20ca7aedc0749cfe280be7db7c33252023b4626988a9d231e3f79b74ee745fcb78d681fa56b893316c6124c11e914977a9894b3982685f79a47fcc1029a43fe1"
   },
   "GP301MG": {
@@ -626,7 +626,7 @@
   },
   "GR364VN": {
     "desc": "<b>FORD MUSTANG MACH-E 351CV Extended Range Premium AWD Sport utility vehicle 5-door</b> | Targa: GR364VN",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9960a82735614b48d4a3b3b95c95574e1d40eb7e9d540d39f47cf1148b32f973680dfbbba5657cf971c63f2b92371c4c0fe55700781a055391f3332417c5325d"
   },
   "GV170ZS": {
@@ -661,7 +661,7 @@
   },
   "GV784ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV784ZS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/0996a820b14bdc78554b7299617fee470b8a4d5d1cf2c025920c220beee6067f0a5cf11903550129e6f73cdebc85647d5ce6c1480c315dd7b9b6a69db8cf9a14"
   },
   "GV787ZS": {
@@ -746,7 +746,7 @@
   },
   "GN083RZ": {
     "desc": "<b>VOLVO XC40 (PC) T4 RECHARGE PLUG-IN AUTO CORE FP</b> | Targa: GN083RZ",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/3b9d4827aa8002d87b8b704123c26c4e1cf602e5ad4b2e2d90c511d36d33552f250272664941bd7d79c2738655917845943a2f595efd148386918503079c20a6"
   },
   "GR764ER": {
