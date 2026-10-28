@@ -111,7 +111,7 @@
   },
   "GS189EL": {
     "desc": "<b>RENAULT CLIO 1.6 E-TECH full hybrid 103KW EQUILIBRE Hatchback 5-door (Euro 6D)</b> | Targa: GS189EL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/63ab8379cbabab5e8f6e933617deb5be289b39fc1733046d2998611152a807b6236518a9e6b6ff4ddfdb92a25b8bdbeb09d9dfe84e173654ac379014ad139954"
   },
   "GP090MK": {
@@ -511,7 +511,7 @@
   },
   "GK720ZR": {
     "desc": "<b>ALFA ROMEO STELVIO 2.2 TD 190 CV Sprint AT8 Q4 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK720ZR",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/68d3f9ee31fdb353f0eb9f11732d6218f148d124cd7e6f6051ce9993f289e8e99a603d9e96cba4396417bfe11efa1a1e626bd8749bed74ed576a3722425c7b02"
   },
   "GP201TE": {
@@ -541,7 +541,7 @@
   },
   "GP076MT": {
     "desc": "<b>AUDI Q5 40 TDI Busin. Advanced quattro S tronic Sport utility vehicle 5-door (Euro 6D) mild hybrid</b> | Targa: GP076MT",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/9cc126ba523d9dce831ea3c950590c00be9f02b6a6e0d634721779b5fe4ffbe264100fb63408334a33c3f47c2d56332b5d32d16ffc5538335ba78b9b65e7ef31"
   },
   "GL298PP": {
@@ -686,7 +686,7 @@
   },
   "GJ422AC": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ422AC",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/62c1974bb1241e6bb4913d291d390b4b6cf5415263a3ac0770cca82d48002d28dceced27c9848a5240a934891dacc312f1bf7f98b8bce747d0e146f988feb47e"
   },
   "GJ412JN": {
@@ -803,11 +803,6 @@
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ478EL",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/908431eb4abcebcba31e90fd028088b2c3d1b0e280a1afd8b0673b6ebe5487f547730cd3a7d47f46fa2ef8f1867ffdaaae34039300af7089feb1f435eeff1cf8"
-  },
-  "GC941GL": {
-    "desc": "<b>DACIA DOKKER DOKKER PICK-UP 1.5 BLUE DCI 75CV FP</b> | Targa: GC941GL",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/ad3b69948d8a6a4b757c29dec6db050acc14fc87b0e0bf477ba3033168c4e32ad68dff66f0ae68d883a210f45d25b943ead0590b8f3476773430e17fe323e188"
   },
   "GR660ER": {
     "desc": "<b>VOLKSWAGEN TOURAN 2.0 TDI SCR EXECUTIVE DSG FP</b> | Targa: GR660ER",
