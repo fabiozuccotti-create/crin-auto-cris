@@ -66,7 +66,7 @@
   },
   "GK737ZD": {
     "desc": "<b>CITRO\u00cbN C5 AIRCROSS BlueHDi 130 S&S Business Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK737ZD",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/47d0fbce642e7cfd05d356f5d0f447cf72e5c438ace99d590a672f568fb034b96177565fa24dc7e97251feab48d70f249a97d8d7744b251d9ad508f3f9b41f93"
   },
   "GK442FV": {
@@ -108,11 +108,6 @@
     "desc": "<b>BMW SERIE 3 318d 48V Touring auto SW 5-door (Euro 6D)</b> | Targa: GP090MK",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/86e10b0409b8b52e60cf7a2c77017fe7d79fe5b8d87aebeb2322587167ed096b4f5224e2bc9e4f0e694fc8942aa674336a3c9cb6b818f42873a790cbd07c7a60"
-  },
-  "GR850YY": {
-    "desc": "<b>AUDI Q2 2.0 30 TDI BUSINESS S TRONIC Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR850YY",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/0078cce65aaa268b383476d7316852dcb84a8451b9d370c69b73bb3ae7d813b02323f85a5575a913ccf60fabb99d96697839cf214f7ef41c76d4eff2cd8531f8"
   },
   "GP417FS": {
     "desc": "<b>LANCIA YPSILON 1.0 FireFly 70cv Hybrid Silver Plus Hatchback 5-door</b> | Targa: GP417FS",
