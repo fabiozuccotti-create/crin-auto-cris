@@ -181,7 +181,7 @@
   },
   "GV288ZT": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV288ZT",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e4f4b2e40b5855d16fabb929fecd9343ca9cea7c091907370b03ca943467d11f7ff8f9b782c574919d6703c22c8cf9a1babcdce177220c5283d526c76a047cee"
   },
   "GV316ZT": {
@@ -266,7 +266,7 @@
   },
   "GG928ZW": {
     "desc": "<b>FORD FOCUS CONSIPAQ1 1.0 ECOBOOST HYBRID 155CV ST LINE X FP</b> | Targa: GG928ZW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/54661e0f416ed12f5a090f9a64bb37dbc2bde14ed2ae704ad5a7c595702a0d7fe7fbbd9b068e61c2b8a15d3cfbd5c15b5458285ac46a95b0b3ffaae4e2ba14d8"
   },
   "GP335ST": {
@@ -439,11 +439,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/a6bba0ce0054f103d03fc622ceba23de40388e0cadb6fa3dadd135effcdae668eeb14eadf6f70abdf6c60356e956a59eeeff8dcd889096002d56413ad3c34d6a"
   },
-  "GL900HL": {
-    "desc": "<b>FORD KUGA 1.5 EcoBlue 120CV 2WD ST-Line Auto Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL900HL",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/44d9276dbb8109f338d8c12f5e011501d5d3121dd2fff1d2c456b0764eea7d56bd6c614320f5853ed8e70d27e201e8b095f222e2614562e81678144c4a1c10c4"
-  },
   "GJ012JD": {
     "desc": "<b>JEEP RENEGADE 1.0 T3 120cv Limited Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ012JD",
     "options": 2,
@@ -501,7 +496,7 @@
   },
   "GK243ZF": {
     "desc": "<b>FIAT FIORINO 1.3 Multijet 95 CV E6d-final SX Vettura Furgonata 4-door (Euro 6D)</b> | Targa: GK243ZF",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/c2cc5a4c704f9a23fc0c5f4e0eb967950a197b8f10444ca59b937b76cc6a7f125248330a87655cfbd5786c64936bf3baa81a4f789f56a1bc092de2a639c4c906"
   },
   "GK320GB": {
@@ -556,7 +551,7 @@
   },
   "GL298PP": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL298PP",
-    "options": 0,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c690070f6a6c2ed9844e124f4bbe83b03183503f0e3251236341f4efb29fe3062a95ee6a32213c4308a8c37544d72b46c2431cdfd20eddb9bca9dad0e6048fe6"
   },
   "GK875ZN": {
@@ -606,7 +601,7 @@
   },
   "GP518AX": {
     "desc": "<b>ALFA ROMEO STELVIO 2.2 TD 190 CV Sprint AT8 Q4 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP518AX",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/cc40001576a629d9867233b79a9b78b1bccf06ca47dba85a06f67e89b764a62fdb3254056256febc67b4d11f22bdb6a22ee5b3638508ae2d2cb433aa6d2a6536"
   },
   "GM829VN": {
@@ -731,7 +726,7 @@
   },
   "GJ422AC": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ422AC",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/62c1974bb1241e6bb4913d291d390b4b6cf5415263a3ac0770cca82d48002d28dceced27c9848a5240a934891dacc312f1bf7f98b8bce747d0e146f988feb47e"
   },
   "GL660XF": {
@@ -801,7 +796,7 @@
   },
   "GZ315MT": {
     "desc": "<b>BMW SERIES 3 318I AUT.</b> | Targa: GZ315MT",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/7da1c017b56b1b97728a58976e93fc867fa1b585abd5e23a5e634865ebae484e66d89bc9917230406f02eb9e645e6a6a3e9b4c4cc2fcb5790f65461763b515f8"
   },
   "GP923FL": {
@@ -826,7 +821,7 @@
   },
   "GN427ST": {
     "desc": "<b>BMW X3 (PC) XDRIVE 20D MH48V FP</b> | Targa: GN427ST",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/d36f483a32e1eb6bfb3727dc9695a91e18ef81d25eaf7804dfc77093fdc4b0431520966c1ceb56e7b43518c50679643b41a20d44d8cb3346c4b401d003099d60"
   },
   "GR719EX": {
@@ -846,7 +841,7 @@
   },
   "GR213EP": {
     "desc": "<b>FIAT PANDA (PC) 1.0 FIREFLY 70CV S&S HYBRID CROSS</b> | Targa: GR213EP",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/139e29a6ea2ae12bf9345bf8e3263f88ec66815fa8a45b3af38fe6f0bdf1db485b0b29b2cb762f6ccbbbeac71b27a40a143f8c482918505d781872936bc2e25f"
   },
   "GK997RK": {
@@ -951,7 +946,7 @@
   },
   "GN153SF": {
     "desc": "<b>RENAULT AUSTRAL 1.3 MHEV 160 TECHNO AUTO</b> | Targa: GN153SF",
-    "options": 0,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/98294fd0f065438ae9f432447240ef5323850de83d363df296fa912c47612c5d5b345f2c3e219413a65c89ed123d698e31cc8b23c1c9cf84dacdcbaedf0e648e"
   },
   "GJ689AD": {
