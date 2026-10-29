@@ -306,7 +306,7 @@
   },
   "GY267FN": {
     "desc": "<b>TOYOTA RAV4 (PC) 2.5 HV (218CV) E-CVT STYLE 2WD FP</b> | Targa: GY267FN",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/a673aed84914d6e1a826a0d7b4f5ff19038d6cbd1797f36c7a04324dc23f3a2235ad716a70f3b1ffed4cdac7fd19cc23098f6c2a12892eaedf6e0d13abc766c4"
   },
   "GK726ZG": {
@@ -411,7 +411,7 @@
   },
   "GH041JF": {
     "desc": "<b>TOYOTA C-HR 1.8H (122CV) E-CVT Trend Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GH041JF",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/bdc11d71ba38cb9891a1a62c96de7aab61d77d8db5c084b9d731d26d1c1e03525d226ce5316962c7dc7045659497c27521a74612b60e7a5fda5732ae9a17dbdf"
   },
   "GK339ZH": {
@@ -734,11 +734,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/62c1974bb1241e6bb4913d291d390b4b6cf5415263a3ac0770cca82d48002d28dceced27c9848a5240a934891dacc312f1bf7f98b8bce747d0e146f988feb47e"
   },
-  "GJ412JN": {
-    "desc": "<b>RENAULT CLIO (PC) 1.5 DCI BLUE 74KW BUSINESS FP</b> | Targa: GJ412JN",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/82f724aed1d74e1343ff719f41e89a3ce356b78437b09727d5c420cab2b8ed7cc06b6463969325b12e8f0be469dd1ae08263c20dd703b7d87109d4b69ab0fab0"
-  },
   "GL660XF": {
     "desc": "<b>CITROEN C3 (PC) PURETECH 110S&S SHINE PACK FP</b> | Targa: GL660XF",
     "options": 0,
@@ -876,7 +871,7 @@
   },
   "GR266ET": {
     "desc": "<b>FORD TRANSIT CONNECT 1.5 EBLUE 100CV S&S ACTIVE 220 L1H1 FP</b> | Targa: GR266ET",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/a1904214826dfe366ea5c761e401b90941d8c3f847f410cdf341af47a5bbd0543a29ccebee92ff8aeb813d3d369b5c647375001135d4e188c8f48ede75c850be"
   },
   "GJ365JL": {
@@ -956,7 +951,7 @@
   },
   "GN153SF": {
     "desc": "<b>RENAULT AUSTRAL 1.3 MHEV 160 TECHNO AUTO</b> | Targa: GN153SF",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/98294fd0f065438ae9f432447240ef5323850de83d363df296fa912c47612c5d5b345f2c3e219413a65c89ed123d698e31cc8b23c1c9cf84dacdcbaedf0e648e"
   },
   "GJ689AD": {
