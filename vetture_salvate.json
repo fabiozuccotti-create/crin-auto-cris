@@ -506,7 +506,7 @@
   },
   "GP139MH": {
     "desc": "<b>BMW SERIE 1 116i MSport Exterior Hatchback 5-door (Euro 6D)</b> | Targa: GP139MH",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/6eecfeaf0a7ed89b9b969f61c3cc63994ed360d62a48fa28385b51c8ff9069ace9a6ecea1eeb00fe47a9a3f2476ee48e9626643078284fc51c7cb85061297453"
   },
   "GK052RD": {
@@ -566,7 +566,7 @@
   },
   "GL580FF": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium X Aut Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL580FF",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/11bc328086ae8029a52a1cbe65a58df3db745093ee2493688ca1394e1df9dfc91a8c6a4e9821b9ce8e6b477359ed1b051a68e1350ae4092d86e003b0054dc83f"
   },
   "GL029FF": {
@@ -626,7 +626,7 @@
   },
   "GL298PP": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL298PP",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c690070f6a6c2ed9844e124f4bbe83b03183503f0e3251236341f4efb29fe3062a95ee6a32213c4308a8c37544d72b46c2431cdfd20eddb9bca9dad0e6048fe6"
   },
   "GK875ZN": {
@@ -636,7 +636,7 @@
   },
   "GP301MG": {
     "desc": "<b>AUDI Q3 SPORTBACK 35 TDI S tronic Business Plus Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP301MG",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/198afdeaf6f02e755f529292d9d6d9312c73fbb8f02fc1c343b267469b9e25bbe5f15a72e1c2eae33ae5751ace5c8a8268ab21b0d2e1210875318d4b85d87bb3"
   },
   "GM380KV": {
@@ -691,7 +691,7 @@
   },
   "GN001DA": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GN001DA",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/69f732cf8d99f8b8b64ff9344e8dbddee64c48475fc9f73ed716c8febc9dc5ed39ef89fd6ca789850cd680c1f238e8142bc1c089d63a297225d3a8ec8d71a832"
   },
   "GR190SG": {
@@ -959,11 +959,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/908431eb4abcebcba31e90fd028088b2c3d1b0e280a1afd8b0673b6ebe5487f547730cd3a7d47f46fa2ef8f1867ffdaaae34039300af7089feb1f435eeff1cf8"
   },
-  "GN536LK": {
-    "desc": "<b>NISSAN QASHQAI 1.3 MHEV 158 BUSINESS XTRONIC FP</b> | Targa: GN536LK",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/d0384dcd1189068bcdc9b9d816fb81f02ec78e3f348c4c73534ec8d3d408c3ecd59485c243b072d4a963ddda3a7f75c1b39c867ee4fd5915c90de347d76dbe81"
-  },
   "GY191DC": {
     "desc": "<b>AUDI Q3 SPORTBACK PC 35 TDI S TRONIC BUSINESS PLUS FP</b> | Targa: GY191DC",
     "options": 0,
@@ -1051,7 +1046,7 @@
   },
   "GH074GX": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GH074GX",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/f024855ef4240dbe679c0c662036159bedd38668f4c087bb3f1069519ee8665002c2b37deda5a47c0326185dce980170ecaca883301e3604f36fadf4a1fab157"
   },
   "GG915XG": {
