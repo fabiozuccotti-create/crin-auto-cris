@@ -21,7 +21,7 @@
   },
   "GJ167YN": {
     "desc": "<b>AUDI A6 AVANT 40 TDI 2.0 S tronic Business Plus SW 5-door (Euro 6D) mild hybrid</b> | Targa: GJ167YN",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/7eacf7357c6d5c7f606141f6ab22daf5f925d59f2c597148258e1606a37a85e922588670df079ca3de1d8806764e363ba2459dc6a97a87c00a876563de26dd1f"
   },
   "GK416RK": {
@@ -266,13 +266,8 @@
   },
   "GP155FL": {
     "desc": "<b>PEUGEOT 3008 (PC) BLUEHDI 130 EAT8 S&S ALLURE PACK</b> | Targa: GP155FL",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/94aab28ed4b31d4fe1702ee38295e2859fd84756f1e895f72cbd7bc99a0ce45338724dceca2277fbd856b9727ed19cf091ead089b8c614174fd6670f6e8285b6"
-  },
-  "GN832LK": {
-    "desc": "<b>MITSUBISHI ECLIPSE CROSS 2.4 PHEV INSTYLE SDA PACK 0 FP</b> | Targa: GN832LK",
     "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/e32392373c899667c0f8ae1d37e1937180aad3ec5e7397f7e9ee00d7e0c300f84fd2352dd1dc1db1b011e05160ec1ffbf1ff827190ace4c33a3e23dc50e0b3a9"
+    "url_foto": "https://auto.nextlane.com/public/player/94aab28ed4b31d4fe1702ee38295e2859fd84756f1e895f72cbd7bc99a0ce45338724dceca2277fbd856b9727ed19cf091ead089b8c614174fd6670f6e8285b6"
   },
   "GP082MG": {
     "desc": "<b>PEUGEOT 5008 (PC) BLUEHDI 130 ALLURE EAT8 S/S AUT. FP</b> | Targa: GP082MG",
@@ -436,7 +431,7 @@
   },
   "GK927RC": {
     "desc": "<b>CITRO\u00cbN C3 AIRCROSS PureTech 110 S&S Feel Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK927RC",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/3d009fe77da689e6eac0e0bbfc993759f740372de6f711c688d4ef65980fc6f481bfac084d9cf61cfa9bdf16d2b349072fc03fe9a709a5cea3b53c2111be0525"
   },
   "GK578ZT": {
@@ -478,11 +473,6 @@
     "desc": "<b>FIAT PANDA 1.0 70cv Hybrid Euro 6d Van 4 p. Street Commercial hatch 5-door (Euro 6D)</b> | Targa: GL029FF",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/82d949341fd481a5ee106266fb96b492477ec59cd85e6d6480e52681b38304656e4a262b816857423b1d2dba3cb3370018347c42ed65e2511ee02f1e9644e99a"
-  },
-  "GK243ZF": {
-    "desc": "<b>FIAT FIORINO 1.3 Multijet 95 CV E6d-final SX Vettura Furgonata 4-door (Euro 6D)</b> | Targa: GK243ZF",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/c2cc5a4c704f9a23fc0c5f4e0eb967950a197b8f10444ca59b937b76cc6a7f125248330a87655cfbd5786c64936bf3baa81a4f789f56a1bc092de2a639c4c906"
   },
   "GK320GB": {
     "desc": "<b>FIAT DOBL\u00d2 CARGO CH1 BUSINESS 1.6 Mjet 105cv E6D-f S&S Vettura Furgonata 4-door (Euro 6D)</b> | Targa: GK320GB",
@@ -736,12 +726,12 @@
   },
   "GK667ZR": {
     "desc": "<b>PEUGEOT 3008 BULK BLUEHDI 130 S&S EAT8 GT AUT. FP</b> | Targa: GK667ZR",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/17c9e0b5c0fb3f9ffdcd576c75792c6758e151dcbcd1025b564c1b146057add82c4238e6e8071adc9c8704697c4f4a626f86ecd4ee5231a21db2e17f26f23b8b"
   },
   "GK881ZN": {
     "desc": "<b>MAZDA CX-5 DIESEL 2.2L 150CV 2WD 6MT BUSINESS FP</b> | Targa: GK881ZN",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/e91e110165ff6eacc21e6671f2c87d8db54ef6e48488556d5b5ea4db5342c52c8d57ffa37cc7322e91eb7f5393cbeae8585292b643bad1baf61ad6cf5972f747"
   },
   "GK966FJ": {
@@ -866,7 +856,7 @@
   },
   "GR660ER": {
     "desc": "<b>VOLKSWAGEN TOURAN 2.0 TDI SCR EXECUTIVE DSG FP</b> | Targa: GR660ER",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/2abae688feb939163c21e2e2132e25e9f2dcd1bc37b664dd56dbde1792e80f73fd50c14f2448af246bc3d9ad7c11325f4e8666401e1af3f3d4facd65d0735187"
   },
   "GJ708AD": {
@@ -951,7 +941,7 @@
   },
   "GH074GX": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GH074GX",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/f024855ef4240dbe679c0c662036159bedd38668f4c087bb3f1069519ee8665002c2b37deda5a47c0326185dce980170ecaca883301e3604f36fadf4a1fab157"
   },
   "GL779EW": {
