@@ -106,7 +106,7 @@
   },
   "GN907HE": {
     "desc": "<b>CITRO\u00cbN C4 PureTech 130 S&S Feel Hatchback 5-door</b> | Targa: GN907HE",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ee548556de200d9fa4241abbb7a31f8977adcef832ebae3fb57ba7465c3e7c33dda538e485c5eec4da6e3b4d1a88425f996f3bcc01d79744bd1baa91c1d4d4bf"
   },
   "GN262WK": {
@@ -211,7 +211,7 @@
   },
   "GV320ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV320ZS",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/83defbc6f2530055026db4ea84adba70ccab4530476aa64ea2e79910330b29312972d37e9bcb7d5f759e2817bdc2bcfd04ffc87ac84a81a44e24a232d2f38202"
   },
   "GV359ZS": {
@@ -258,11 +258,6 @@
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ422AC",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/62c1974bb1241e6bb4913d291d390b4b6cf5415263a3ac0770cca82d48002d28dceced27c9848a5240a934891dacc312f1bf7f98b8bce747d0e146f988feb47e"
-  },
-  "GL660XF": {
-    "desc": "<b>CITROEN C3 (PC) PURETECH 110S&S SHINE PACK FP</b> | Targa: GL660XF",
-    "options": 0,
-    "url_foto": "https://auto.nextlane.com/public/player/21c4d07507603a52f610d7d2d1c64eee246d72e714211fb7acaf51edbdc175a19c1b8d6c4c3e952c322699bc6dc7990aa97d3cb39186e8067654eb13bdcc7de6"
   },
   "GP112BA": {
     "desc": "<b>PEUGEOT 3008 PURETECH TURBO 130 S&S ACTIVE PACK FP</b> | Targa: GP112BA",
@@ -646,7 +641,7 @@
   },
   "GM380KV": {
     "desc": "<b>BMW SERIE 5 520d xDrive Business Auto MH48V Touring</b> | Targa: GM380KV",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/73d736e208fd31e37915262fe55efdbff26fbca714ef896e2258b7fd8f6e55c419a80d88bc447c60bc08c7f140f94e4652aae0327ed1feaf921810b0585f5b5f"
   },
   "GN002HB": {
@@ -821,7 +816,7 @@
   },
   "GT701DN": {
     "desc": "<b>RENAULT MEGANE SW 1.5 DCI 85KW BLUE EQUILIBRE EDC FP</b> | Targa: GT701DN",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/90ff591c400f4ed4bec4ea5ea13ea7998c380f6ec4ed6d2e6987f4bb691dfe7cd46e7a7908c34ee1e36cd424ff392979334da0488426ad8ec207a8b7f4e95e8f"
   },
   "GJ339JE": {
