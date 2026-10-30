@@ -26,7 +26,7 @@
   },
   "GK341ZH": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK341ZH",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/a06242782fc931605e778e87b3ce8c7ae279a8dd3fdcd973895995ac0cdfd983df44c6beee12027490b2f8421d232fe96f04516ec42b9df56c2b64bbc5878494"
   },
   "GJ167YN": {
@@ -91,7 +91,7 @@
   },
   "GK778ZD": {
     "desc": "<b>BMW I3 Auto 120 Ah S Advantage Hatchback 5-door</b> | Targa: GK778ZD",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9089b4f34e1f42047c34496ba77185456cf691c48642d149140980d0a433d627cda7f1fc607d16de6ca641fcb78079315c32ffc65d20150bdbe9561ece2245a0"
   },
   "GN907HE": {
@@ -141,7 +141,7 @@
   },
   "GR368EX": {
     "desc": "<b>FORD FOCUS 1.0 EcoBoost Hybrid 125cv ST-Line Hatchback 5-door (Euro 6D)</b> | Targa: GR368EX",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/4cb74a58efe5c2c1210baaa66860861569dbeae8fb71bf879cdd31979cddf775ea2c0a5fba8be318511790f299a03380b5f479cbaeabcd4377934a77f822d66e"
   },
   "GW519RY": {
@@ -226,7 +226,7 @@
   },
   "GV854ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV854ZS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/d7a23144679a6347465f14c3f6d7c8596228203f051709e55aac442d2ea1a6f1329946de8438364263f090d3232f160ee1f9f58abb0c020dafa8fb5130b44763"
   },
   "GW065YD": {
@@ -244,14 +244,9 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/62c1974bb1241e6bb4913d291d390b4b6cf5415263a3ac0770cca82d48002d28dceced27c9848a5240a934891dacc312f1bf7f98b8bce747d0e146f988feb47e"
   },
-  "GP112BA": {
-    "desc": "<b>PEUGEOT 3008 PURETECH TURBO 130 S&S ACTIVE PACK FP</b> | Targa: GP112BA",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/ec08fc2d74e5fefa9fdb93045275e83162bf5719362a8f063bac239afb784bc0526198e97a4b0f90ec29a758619a14110ef6f0952a3f5aafcd5c5c3468dc6c2f"
-  },
   "GN719LV": {
     "desc": "<b>BMW X2 XDRIVE 18D BUSINESS X AUTOMATICO FP</b> | Targa: GN719LV",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/d3c161e489e1576905637e76cd64eff647c4e7dfaa94be95c42850f4541f43d6633a9b6934855fa7bc27dd1397f5de53483eed7365b72667c59e34a873f3ae76"
   },
   "GP141MN": {
@@ -286,7 +281,7 @@
   },
   "GP335ST": {
     "desc": "<b>FORD FOCUS SW (PC) 1.0 ECOB. HYBR. 125CV ST-LINE DES.AUTOSW</b> | Targa: GP335ST",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/dbb843da0c196b746dad681a3c4dfe0a07ea7a7dbb6f00e5caff2afa9ec0e51b9166e94db7af0554e26633b1e3070b1d70a1d10c93ec541c46524d977cb67e3b"
   },
   "GP733BG": {
@@ -529,11 +524,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/41756633fe61731298acf6b5e157f3f6ea2af57fa855f0f112e988cf385bb3efd04827bb37b755f4796ce672bff0e063c213448816a3ea23167d3c9a0d7018aa"
   },
-  "GL648EY": {
-    "desc": "<b>FORD TRANSIT CUSTOM 280 L1H1 Trend 2.0 EcoBlue 130 Cv Furgone 4-door (Euro 6.2)</b> | Targa: GL648EY",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/6c0a52fc6839c7d18aee1018109ec31e68d01c07bfc638b1a11117d00e23681c653a18e3e437f93b4602bba35f732d21e3152f390f3ad1349cf40a46f94cc2aa"
-  },
   "GL580FF": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium X Aut Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL580FF",
     "options": 2,
@@ -566,7 +556,7 @@
   },
   "GP201TE": {
     "desc": "<b>BMW SERIE 1 116d Business Advantage Hatchback 5-door (Euro 6D)</b> | Targa: GP201TE",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/de999dd6835aaec1eb8bbb20f65b6b3db5841e26cb585af0db947d103f835b3a1507f86c88e45a99c5722fb257281427f527b7b57f7bd534a1014fcc57a5e151"
   },
   "GL619JC": {
@@ -856,7 +846,7 @@
   },
   "GK701ZM": {
     "desc": "<b>AUDI Q3 SPORTBACK PC 45 TFSI E S TRONIC BUSINESS PLUS FP</b> | Targa: GK701ZM",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/3f9e7b4a31fe16de06af91922541510e988c380b2f12d06a4e8166bf19b83e3843e50bc4e4f7096e8d67f2a2993b6d041185219609a430a24ab084aa527e3800"
   },
   "GR213EP": {
@@ -906,7 +896,7 @@
   },
   "GP468BA": {
     "desc": "<b>BMW X3 (PC) XDRIVE 20D MH48V MSPORT FP</b> | Targa: GP468BA",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/bc5046f82457ef19c59ccdfc2c7a3fc6e7d42b74c25bfadf8ab4aecabb2f72e6bc3a44118bf81e9ec806d0c45494918c9b36084f3d882fdf72e4cf404b80527f"
   },
   "GJ478EL": {
@@ -986,7 +976,7 @@
   },
   "GK131ZM": {
     "desc": "<b>AUDI A3 30 TDI S TRONIC BUSINESS S.BACK FP</b> | Targa: GK131ZM",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/677e3021126e184b87b95142603eaf65bceeacdb35f5b09064bffc397db667a3fab92fd8b47375ba5a79cbb794d8f13a274a99aebc3dee1f19395859ef40c0ef"
   },
   "GJ490AW": {
