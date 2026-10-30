@@ -401,7 +401,7 @@
   },
   "GK575RS": {
     "desc": "<b>SMART FORTWO (PC) EQ 60KW PASSION FP</b> | Targa: GK575RS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/aff1d9b0e3f29b8222693243c55bbe66d60bcd68b7129c28acb9fadba1ebe4727f0894d9d32d140734dda217cfd80d2e50cc3aa7a93c2cd75fb8fb0fa2020666"
   },
   "GK786ZW": {
@@ -849,11 +849,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/e34975fc43161eed03bbb7636cbf86e514f5edd6c7ae96928f64e8a665e0da3f998ee58287833d6ea6e98fb7af611f0a06885f7668818816f3fe78c64fd1ae71"
   },
-  "GK039RS": {
-    "desc": "<b>PEUGEOT 3008 (PC) BLUEHDI 130 EAT8 S&S ALLURE FP</b> | Targa: GK039RS",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/762e45c716ab85bf6e62d5a67cfee2253b76332b63975216361d049d715e72765e02bd8a0fb76af720dcf4abc367d3b73efab2f3ad08f907d98e5461f84831a1"
-  },
   "GP964TD": {
     "desc": "<b>AUDI A6 SW 40 TDI 2.0 S TRONIC BUSINESS FP</b> | Targa: GP964TD",
     "options": 2,
@@ -958,11 +953,6 @@
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ689AD",
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/ba42d09fa325742c95d9d8621b3036c452d3b52b5debe50753ceb48bfc8946ebc0287eadc7e604583b8b3f9a77ca997f981d461574f9c26e75b017379c625707"
-  },
-  "GK131ZM": {
-    "desc": "<b>AUDI A3 30 TDI S TRONIC BUSINESS S.BACK FP</b> | Targa: GK131ZM",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/677e3021126e184b87b95142603eaf65bceeacdb35f5b09064bffc397db667a3fab92fd8b47375ba5a79cbb794d8f13a274a99aebc3dee1f19395859ef40c0ef"
   },
   "GJ490AW": {
     "desc": "<b>BMW X1 SDRIVE 20D BUSINESS ADVANTAGE AUTOMATICO FP</b> | Targa: GJ490AW",
