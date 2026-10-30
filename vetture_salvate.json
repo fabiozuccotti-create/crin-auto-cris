@@ -89,6 +89,11 @@
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/4e70aa004e0c251eff9fdc026052fa9414f5a7659dcbc02e3c015095a35276bcc0db50db4bc7552d424f6f8fa74542560987def74db5f404b47f88a3310f35c5"
   },
+  "GK362RG": {
+    "desc": "<b>TESLA MODEL Y 75 kWh Dual Motor Long Range 4WD aut. Sport utility vehicle 5-door</b> | Targa: GK362RG",
+    "options": 1,
+    "url_foto": "https://auto.nextlane.com/public/player/a237e7afa75d4f00eec73de86b964ed534b30cb1373b1ac8f44ed20449db5b1f9fd9e043b815a0fd56a7180417697d1ef5fef9502b33816a4413854959f9e735"
+  },
   "GK778ZD": {
     "desc": "<b>BMW I3 Auto 120 Ah S Advantage Hatchback 5-door</b> | Targa: GK778ZD",
     "options": 2,
@@ -169,24 +174,9 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/2f9ecac9c04b5a8e7e50ab07f5665037228744d23a7a9d183c0f12195df3415f8cc33014f99f39624dc57ad1b71ecf35d06610a482e0dc75ac71aff9b58ee37a"
   },
-  "GV169ZS": {
-    "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV169ZS",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/eca5239d2da910bee31bee3d9fa89c12cf43c908f87dd7e705276848609de31a9dadfd9bc6e1ba03495ecaa08dedb9174d225fd8aecd0a89de5c2de5f3575e85"
-  },
-  "GV189ZS": {
-    "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV189ZS",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/03b78df612244c9b409d766f6e545738db101b53d8c0e41f35d8964edf375127beb98955700d1073b214ec9a06fc966cc9de4a879bb21d35c8a66cef755e1e9c"
-  },
-  "GV197ZS": {
-    "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV197ZS",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/a145f4cbf4a56a81fd8b2133339cd8df71fcc9b397c08bf396363e5e61d3ddbed1d33d6f461fb63c79898c8e542469a6efd2c3452d6b6cad18b62d639f366611"
-  },
   "GV316ZT": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV316ZT",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/5c17827aa59da7a542e328f779fc66cca32a184dd3855fb31e88fdd8c6f0c37b3a207e4b59258efdfba13fb4c57dfcd28b17c1029234ed0873ea8414de864aca"
   },
   "GV393ZT": {
@@ -471,7 +461,7 @@
   },
   "GJ301JN": {
     "desc": "<b>VOLKSWAGEN TRANSPORTER 2.0 TDI 81kW EU6 p.c. Cassone a sponde abbattibili 2-door (Euro 6.2)</b> | Targa: GJ301JN",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/fb51bc4b81396f56f1bf2dce8024884c11f28842e63418e7ebf3d70750ccf6566ea32ba7f7001d93868c2678e8e220233218453ed00ffe0b9036f9d95af1ea51"
   },
   "GP349MJ": {
@@ -539,11 +529,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/68d3f9ee31fdb353f0eb9f11732d6218f148d124cd7e6f6051ce9993f289e8e99a603d9e96cba4396417bfe11efa1a1e626bd8749bed74ed576a3722425c7b02"
   },
-  "GL435PM": {
-    "desc": "<b>SKODA FABIA 1.0 TSI Evo 70KW AMBITION Hatchback 5-door (Euro 6D)</b> | Targa: GL435PM",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/ce0794574d333f26d719c20d853de5cd204e071d9d49d0bbac7bbd8aa881f1644ba5b2a5942425873485e38f404cc61ef2b80350e5fd14f480b3a4f371f6a1b7"
-  },
   "GL300PP": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL300PP",
     "options": 2,
@@ -581,7 +566,7 @@
   },
   "GL603JC": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium X Aut Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL603JC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/56b44fc4823b1528b4fc114a78d31758b0137c3ef43fa72b831d5dd08b4eb2d9e79f198179dd81289f9e1c7ee872dc0b5630cf932a02b26204613807d6eee569"
   },
   "GL298PP": {
@@ -711,18 +696,13 @@
   },
   "GR090LZ": {
     "desc": "<b>HYUNDAI TUCSON 1.6 CRDi MHEV 2wd 136cv Exellence DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR090LZ",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/20121b7373621cc7b0f3f4e875e5637ff3de8476329bc68eb77b0372f01c3b737dc9b1883909bf980f2497e71d63c19911ca9c9c5293583c16f4cee01ed01ff0"
   },
   "GV170ZS": {
     "desc": "<b>HYUNDAI I20 1.0 T-GDI 48V 100cv ConnectLine Hatchback 5-door (Euro 6D)</b> | Targa: GV170ZS",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/4cd542c7abb78003d10b4cb85ebf10dfffda180ee0526597cf9d5e9eff2353ee357982057e702d489e77ebf247fcc99ac9490c53e75418fee2ca80c504380397"
-  },
-  "GV320ZT": {
-    "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV320ZT",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/509e05f62fa9572c5cdbb8cd2d9cb81d0928fa32abdad6b7cee6431bfa027ab8dac8d669af6cd0f23ce34edc7dec3c0e0756d686b304f87f96fffe0449c98c6e"
   },
   "GV352ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV352ZS",
@@ -738,11 +718,6 @@
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV633ZS",
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/f6b1cc8f15b337b8d642a6b7ed9a5f935532e9318d4a98cf5f55d45db185b28e3cbb2169acc8666c5927fdbfd7ea104db7551f7637949cecee5e8a9e2f45f086"
-  },
-  "GV787ZS": {
-    "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV787ZS",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/fe47218e8b8e0fc2245419d4f45e83e0630f302c863b45d9b61e34ee0e1a8dbfaaaf7c9e7b909e828ac97d63d0ed48582922367e9900b1f8c0dc7210aa9608d7"
   },
   "GW129EG": {
     "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid Hatchback 5-door</b> | Targa: GW129EG",
