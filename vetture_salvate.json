@@ -49,11 +49,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/34e0da51f5b26dba342cf252c11c0aed90e6304f7deb094311162680a8dfa9549d446e3be1f6f4a1443a2f47cdd628df1c0f6e94d057f92a5c3d870c8fcff0a7"
   },
-  "GL940XB": {
-    "desc": "<b>VOLKSWAGEN GOLF 1.0 eTSI 81kW EVO Life DSG Hatchback 5-door (Euro 6D)</b> | Targa: GL940XB",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/f1610e6e1d855622f687dbeb56216c1bd8de21f1cc412ecf66c09982895d26fbf127cf654c95bdedbc7737c412bfe9508e8bbfa5a3347439c6e5df827a3784d8"
-  },
   "GK345RT": {
     "desc": "<b>PEUGEOT 3008 BlueHDI 130 S&S Allure Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK345RT",
     "options": 1,
@@ -209,11 +204,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/a2a8834e80ec8d4757caa7cda2e079173050b62be6c5c86004b4d444d2b4bfd4fe647450a0afd5b6e30ce526bdeb353a266d314bbdd3688971adb7d0b68c8928"
   },
-  "GV567ZS": {
-    "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV567ZS",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/150c955b6f580c4c270fa754fcf010b1bb560ca8d19ddefbc0302aa9f3df7c20a0bb76d820385d3a15c0b24050ba111fa88ab73251e1816ee4e3a5e681c007a1"
-  },
   "GV667ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV667ZS",
     "options": 1,
@@ -309,11 +299,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9606d72157b3dbeab8e2d7d13422cb89184817551a898e98ad014d8282971a4a2feb68146b5000181c98cea784dee2e2cfc5e26006485b85074f48b94fd0d711"
   },
-  "GY267FN": {
-    "desc": "<b>TOYOTA RAV4 (PC) 2.5 HV (218CV) E-CVT STYLE 2WD FP</b> | Targa: GY267FN",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/a673aed84914d6e1a826a0d7b4f5ff19038d6cbd1797f36c7a04324dc23f3a2235ad716a70f3b1ffed4cdac7fd19cc23098f6c2a12892eaedf6e0d13abc766c4"
-  },
   "GK726ZG": {
     "desc": "<b>PORSCHE TAYCAN 4 CROSS TURISMO</b> | Targa: GK726ZG",
     "options": 2,
@@ -371,12 +356,12 @@
   },
   "GP442AV": {
     "desc": "<b>KIA SPORTAGE 1.6 TGDI HEV STYLE 2WD AUTO</b> | Targa: GP442AV",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/e8857776772148ba787cd3a4d25aaf38c1ef37d4d5676a9878263d9a35bc55c639e929e14e142302a6099e85b5445fad666c41e0616d0818d01ba859bbbb6d57"
   },
   "GK683ZC": {
     "desc": "<b>FIAT TIPO SW 1.6 MJT 130CV S&S LIFE FP</b> | Targa: GK683ZC",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/0df64eca71ef21b5c9b603e34611ffc55dfd38cf61281029fc4aab451a65c49dc9f70f27153d36cf02ea06a5661e7e377e1f4e77f421f748550d827c6bcc6820"
   },
   "GK558RM": {
@@ -741,7 +726,7 @@
   },
   "GW878NW": {
     "desc": "<b>FORD EXPLORER 286CV Extended Range Premium Sport utility vehicle 5-door</b> | Targa: GW878NW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e4500e6fc5c85681be37fae69fb81ac7285ccd7b8b55c7ecd58fcc6bae4075370d68ca62bcf61b46e2eff1d5f68bea5d5ae42d4350d27df7620c68ccc8054980"
   },
   "GW462VZ": {
@@ -778,11 +763,6 @@
     "desc": "<b>MAZDA CX-5 DIESEL 2.2L 150CV 2WD 6MT BUSINESS FP</b> | Targa: GK881ZN",
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/e91e110165ff6eacc21e6671f2c87d8db54ef6e48488556d5b5ea4db5342c52c8d57ffa37cc7322e91eb7f5393cbeae8585292b643bad1baf61ad6cf5972f747"
-  },
-  "GK966FJ": {
-    "desc": "<b>OPEL MOKKA (PC) 1.5 110CV ELEGANCE MT6 FP</b> | Targa: GK966FJ",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/4b6cdbd7efdefb4678b17a5a187ea78068331a451f6965f6762a28b7f2189365f8208d74aaeb393f8b6a7478bd34b64e58d5c18684ea6f688ce560b33804f2f0"
   },
   "GL747EX": {
     "desc": "<b>TOYOTA YARIS CROSS(PC) 1.5H (116 CV) E-CVT BUSINESS FP</b> | Targa: GL747EX",
@@ -881,7 +861,7 @@
   },
   "GJ478EL": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ478EL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/908431eb4abcebcba31e90fd028088b2c3d1b0e280a1afd8b0673b6ebe5487f547730cd3a7d47f46fa2ef8f1867ffdaaae34039300af7089feb1f435eeff1cf8"
   },
   "GY191DC": {
