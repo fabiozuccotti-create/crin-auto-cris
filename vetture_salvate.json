@@ -16,7 +16,7 @@
   },
   "GK884FT": {
     "desc": "<b>AUDI Q3 SPORTBACK 35 TDI S tronic Business Plus Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK884FT",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/43ad5dcccb8ffc4b95cbd7034c33ef8e6741b648daf0962d341d9a306ee41b13389cecf5ee851538c2197c3203cf76c21489fdad33c49b8327ee5008ca72a8da"
   },
   "GJ008AT": {
@@ -136,7 +136,7 @@
   },
   "GS468ED": {
     "desc": "<b>VOLVO XC90 B5 D AWD automatico Core Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GS468ED",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/686fc379652d062a500e4e40b1379a15dc0e3797af572704e7136ba895d7465ebf31843a0f61dd52f411eeaed2719d7ff993cea71875ca032045046259bc8ee9"
   },
   "FF49744": {
@@ -246,7 +246,7 @@
   },
   "GN719LV": {
     "desc": "<b>BMW X2 XDRIVE 18D BUSINESS X AUTOMATICO FP</b> | Targa: GN719LV",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/d3c161e489e1576905637e76cd64eff647c4e7dfaa94be95c42850f4541f43d6633a9b6934855fa7bc27dd1397f5de53483eed7365b72667c59e34a873f3ae76"
   },
   "GP141MN": {
@@ -286,7 +286,7 @@
   },
   "GM187FC": {
     "desc": "<b>ALFA ROMEO TONALE (PC) 1.5 130CV HYBRID TCT7 SPRINT FP</b> | Targa: GM187FC",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/4aca424d60c0f3c7cca04491b9d040e79c7439e5142b4df72484e8aae4fc57d56d920db3f33faa02d9cf167eb02b9b26bb816e5e4c3cad83529158c6ffa22b78"
   },
   "GP733BG": {
@@ -321,7 +321,7 @@
   },
   "GR520MG": {
     "desc": "<b>VOLVO XC60 B4 D AUTOMATICO CORE FP</b> | Targa: GR520MG",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9606d72157b3dbeab8e2d7d13422cb89184817551a898e98ad014d8282971a4a2feb68146b5000181c98cea784dee2e2cfc5e26006485b85074f48b94fd0d711"
   },
   "GK726ZG": {
@@ -376,7 +376,7 @@
   },
   "GP704AZ": {
     "desc": "<b>RENAULT AUSTRAL 1.3 MHEV 160 TECHNO AUTO</b> | Targa: GP704AZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/dbb84423f8fae969cdb13e199ea9848e8a772efbfcc12e8d3141ed3afad209184d1a7f68b370b70641905bc2306792a404cd000337c7c1f838dffff838726849"
   },
   "GP757ZN": {
@@ -476,7 +476,7 @@
   },
   "GK339ZH": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK339ZH",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/124b2dd45452f0e2e49bcc5764d95e363bd3377033dea86c67d065f93542018fd2a5b07f597f0a792f8b77dbc9fc66701bef526245d2e3f1693bec03d560fc64"
   },
   "GJ301JN": {
@@ -501,7 +501,7 @@
   },
   "GJ012JD": {
     "desc": "<b>JEEP RENEGADE 1.0 T3 120cv Limited Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ012JD",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/0d9273285a66f6331589e90c73967c7afecc4d9a85576cbdf107e53edb1c015fc3faa7a6eaa2c8a0be7c56336bb9aa4b9ff96d9acd2ead0a9596eb883d393b35"
   },
   "GK927RC": {
@@ -806,7 +806,7 @@
   },
   "GN082SV": {
     "desc": "<b>CITROEN C3 (PC) BLUEHDI 100 S&S SHINE FP</b> | Targa: GN082SV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/34f784b9ec4d393ab907a62e7b00d67f905ef76b25374a50e21b823d20b35a0540fdef949d6b270e9bd0a9d6f10d53cace36aa5240bba62417a738ff31aab4ad"
   },
   "GK881ZN": {
@@ -894,11 +894,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/a1904214826dfe366ea5c761e401b90941d8c3f847f410cdf341af47a5bbd0543a29ccebee92ff8aeb813d3d369b5c647375001135d4e188c8f48ede75c850be"
   },
-  "GJ365JL": {
-    "desc": "<b>CITROEN C5 AIRCROSS(PC) HYBRID 225 E-EAT8 SHINE FP</b> | Targa: GJ365JL",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/d5ae2957f7d23978c2fe6d64003765f945bec8dc10e749c88fd505109e3ecb0d8f06cfdf56a67ad3d8ded3e9885aabd3be2846fa0625bc6f920c89310eca8d9d"
-  },
   "GP470ZR": {
     "desc": "<b>PEUGEOT 3008 N1 BLUEHDI 130 EAT8 S&S ALLURE PACK FP</b> | Targa: GP470ZR",
     "options": 2,
@@ -921,7 +916,7 @@
   },
   "GY191DC": {
     "desc": "<b>AUDI Q3 SPORTBACK PC 35 TDI S TRONIC BUSINESS PLUS FP</b> | Targa: GY191DC",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/438282f3e936c5ef76d467fe5afa36b106a62cd116a1ca86476daf29efed653c38db468d51d8a7a6f5b94a6b8faed7dd049b130fd7c1137457f4d66521ab3e5d"
   },
   "GR660ER": {
