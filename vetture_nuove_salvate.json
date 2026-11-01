@@ -5671,14 +5671,6 @@
     "price": "22172,13",
     "fuel": "Altro"
   },
-  "40731520": {
-    "make": "ALFA ROMEO",
-    "model": "STELVIO",
-    "desc": "ALFA ROMEO STELVIO 2.2 TD 160 CV Sprint AT8 RWD Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "FSP",
-    "price": "46147,54",
-    "fuel": "Combustione"
-  },
   "40767989": {
     "make": "TOYOTA",
     "model": "PROACE MAX",
@@ -5750,6 +5742,14 @@
     "segment": "BBG",
     "price": "13032,79",
     "fuel": "Altro"
+  },
+  "40731520": {
+    "make": "ALFA ROMEO",
+    "model": "STELVIO",
+    "desc": "ALFA ROMEO STELVIO 2.2 TD 160 CV Sprint AT8 RWD Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "FSP",
+    "price": "46147,54",
+    "fuel": "Combustione"
   },
   "40867799": {
     "make": "RENAULT",
@@ -7271,14 +7271,6 @@
     "price": "24120,49",
     "fuel": "Ibrido"
   },
-  "40879253": {
-    "make": "BMW",
-    "model": "X1",
-    "desc": "BMW X1 sDrive 18d DCT Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "DSP",
-    "price": "36122,95",
-    "fuel": "Combustione"
-  },
   "40879256": {
     "make": "BMW",
     "model": "X1",
@@ -7358,6 +7350,14 @@
     "segment": "FSP",
     "price": "57680,33",
     "fuel": "Ibrido Plug-in"
+  },
+  "40879253": {
+    "make": "BMW",
+    "model": "X1",
+    "desc": "BMW X1 sDrive 18d DCT Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "DSP",
+    "price": "36122,95",
+    "fuel": "Combustione"
   },
   "40838173": {
     "make": "PEUGEOT",
@@ -8167,14 +8167,6 @@
     "price": "29700",
     "fuel": "Combustione"
   },
-  "40881960": {
-    "make": "TOYOTA",
-    "model": "YARIS CROSS",
-    "desc": "TOYOTA YARIS CROSS 1.5H E-CVT Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "CSG",
-    "price": "23401,64",
-    "fuel": "Ibrido"
-  },
   "40881972": {
     "make": "TOYOTA",
     "model": "YARIS CROSS",
@@ -8261,6 +8253,14 @@
     "desc": "TOYOTA YARIS Hybrid 115 Icon Hatchback 5-door (Euro 6E)",
     "segment": "CBG",
     "price": "21721,31",
+    "fuel": "Ibrido"
+  },
+  "40881960": {
+    "make": "TOYOTA",
+    "model": "YARIS CROSS",
+    "desc": "TOYOTA YARIS CROSS 1.5H E-CVT Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "CSG",
+    "price": "23401,64",
     "fuel": "Ibrido"
   },
   "40847125": {
@@ -9503,14 +9503,6 @@
     "price": "27431,74",
     "fuel": "Altro"
   },
-  "40877251": {
-    "make": "RENAULT",
-    "model": "CAPTUR",
-    "desc": "RENAULT CAPTUR evolution full hybrid E-Tech 160 Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "CSG",
-    "price": "22809,34",
-    "fuel": "Ibrido"
-  },
   "40877275": {
     "make": "RENAULT",
     "model": "CAPTUR",
@@ -9590,6 +9582,14 @@
     "segment": "DSP",
     "price": "39688,52",
     "fuel": "Combustione"
+  },
+  "40877251": {
+    "make": "RENAULT",
+    "model": "CAPTUR",
+    "desc": "RENAULT CAPTUR evolution full hybrid E-Tech 160 Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "CSG",
+    "price": "22809,34",
+    "fuel": "Ibrido"
   },
   "40860943": {
     "make": "BYD",
@@ -11095,14 +11095,6 @@
     "price": "30054,68",
     "fuel": "Combustione"
   },
-  "40873702": {
-    "make": "NISSAN",
-    "model": "QASHQAI",
-    "desc": "NISSAN QASHQAI 1.5 HEV e-Power Acenta Auto Cross over 5-door (Euro 6E)",
-    "segment": "DSG",
-    "price": "30577,05",
-    "fuel": "Ibrido"
-  },
   "40873703": {
     "make": "NISSAN",
     "model": "QASHQAI",
@@ -11182,6 +11174,14 @@
     "segment": "R",
     "price": "23350",
     "fuel": "Combustione"
+  },
+  "40873702": {
+    "make": "NISSAN",
+    "model": "QASHQAI",
+    "desc": "NISSAN QASHQAI 1.5 HEV e-Power Acenta Auto Cross over 5-door (Euro 6E)",
+    "segment": "DSG",
+    "price": "30577,05",
+    "fuel": "Ibrido"
   },
   "40882064": {
     "make": "TOYOTA",
@@ -11775,14 +11775,6 @@
     "price": "13155,74",
     "fuel": "Altro"
   },
-  "40884418": {
-    "make": "BYD",
-    "model": "DOLPHIN G",
-    "desc": "BYD DOLPHIN G DM-i 175cv Active Hatchback 5-door (Euro 6E)",
-    "segment": "DBG",
-    "price": "19663,93",
-    "fuel": "Ibrido Plug-in"
-  },
   "40884419": {
     "make": "BYD",
     "model": "DOLPHIN G",
@@ -11837,6 +11829,14 @@
     "desc": "OMODA 9 1.5 TGDI Benzina ibrida plug-in Premium Sport utility vehicle 5-door (Euro 6E)",
     "segment": "FSG",
     "price": "41975,41",
+    "fuel": "Ibrido Plug-in"
+  },
+  "40884418": {
+    "make": "BYD",
+    "model": "DOLPHIN G",
+    "desc": "BYD DOLPHIN G DM-i 175cv Active Hatchback 5-door (Euro 6E)",
+    "segment": "DBG",
+    "price": "19663,93",
     "fuel": "Ibrido Plug-in"
   },
   "40838189": {
@@ -17415,6 +17415,14 @@
     "price": "43050",
     "fuel": "Combustione"
   },
+  "40879207": {
+    "make": "BMW",
+    "model": "X1",
+    "desc": "BMW X1 sDrive 18d DCT Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "DSP",
+    "price": "36122,95",
+    "fuel": "Combustione"
+  },
   "40879223": {
     "make": "BMW",
     "model": "X1",
@@ -17501,14 +17509,6 @@
     "desc": "SKODA KAMIQ 1.0 TSI Your Way DSG 85kW Sport utility vehicle 5-door (Euro 6E)",
     "segment": "CSG",
     "price": "23907,14",
-    "fuel": "Combustione"
-  },
-  "40879207": {
-    "make": "BMW",
-    "model": "X1",
-    "desc": "BMW X1 sDrive 18d DCT Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "DSP",
-    "price": "36122,95",
     "fuel": "Combustione"
   },
   "40875167": {
@@ -18391,6 +18391,14 @@
     "price": "22713,11",
     "fuel": "Ibrido"
   },
+  "40881868": {
+    "make": "TOYOTA",
+    "model": "YARIS CROSS",
+    "desc": "TOYOTA YARIS CROSS 1.5H E-CVT Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "CSG",
+    "price": "23401,64",
+    "fuel": "Ibrido"
+  },
   "40881871": {
     "make": "TOYOTA",
     "model": "YARIS CROSS",
@@ -18464,14 +18472,6 @@
     "fuel": "Ibrido"
   },
   "40882009": {
-    "make": "TOYOTA",
-    "model": "YARIS CROSS",
-    "desc": "TOYOTA YARIS CROSS 1.5H E-CVT Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "CSG",
-    "price": "23401,64",
-    "fuel": "Ibrido"
-  },
-  "40881868": {
     "make": "TOYOTA",
     "model": "YARIS CROSS",
     "desc": "TOYOTA YARIS CROSS 1.5H E-CVT Sport utility vehicle 5-door (Euro 6E)",
@@ -19151,14 +19151,6 @@
     "price": "17254,1",
     "fuel": "Altro"
   },
-  "40860903": {
-    "make": "BYD",
-    "model": "SEAL U DM-I",
-    "desc": "BYD SEAL U DM-I 1.5 217cv Boost Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "FSG",
-    "price": "31885,25",
-    "fuel": "Ibrido Plug-in"
-  },
   "40860908": {
     "make": "BYD",
     "model": "SEAL U DM-I",
@@ -19254,6 +19246,14 @@
     "segment": "DBP",
     "price": "29850",
     "fuel": "Combustione"
+  },
+  "40860903": {
+    "make": "BYD",
+    "model": "SEAL U DM-I",
+    "desc": "BYD SEAL U DM-I 1.5 217cv Boost Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "FSG",
+    "price": "31885,25",
+    "fuel": "Ibrido Plug-in"
   },
   "40884338": {
     "make": "BYD",
@@ -19407,14 +19407,6 @@
     "price": "41000",
     "fuel": "Combustione"
   },
-  "40861601": {
-    "make": "MERCEDES-BENZ",
-    "model": "CLASSE A",
-    "desc": "MERCEDES-BENZ CLASSE A A 180 d Business Extra Hatchback 5-door (Euro 6E)",
-    "segment": "DBP",
-    "price": "29850",
-    "fuel": "Combustione"
-  },
   "40861603": {
     "make": "MERCEDES-BENZ",
     "model": "CLASSE A",
@@ -19493,6 +19485,14 @@
     "desc": "VOLKSWAGEN TIGUAN 2.0 TDI 110KW SCR Edition Plus DSG",
     "segment": "DSG",
     "price": "36407,15",
+    "fuel": "Combustione"
+  },
+  "40861601": {
+    "make": "MERCEDES-BENZ",
+    "model": "CLASSE A",
+    "desc": "MERCEDES-BENZ CLASSE A A 180 d Business Extra Hatchback 5-door (Euro 6E)",
+    "segment": "DBP",
+    "price": "29850",
     "fuel": "Combustione"
   },
   "40878503": {
@@ -19871,14 +19871,6 @@
     "price": "20032,79",
     "fuel": "Altro"
   },
-  "40879198": {
-    "make": "BMW",
-    "model": "X1",
-    "desc": "BMW X1 sDrive 18d DCT Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "DSP",
-    "price": "36122,95",
-    "fuel": "Combustione"
-  },
   "40879199": {
     "make": "BMW",
     "model": "X1",
@@ -19966,6 +19958,14 @@
     "segment": "FSP",
     "price": "57680,33",
     "fuel": "Ibrido Plug-in"
+  },
+  "40879198": {
+    "make": "BMW",
+    "model": "X1",
+    "desc": "BMW X1 sDrive 18d DCT Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "DSP",
+    "price": "36122,95",
+    "fuel": "Combustione"
   },
   "40778050": {
     "make": "OPEL",
@@ -20111,6 +20111,14 @@
     "price": "31068,85",
     "fuel": "Altro"
   },
+  "40879347": {
+    "make": "BMW",
+    "model": "X3",
+    "desc": "BMW X3 xDrive 30e Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "FSP",
+    "price": "57680,33",
+    "fuel": "Ibrido Plug-in"
+  },
   "40879355": {
     "make": "BMW",
     "model": "X3",
@@ -20199,22 +20207,6 @@
     "price": "59631,15",
     "fuel": "Altro"
   },
-  "40879347": {
-    "make": "BMW",
-    "model": "X3",
-    "desc": "BMW X3 xDrive 30e Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "FSP",
-    "price": "57680,33",
-    "fuel": "Ibrido Plug-in"
-  },
-  "40807197": {
-    "make": "AUDI",
-    "model": "Q5",
-    "desc": "AUDI Q5 TDI 150kW quattro S tronic S Line Ed. Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "FSP",
-    "price": "61284,19",
-    "fuel": "Altro"
-  },
   "40819437": {
     "make": "LAND ROVER",
     "model": "RANGE ROVER EVOQUE",
@@ -20294,6 +20286,14 @@
     "segment": "FSG",
     "price": "27631,15",
     "fuel": "Ibrido"
+  },
+  "40807197": {
+    "make": "AUDI",
+    "model": "Q5",
+    "desc": "AUDI Q5 TDI 150kW quattro S tronic S Line Ed. Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "FSP",
+    "price": "61284,19",
+    "fuel": "Altro"
   },
   "40873481": {
     "make": "NISSAN",
@@ -20703,6 +20703,14 @@
     "price": "27475,41",
     "fuel": "Elettrico"
   },
+  "40881824": {
+    "make": "TOYOTA",
+    "model": "YARIS CROSS",
+    "desc": "TOYOTA YARIS CROSS 1.5H E-CVT Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "CSG",
+    "price": "23401,64",
+    "fuel": "Ibrido"
+  },
   "40881826": {
     "make": "TOYOTA",
     "model": "YARIS CROSS",
@@ -20784,14 +20792,6 @@
     "fuel": "Ibrido"
   },
   "40881939": {
-    "make": "TOYOTA",
-    "model": "YARIS CROSS",
-    "desc": "TOYOTA YARIS CROSS 1.5H E-CVT Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "CSG",
-    "price": "23401,64",
-    "fuel": "Ibrido"
-  },
-  "40881824": {
     "make": "TOYOTA",
     "model": "YARIS CROSS",
     "desc": "TOYOTA YARIS CROSS 1.5H E-CVT Sport utility vehicle 5-door (Euro 6E)",
@@ -23535,14 +23535,6 @@
     "price": "13155,74",
     "fuel": "Altro"
   },
-  "40874852": {
-    "make": "FIAT",
-    "model": "PANDINA",
-    "desc": "FIAT PANDINA 1.0 FireFly 65cv S&S 6m Hybrid Icon Hatchback 5-door (Euro 6E)",
-    "segment": "BBG",
-    "price": "13155,74",
-    "fuel": "Altro"
-  },
   "40882216": {
     "make": "TOYOTA",
     "model": "YARIS",
@@ -23719,6 +23711,14 @@
     "price": "22368,85",
     "fuel": "Altro"
   },
+  "40874852": {
+    "make": "FIAT",
+    "model": "PANDINA",
+    "desc": "FIAT PANDINA 1.0 FireFly 65cv S&S 6m Hybrid Icon Hatchback 5-door (Euro 6E)",
+    "segment": "BBG",
+    "price": "13155,74",
+    "fuel": "Altro"
+  },
   "40874861": {
     "make": "FIAT",
     "model": "PANDINA",
@@ -23808,14 +23808,6 @@
     "fuel": "Combustione"
   },
   "40875102": {
-    "make": "AUDI",
-    "model": "A3",
-    "desc": "AUDI A3 TDI 110 kW S tronic Business S.Back Hatchback 5-door (Euro 6E)",
-    "segment": "DBP",
-    "price": "31489,11",
-    "fuel": "Combustione"
-  },
-  "40875108": {
     "make": "AUDI",
     "model": "A3",
     "desc": "AUDI A3 TDI 110 kW S tronic Business S.Back Hatchback 5-door (Euro 6E)",
@@ -23999,6 +23991,14 @@
     "price": "30659,02",
     "fuel": "Altro"
   },
+  "40875108": {
+    "make": "AUDI",
+    "model": "A3",
+    "desc": "AUDI A3 TDI 110 kW S tronic Business S.Back Hatchback 5-door (Euro 6E)",
+    "segment": "DBP",
+    "price": "31489,11",
+    "fuel": "Combustione"
+  },
   "40875129": {
     "make": "AUDI",
     "model": "A3",
@@ -24093,14 +24093,6 @@
     "desc": "JAECOO 7 SUPER HYBRID 1.5 TGDI Plug-In Hybrid Exclusive Sport utility vehicle 5-door (Euro 6E)",
     "segment": "DSG",
     "price": "32959,02",
-    "fuel": "Ibrido Plug-in"
-  },
-  "40875422": {
-    "make": "JAECOO",
-    "model": "8",
-    "desc": "JAECOO 8 1.5 TGDI Plug-in Hybrid Exclusive AWD Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "MSG",
-    "price": "43614,75",
     "fuel": "Ibrido Plug-in"
   },
   "40854270": {
@@ -24199,6 +24191,14 @@
     "price": "33442,62",
     "fuel": "Altro"
   },
+  "40875422": {
+    "make": "JAECOO",
+    "model": "8",
+    "desc": "JAECOO 8 1.5 TGDI Plug-in Hybrid Exclusive AWD Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "MSG",
+    "price": "43614,75",
+    "fuel": "Ibrido Plug-in"
+  },
   "40875512": {
     "make": "OMODA",
     "model": "7",
@@ -24280,14 +24280,6 @@
     "fuel": "Ibrido Plug-in"
   },
   "40876191": {
-    "make": "BYD",
-    "model": "SEAL 6 DM-I TOURING",
-    "desc": "BYD SEAL 6 DM-I TOURING 1.5 212cv Touring Comfort SW 5-door (Euro 6E)",
-    "segment": "MWG",
-    "price": "36475,41",
-    "fuel": "Ibrido Plug-in"
-  },
-  "40876204": {
     "make": "BYD",
     "model": "SEAL 6 DM-I TOURING",
     "desc": "BYD SEAL 6 DM-I TOURING 1.5 212cv Touring Comfort SW 5-door (Euro 6E)",
@@ -24383,6 +24375,14 @@
     "price": "33442,62",
     "fuel": "Altro"
   },
+  "40876204": {
+    "make": "BYD",
+    "model": "SEAL 6 DM-I TOURING",
+    "desc": "BYD SEAL 6 DM-I TOURING 1.5 212cv Touring Comfort SW 5-door (Euro 6E)",
+    "segment": "MWG",
+    "price": "36475,41",
+    "fuel": "Ibrido Plug-in"
+  },
   "40876374": {
     "make": "BYD",
     "model": "SEAL 6 DM-I TOURING",
@@ -24472,14 +24472,6 @@
     "fuel": "Combustione"
   },
   "40877390": {
-    "make": "RENAULT",
-    "model": "CLIO",
-    "desc": "RENAULT CLIO 1.2 TCe 115 techno Hatchback 5-door (Euro 6E)",
-    "segment": "DBG",
-    "price": "17194,59",
-    "fuel": "Combustione"
-  },
-  "40877400": {
     "make": "RENAULT",
     "model": "CLIO",
     "desc": "RENAULT CLIO 1.2 TCe 115 techno Hatchback 5-door (Euro 6E)",
@@ -24583,6 +24575,14 @@
     "price": "31885,25",
     "fuel": "Ibrido Plug-in"
   },
+  "40877400": {
+    "make": "RENAULT",
+    "model": "CLIO",
+    "desc": "RENAULT CLIO 1.2 TCe 115 techno Hatchback 5-door (Euro 6E)",
+    "segment": "DBG",
+    "price": "17194,59",
+    "fuel": "Combustione"
+  },
   "40877401": {
     "make": "RENAULT",
     "model": "CLIO",
@@ -24669,14 +24669,6 @@
     "desc": "ALFA ROMEO JUNIOR 1.2 145CV Hybrid eDCT6 ibrida Sprint Sport utility vehicle 5-door (Euro 6E)",
     "segment": "CSP",
     "price": "26188,52",
-    "fuel": "Altro"
-  },
-  "40877667": {
-    "make": "FIAT",
-    "model": "600",
-    "desc": "FIAT 600 1.2 Hybrid 110cv Icon Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "CSG",
-    "price": "22172,13",
     "fuel": "Altro"
   },
   "40778058": {
@@ -24863,6 +24855,14 @@
     "price": "31885,25",
     "fuel": "Ibrido Plug-in"
   },
+  "40877667": {
+    "make": "FIAT",
+    "model": "600",
+    "desc": "FIAT 600 1.2 Hybrid 110cv Icon Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "CSG",
+    "price": "22172,13",
+    "fuel": "Altro"
+  },
   "40877669": {
     "make": "FIAT",
     "model": "600",
@@ -24944,14 +24944,6 @@
     "fuel": "Altro"
   },
   "40878211": {
-    "make": "FIAT",
-    "model": "GRANDE PANDA",
-    "desc": "FIAT GRANDE PANDA Hybrid Icon Sport utility vehicle 5-door (Euro 6E)",
-    "segment": "CSG",
-    "price": "17254,1",
-    "fuel": "Altro"
-  },
-  "40878233": {
     "make": "FIAT",
     "model": "GRANDE PANDA",
     "desc": "FIAT GRANDE PANDA Hybrid Icon Sport utility vehicle 5-door (Euro 6E)",
@@ -25142,6 +25134,14 @@
     "segment": "CSG",
     "price": "24514,93",
     "fuel": "Combustione"
+  },
+  "40878233": {
+    "make": "FIAT",
+    "model": "GRANDE PANDA",
+    "desc": "FIAT GRANDE PANDA Hybrid Icon Sport utility vehicle 5-door (Euro 6E)",
+    "segment": "CSG",
+    "price": "17254,1",
+    "fuel": "Altro"
   },
   "40878242": {
     "make": "FIAT",
