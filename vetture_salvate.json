@@ -346,7 +346,7 @@
   },
   "GZ570LX": {
     "desc": "<b>FORD TRANSIT ALLESTITO T/P 350 L3 Trend 2.0 Eco 130Cv SCAT Cassone a sponde abbattibili 2-door (Euro 6E)</b> | Targa: GZ570LX",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/b82b16ad180b68e8008d0117e6207e2218e03d1676de9a502778085ca68c1345cf2487b59ba3a74cb928cd906770fa0b4ac4dcc1b640b0b982c3d8c7b5a2d7fa"
   },
   "GC322NT": {
@@ -413,11 +413,6 @@
     "desc": "<b>FIAT PANDA 1.0 70cv Hybrid Euro 6d Van 4 p. Street Commercial hatch 5-door (Euro 6D)</b> | Targa: GL029FF",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/82d949341fd481a5ee106266fb96b492477ec59cd85e6d6480e52681b38304656e4a262b816857423b1d2dba3cb3370018347c42ed65e2511ee02f1e9644e99a"
-  },
-  "GK320GB": {
-    "desc": "<b>FIAT DOBL\u00d2 CARGO CH1 BUSINESS 1.6 Mjet 105cv E6D-f S&S Vettura Furgonata 4-door (Euro 6D)</b> | Targa: GK320GB",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/d3129bf681d260767b6a41b57a0a1b32d035f5892f87a6e864937d1226f544495e3ae6287db303a950912c6cb2437ac1758539776a6db9551c4c3773227e35b4"
   },
   "GK720ZR": {
     "desc": "<b>ALFA ROMEO STELVIO 2.2 TD 190 CV Sprint AT8 Q4 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK720ZR",
@@ -501,7 +496,7 @@
   },
   "GS299EC": {
     "desc": "<b>AUDI Q2 1.5 35 TFSI BUSINESS S TRONIC Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GS299EC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/27a42fe69c602e79efeba69b1f25d8add1cfe2d18bb2902727081f3690e6932f33a32d82bcd200c9d312e59ff6b70f835b7d281278237d7e8c3c5e83356ded18"
   },
   "GP708MN": {
