@@ -26,7 +26,7 @@
   },
   "GK341ZH": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK341ZH",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/a06242782fc931605e778e87b3ce8c7ae279a8dd3fdcd973895995ac0cdfd983df44c6beee12027490b2f8421d232fe96f04516ec42b9df56c2b64bbc5878494"
   },
   "GJ167YN": {
@@ -176,7 +176,7 @@
   },
   "GV400ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV400ZS",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/a2a8834e80ec8d4757caa7cda2e079173050b62be6c5c86004b4d444d2b4bfd4fe647450a0afd5b6e30ce526bdeb353a266d314bbdd3688971adb7d0b68c8928"
   },
   "GV452ZS": {
@@ -371,7 +371,7 @@
   },
   "GK802ZF": {
     "desc": "<b>RENAULT CLIO (PC) 1.5 DCI BLUE 74KW BUSINESS FP</b> | Targa: GK802ZF",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/b7d2c8ed97743480084fb346766d86bf34989916f07b2cb58ece11e2b57116741b18d6359e70743325a76f19b05f87e680dd3e31032379ae4bad057307b43d60"
   },
   "GK683ZC": {
@@ -423,11 +423,6 @@
     "desc": "<b>BMW SERIES 3 SW (PC 330E BUSINESS ADVANTAGE AUT. FP</b> | Targa: GJ094YV",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/007343a23d5234df1338f52f5713d689b90c2f24b688ec1f9d9e27b0281b667b7f881c01aab8c7794ab848dded86b323442712d6a5189acb10f17568235b51ae"
-  },
-  "GN753SR": {
-    "desc": "<b>SEAT ARONA 1.0 ECO TSI 70KW STYLE FP</b> | Targa: GN753SR",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/30b11e48217f4ec5629ac4a9b028f884b4a59d27f311490240214cf91ba37c6bf8d2223cd1dda9c06568d931d7e2e3ba33b26c5a401760fc29b614ec4fc97c69"
   },
   "GZ570LX": {
     "desc": "<b>FORD TRANSIT ALLESTITO T/P 350 L3 Trend 2.0 Eco 130Cv SCAT Cassone a sponde abbattibili 2-door (Euro 6E)</b> | Targa: GZ570LX",
@@ -526,7 +521,7 @@
   },
   "GM910PS": {
     "desc": "<b>AUDI Q3 SPORTBACK 35 TDI S tronic S Line Edition Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GM910PS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/d56f8ea0d134db252eb97049fdeac6dc7df7a931b8d8c625bd8a5039cbea43bae0e40ca36a27e0e461385bff458bfb61595484959271b31b58762403353768c2"
   },
   "GK918YM": {
@@ -841,7 +836,7 @@
   },
   "GP375MY": {
     "desc": "<b>BMW SERIES 1 (PC) 116D BUSINESS ADVANTAGE FP</b> | Targa: GP375MY",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/973f7ccc96573a6d447344c8a8f79f12837d7e549856269072b31943ee4586d8ff6b9e8f0b9491e0a7f31b3f8c2de51ed09af475e164d33ad962c2a46c298083"
   },
   "GJ708AD": {
@@ -886,7 +881,7 @@
   },
   "GN641LG": {
     "desc": "<b>BMW SERIES 2 ACTIVE 218D LUXURY AUTO</b> | Targa: GN641LG",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/a894b0e794139c6c5e4b0b41105ac865fd984c6a8a7df65f70e7e026e1e61e1227bdd160194716fdeabbde2d8bed0ec3d9cee2d7bfc8866589a013f9b9b4536b"
   },
   "GN153SF": {
