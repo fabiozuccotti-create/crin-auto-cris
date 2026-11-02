@@ -556,12 +556,12 @@
   },
   "GL603JC": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium X Aut Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL603JC",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/56b44fc4823b1528b4fc114a78d31758b0137c3ef43fa72b831d5dd08b4eb2d9e79f198179dd81289f9e1c7ee872dc0b5630cf932a02b26204613807d6eee569"
   },
   "GL298PP": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL298PP",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c690070f6a6c2ed9844e124f4bbe83b03183503f0e3251236341f4efb29fe3062a95ee6a32213c4308a8c37544d72b46c2431cdfd20eddb9bca9dad0e6048fe6"
   },
   "GP836ZN": {
@@ -641,7 +641,7 @@
   },
   "GR388MB": {
     "desc": "<b>FORD S-MAX 2.5 Benz.-Full Hybr.190 ST-L. B. Auto 7p MPV 5-door (Euro 6.2)</b> | Targa: GR388MB",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c783bd04f40a8328f43c2b76eb3be4b17125f43ee0644847bbbb9eeedf7ab92c5ddc590883989040ba5f8f426a7d37a09c523d55370d432154df3b6d467d6de0"
   },
   "GN785DC": {
