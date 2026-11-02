@@ -36,7 +36,7 @@
   },
   "GJ672ZB": {
     "desc": "<b>BMW X1 xDrive 25e Business Advantage automatico Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ672ZB",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/1888273f4aaca7fe70e1fdf80d132cc11e80658f16719d1ff76a5122fc2215095fcd1a52a0aeff09e2b835a1cedb8b179a065e15a3bdb3a131d679953c0080f5"
   },
   "GK176RR": {
@@ -151,7 +151,7 @@
   },
   "GV771ZW": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV771ZW",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/f96df396ee0e03ec2d3bcfb1cfbd36af2e0714063198989f92c2196d85a28dd6604289118c2e3db9859f5038a52df8cf946259dbffd64950261325f1c4cd8e05"
   },
   "GV087ZS": {
@@ -371,7 +371,7 @@
   },
   "GK802ZF": {
     "desc": "<b>RENAULT CLIO (PC) 1.5 DCI BLUE 74KW BUSINESS FP</b> | Targa: GK802ZF",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/b7d2c8ed97743480084fb346766d86bf34989916f07b2cb58ece11e2b57116741b18d6359e70743325a76f19b05f87e680dd3e31032379ae4bad057307b43d60"
   },
   "GK683ZC": {
@@ -451,7 +451,7 @@
   },
   "GK339ZH": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK339ZH",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/124b2dd45452f0e2e49bcc5764d95e363bd3377033dea86c67d065f93542018fd2a5b07f597f0a792f8b77dbc9fc66701bef526245d2e3f1693bec03d560fc64"
   },
   "GJ301JN": {
@@ -511,7 +511,7 @@
   },
   "GL300PP": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL300PP",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/158989fedac93fa44f208f32aa42d3355939a848b2384e43bf228eeff02e10d9a266edcd78ca69a468fcd60f79fc634a4ff317fd108724414608bb253b709ae7"
   },
   "GL996PK": {
@@ -651,7 +651,7 @@
   },
   "GN324WZ": {
     "desc": "<b>OPEL MOKKA 1.2 T Elegance 100cv MT6 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GN324WZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/81f4d2c156ab4902a809130fde64fb979faca6a2610257ade7ea6d9892599c6d56238fd57204fce9b770259f5cee9f37b6d73c544749450353ae466f2eecbbe9"
   },
   "GR270XA": {
@@ -701,7 +701,7 @@
   },
   "GV061ZS": {
     "desc": "<b>HYUNDAI I20 1.0 T-GDI 48V 100cv ConnectLine Hatchback 5-door (Euro 6D)</b> | Targa: GV061ZS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/46ab2ef9f5de9ba96241f8c73290fcb501d2fa03c8a72ec61d8967e2fcb0da62f8c146f76802cd1ea34ce7b264338f98fd2386ab4b35fb50ed07c42eed75250d"
   },
   "GV170ZS": {
@@ -916,7 +916,7 @@
   },
   "GP722TC": {
     "desc": "<b>AUDI A3 30 TDI S TRONIC BUSINESS S.BACK FP</b> | Targa: GP722TC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/3466384bd11bacb0be55ba537d1f0d50e7588823f452ddc8ff9b64694da3e1c4aa5d08ff27d58de855018f6f355896b71bf724cd74ba18f6a17889e1308000cc"
   },
   "GK348FT": {
