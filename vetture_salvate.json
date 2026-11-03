@@ -161,7 +161,7 @@
   },
   "GV854ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV854ZS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/d7a23144679a6347465f14c3f6d7c8596228203f051709e55aac442d2ea1a6f1329946de8438364263f090d3232f160ee1f9f58abb0c020dafa8fb5130b44763"
   },
   "FK95515": {
@@ -231,7 +231,7 @@
   },
   "GM187FC": {
     "desc": "<b>ALFA ROMEO TONALE (PC) 1.5 130CV HYBRID TCT7 SPRINT FP</b> | Targa: GM187FC",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/4aca424d60c0f3c7cca04491b9d040e79c7439e5142b4df72484e8aae4fc57d56d920db3f33faa02d9cf167eb02b9b26bb816e5e4c3cad83529158c6ffa22b78"
   },
   "GP733BG": {
@@ -281,18 +281,13 @@
   },
   "GP623TE": {
     "desc": "<b>AUDI Q3 35 TDI QUATTRO S TRONIC BUSINESS</b> | Targa: GP623TE",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/c8a71cd38dde5b2abbf42f9591629c7ebdcb86814ef0d485d07da61fa100dc7293a5136b61e2ba2acd64cd8b32b244ba128349df54475307b8c938ce1c558e90"
   },
   "GR764ER": {
     "desc": "<b>ALFA ROMEO TONALE 1.6 DIESEL 130CV TCT6 TI FP</b> | Targa: GR764ER",
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/3962516089eb904c00b0c58f3b9a33393f4b24ddf7b8017ef87e7ba5bc689eccea9c7e36840685e578e528950581ff9024b3b081c789c13cc71d4b11ed1946d0"
-  },
-  "GM365NS": {
-    "desc": "<b>VOLVO XC40 T4 RECHARGE PLUG-IN AUTO ESSENTIAL</b> | Targa: GM365NS",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/cee4588330f021325a02867915c3847672caa21a019e26ce2e3991464fe8bd77a31a08b1d6567a95b97e98ddc51b2ec82450dd7dc17e775cde3a9a5b66b3be17"
   },
   "GX701ST": {
     "desc": "<b>LAND ROVER RANGE ROVER SPO 3.0D I6 300 MHEV DYNAMIC SE AUT.</b> | Targa: GX701ST",
@@ -346,7 +341,7 @@
   },
   "GK612RM": {
     "desc": "<b>BMW X2 XDRIVE 25E BUSINESS X AUTOMATICO FP</b> | Targa: GK612RM",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/f45e8db7bf144804ae56554c85b3dcd1fa39a93b9373d1e5f747256ea97aab9185e2a33d1002c20920cc227fff2cc9cb630ab3efc42185528e35bef335573800"
   },
   "GK786ZW": {
@@ -413,11 +408,6 @@
     "desc": "<b>VOLKSWAGEN TRANSPORTER 2.0 TDI 81kW EU6 p.c. Cassone a sponde abbattibili 2-door (Euro 6.2)</b> | Targa: GJ301JN",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/fb51bc4b81396f56f1bf2dce8024884c11f28842e63418e7ebf3d70750ccf6566ea32ba7f7001d93868c2678e8e220233218453ed00ffe0b9036f9d95af1ea51"
-  },
-  "GP349MJ": {
-    "desc": "<b>BMW SERIE 1 116i MSport Exterior Hatchback 5-door (Euro 6D)</b> | Targa: GP349MJ",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/644d3050d8a88abcee007cea874316a2d9750e94cd0f63475d4183956c6f3ec9a0897bccbae07731679cf97939882a8832330860eeb6e2fd33bd1d6499233a00"
   },
   "GJ012JD": {
     "desc": "<b>JEEP RENEGADE 1.0 T3 120cv Limited Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ012JD",
@@ -606,7 +596,7 @@
   },
   "GR270XA": {
     "desc": "<b>LAND ROVER RANGE ROVER VELAR 3.0D I6 300 R-Dynamic SE 4WD Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR270XA",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e22135fa5787765f2405adfebd85fabcc176fb77e84883ab6948430198a761170dd4c06318b19e47a3bcd5e05f980d45d6786b5dd2020300fa42de92cd67ffd2"
   },
   "GP817MH": {
@@ -686,7 +676,7 @@
   },
   "GW173NX": {
     "desc": "<b>FORD EXPLORER 286CV Extended Range Premium Sport utility vehicle 5-door</b> | Targa: GW173NX",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/13c38aea7545748afe711efc70c9117c9ff5143b6d920116e5aa057ef0612bd571bebc49f69cf3af0fbb2f56829a1a8db1304fab9840a7b53f5fffec5dcc07b1"
   },
   "GW462VZ": {
@@ -771,7 +761,7 @@
   },
   "GJ700AD": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ700AD",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/f8e1aec75150fce7cce221e09e57ca13f9e638525b374220b98e05808d3630e3bad12057f7b76a3eb4bb83b34034f2c149a2358bfe61cded974e94e31c1d3727"
   },
   "GK701ZM": {
@@ -811,7 +801,7 @@
   },
   "GP468BA": {
     "desc": "<b>BMW X3 (PC) XDRIVE 20D MH48V MSPORT FP</b> | Targa: GP468BA",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/bc5046f82457ef19c59ccdfc2c7a3fc6e7d42b74c25bfadf8ab4aecabb2f72e6bc3a44118bf81e9ec806d0c45494918c9b36084f3d882fdf72e4cf404b80527f"
   },
   "GJ478EL": {
