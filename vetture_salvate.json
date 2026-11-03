@@ -6,7 +6,7 @@
   },
   "GM968LE": {
     "desc": "<b>AUDI Q2 2.0 35 TDI BUSINESS S TRONIC QUATTRO Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GM968LE",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/1eccaf1eb94f9c420afc1114e56126dc3e70f1ffd2affa8994793f4ec3e3232a653e389d9a7b75552579abfe7c0eb9314cb4cea7c33fee6054a0169095447161"
   },
   "GK775ZJ": {
@@ -231,7 +231,7 @@
   },
   "GM187FC": {
     "desc": "<b>ALFA ROMEO TONALE (PC) 1.5 130CV HYBRID TCT7 SPRINT FP</b> | Targa: GM187FC",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/4aca424d60c0f3c7cca04491b9d040e79c7439e5142b4df72484e8aae4fc57d56d920db3f33faa02d9cf167eb02b9b26bb816e5e4c3cad83529158c6ffa22b78"
   },
   "GP733BG": {
@@ -241,7 +241,7 @@
   },
   "GP155FL": {
     "desc": "<b>PEUGEOT 3008 (PC) BLUEHDI 130 EAT8 S&S ALLURE PACK</b> | Targa: GP155FL",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/94aab28ed4b31d4fe1702ee38295e2859fd84756f1e895f72cbd7bc99a0ce45338724dceca2277fbd856b9727ed19cf091ead089b8c614174fd6670f6e8285b6"
   },
   "GJ448HW": {
@@ -396,7 +396,7 @@
   },
   "GL860EZ": {
     "desc": "<b>PEUGEOT 2008 PureTech 130 EAT8 Allure Pack S/S aut. Cross over 5-door (Euro 6D)</b> | Targa: GL860EZ",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/3546fed6f3c11d8ad3a3b57124122109f4c1a88868e96d078e9bd3fee1e7481aa0515cfe1f1ea5ea6adc9146adf726bdecf8e6a0382b9ad644c891f8fc5f874d"
   },
   "GL324FC": {
@@ -486,7 +486,7 @@
   },
   "GL048PR": {
     "desc": "<b>BMW SERIE 5 520d xDrive Business Auto MH48V Touring SW 5-door (Euro 6D)</b> | Targa: GL048PR",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/0e319151d8970ed70972d65da7e868dbd2cf67e47e1f73a71ebfc8a21ba282afcf085d486c8ada1efb6af6f660087a15b9ddfab89cdd1b0229a4af5966a66e6d"
   },
   "GM910PS": {
@@ -561,7 +561,7 @@
   },
   "GP518AX": {
     "desc": "<b>ALFA ROMEO STELVIO 2.2 TD 190 CV Sprint AT8 Q4 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP518AX",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/cc40001576a629d9867233b79a9b78b1bccf06ca47dba85a06f67e89b764a62fdb3254056256febc67b4d11f22bdb6a22ee5b3638508ae2d2cb433aa6d2a6536"
   },
   "GM829VN": {
@@ -719,11 +719,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/54f85d6c9f2e7704b8cfa4acc9d8abf6312b4ecaf99770cd4016b28e02d57503ad7242df56b2b230faad1e69574ae93f84e6965be1c178612e689ac3efdc45f9"
   },
-  "GP840ZV": {
-    "desc": "<b>CITROEN C3 (PC) BLUEHDI 100 S&S FEEL VAN FP</b> | Targa: GP840ZV",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/d6c4945a61feaa7ad3921d74ae6bd61174e0fece1a3b0c976067a7f0b49221328303164e0ff4c77a99e65c029f3f90f76eda5efdc4344338f5f54bed2844bd17"
-  },
   "GK667ZR": {
     "desc": "<b>PEUGEOT 3008 BULK BLUEHDI 130 S&S EAT8 GT AUT. FP</b> | Targa: GK667ZR",
     "options": 1,
@@ -823,11 +818,6 @@
     "desc": "<b>AUDI A3 35 TFSI S TRONIC S LINE EDITION S.BACK FP</b> | Targa: GK080GF",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/b4338ad6d1c578627a127ce7df90bec7177fdd3bafe93b1aa55c2eb95deaa2a0b257511087d80f520ca796d8548f15f30c3a953290090530816ea754ec09cfbd"
-  },
-  "GR716EX": {
-    "desc": "<b>CITROEN C3 (PC) BLUEHDI 100 S&S FEEL VAN FP</b> | Targa: GR716EX",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/7016181031a3f299f6dbff4869c88114fb535b406f3b8b1a7b8443da0528ba8fa82d647d3266961456d5d7b8f431a72ee97eacb5337c53ef1511f3bc08279b0d"
   },
   "GP468BA": {
     "desc": "<b>BMW X3 (PC) XDRIVE 20D MH48V MSPORT FP</b> | Targa: GP468BA",
