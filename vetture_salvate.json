@@ -6,7 +6,7 @@
   },
   "GM968LE": {
     "desc": "<b>AUDI Q2 2.0 35 TDI BUSINESS S TRONIC QUATTRO Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GM968LE",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/1eccaf1eb94f9c420afc1114e56126dc3e70f1ffd2affa8994793f4ec3e3232a653e389d9a7b75552579abfe7c0eb9314cb4cea7c33fee6054a0169095447161"
   },
   "GK775ZJ": {
@@ -96,7 +96,7 @@
   },
   "GP090MK": {
     "desc": "<b>BMW SERIE 3 318d 48V Touring auto SW 5-door (Euro 6D)</b> | Targa: GP090MK",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/86e10b0409b8b52e60cf7a2c77017fe7d79fe5b8d87aebeb2322587167ed096b4f5224e2bc9e4f0e694fc8942aa674336a3c9cb6b818f42873a790cbd07c7a60"
   },
   "GP395SX": {
@@ -146,7 +146,7 @@
   },
   "GV359ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV359ZS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/0a393f9c88c333da698e09037aa20fe0818069bc468d7ec130bea46ed9776197babea47076e53e1f3c54261d5f653ddbb4a99f51af1761b7035b16cb7560eaee"
   },
   "GV452ZS": {
@@ -181,7 +181,7 @@
   },
   "GK860ZY": {
     "desc": "<b>FORD KUGA (PC) 1.5 ECOBLUE 120CV 2WD ST-LINE AUTO FP</b> | Targa: GK860ZY",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/aa551f0df1635070e6a7a79a6533e4cc48342cdd7927e53a8111313f991fb2252810e90561f9e399be17935b4cff398e130a1ac244b6722ff825fc418d433a8b"
   },
   "GJ048EK": {
@@ -281,7 +281,7 @@
   },
   "GP623TE": {
     "desc": "<b>AUDI Q3 35 TDI QUATTRO S TRONIC BUSINESS</b> | Targa: GP623TE",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/c8a71cd38dde5b2abbf42f9591629c7ebdcb86814ef0d485d07da61fa100dc7293a5136b61e2ba2acd64cd8b32b244ba128349df54475307b8c938ce1c558e90"
   },
   "GR764ER": {
@@ -671,7 +671,7 @@
   },
   "GV461ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV461ZS",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/148f4de7b78d5a7fd13282c0be7118ff539bd983f0805282d9ba575caf12c64b839707351bbda9a4dbf414f6aa84360623d2aaaa27a96b9fc114af7df24ad7fa"
   },
   "GV633ZS": {
@@ -791,7 +791,7 @@
   },
   "GK701ZM": {
     "desc": "<b>AUDI Q3 SPORTBACK PC 45 TFSI E S TRONIC BUSINESS PLUS FP</b> | Targa: GK701ZM",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/3f9e7b4a31fe16de06af91922541510e988c380b2f12d06a4e8166bf19b83e3843e50bc4e4f7096e8d67f2a2993b6d041185219609a430a24ab084aa527e3800"
   },
   "GR213EP": {
@@ -801,7 +801,7 @@
   },
   "GN854DJ": {
     "desc": "<b>KIA SPORTAGE CONSIP 1.6 CRDI MHEV STYLE 2WD FP</b> | Targa: GN854DJ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e34975fc43161eed03bbb7636cbf86e514f5edd6c7ae96928f64e8a665e0da3f998ee58287833d6ea6e98fb7af611f0a06885f7668818816f3fe78c64fd1ae71"
   },
   "GP964TD": {
