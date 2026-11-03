@@ -49,11 +49,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/34e0da51f5b26dba342cf252c11c0aed90e6304f7deb094311162680a8dfa9549d446e3be1f6f4a1443a2f47cdd628df1c0f6e94d057f92a5c3d870c8fcff0a7"
   },
-  "GK953GB": {
-    "desc": "<b>CITRO\u00cbN C3 AIRCROSS PureTech 110 S&S Feel Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK953GB",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/39f7ac2427a31cccfa8a2ef419438bf63d1e7583dbdb8a08c2ebdcb81eb7bee6d07497d8ec74d62969106882d193eca1c3942cef83b4c40580cafc3d7b8a21b0"
-  },
   "GK737ZD": {
     "desc": "<b>CITRO\u00cbN C5 AIRCROSS BlueHDi 130 S&S Business Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK737ZD",
     "options": 0,
@@ -159,25 +154,10 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/2f9ecac9c04b5a8e7e50ab07f5665037228744d23a7a9d183c0f12195df3415f8cc33014f99f39624dc57ad1b71ecf35d06610a482e0dc75ac71aff9b58ee37a"
   },
-  "GV393ZT": {
-    "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV393ZT",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/5feef9dbfcd47dcc8f2673b74b84f5209e6662a2797428a63a175eb4d9fa94b38afbfba8576bcd2c4574f817f2758032a6171a82e549fe2ee830d8afe34dac92"
-  },
-  "GV320ZS": {
-    "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV320ZS",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/83defbc6f2530055026db4ea84adba70ccab4530476aa64ea2e79910330b29312972d37e9bcb7d5f759e2817bdc2bcfd04ffc87ac84a81a44e24a232d2f38202"
-  },
   "GV359ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV359ZS",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/0a393f9c88c333da698e09037aa20fe0818069bc468d7ec130bea46ed9776197babea47076e53e1f3c54261d5f653ddbb4a99f51af1761b7035b16cb7560eaee"
-  },
-  "GV400ZS": {
-    "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV400ZS",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/a2a8834e80ec8d4757caa7cda2e079173050b62be6c5c86004b4d444d2b4bfd4fe647450a0afd5b6e30ce526bdeb353a266d314bbdd3688971adb7d0b68c8928"
   },
   "GV452ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV452ZS",
@@ -289,11 +269,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/d1a811a63283efc6ef326f60d450d09bcd5ed949ba7ca82ed7381bc5c9cf2423e215777d73b096e0b2e83c8e8dd8391756e9115b70bf3f665a5b436c2d93fca5"
   },
-  "GR520MG": {
-    "desc": "<b>VOLVO XC60 B4 D AUTOMATICO CORE FP</b> | Targa: GR520MG",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/9606d72157b3dbeab8e2d7d13422cb89184817551a898e98ad014d8282971a4a2feb68146b5000181c98cea784dee2e2cfc5e26006485b85074f48b94fd0d711"
-  },
   "GK726ZG": {
     "desc": "<b>PORSCHE TAYCAN 4 CROSS TURISMO</b> | Targa: GK726ZG",
     "options": 2,
@@ -343,11 +318,6 @@
     "desc": "<b>FIAT PANDA CONSIPAQ1 1.0 70CV S&S HYBRID CITY LIFE FP</b> | Targa: GG288PX",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/082b7611954f3f5c813c1c6083c8fc871383549024bdd7dbf10d7a21fe8f92c5ab564a36ee88dd833f8b18431de0e54dbb4bfc8fa5359d06ac35698fa03033f2"
-  },
-  "GK722ZM": {
-    "desc": "<b>BMW SERIES 5 SW (PC 530D 183KW XD BUSINESS AUTO TOURING FP</b> | Targa: GK722ZM",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/5b9c853f389edfa86b36fc591f17db849a65d55b88b9dc5eeeac30321c2a96379ed1a65d0aa0cdf484c53ef65709b20478a0066683623c7470f2a6e1a0413600"
   },
   "GP835SZ": {
     "desc": "<b>FIAT 500X (PC) 1.5 T4 130CV DCT7 FP</b> | Targa: GP835SZ",
@@ -531,7 +501,7 @@
   },
   "GL048PR": {
     "desc": "<b>BMW SERIE 5 520d xDrive Business Auto MH48V Touring SW 5-door (Euro 6D)</b> | Targa: GL048PR",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/0e319151d8970ed70972d65da7e868dbd2cf67e47e1f73a71ebfc8a21ba282afcf085d486c8ada1efb6af6f660087a15b9ddfab89cdd1b0229a4af5966a66e6d"
   },
   "GM910PS": {
@@ -926,7 +896,7 @@
   },
   "GH305PH": {
     "desc": "<b>CITROEN DS 7 CROSSBACK E-TENSE 4X4 AUTOMATICA PERFORMANCELINE FP</b> | Targa: GH305PH",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/ad15c33cc727b9cb1643ffb204afc7bb623ed4d4dc91c59d316a84f19848e37e55e70f4ab8a69650e49af262ee7ab722daa7aa0574fc411e3064ff85dfe63d70"
   },
   "GR133ET": {
