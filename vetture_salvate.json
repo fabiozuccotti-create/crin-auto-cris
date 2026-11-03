@@ -36,7 +36,7 @@
   },
   "GJ672ZB": {
     "desc": "<b>BMW X1 xDrive 25e Business Advantage automatico Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ672ZB",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/1888273f4aaca7fe70e1fdf80d132cc11e80658f16719d1ff76a5122fc2215095fcd1a52a0aeff09e2b835a1cedb8b179a065e15a3bdb3a131d679953c0080f5"
   },
   "GK176RR": {
@@ -211,7 +211,7 @@
   },
   "GG469ZZ": {
     "desc": "<b>FORD FOCUS CONSIPAQ1 1.0 ECOBOOST HYBRID 155CV ST LINE X FP</b> | Targa: GG469ZZ",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/5b0b664eeccd873267fc9fd21b946feab5f872ff0b560838745e2c664a765caa5c8dc82e32d8cc2d2921616c6a2320f9fd781a465233fbcdea778ce8fef12a93"
   },
   "GG928ZW": {
@@ -396,7 +396,7 @@
   },
   "GL860EZ": {
     "desc": "<b>PEUGEOT 2008 PureTech 130 EAT8 Allure Pack S/S aut. Cross over 5-door (Euro 6D)</b> | Targa: GL860EZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/3546fed6f3c11d8ad3a3b57124122109f4c1a88868e96d078e9bd3fee1e7481aa0515cfe1f1ea5ea6adc9146adf726bdecf8e6a0382b9ad644c891f8fc5f874d"
   },
   "GL324FC": {
@@ -564,11 +564,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/cc40001576a629d9867233b79a9b78b1bccf06ca47dba85a06f67e89b764a62fdb3254056256febc67b4d11f22bdb6a22ee5b3638508ae2d2cb433aa6d2a6536"
   },
-  "GM829VN": {
-    "desc": "<b>SMART FORTWO COUP\u00c8 EQ 60kW pure Coup\u00e9 3-door</b> | Targa: GM829VN",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/ace9d755141e67da7de90b00bf86840b10e55a93acc1f17f8da7e55f9fb8598076efc5c631e04b777a7683f7bc66cf41a97aee6ce1c842920c68182384a2b90b"
-  },
   "GP099FM": {
     "desc": "<b>PEUGEOT 208 Active BlueHDi 100 S/S Hatchback 5-door (Euro 6D)</b> | Targa: GP099FM",
     "options": 2,
@@ -611,7 +606,7 @@
   },
   "GR270XA": {
     "desc": "<b>LAND ROVER RANGE ROVER VELAR 3.0D I6 300 R-Dynamic SE 4WD Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR270XA",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/e22135fa5787765f2405adfebd85fabcc176fb77e84883ab6948430198a761170dd4c06318b19e47a3bcd5e05f980d45d6786b5dd2020300fa42de92cd67ffd2"
   },
   "GP817MH": {
@@ -666,7 +661,7 @@
   },
   "GV352ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV352ZS",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/9019eff0eb6ee9ed668f09181cf5eb5868fdea687310de446788450927524abbbf2ea7b243685998240b42a6484cce5facbc6d23784bfd5c78264c68c5fcb1cd"
   },
   "GV461ZS": {
@@ -721,7 +716,7 @@
   },
   "GK667ZR": {
     "desc": "<b>PEUGEOT 3008 BULK BLUEHDI 130 S&S EAT8 GT AUT. FP</b> | Targa: GK667ZR",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/17c9e0b5c0fb3f9ffdcd576c75792c6758e151dcbcd1025b564c1b146057add82c4238e6e8071adc9c8704697c4f4a626f86ecd4ee5231a21db2e17f26f23b8b"
   },
   "GN082SV": {
@@ -856,7 +851,7 @@
   },
   "GJ708AD": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ708AD",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/084b74847742e64d83ab7433068a8ba7f5fc1b41d3aa565045167211a60e7b2e6980e3019d8e8a41731a7ac00e85368de97e5fab61c21701e3d23b03fa59a0f7"
   },
   "GP722TC": {
