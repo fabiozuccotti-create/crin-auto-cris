@@ -161,7 +161,7 @@
   },
   "GV854ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV854ZS",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/d7a23144679a6347465f14c3f6d7c8596228203f051709e55aac442d2ea1a6f1329946de8438364263f090d3232f160ee1f9f58abb0c020dafa8fb5130b44763"
   },
   "FK95515": {
@@ -231,7 +231,7 @@
   },
   "GM187FC": {
     "desc": "<b>ALFA ROMEO TONALE (PC) 1.5 130CV HYBRID TCT7 SPRINT FP</b> | Targa: GM187FC",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/4aca424d60c0f3c7cca04491b9d040e79c7439e5142b4df72484e8aae4fc57d56d920db3f33faa02d9cf167eb02b9b26bb816e5e4c3cad83529158c6ffa22b78"
   },
   "GP733BG": {
@@ -281,7 +281,7 @@
   },
   "GP623TE": {
     "desc": "<b>AUDI Q3 35 TDI QUATTRO S TRONIC BUSINESS</b> | Targa: GP623TE",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/c8a71cd38dde5b2abbf42f9591629c7ebdcb86814ef0d485d07da61fa100dc7293a5136b61e2ba2acd64cd8b32b244ba128349df54475307b8c938ce1c558e90"
   },
   "GR764ER": {
@@ -738,11 +738,6 @@
     "desc": "<b>FIAT PANDA (PC) 1.0 70CV S&S HYBRID FP</b> | Targa: GG832ZW",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/b930b8c8e0428eccfa6710c3bb1803cc03471fafee6ddda82da43dae63626232d0506bfefee3f7f312b04498825c4dcdb06431d410531b634c53035e4c914827"
-  },
-  "GM691PL": {
-    "desc": "<b>RENAULT CLIO 1.0 TCE 74KW GPL EQUILIBRE FP</b> | Targa: GM691PL",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/15ed343c6c4b510800968f68dcddc7c9e3fd054ea3fbed3c7813a0e90ff1e6a1116d1851bedc8de532f6b3fdf48cc37344ce04e29ddd662bc4ff0bc1d27837ed"
   },
   "GZ315MT": {
     "desc": "<b>BMW SERIES 3 318I AUT.</b> | Targa: GZ315MT",
