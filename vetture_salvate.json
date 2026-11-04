@@ -4,11 +4,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/be1634c67ab169828ca8599bb90a690559bc4da7668681ddefa6a44442a19079767bd46725d20d9ae9cdcf576915e09b8e578980062a2c28e6635545e96e25c9"
   },
-  "GM968LE": {
-    "desc": "<b>AUDI Q2 2.0 35 TDI BUSINESS S TRONIC QUATTRO Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GM968LE",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/1eccaf1eb94f9c420afc1114e56126dc3e70f1ffd2affa8994793f4ec3e3232a653e389d9a7b75552579abfe7c0eb9314cb4cea7c33fee6054a0169095447161"
-  },
   "GK775ZJ": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GK775ZJ",
     "options": 1,
@@ -36,7 +31,7 @@
   },
   "GJ672ZB": {
     "desc": "<b>BMW X1 xDrive 25e Business Advantage automatico Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ672ZB",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/1888273f4aaca7fe70e1fdf80d132cc11e80658f16719d1ff76a5122fc2215095fcd1a52a0aeff09e2b835a1cedb8b179a065e15a3bdb3a131d679953c0080f5"
   },
   "GK176RR": {
@@ -181,7 +176,7 @@
   },
   "GP517AZ": {
     "desc": "<b>RENAULT ARKANA 1.3 MILD HYBRID 103KW TECHNO EDC</b> | Targa: GP517AZ",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/4942c3a618a050804624c625b577834029dbf10365665feb55b12d7ed4066ddd132f571510cfdd2f724ec5b80cbb48748b8abb94e2b740581b0a07f8c4b58688"
   },
   "GN719LV": {
@@ -716,7 +711,7 @@
   },
   "GJ700AD": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ700AD",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/f8e1aec75150fce7cce221e09e57ca13f9e638525b374220b98e05808d3630e3bad12057f7b76a3eb4bb83b34034f2c149a2358bfe61cded974e94e31c1d3727"
   },
   "GK701ZM": {
