@@ -266,7 +266,7 @@
   },
   "GZ823KL": {
     "desc": "<b>AUDI A7 S7 3.0 TDI QUATTRO TIPTRONIC FP</b> | Targa: GZ823KL",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/0a322620a12dd95e8f10612322e5644b42ed1b7f98364b789fd833fc9972e333dad67614f0866660ef080440b5088ba85d14d15eeab895c3e493792ab63a1306"
   },
   "GG288PX": {
@@ -316,7 +316,7 @@
   },
   "GK700ZR": {
     "desc": "<b>BMW SERIES 4 COUPE 2.0 420D XDRIVE SPORT AUTO MH48V FP</b> | Targa: GK700ZR",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c76a8cb1aee23dbae4055d8c5f8ff4b8cd5fb9bbdcae70eb2892ea5ed66930b2c69cf796f30d96613ac2df55fed0849c3aca135df781b1132738ef161a8353e0"
   },
   "GK740RL": {
@@ -369,11 +369,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/124b2dd45452f0e2e49bcc5764d95e363bd3377033dea86c67d065f93542018fd2a5b07f597f0a792f8b77dbc9fc66701bef526245d2e3f1693bec03d560fc64"
   },
-  "GJ301JN": {
-    "desc": "<b>VOLKSWAGEN TRANSPORTER 2.0 TDI 81kW EU6 p.c. Cassone a sponde abbattibili 2-door (Euro 6.2)</b> | Targa: GJ301JN",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/fb51bc4b81396f56f1bf2dce8024884c11f28842e63418e7ebf3d70750ccf6566ea32ba7f7001d93868c2678e8e220233218453ed00ffe0b9036f9d95af1ea51"
-  },
   "GJ012JD": {
     "desc": "<b>JEEP RENEGADE 1.0 T3 120cv Limited Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GJ012JD",
     "options": 2,
@@ -416,7 +411,7 @@
   },
   "GK720ZR": {
     "desc": "<b>ALFA ROMEO STELVIO 2.2 TD 190 CV Sprint AT8 Q4 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK720ZR",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/68d3f9ee31fdb353f0eb9f11732d6218f148d124cd7e6f6051ce9993f289e8e99a603d9e96cba4396417bfe11efa1a1e626bd8749bed74ed576a3722425c7b02"
   },
   "GL996PK": {
@@ -621,7 +616,7 @@
   },
   "GV633ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV633ZS",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/f6b1cc8f15b337b8d642a6b7ed9a5f935532e9318d4a98cf5f55d45db185b28e3cbb2169acc8666c5927fdbfd7ea104db7551f7637949cecee5e8a9e2f45f086"
   },
   "GW114WC": {
@@ -671,7 +666,7 @@
   },
   "GN082SV": {
     "desc": "<b>CITROEN C3 (PC) BLUEHDI 100 S&S SHINE FP</b> | Targa: GN082SV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/34f784b9ec4d393ab907a62e7b00d67f905ef76b25374a50e21b823d20b35a0540fdef949d6b270e9bd0a9d6f10d53cace36aa5240bba62417a738ff31aab4ad"
   },
   "GH603PK": {
@@ -756,7 +751,7 @@
   },
   "GK080GF": {
     "desc": "<b>AUDI A3 35 TFSI S TRONIC S LINE EDITION S.BACK FP</b> | Targa: GK080GF",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/b4338ad6d1c578627a127ce7df90bec7177fdd3bafe93b1aa55c2eb95deaa2a0b257511087d80f520ca796d8548f15f30c3a953290090530816ea754ec09cfbd"
   },
   "GP468BA": {
@@ -773,11 +768,6 @@
     "desc": "<b>TOYOTA YARIS CROSS(PC) 1.5H (116 CV) E-CVT BUSINESS FP</b> | Targa: GK574ZW",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/b1bdd3c5d6a07b57b47f367cdfdc7c47e54687aa1444e9fe9ff069490903dcbebd28fa69319c0e0e2cd87535a5406af1fd3ea6411f5b78181c66bb952627a3e8"
-  },
-  "GS995VJ": {
-    "desc": "<b>RENAULT CLIO (PC) 1.0 SCE 48KW EQUILIBRE FP</b> | Targa: GS995VJ",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/410754aada0c8ee599a330e6c083c0f9d2e3c099f7fb8a170cde7067a034523ad9ef8fd66d3c31f6fa8ef7d5d005351c741435afad86b4bea2f15013db0a1d8c"
   },
   "GY191DC": {
     "desc": "<b>AUDI Q3 SPORTBACK PC 35 TDI S TRONIC BUSINESS PLUS FP</b> | Targa: GY191DC",
@@ -874,11 +864,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/dc6f0550ea4342f7177b5e121bad34ead093b66368b751cc5ec98ba79ffd10c0c9ee27a868ac024c7d71bf9718d59fd94f238cad273855dc8b35af27ba1c3a92"
   },
-  "GH923HW": {
-    "desc": "<b>MINI MINI JOHN COOPER WORKS JCW FP</b> | Targa: GH923HW",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/8a35fb082294af04a5277157a86d9c7b14a1d24e8defa76cad37184809964f811c934f5a8d451d16315903d3153c38e6baf9d7513589ca9d74c78d8a155e56da"
-  },
   "GS953VJ": {
     "desc": "<b>RENAULT MEGANE SW 1.5 DCI 85KW BLUE EQUILIBRE EDC FP</b> | Targa: GS953VJ",
     "options": 1,
@@ -891,7 +876,7 @@
   },
   "GV280VT": {
     "desc": "<b>OPEL CORSA (PC) 1.2 75CV GS MT5 FP</b> | Targa: GV280VT",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/af1c8fa51d9b8ad5c24fedcb1dff2c1ff68bafbc431f8dff1d75504d964e95c4378c12bf6d75a6ae11b4caebd3ce0c0c75bac0b35dca3d638a084ee230e9ea4b"
   },
   "HB158ET": {
