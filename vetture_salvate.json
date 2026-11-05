@@ -71,7 +71,7 @@
   },
   "GK778ZD": {
     "desc": "<b>BMW I3 Auto 120 Ah S Advantage Hatchback 5-door</b> | Targa: GK778ZD",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/9089b4f34e1f42047c34496ba77185456cf691c48642d149140980d0a433d627cda7f1fc607d16de6ca641fcb78079315c32ffc65d20150bdbe9561ece2245a0"
   },
   "GK875ZN": {
@@ -81,7 +81,7 @@
   },
   "GP018FN": {
     "desc": "<b>VOLVO XC40 Recharge Ultimate Sport utility vehicle 5-door</b> | Targa: GP018FN",
-    "options": 0,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/5746bee7a755113b171406b4ce6945c60a06fef0aa999bb63565b5a271bf4bd7020dc21ff963208500363011d0baf87a09b9450af8630a86ee0435f5b3126a22"
   },
   "GP329FX": {
@@ -153,11 +153,6 @@
     "desc": "<b>TESLA MODEL X 100 kWh Dual Motor 4WD aut. Sport utility vehicle 5-door</b> | Targa: GW519RY",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/ce44277939a039028609265b582799076eda739862d77250382b39445d83d4b4fba692f0048959ce8114865fbb6df15a91448aa91f6d9afb6cc5bd759c523fb8"
-  },
-  "GV178GX": {
-    "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid Hatchback 5-door</b> | Targa: GV178GX",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/0a5864cf9ff1d02368f4ab39c909fe741d7a078aa7975cf96499a2275ac0470a6a7ca55b899a4ae55ac9a1821ee3bb8b96932f4d2c23ebaf2f964b0107e97d70"
   },
   "GV212ZS": {
     "desc": "<b>HYUNDAI I20 1.0 T-GDI 48V 100cv ConnectLine Hatchback 5-door (Euro 6D)</b> | Targa: GV212ZS",
@@ -239,11 +234,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/5b0b664eeccd873267fc9fd21b946feab5f872ff0b560838745e2c664a765caa5c8dc82e32d8cc2d2921616c6a2320f9fd781a465233fbcdea778ce8fef12a93"
   },
-  "GJ491JG": {
-    "desc": "<b>FIAT 500 (PC) 1.0 70CV IBRIDO CONNECT FP</b> | Targa: GJ491JG",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/aca3c32b782faeefe9d314e74382a96091e5c92126c454ccb2e0b98f588b7af373e247cf6eddf9b6bf8b1273ce4da77009435301e2f1a5160505f05e716fac84"
-  },
   "GM187FC": {
     "desc": "<b>ALFA ROMEO TONALE (PC) 1.5 130CV HYBRID TCT7 SPRINT FP</b> | Targa: GM187FC",
     "options": 2,
@@ -256,7 +246,7 @@
   },
   "GN506WZ": {
     "desc": "<b>PEUGEOT 5008 (PC) BLUEHDI 130 ALLURE PACK EAT8 S/S AUT. FP</b> | Targa: GN506WZ",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/708d4bed41d7f511cbb53a7566c1b9bcda76f29a680f661f45b795bc2304554f248ceed9c5bce2c8aa1b041cec946532de9dedb315b9899cf9efba9b4cf8c461"
   },
   "GP155FL": {
@@ -713,11 +703,6 @@
     "desc": "<b>AUDI A6 SW 40 TDI 2.0 S TRONIC BUSINESS FP</b> | Targa: GP964TD",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/b6b564af38fe16ef72cc4fe6c796fab5bcd7a00f062a88bca63fd8acfea8deab91300a497d11d4e628978b6d41e263a5f872c161ea49855b7e75fe5a016db8bb"
-  },
-  "GR266ET": {
-    "desc": "<b>FORD TRANSIT CONNECT 1.5 EBLUE 100CV S&S ACTIVE 220 L1H1 FP</b> | Targa: GR266ET",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/a1904214826dfe366ea5c761e401b90941d8c3f847f410cdf341af47a5bbd0543a29ccebee92ff8aeb813d3d369b5c647375001135d4e188c8f48ede75c850be"
   },
   "GP470ZR": {
     "desc": "<b>PEUGEOT 3008 N1 BLUEHDI 130 EAT8 S&S ALLURE PACK FP</b> | Targa: GP470ZR",
