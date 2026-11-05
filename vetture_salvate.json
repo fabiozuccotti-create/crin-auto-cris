@@ -46,7 +46,7 @@
   },
   "GM146NX": {
     "desc": "<b>VOLKSWAGEN GOLF 1.0 eTSI 81kW EVO Life DSG Hatchback 5-door (Euro 6D)</b> | Targa: GM146NX",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c06e8c2a6fc5872ea4d92fe1c3c6d3ed93b4d2f0706afd477f04727071fa8ec027275b0ac8d29d250d436764f0b5bc4615a826652f2c4ac7c1b02b7309b79e62"
   },
   "GK737ZD": {
@@ -141,7 +141,7 @@
   },
   "GS752VL": {
     "desc": "<b>AUDI Q3 35 TDI quattro S tronic Business Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GS752VL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/4cfafc7a863dd608b0561545cea8fc540d28c822fc4d890cce4eea65230c03d90e56b85410364def1ca6a13de9e3e1e7ba2d83c5d5a602d7d7ff5c1c16bbb5b3"
   },
   "GP200SZ": {
@@ -216,7 +216,7 @@
   },
   "GN719LV": {
     "desc": "<b>BMW X2 XDRIVE 18D BUSINESS X AUTOMATICO FP</b> | Targa: GN719LV",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/d3c161e489e1576905637e76cd64eff647c4e7dfaa94be95c42850f4541f43d6633a9b6934855fa7bc27dd1397f5de53483eed7365b72667c59e34a873f3ae76"
   },
   "GP141MN": {
@@ -421,7 +421,7 @@
   },
   "GK927RC": {
     "desc": "<b>CITRO\u00cbN C3 AIRCROSS PureTech 110 S&S Feel Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK927RC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/3d009fe77da689e6eac0e0bbfc993759f740372de6f711c688d4ef65980fc6f481bfac084d9cf61cfa9bdf16d2b349072fc03fe9a709a5cea3b53c2111be0525"
   },
   "GL155JA": {
@@ -501,7 +501,7 @@
   },
   "GP301MG": {
     "desc": "<b>AUDI Q3 SPORTBACK 35 TDI S tronic Business Plus Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP301MG",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/198afdeaf6f02e755f529292d9d6d9312c73fbb8f02fc1c343b267469b9e25bbe5f15a72e1c2eae33ae5751ace5c8a8268ab21b0d2e1210875318d4b85d87bb3"
   },
   "GM380KV": {
@@ -689,11 +689,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/3b9d4827aa8002d87b8b704123c26c4e1cf602e5ad4b2e2d90c511d36d33552f250272664941bd7d79c2738655917845943a2f595efd148386918503079c20a6"
   },
-  "GN427ST": {
-    "desc": "<b>BMW X3 (PC) XDRIVE 20D MH48V FP</b> | Targa: GN427ST",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/d36f483a32e1eb6bfb3727dc9695a91e18ef81d25eaf7804dfc77093fdc4b0431520966c1ceb56e7b43518c50679643b41a20d44d8cb3346c4b401d003099d60"
-  },
   "GJ700AD": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ700AD",
     "options": 2,
@@ -821,7 +816,7 @@
   },
   "GH074GX": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GH074GX",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/f024855ef4240dbe679c0c662036159bedd38668f4c087bb3f1069519ee8665002c2b37deda5a47c0326185dce980170ecaca883301e3604f36fadf4a1fab157"
   },
   "GL779EW": {
