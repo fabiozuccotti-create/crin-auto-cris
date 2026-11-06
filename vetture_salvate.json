@@ -6,7 +6,7 @@
   },
   "GK775ZJ": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GK775ZJ",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/fcb96c7c49ec1a1cc098118332adf59be56191200b278b1a8d2b36074870bbd0fdea3c04b29a63c57caa3f0c376b506a77292a098c5ca8a77fb55a16d54cc03a"
   },
   "GK884FT": {
@@ -366,7 +366,7 @@
   },
   "GJ541AN": {
     "desc": "<b>RENAULT ZOE ZOE LIFE R110 Hatchback 5-door</b> | Targa: GJ541AN",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/19408b4a001eeb1fa0be32718ca4d8e79de1f416cf751e5e01a489dbad36e107742261594513654677c146afd4344e039c5495d3697625d9fea0411359b9a8a0"
   },
   "GK339ZH": {
@@ -626,7 +626,7 @@
   },
   "GV311ZS": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV311ZS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/0f7ea1d7e51c25e5ba4eac4fce486fb20f6e607ce8d5d266c84aa816cc181b4e4b3024562c24f1612fb2c998cff13048d18fb33f494af2144ae454e9795f907e"
   },
   "GV352ZS": {
@@ -768,11 +768,6 @@
     "desc": "<b>RENAULT CLIO 1.0 TCE 74KW GPL EQUILIBRE FP</b> | Targa: GR801MF",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c1238b8fe48e34af596110cab74f72f018fb41e68ac6f1b7b6ffc7fb21e9cf17cd26297c8b4c39d9fc1f1dcfc9290d57abc5f8a125491fad24366ec3a5a8c27d"
-  },
-  "GR213EP": {
-    "desc": "<b>FIAT PANDA (PC) 1.0 FIREFLY 70CV S&S HYBRID CROSS</b> | Targa: GR213EP",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/139e29a6ea2ae12bf9345bf8e3263f88ec66815fa8a45b3af38fe6f0bdf1db485b0b29b2cb762f6ccbbbeac71b27a40a143f8c482918505d781872936bc2e25f"
   },
   "GN854DJ": {
     "desc": "<b>KIA SPORTAGE CONSIP 1.6 CRDI MHEV STYLE 2WD FP</b> | Targa: GN854DJ",
