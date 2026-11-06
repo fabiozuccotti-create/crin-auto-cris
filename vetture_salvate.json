@@ -151,7 +151,7 @@
   },
   "GW185WB": {
     "desc": "<b>TOYOTA AYGO X 1.0B (72 CV) Trend S-CVT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GW185WB",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/14171d652dfc0c302ba92e1286eec1f97e997475fb237e672021b41002931c2fbefa0c3c38b1c5d3a781a0296cd400de9747457a320f8eb3dcd5ef1c6c8ee3da"
   },
   "GV212ZS": {
@@ -396,7 +396,7 @@
   },
   "GK927RC": {
     "desc": "<b>CITRO\u00cbN C3 AIRCROSS PureTech 110 S&S Feel Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK927RC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/3d009fe77da689e6eac0e0bbfc993759f740372de6f711c688d4ef65980fc6f481bfac084d9cf61cfa9bdf16d2b349072fc03fe9a709a5cea3b53c2111be0525"
   },
   "GL155JA": {
@@ -566,7 +566,7 @@
   },
   "GR186SF": {
     "desc": "<b>FIAT PANDA 1.0 Hybrid S&S 70cv E6.4 Van 4 posti Commercial hatch 5-door</b> | Targa: GR186SF",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/97bbb6e27c72dfa47fb4b86261add91ee403e2d2881a07251c283e936ecd0801887afbe5d35774eac4ece2026e28f236ac6c4be33542a70b867de0977680fd96"
   },
   "GR233SF": {
@@ -606,7 +606,7 @@
   },
   "GR364VN": {
     "desc": "<b>FORD MUSTANG MACH-E 351CV Extended Range Premium AWD Sport utility vehicle 5-door</b> | Targa: GR364VN",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/9960a82735614b48d4a3b3b95c95574e1d40eb7e9d540d39f47cf1148b32f973680dfbbba5657cf971c63f2b92371c4c0fe55700781a055391f3332417c5325d"
   },
   "GR090LZ": {
@@ -681,7 +681,7 @@
   },
   "GS999VJ": {
     "desc": "<b>RENAULT CLIO (PC) 1.0 SCE 48KW EQUILIBRE FP</b> | Targa: GS999VJ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/7992adb8a68695136cbc91d21a06c78ade62b63ba20d5bb14545206cd8e6d7bc09a0c20e29c9b2bca13a95544e7bc13b74c08c2adaba65249e6303dbea85388d"
   },
   "GT701DN": {
@@ -891,12 +891,12 @@
   },
   "GL997FA": {
     "desc": "<b>SUBARU FORESTER 2.0 E-BOXER PREMIUM AUTO FP</b> | Targa: GL997FA",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/83ad16b771488469427e264d56aa5104cc7ddd23353aea9e3a940153fcebb47d9fe3c46be5aded5e73f3a2b0b3022dba1e3a330677ec8e2898a88a0252911fc0"
   },
   "GJ490AW": {
     "desc": "<b>BMW X1 SDRIVE 20D BUSINESS ADVANTAGE AUTOMATICO FP</b> | Targa: GJ490AW",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/60cbbe975668e9c1ea8df950155a6a4c997eed2db40fe2967e38314f243d921559d52113fa09873dccd200ee37e3c17fd0457319fe8cf26187692cd95ded69e9"
   },
   "GL023HW": {
@@ -928,11 +928,6 @@
     "desc": "<b>RENAULT MEGANE SW 1.5 DCI 85KW BLUE EQUILIBRE EDC FP</b> | Targa: GS953VJ",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/4ea6f5da271c16244a0e7724a0cf457cb580fe7a58e1a4b19a622e8ed7325be6c8ac6c5802b83bd6063e68755a50ad2dd747af787400af974a120c1348d02abb"
-  },
-  "GV235ZJ": {
-    "desc": "<b>TOYOTA YARIS HYBRID ACTIVE MY24 FP</b> | Targa: GV235ZJ",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/0525a9c63149819ee05888857f8103baba07a73f03cc182e11edf6f5cd3dbcc1947b5f79405b18f157b964797feb0b8a7319c62383063939a584aa22631a5a62"
   },
   "GV280VT": {
     "desc": "<b>OPEL CORSA (PC) 1.2 75CV GS MT5 FP</b> | Targa: GV280VT",
