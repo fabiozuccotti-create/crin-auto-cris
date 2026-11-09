@@ -94,6 +94,11 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/f92ecb14c998d818e896f1d0b5a4db1df9b179939456dff06f6139d92fb7fa6e0ef5546ea310caced02ad8e4c9eb5af2d08f9bf63e9b385c42dd074d4c18f722"
   },
+  "GN669LF": {
+    "desc": "<b>AUDI A3 30 TDI S tronic S line Edition S.Back Hatchback 5-door (Euro 6D)</b> | Targa: GN669LF",
+    "options": 1,
+    "url_foto": "https://auto.nextlane.com/public/player/35f15d54e60f2bc438d5aea199937af749eb0bf49be22aa4aa8ae37a678e32b69f052e71d56dde92e05b5a43e994328b42b2006d6061df0c527faf0060de08fd"
+  },
   "GP099FM": {
     "desc": "<b>PEUGEOT 208 Active BlueHDi 100 S/S Hatchback 5-door (Euro 6D)</b> | Targa: GP099FM",
     "options": 2,
@@ -281,7 +286,7 @@
   },
   "GT541DM": {
     "desc": "<b>LANCIA YPSILON (PC) 1.0 FIREFLY 70CV HYBRID GOLD FP</b> | Targa: GT541DM",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/89e205ddf04f67c6c889cbb0ad4b9b2e8de8889bec75f0d948ebb5a0314adf90b4dd06c57715074799bad7b68f3ebfb291405b5d5492e450c80d5a1e171ab6bb"
   },
   "GK612RM": {
@@ -373,11 +378,6 @@
     "desc": "<b>CITRO\u00cbN C3 AIRCROSS PureTech 110 S&S Feel Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK927RC",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/3d009fe77da689e6eac0e0bbfc993759f740372de6f711c688d4ef65980fc6f481bfac084d9cf61cfa9bdf16d2b349072fc03fe9a709a5cea3b53c2111be0525"
-  },
-  "GL155JA": {
-    "desc": "<b>OPEL CORSA 1.2 75cv Edition MT5 Hatchback 5-door (Euro 6D)</b> | Targa: GL155JA",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/e1d1f3336be998164fe092fc68913c573272e666d147dfb0fe56533a02d7274231cfd5fcfce0bc0cceec2a371907d2d37e8ef451b77ef1d9c74d35c4ab077337"
   },
   "GK806ZS": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK806ZS",
@@ -681,7 +681,7 @@
   },
   "GP941MM": {
     "desc": "<b>FIAT 500X 1.3 MJET 95CV MT6 TOP FP</b> | Targa: GP941MM",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/b744205e4332041fdb8b9bddd2993a72b3e0a61cf901b957fd14b451f38e7d2b0178eceb6dfbc20d91513dd22c0d862308ef2bf26d40464dfc40dbc443629d43"
   },
   "GK080GF": {
@@ -696,7 +696,7 @@
   },
   "GJ478EL": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ478EL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/908431eb4abcebcba31e90fd028088b2c3d1b0e280a1afd8b0673b6ebe5487f547730cd3a7d47f46fa2ef8f1867ffdaaae34039300af7089feb1f435eeff1cf8"
   },
   "GR660ER": {
@@ -721,7 +721,7 @@
   },
   "GX641SW": {
     "desc": "<b>NISSAN JUKE N1 1.0 DIG-T 114 ACENTA MT</b> | Targa: GX641SW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/75b68a92cdef2447f9895d8a5d619acad748444a8253e8baaa6ed15eb4382df67811e4fc406cf6db0b108151bdfe12c2f0fa0b39e5b355584e1bf299baebd58c"
   },
   "GZ050CB": {
