@@ -124,6 +124,11 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/6f038cf4637f29414189c2e2d5959e36ccb0ae462bda28196a40d7185ce2ad81216657a7f3e4cd6a1f4e2b02e47fc26c48984a5ad52cb75fd584ca1a4502bd2b"
   },
+  "GS468ED": {
+    "desc": "<b>VOLVO XC90 B5 D AWD automatico Core Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GS468ED",
+    "options": 1,
+    "url_foto": "https://auto.nextlane.com/public/player/686fc379652d062a500e4e40b1379a15dc0e3797af572704e7136ba895d7465ebf31843a0f61dd52f411eeaed2719d7ff993cea71875ca032045046259bc8ee9"
+  },
   "GN785DC": {
     "desc": "<b>ALFA ROMEO TONALE 1.6 Diesel 130cv TCT6 Sprint Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GN785DC",
     "options": 1,
@@ -376,7 +381,7 @@
   },
   "GK298ZV": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK298ZV",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/2ccc0381ba1178ef680be4903f7811a289ea401b4d5be424e32d79352aadf7a92ea8eae7f446832c0720c863530262833ec716f815c21eb133e46bdecbdb20d9"
   },
   "GM187PP": {
@@ -631,7 +636,7 @@
   },
   "GV279ZV": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV279ZV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/946f6cdefeef6add388286b2a8e45227b9830a081613cc365cdfaf0daa6d3349f1c14e44843ef04bfb5381986b3ed7c484ae2e1d2c879d8c99875105c0d2c2d2"
   },
   "GV293ZV": {
@@ -821,7 +826,7 @@
   },
   "GL225HW": {
     "desc": "<b>RENAULT CLIO (PC) 1.5 DCI BLUE 74KW BUSINESS FP</b> | Targa: GL225HW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/be7de16c1bb6942ba1c7ea148163c8859430877e4703e69750ed29803a81a02ab73f71a49c22c9dbc2c4f3c656600518e9d51b6a10e601b07d8219d1040398e8"
   },
   "GK940ZN": {
