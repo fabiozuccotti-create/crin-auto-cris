@@ -96,7 +96,7 @@
   },
   "GP099FM": {
     "desc": "<b>PEUGEOT 208 Active BlueHDi 100 S/S Hatchback 5-door (Euro 6D)</b> | Targa: GP099FM",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/60b7e4f62231f51ab53d0a4d8fe8ea4203a35b42d26cdc4746cd72229b900afe070ade74ed6643ab1bcf9a4dba6aa09001c85ee0b1b6ce36fe011054b8d44eda"
   },
   "GP158FM": {
@@ -211,7 +211,7 @@
   },
   "GN506WZ": {
     "desc": "<b>PEUGEOT 5008 (PC) BLUEHDI 130 ALLURE PACK EAT8 S/S AUT. FP</b> | Targa: GN506WZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/708d4bed41d7f511cbb53a7566c1b9bcda76f29a680f661f45b795bc2304554f248ceed9c5bce2c8aa1b041cec946532de9dedb315b9899cf9efba9b4cf8c461"
   },
   "GP155FL": {
@@ -379,11 +379,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/48f013f31595eba10577972eb0aa85074d04a801befe14b8a508e4e5f4ada3d099440377d0180960ac3261b8429a3421606b8854dd253ca546abbfc2163228f9"
   },
-  "GJ702JY": {
-    "desc": "<b>CITRO\u00cbN C4 BlueHDi 110 S&S Feel Hatchback 5-door (Euro 6D)</b> | Targa: GJ702JY",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/b073aafeb878842b5a059e79e5e5d512b667434a6cebef18f65341f7399822ad5165a288c92d09f9e1e8ce45c1736534b2ab3775355dc5a74256de678700f242"
-  },
   "GJ700JW": {
     "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid City Life Hatchback 5-door (Euro 6D)</b> | Targa: GJ700JW",
     "options": 2,
@@ -408,11 +403,6 @@
     "desc": "<b>FIAT PANDA 1.0 70cv Hybrid Euro 6d Van 4 p. Street Commercial hatch 5-door (Euro 6D)</b> | Targa: GL029FF",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/82d949341fd481a5ee106266fb96b492477ec59cd85e6d6480e52681b38304656e4a262b816857423b1d2dba3cb3370018347c42ed65e2511ee02f1e9644e99a"
-  },
-  "GK651ZC": {
-    "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid Hatchback 5-door (Euro 6D)</b> | Targa: GK651ZC",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/43b1ca0585f97c713b100f2558f83163f03eb2e9128b94a7e5abe79ab90f4ec33c3433b7730339620e70ca27efa5ca11868b9914cfcfbd15ad802fee981757d2"
   },
   "GK165ZF": {
     "desc": "<b>ALFA ROMEO STELVIO 2.2 TD 190 CV Sprint AT8 Q4 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK165ZF",
@@ -461,7 +451,7 @@
   },
   "GP836ZN": {
     "desc": "<b>AUDI Q3 SPORTBACK 45 TFSI e S tronic Business Plus Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP836ZN",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/0245bc213bd0e5e3be40d8c6494b1917b6b2da39dc616bf22e9b6636d61f55d76cea917970720e3eff4e5e7416688e8097a4863673b334f628d48a10dd725ef0"
   },
   "GP482FV": {
@@ -506,7 +496,7 @@
   },
   "GP518AX": {
     "desc": "<b>ALFA ROMEO STELVIO 2.2 TD 190 CV Sprint AT8 Q4 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP518AX",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/cc40001576a629d9867233b79a9b78b1bccf06ca47dba85a06f67e89b764a62fdb3254056256febc67b4d11f22bdb6a22ee5b3638508ae2d2cb433aa6d2a6536"
   },
   "GP882MR": {
@@ -616,7 +606,7 @@
   },
   "GV293ZV": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV293ZV",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/9d1b89746ed9abafc1e0033c6ba255eb35061fba5ce59282079e61f21d454dbfc34311aa3efe47237fc4070a489ba4c6c39652707d2c6ab9141c88763113bda9"
   },
   "GV029ZW": {
@@ -796,7 +786,7 @@
   },
   "GK940ZN": {
     "desc": "<b>RENAULT CLIO (PC) 1.5 DCI BLUE 74KW BUSINESS FP</b> | Targa: GK940ZN",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c881973e045a24c9dad17b43fd75cc2b3e2fa12037f89be7010c1e45cf7651adc4e7d140d086469746b6a65e5acea18179318fd003f0916c8418a27b5469888d"
   },
   "GK348FT": {
