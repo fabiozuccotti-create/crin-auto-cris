@@ -141,7 +141,7 @@
   },
   "GP200SZ": {
     "desc": "<b>SUZUKI IGNIS 1.2 Hybrid Top 2WD Hatchback 5-door (Euro 6D)</b> | Targa: GP200SZ",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/69e145a2714d2447f43d64e595c23c05783466a9f4e571eff3f623b19d4270972e9b5e258662b2f072e19221b2dbbf60cf4ab79c86367933929ea15b3eec974e"
   },
   "GR872EV": {
@@ -454,11 +454,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/0245bc213bd0e5e3be40d8c6494b1917b6b2da39dc616bf22e9b6636d61f55d76cea917970720e3eff4e5e7416688e8097a4863673b334f628d48a10dd725ef0"
   },
-  "GP482FV": {
-    "desc": "<b>PEUGEOT EXPERT 2.0 BlueHDi 140 Premium Standard aut.</b> | Targa: GP482FV",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/cd591b2ee212c14abe7d2583b9f3e79a62fc476a8fbedde7f631443ae5e52faa55ec90e6642381aa7fcfdec091dfb39c1a944f92a6d3a77fc6921570b65e6ae2"
-  },
   "GM380KV": {
     "desc": "<b>BMW SERIE 5 520d xDrive Business Auto MH48V Touring</b> | Targa: GM380KV",
     "options": 1,
@@ -671,7 +666,7 @@
   },
   "GZ315MT": {
     "desc": "<b>BMW SERIES 3 318I AUT.</b> | Targa: GZ315MT",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/7da1c017b56b1b97728a58976e93fc867fa1b585abd5e23a5e634865ebae484e66d89bc9917230406f02eb9e645e6a6a3e9b4c4cc2fcb5790f65461763b515f8"
   },
   "GR112VM": {
@@ -836,7 +831,7 @@
   },
   "GJ689AD": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ689AD",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/ba42d09fa325742c95d9d8621b3036c452d3b52b5debe50753ceb48bfc8946ebc0287eadc7e604583b8b3f9a77ca997f981d461574f9c26e75b017379c625707"
   },
   "GL997FA": {
