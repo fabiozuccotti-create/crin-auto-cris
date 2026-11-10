@@ -1,7 +1,7 @@
 {
   "GC947PH": {
     "desc": "<b>MINI MINI Cooper SE M Hatchback 3-door</b> | Targa: GC947PH",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/99ce677745104478e09ec4f932f144a581c77fd845634507b385367d5efe04503ce07ca81af156375e1f7e781b818e6002c79cc7b6f874fc335bfd2c9966ed1f"
   },
   "GK775ZJ": {
@@ -56,7 +56,7 @@
   },
   "GH183PX": {
     "desc": "<b>PEUGEOT 3008 BlueHDI 130 S&S Active Pack Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GH183PX",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/aa63f9272a3cc5bbfd39d72b4e15078391b57ece8942c8939c11dab1a8499b72f11951e2fcefd26321f81856fa7a67c9e00886b065afdf4e72a489218ef69c13"
   },
   "GL557PK": {
@@ -126,7 +126,7 @@
   },
   "GR190SG": {
     "desc": "<b>ALFA ROMEO TONALE 1.5 130cv Hybrid TCT7 Sprint Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR190SG",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/6f038cf4637f29414189c2e2d5959e36ccb0ae462bda28196a40d7185ce2ad81216657a7f3e4cd6a1f4e2b02e47fc26c48984a5ad52cb75fd584ca1a4502bd2b"
   },
   "GN785DC": {
@@ -186,12 +186,12 @@
   },
   "GZ708RC": {
     "desc": "<b>MERCEDES-BENZ GLC GLC 300d 4M MHEV AMG Line Premium Plus Sport utility vehicle 5-door (Euro 6E)</b> | Targa: GZ708RC",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/640959503e0af3cdfa23d7d89f2b5293ab141ed7d925c45e17a9b6c4d8ca2c3afabd166c2701b338222a23c7004ac1cbd682ee3ea9f6ebe7de5abfa5b08a19d3"
   },
   "GK860ZY": {
     "desc": "<b>FORD KUGA (PC) 1.5 ECOBLUE 120CV 2WD ST-LINE AUTO FP</b> | Targa: GK860ZY",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/aa551f0df1635070e6a7a79a6533e4cc48342cdd7927e53a8111313f991fb2252810e90561f9e399be17935b4cff398e130a1ac244b6722ff825fc418d433a8b"
   },
   "GL258EY": {
@@ -211,7 +211,7 @@
   },
   "GK667ZR": {
     "desc": "<b>PEUGEOT 3008 BULK BLUEHDI 130 S&S EAT8 GT AUT. FP</b> | Targa: GK667ZR",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/17c9e0b5c0fb3f9ffdcd576c75792c6758e151dcbcd1025b564c1b146057add82c4238e6e8071adc9c8704697c4f4a626f86ecd4ee5231a21db2e17f26f23b8b"
   },
   "GN506WZ": {
@@ -261,7 +261,7 @@
   },
   "GP704AZ": {
     "desc": "<b>RENAULT AUSTRAL 1.3 MHEV 160 TECHNO AUTO</b> | Targa: GP704AZ",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/dbb84423f8fae969cdb13e199ea9848e8a772efbfcc12e8d3141ed3afad209184d1a7f68b370b70641905bc2306792a404cd000337c7c1f838dffff838726849"
   },
   "GP757ZN": {
@@ -301,7 +301,7 @@
   },
   "GH305PH": {
     "desc": "<b>CITROEN DS 7 CROSSBACK E-TENSE 4X4 AUTOMATICA PERFORMANCELINE FP</b> | Targa: GH305PH",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ad15c33cc727b9cb1643ffb204afc7bb623ed4d4dc91c59d316a84f19848e37e55e70f4ab8a69650e49af262ee7ab722daa7aa0574fc411e3064ff85dfe63d70"
   },
   "GR133ET": {
@@ -443,11 +443,6 @@
     "desc": "<b>ALFA ROMEO STELVIO 2.2 TD 190 CV Sprint AT8 Q4 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK165ZF",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/16b362c8007b6e91db71b3e387e966fa8548ff90f56a6fe355b4db9634180904b4d4b8286e6720f7ac2e36ab4fc1b468acd10de01e16b8ee2d9784e925bb58b5"
-  },
-  "GL273FD": {
-    "desc": "<b>SKODA FABIA 1.0 MPI Evo 59KW AMBITION Hatchback 5-door (Euro 6D)</b> | Targa: GL273FD",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/063d5558e8a683a4e6f2e632bd78e675030c87ab5df6327fe563d16dcbd196ace552d7478e92ad32545e2f6166042e16783180406ccb15e45ed479b624297f42"
   },
   "GL279FE": {
     "desc": "<b>FORD TOURNEO CUSTOM 320 L1 H1 Trend 2.0EcoBlue 130 Cv Combi 5-door (Euro 6.2)</b> | Targa: GL279FE",
@@ -656,7 +651,7 @@
   },
   "GV279ZV": {
     "desc": "<b>HYUNDAI KONA 1.6 HEV X Line 2WD DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV279ZV",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/946f6cdefeef6add388286b2a8e45227b9830a081613cc365cdfaf0daa6d3349f1c14e44843ef04bfb5381986b3ed7c484ae2e1d2c879d8c99875105c0d2c2d2"
   },
   "GV293ZV": {
@@ -786,7 +781,7 @@
   },
   "GS985ER": {
     "desc": "<b>AUDI A1 30 TFSI BUSINESS SPORTBACK FP</b> | Targa: GS985ER",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ee2c35ffe97ca465dbe066a616ded4461d85b79e60b10fda6159a7619fbd9c019898de90ec18a5f17db3da86368383cd62350f397552d8e6ba22be810f18470d"
   },
   "GN978XC": {
@@ -831,7 +826,7 @@
   },
   "GP941MM": {
     "desc": "<b>FIAT 500X 1.3 MJET 95CV MT6 TOP FP</b> | Targa: GP941MM",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/b744205e4332041fdb8b9bddd2993a72b3e0a61cf901b957fd14b451f38e7d2b0178eceb6dfbc20d91513dd22c0d862308ef2bf26d40464dfc40dbc443629d43"
   },
   "GK080GF": {
@@ -881,7 +876,7 @@
   },
   "GK348FT": {
     "desc": "<b>AUDI Q2 2.0 30 TDI S TRONIC FP</b> | Targa: GK348FT",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/442237d30ce7a0c51a8a631a21816ad7b6be5c5a2f5cb694d6a89cc36be479dcb10590d1897c69173d05b2203866ace6d4c616d9327f93d00c3bf375c28c697f"
   },
   "GX641SW": {
@@ -931,7 +926,7 @@
   },
   "GJ689AD": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ689AD",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/ba42d09fa325742c95d9d8621b3036c452d3b52b5debe50753ceb48bfc8946ebc0287eadc7e604583b8b3f9a77ca997f981d461574f9c26e75b017379c625707"
   },
   "GL997FA": {
@@ -951,7 +946,7 @@
   },
   "GK729ZH": {
     "desc": "<b>FORD TRANSIT CUSTOM 340 L2H1 TREND 2.0 ECOBLUE 130 CV DC FP</b> | Targa: GK729ZH",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/39744697754790fa266b57ea6e685e5f6def8784a1022e873dc618f1c284d3be4ec12f5931a58c53fa6884c849161d14e802d6e694728e04925bd81246a17ac4"
   },
   "GH074GX": {
