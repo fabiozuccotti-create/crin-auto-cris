@@ -216,7 +216,7 @@
   },
   "GP155FL": {
     "desc": "<b>PEUGEOT 3008 (PC) BLUEHDI 130 EAT8 S&S ALLURE PACK</b> | Targa: GP155FL",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/94aab28ed4b31d4fe1702ee38295e2859fd84756f1e895f72cbd7bc99a0ce45338724dceca2277fbd856b9727ed19cf091ead089b8c614174fd6670f6e8285b6"
   },
   "GJ448HW": {
@@ -323,11 +323,6 @@
     "desc": "<b>VOLKSWAGEN TIGUAN (PC) 2.0 TDI SCR 110KW LIFE DSG FP</b> | Targa: GL779EW",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/dc6f0550ea4342f7177b5e121bad34ead093b66368b751cc5ec98ba79ffd10c0c9ee27a868ac024c7d71bf9718d59fd94f238cad273855dc8b35af27ba1c3a92"
-  },
-  "HC619AY": {
-    "desc": "<b>MERCEDES-BENZ GLC GLC 300de 4M EQ Advanced Sport utility vehicle 5-door (Euro 6D)</b> | Targa: HC619AY",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/ff56afc08ea53ebe7da27d614d613ef287ce1dd7d1bee380b7b73f34144c01aca2a6a85dcfc1a6ef1fa4f77d086ef4e8d6fb5cf54113969ac519f2a7b91a7196"
   },
   "GH041JF": {
     "desc": "<b>TOYOTA C-HR 1.8H (122CV) E-CVT Trend Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GH041JF",
@@ -576,7 +571,7 @@
   },
   "FF15603": {
     "desc": "<b>KYMCO PEOPLE S 200i Abs E5 Scooter (Euro 5)</b> | Targa: FF15603",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/40cbee1522b724b27aa2355cce257c771b373e669ba4f65d9bca97230eb9eb7df7cf666a8ddbba98eda23d2be31ba8e219e9e70e8d52e60e8a6838ceab63480c"
   },
   "GR488VH": {
@@ -631,7 +626,7 @@
   },
   "GV636ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV636ZS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/d902ede0c66f33179fa8ce8c362b014ba7baa3e46f4df132b3242b6a44f9228d2085d847d50c365e72f3e156390d84e7a07abac2499dc2ab47e1ebed5f4c26d8"
   },
   "GV279ZV": {
@@ -653,11 +648,6 @@
     "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid Hatchback 5-door (Euro 6E)</b> | Targa: GW623NX",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/955f07df4b122eab96d4c44aa0031c3bd6c5c69bd196a65327e5110553f0b671fa97df2ce5bceec59919aa9c905621b71577ff651ebe85ca4b039d1a2f85b891"
-  },
-  "GW235SE": {
-    "desc": "<b>FORD EXPLORER 286CV Extended Range Sport utility vehicle 5-door</b> | Targa: GW235SE",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/4890af2ca42fff2b8a6626b9d31d758cc87e2ba2f1e36ac04376c86e49ea2638e5089f6bfa5805d90d0d12ab78a994404ef528c915d1d948625ce61ecc551e70"
   },
   "GW010VX": {
     "desc": "<b>FORD TRANSIT 330 L2H2 Trend 2.0 Eco 130 Cv Furgone 4-door (Euro 6.2)</b> | Targa: GW010VX",
@@ -736,7 +726,7 @@
   },
   "GP923FL": {
     "desc": "<b>FORD KUGA 2.5 BENZINA FHEV 190CV AWD ST-LINE AUT FP</b> | Targa: GP923FL",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/40f415ce791f01844ecb6800d12657ec2dfe9fb9f12277f5751f2b829c852e4285936167d249d05fb49f3105062c60d09113c96e3bb2125ddda6d7165baf7214"
   },
   "GP470BB": {
@@ -796,7 +786,7 @@
   },
   "GN694XF": {
     "desc": "<b>PEUGEOT 308 ALLURE BLUEHDI 130 EAT8 S&S AUT. FP</b> | Targa: GN694XF",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/56bb7d4146ad8abf27d79192c4bf7a510f913e01a2998a243380fc2f5a7859db3c5c9af06d3259386652b6d95fffc9940fc3dbe701422dfd46faa983c084425f"
   },
   "GP941MM": {
