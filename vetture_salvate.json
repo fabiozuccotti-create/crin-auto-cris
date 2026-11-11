@@ -229,11 +229,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/89e205ddf04f67c6c889cbb0ad4b9b2e8de8889bec75f0d948ebb5a0314adf90b4dd06c57715074799bad7b68f3ebfb291405b5d5492e450c80d5a1e171ab6bb"
   },
-  "GK612RM": {
-    "desc": "<b>BMW X2 XDRIVE 25E BUSINESS X AUTOMATICO FP</b> | Targa: GK612RM",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/f45e8db7bf144804ae56554c85b3dcd1fa39a93b9373d1e5f747256ea97aab9185e2a33d1002c20920cc227fff2cc9cb630ab3efc42185528e35bef335573800"
-  },
   "GK700ZR": {
     "desc": "<b>BMW SERIES 4 COUPE 2.0 420D XDRIVE SPORT AUTO MH48V FP</b> | Targa: GK700ZR",
     "options": 2,
@@ -276,7 +271,7 @@
   },
   "GH041JF": {
     "desc": "<b>TOYOTA C-HR 1.8H (122CV) E-CVT Trend Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GH041JF",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/bdc11d71ba38cb9891a1a62c96de7aab61d77d8db5c084b9d731d26d1c1e03525d226ce5316962c7dc7045659497c27521a74612b60e7a5fda5732ae9a17dbdf"
   },
   "GL860EZ": {
@@ -333,11 +328,6 @@
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium X Aut Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL580FF",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/11bc328086ae8029a52a1cbe65a58df3db745093ee2493688ca1394e1df9dfc91a8c6a4e9821b9ce8e6b477359ed1b051a68e1350ae4092d86e003b0054dc83f"
-  },
-  "GL173HV": {
-    "desc": "<b>TOYOTA C-HR 1.8H (122CV) E-CVT Lounge Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GL173HV",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/2a4807df5a39d62787435f14e15115cdc92038c08eaf7e078186b4cf26c804b6a42b43dee816ce5f07fed2953f55a7fea169b4ebe59777afe1d9657675642703"
   },
   "GL029FF": {
     "desc": "<b>FIAT PANDA 1.0 70cv Hybrid Euro 6d Van 4 p. Street Commercial hatch 5-door (Euro 6D)</b> | Targa: GL029FF",
@@ -758,11 +748,6 @@
     "desc": "<b>RENAULT MEGANE SW 1.5 DCI 85KW BLUE EQUILIBRE EDC FP</b> | Targa: GS953VJ",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/4ea6f5da271c16244a0e7724a0cf457cb580fe7a58e1a4b19a622e8ed7325be6c8ac6c5802b83bd6063e68755a50ad2dd747af787400af974a120c1348d02abb"
-  },
-  "GP041ZK": {
-    "desc": "<b>PEUGEOT 2008 (PC) BLUEHDI 130 EAT8 ALLURE PACK S/S AUT. FP</b> | Targa: GP041ZK",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/9173411e886dc3e81578d4f334c43be470ed4f3bdfc87cb63db2b8ba61cf0b76d3310b18559d82ec93d968ec6e4c7bd416b01f2320a3e9c64f4d5902bc26e923"
   },
   "GV280VT": {
     "desc": "<b>OPEL CORSA (PC) 1.2 75CV GS MT5 FP</b> | Targa: GV280VT",
