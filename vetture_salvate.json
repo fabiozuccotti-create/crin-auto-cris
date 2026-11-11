@@ -316,12 +316,12 @@
   },
   "GK298ZV": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK298ZV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/2ccc0381ba1178ef680be4903f7811a289ea401b4d5be424e32d79352aadf7a92ea8eae7f446832c0720c863530262833ec716f815c21eb133e46bdecbdb20d9"
   },
   "GM187PP": {
     "desc": "<b>CITRO\u00cbN C3 AIRCROSS PureTech 130 S&S Shine EAT6 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GM187PP",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/48f013f31595eba10577972eb0aa85074d04a801befe14b8a508e4e5f4ada3d099440377d0180960ac3261b8429a3421606b8854dd253ca546abbfc2163228f9"
   },
   "GJ700JW": {
@@ -381,7 +381,7 @@
   },
   "GM422KT": {
     "desc": "<b>TESLA MODEL Y 75 kWh Performance Dual Motor 4WD aut Sport utility vehicle 5-door</b> | Targa: GM422KT",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/f2a16de7dcf7b71fff14dc5daaf9ee73219b32c69dc06e7174e0db581d1777407d7a48712a88da97ebad0a70c864f0a0b33ab323c56c23e061889a3a8b97154f"
   },
   "GP076MT": {
@@ -403,11 +403,6 @@
     "desc": "<b>BMW SERIE 5 520d xDrive Business Auto MH48V Touring</b> | Targa: GM380KV",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/73d736e208fd31e37915262fe55efdbff26fbca714ef896e2258b7fd8f6e55c419a80d88bc447c60bc08c7f140f94e4652aae0327ed1feaf921810b0585f5b5f"
-  },
-  "GR647ER": {
-    "desc": "<b>SEAT LEON 1.5 eTSI 110KW BUSINESS DSG Hatchback 5-door (Euro 6D)</b> | Targa: GR647ER",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/dd01fd2f671ec852c91ee8b454d5c9f1cbf56992a837a3b9006232eb057c763c098008cdb9b7be93cdbfa9f2eb6b068ba59c19f7118a203e82e211f3d7795fd2"
   },
   "GN769SF": {
     "desc": "<b>MINI COUNTRYMAN Cooper S E Classic 4WD automatica</b> | Targa: GN769SF",
@@ -443,11 +438,6 @@
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GN001DA",
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/69f732cf8d99f8b8b64ff9344e8dbddee64c48475fc9f73ed716c8febc9dc5ed39ef89fd6ca789850cd680c1f238e8142bc1c089d63a297225d3a8ec8d71a832"
-  },
-  "GR498FA": {
-    "desc": "<b>VOLKSWAGEN GOLF 1.0 eTSI 81kW EVO Life DSG Hatchback 5-door (Euro 6D)</b> | Targa: GR498FA",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/529ab3768e0dfacc3bb5f419136d202015a2587943c9c72a2d53aaff1a6697991287ceb1bdcd7da07f1fca8aaea03575bba27745d37ab81f32a6ef9954d32120"
   },
   "GR186SF": {
     "desc": "<b>FIAT PANDA 1.0 Hybrid S&S 70cv E6.4 Van 4 posti Commercial hatch 5-door</b> | Targa: GR186SF",
@@ -501,7 +491,7 @@
   },
   "GR090LZ": {
     "desc": "<b>HYUNDAI TUCSON 1.6 CRDi MHEV 2wd 136cv Exellence DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR090LZ",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/20121b7373621cc7b0f3f4e875e5637ff3de8476329bc68eb77b0372f01c3b737dc9b1883909bf980f2497e71d63c19911ca9c9c5293583c16f4cee01ed01ff0"
   },
   "GV118ZS": {
@@ -536,7 +526,7 @@
   },
   "GV029ZW": {
     "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid Hatchback 5-door</b> | Targa: GV029ZW",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/16107b9f2165f0023a8633630ac51f0c0bad379203be8842fda9fe04c1612edaa2c6359f0bfb3382b4cbea29a503e48a57b6d66798b29c750b024665a445e3c5"
   },
   "GW623NX": {
@@ -636,7 +626,7 @@
   },
   "GS985ER": {
     "desc": "<b>AUDI A1 30 TFSI BUSINESS SPORTBACK FP</b> | Targa: GS985ER",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ee2c35ffe97ca465dbe066a616ded4461d85b79e60b10fda6159a7619fbd9c019898de90ec18a5f17db3da86368383cd62350f397552d8e6ba22be810f18470d"
   },
   "GN978XC": {
@@ -771,7 +761,7 @@
   },
   "GJ490AW": {
     "desc": "<b>BMW X1 SDRIVE 20D BUSINESS ADVANTAGE AUTOMATICO FP</b> | Targa: GJ490AW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/60cbbe975668e9c1ea8df950155a6a4c997eed2db40fe2967e38314f243d921559d52113fa09873dccd200ee37e3c17fd0457319fe8cf26187692cd95ded69e9"
   },
   "GL023HW": {
