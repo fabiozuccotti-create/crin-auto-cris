@@ -79,11 +79,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/5746bee7a755113b171406b4ce6945c60a06fef0aa999bb63565b5a271bf4bd7020dc21ff963208500363011d0baf87a09b9450af8630a86ee0435f5b3126a22"
   },
-  "GL123PN": {
-    "desc": "<b>FORD RANGER Raptor Auto 4WD 2.0 Ecoblue 213CV DC Autocarro cabina doppia 4-door (Euro 6.2)</b> | Targa: GL123PN",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/d33e31bd65fbd2b2ea90fead02033375f364dc229a77efff442dc0f6d1494fc08af2be7f213c12cdb84ba77a7887f0559ee0d363862519708e7f23f95132c694"
-  },
   "GN002HB": {
     "desc": "<b>BMW X5 xDrive 30d MH48V Msport autom. Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GN002HB",
     "options": 2,
@@ -141,7 +136,7 @@
   },
   "GP200SZ": {
     "desc": "<b>SUZUKI IGNIS 1.2 Hybrid Top 2WD Hatchback 5-door (Euro 6D)</b> | Targa: GP200SZ",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/69e145a2714d2447f43d64e595c23c05783466a9f4e571eff3f623b19d4270972e9b5e258662b2f072e19221b2dbbf60cf4ab79c86367933929ea15b3eec974e"
   },
   "GR872EV": {
@@ -218,11 +213,6 @@
     "desc": "<b>PEUGEOT 3008 (PC) BLUEHDI 130 EAT8 S&S ALLURE PACK</b> | Targa: GP155FL",
     "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/94aab28ed4b31d4fe1702ee38295e2859fd84756f1e895f72cbd7bc99a0ce45338724dceca2277fbd856b9727ed19cf091ead089b8c614174fd6670f6e8285b6"
-  },
-  "GJ448HW": {
-    "desc": "<b>FIAT PANDA CONSIPAQ1 1.2 FIRE 69CV S&S EASYPOWER CITY LIFE FP</b> | Targa: GJ448HW",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/6170893576f31012ac9d1a0a1903e6fbc856da936e3f2ee8f15cb322f4c84f7bf2650d88159b9a0cb63a1e9f3760633abd187ee813034af82816afa79aa33a56"
   },
   "GK426RW": {
     "desc": "<b>BMW SERIES 3 SW (PC 330E BUSINESS ADVANTAGE TOURING AUTO FP</b> | Targa: GK426RW",
@@ -311,7 +301,7 @@
   },
   "GL779EW": {
     "desc": "<b>VOLKSWAGEN TIGUAN (PC) 2.0 TDI SCR 110KW LIFE DSG FP</b> | Targa: GL779EW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/dc6f0550ea4342f7177b5e121bad34ead093b66368b751cc5ec98ba79ffd10c0c9ee27a868ac024c7d71bf9718d59fd94f238cad273855dc8b35af27ba1c3a92"
   },
   "GH041JF": {
@@ -346,7 +336,7 @@
   },
   "GK753ZV": {
     "desc": "<b>BMW X3 xDrive 20d MH48V Msport Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK753ZV",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/e1d80c5ed40ce01b68da51963c24603273c4b72174a0b66e0be28b7f61525775ceb716c8fd4f2cc0413028d73cae4088115df420fdee1d21d24b8f59bce338f0"
   },
   "GK927RC": {
@@ -591,7 +581,7 @@
   },
   "GV029ZW": {
     "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid Hatchback 5-door</b> | Targa: GV029ZW",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/16107b9f2165f0023a8633630ac51f0c0bad379203be8842fda9fe04c1612edaa2c6359f0bfb3382b4cbea29a503e48a57b6d66798b29c750b024665a445e3c5"
   },
   "GW623NX": {
@@ -741,7 +731,7 @@
   },
   "GP468BA": {
     "desc": "<b>BMW X3 (PC) XDRIVE 20D MH48V MSPORT FP</b> | Targa: GP468BA",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/bc5046f82457ef19c59ccdfc2c7a3fc6e7d42b74c25bfadf8ab4aecabb2f72e6bc3a44118bf81e9ec806d0c45494918c9b36084f3d882fdf72e4cf404b80527f"
   },
   "GJ478EL": {
@@ -761,12 +751,12 @@
   },
   "GL225HW": {
     "desc": "<b>RENAULT CLIO (PC) 1.5 DCI BLUE 74KW BUSINESS FP</b> | Targa: GL225HW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/be7de16c1bb6942ba1c7ea148163c8859430877e4703e69750ed29803a81a02ab73f71a49c22c9dbc2c4f3c656600518e9d51b6a10e601b07d8219d1040398e8"
   },
   "GK940ZN": {
     "desc": "<b>RENAULT CLIO (PC) 1.5 DCI BLUE 74KW BUSINESS FP</b> | Targa: GK940ZN",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/c881973e045a24c9dad17b43fd75cc2b3e2fa12037f89be7010c1e45cf7651adc4e7d140d086469746b6a65e5acea18179318fd003f0916c8418a27b5469888d"
   },
   "GK348FT": {
