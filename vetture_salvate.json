@@ -21,7 +21,7 @@
   },
   "GK521ZR": {
     "desc": "<b>VOLVO XC60 T6 Plug-in AWD auto Core Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK521ZR",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/93ef7774afa5462596b6fb196f6e303c8aa261a452b22904d3bcbb96eed0dd865ac00868dd69171df54c5bb0ce1ede5be5df51e74b49f752f3c0afb991bc296a"
   },
   "GJ167YN": {
@@ -349,11 +349,6 @@
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/e1d80c5ed40ce01b68da51963c24603273c4b72174a0b66e0be28b7f61525775ceb716c8fd4f2cc0413028d73cae4088115df420fdee1d21d24b8f59bce338f0"
   },
-  "GJ703EK": {
-    "desc": "<b>FIAT DOBL\u00d2 CARGO CH1 EASY 1.6 Mjet 90cv E6D-f S&S Vettura Furgonata 3-door (Euro 6D)</b> | Targa: GJ703EK",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/dfdf4ccbe3cb0259aa018b33c02175e25e7d5fe7d59c733ab2ef61b50be072d6d21c8a203d937a387fbfaf1f75cb4a537518f37b8dc4cfc4da4bc222e8e6ba7b"
-  },
   "GK927RC": {
     "desc": "<b>CITRO\u00cbN C3 AIRCROSS PureTech 110 S&S Feel Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK927RC",
     "options": 2,
@@ -611,7 +606,7 @@
   },
   "GX651SP": {
     "desc": "<b>RENAULT CLIO 1.5 DCI 74KW EVOLUTION Hatchback 5-door (Euro 6E)</b> | Targa: GX651SP",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ec858132151b21d3a2e6aee9d167de8a6f4481f72754c2fd2a2de4f0096a4c13ef598a73fccd649cf3cfd24f710f0bf7c85c59cefc48cf7c013f22c69f9f32c8"
   },
   "GW462VZ": {
@@ -696,7 +691,7 @@
   },
   "GS985ER": {
     "desc": "<b>AUDI A1 30 TFSI BUSINESS SPORTBACK FP</b> | Targa: GS985ER",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ee2c35ffe97ca465dbe066a616ded4461d85b79e60b10fda6159a7619fbd9c019898de90ec18a5f17db3da86368383cd62350f397552d8e6ba22be810f18470d"
   },
   "GN978XC": {
@@ -781,7 +776,7 @@
   },
   "GX641SW": {
     "desc": "<b>NISSAN JUKE N1 1.0 DIG-T 114 ACENTA MT</b> | Targa: GX641SW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/75b68a92cdef2447f9895d8a5d619acad748444a8253e8baaa6ed15eb4382df67811e4fc406cf6db0b108151bdfe12c2f0fa0b39e5b355584e1bf299baebd58c"
   },
   "GZ050CB": {
@@ -791,7 +786,7 @@
   },
   "GZ240VM": {
     "desc": "<b>FORD TRANSIT CASSONE T/P 350 L2 TREND 2.0 ECO 130CV SCAT FP</b> | Targa: GZ240VM",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/7ba4060db08bfd66f2bf6d37d0be97a68b6da6d4accd4c5cda04555d6dce77b0220ce0db89f442234805365743797a9a9b6520bd191e154cf532fdc3d9bfc4a3"
   },
   "GY144FN": {
@@ -861,7 +856,7 @@
   },
   "GP041ZK": {
     "desc": "<b>PEUGEOT 2008 (PC) BLUEHDI 130 EAT8 ALLURE PACK S/S AUT. FP</b> | Targa: GP041ZK",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/9173411e886dc3e81578d4f334c43be470ed4f3bdfc87cb63db2b8ba61cf0b76d3310b18559d82ec93d968ec6e4c7bd416b01f2320a3e9c64f4d5902bc26e923"
   },
   "GV280VT": {
