@@ -16,7 +16,7 @@
   },
   "GK521ZR": {
     "desc": "<b>VOLVO XC60 T6 Plug-in AWD auto Core Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK521ZR",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/93ef7774afa5462596b6fb196f6e303c8aa261a452b22904d3bcbb96eed0dd865ac00868dd69171df54c5bb0ce1ede5be5df51e74b49f752f3c0afb991bc296a"
   },
   "GL273XH": {
@@ -226,7 +226,7 @@
   },
   "GH305PH": {
     "desc": "<b>CITROEN DS 7 CROSSBACK E-TENSE 4X4 AUTOMATICA PERFORMANCELINE FP</b> | Targa: GH305PH",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ad15c33cc727b9cb1643ffb204afc7bb623ed4d4dc91c59d316a84f19848e37e55e70f4ab8a69650e49af262ee7ab722daa7aa0574fc411e3064ff85dfe63d70"
   },
   "GR133ET": {
@@ -604,11 +604,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/56bb7d4146ad8abf27d79192c4bf7a510f913e01a2998a243380fc2f5a7859db3c5c9af06d3259386652b6d95fffc9940fc3dbe701422dfd46faa983c084425f"
   },
-  "GP941MM": {
-    "desc": "<b>FIAT 500X 1.3 MJET 95CV MT6 TOP FP</b> | Targa: GP941MM",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/b744205e4332041fdb8b9bddd2993a72b3e0a61cf901b957fd14b451f38e7d2b0178eceb6dfbc20d91513dd22c0d862308ef2bf26d40464dfc40dbc443629d43"
-  },
   "GK080GF": {
     "desc": "<b>AUDI A3 35 TFSI S TRONIC S LINE EDITION S.BACK FP</b> | Targa: GK080GF",
     "options": 2,
@@ -651,7 +646,7 @@
   },
   "GX641SW": {
     "desc": "<b>NISSAN JUKE N1 1.0 DIG-T 114 ACENTA MT</b> | Targa: GX641SW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/75b68a92cdef2447f9895d8a5d619acad748444a8253e8baaa6ed15eb4382df67811e4fc406cf6db0b108151bdfe12c2f0fa0b39e5b355584e1bf299baebd58c"
   },
   "GZ050CB": {
@@ -686,7 +681,7 @@
   },
   "GJ689AD": {
     "desc": "<b>JEEP RENEGADE CONSIP 1.3 T4 PHEV 190CV LIMITED 4XE AUTO FP</b> | Targa: GJ689AD",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/ba42d09fa325742c95d9d8621b3036c452d3b52b5debe50753ceb48bfc8946ebc0287eadc7e604583b8b3f9a77ca997f981d461574f9c26e75b017379c625707"
   },
   "GL997FA": {
