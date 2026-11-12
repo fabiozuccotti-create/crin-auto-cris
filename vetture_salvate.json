@@ -41,7 +41,7 @@
   },
   "GL557PK": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 155CV ST-Line Vignal Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL557PK",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/c2c364939abd5413e8eccdf8a50266934f7321d51dd3983e958c013b0266fb48f18547271a13c0ea489d118e66915ca9edb364de066dae57edc6f5eec310565a"
   },
   "GK556ZC": {
@@ -66,7 +66,7 @@
   },
   "GP018FN": {
     "desc": "<b>VOLVO XC40 Recharge Ultimate Sport utility vehicle 5-door</b> | Targa: GP018FN",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/5746bee7a755113b171406b4ce6945c60a06fef0aa999bb63565b5a271bf4bd7020dc21ff963208500363011d0baf87a09b9450af8630a86ee0435f5b3126a22"
   },
   "GN002HB": {
@@ -76,7 +76,7 @@
   },
   "GN669LF": {
     "desc": "<b>AUDI A3 30 TDI S tronic S line Edition S.Back Hatchback 5-door (Euro 6D)</b> | Targa: GN669LF",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/35f15d54e60f2bc438d5aea199937af749eb0bf49be22aa4aa8ae37a678e32b69f052e71d56dde92e05b5a43e994328b42b2006d6061df0c527faf0060de08fd"
   },
   "GP158FM": {
@@ -91,13 +91,8 @@
   },
   "GR190SG": {
     "desc": "<b>ALFA ROMEO TONALE 1.5 130cv Hybrid TCT7 Sprint Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR190SG",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/6f038cf4637f29414189c2e2d5959e36ccb0ae462bda28196a40d7185ce2ad81216657a7f3e4cd6a1f4e2b02e47fc26c48984a5ad52cb75fd584ca1a4502bd2b"
-  },
-  "GS468ED": {
-    "desc": "<b>VOLVO XC90 B5 D AWD automatico Core Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GS468ED",
     "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/686fc379652d062a500e4e40b1379a15dc0e3797af572704e7136ba895d7465ebf31843a0f61dd52f411eeaed2719d7ff993cea71875ca032045046259bc8ee9"
+    "url_foto": "https://auto.nextlane.com/public/player/6f038cf4637f29414189c2e2d5959e36ccb0ae462bda28196a40d7185ce2ad81216657a7f3e4cd6a1f4e2b02e47fc26c48984a5ad52cb75fd584ca1a4502bd2b"
   },
   "GN785DC": {
     "desc": "<b>ALFA ROMEO TONALE 1.6 Diesel 130cv TCT6 Sprint Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GN785DC",
@@ -146,7 +141,7 @@
   },
   "GW114WC": {
     "desc": "<b>VOLKSWAGEN GOLF 2.0 TDI SCR 110KW Edition Plus DSG Hatchback 5-door (Euro 6E)</b> | Targa: GW114WC",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/89914eef56c0675da5cb7ad2c465edfad28f87636de33e027cca33c75287f10c7473e515e2a5e733f765e64a7867322a9c37f28d17375407bd73a8852a794b0d"
   },
   "GZ708RC": {
@@ -161,7 +156,7 @@
   },
   "GL258EY": {
     "desc": "<b>LEXUS UX (PC) HYBRID BUSINESS 2WD MY22 FP</b> | Targa: GL258EY",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/84c454a5439f50e48e32de1f2e418f85a2e0bdcf532516edc03dc48d2b25f30a6f98257501fd37f7bc5b54474fa8c749e84f5c86ead1365447049cec2ae0b13e"
   },
   "GN719LV": {
@@ -196,17 +191,17 @@
   },
   "GK701ZM": {
     "desc": "<b>AUDI Q3 SPORTBACK PC 45 TFSI E S TRONIC BUSINESS PLUS FP</b> | Targa: GK701ZM",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/3f9e7b4a31fe16de06af91922541510e988c380b2f12d06a4e8166bf19b83e3843e50bc4e4f7096e8d67f2a2993b6d041185219609a430a24ab084aa527e3800"
   },
   "GZ823KL": {
     "desc": "<b>AUDI A7 S7 3.0 TDI QUATTRO TIPTRONIC FP</b> | Targa: GZ823KL",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/0a322620a12dd95e8f10612322e5644b42ed1b7f98364b789fd833fc9972e333dad67614f0866660ef080440b5088ba85d14d15eeab895c3e493792ab63a1306"
   },
   "GL125EZ": {
     "desc": "<b>VOLKSWAGEN TIGUAN (PC) 2.0 TDI SCR 110KW LIFE DSG FP</b> | Targa: GL125EZ",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/8a7fb5bf7a7a9d096351b8e6490b73e6646507ea207c61a4bbc0f40ec3ad44039ebc0d21c422b9d7dfdc161d0c2980483cca4d9ab1c0126a32a202257f315687"
   },
   "GP704AZ": {
@@ -241,7 +236,7 @@
   },
   "GH305PH": {
     "desc": "<b>CITROEN DS 7 CROSSBACK E-TENSE 4X4 AUTOMATICA PERFORMANCELINE FP</b> | Targa: GH305PH",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/ad15c33cc727b9cb1643ffb204afc7bb623ed4d4dc91c59d316a84f19848e37e55e70f4ab8a69650e49af262ee7ab722daa7aa0574fc411e3064ff85dfe63d70"
   },
   "GR133ET": {
@@ -289,19 +284,14 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/11536258c5b5941513553dca9332d24d6094fb4cb2d340e748898814accd15427cc0ab76c74e3bc0b570487a820a80477ff77026066ce4bc0c01011275242f1c"
   },
-  "GL187SN": {
-    "desc": "<b>BMW SERIE 3 318d 48V Touring auto SW 5-door (Euro 6D)</b> | Targa: GL187SN",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/bf9fe40a797d5e3ed4a04976935478d2dfe6d4ad74caee04192b82b0bfcb5ccb7e615cd9f517bfed312e9bae030685a7cf7b34fe49af8db384c92edcf74dc4d6"
-  },
   "GK927RC": {
     "desc": "<b>CITRO\u00cbN C3 AIRCROSS PureTech 110 S&S Feel Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK927RC",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/3d009fe77da689e6eac0e0bbfc993759f740372de6f711c688d4ef65980fc6f481bfac084d9cf61cfa9bdf16d2b349072fc03fe9a709a5cea3b53c2111be0525"
   },
   "GK806ZS": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK806ZS",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/39f152ceea3711789c5aedef1cec1d567e0a1ce782f0801af0800b36fb909b07922957575988ccaa1ce715bb3a959d9c6526a4bc88ca730de3784c8b78eec969"
   },
   "GK298ZV": {
@@ -326,7 +316,7 @@
   },
   "GL580FF": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV Titanium X Aut Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GL580FF",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/11bc328086ae8029a52a1cbe65a58df3db745093ee2493688ca1394e1df9dfc91a8c6a4e9821b9ce8e6b477359ed1b051a68e1350ae4092d86e003b0054dc83f"
   },
   "GL029FF": {
@@ -346,7 +336,7 @@
   },
   "GP201TE": {
     "desc": "<b>BMW SERIE 1 116d Business Advantage Hatchback 5-door (Euro 6D)</b> | Targa: GP201TE",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/de999dd6835aaec1eb8bbb20f65b6b3db5841e26cb585af0db947d103f835b3a1507f86c88e45a99c5722fb257281427f527b7b57f7bd534a1014fcc57a5e151"
   },
   "GL619JC": {
@@ -426,7 +416,7 @@
   },
   "GR029SJ": {
     "desc": "<b>FIAT PANDA 1.0 Hybrid S&S 70cv E6.4 Van 4 posti Commercial hatch 5-door</b> | Targa: GR029SJ",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/79bed37494dbae71a3a14f83d147e933863d251c81d0225f88b68e9beeb9c2ab84c4c08f76d764c5a6323ca75d71eb01b0016a59352a1dad3d94210f92654993"
   },
   "GV553VW": {
@@ -441,7 +431,7 @@
   },
   "GS080EK": {
     "desc": "<b>FORD MUSTANG MACH-E 269CV Standard Range Sport utility vehicle 5-door</b> | Targa: GS080EK",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/9f2e8ce7981dcd9de6050477f23b9825dc75cbf0ba9e678f60790a835cb4328e88a03fc4291667dd1a008776ca1ab3335c903751c01e5e3f9ddf8eee93a8d47f"
   },
   "GR488VH": {
@@ -456,12 +446,12 @@
   },
   "GR636MD": {
     "desc": "<b>FORD MUSTANG MACH-E 269CV Standard Range Sport utility vehicle 5-door</b> | Targa: GR636MD",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/f9eea48f9d49e18d808f6ea7326757254608a515d42c8cac653e332c8a6d1d70cd0c9836d0371bcc46ba8c93ed78dfdb12267e984fde2d13fd62c5156f603c38"
   },
   "GR364VN": {
     "desc": "<b>FORD MUSTANG MACH-E 351CV Extended Range Premium AWD Sport utility vehicle 5-door</b> | Targa: GR364VN",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/9960a82735614b48d4a3b3b95c95574e1d40eb7e9d540d39f47cf1148b32f973680dfbbba5657cf971c63f2b92371c4c0fe55700781a055391f3332417c5325d"
   },
   "GR090LZ": {
@@ -476,7 +466,7 @@
   },
   "GV352ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV352ZS",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/9019eff0eb6ee9ed668f09181cf5eb5868fdea687310de446788450927524abbbf2ea7b243685998240b42a6484cce5facbc6d23784bfd5c78264c68c5fcb1cd"
   },
   "GV633ZS": {
@@ -486,7 +476,7 @@
   },
   "GV636ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV636ZS",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/d902ede0c66f33179fa8ce8c362b014ba7baa3e46f4df132b3242b6a44f9228d2085d847d50c365e72f3e156390d84e7a07abac2499dc2ab47e1ebed5f4c26d8"
   },
   "GV279ZV": {
@@ -571,12 +561,12 @@
   },
   "GP923FL": {
     "desc": "<b>FORD KUGA 2.5 BENZINA FHEV 190CV AWD ST-LINE AUT FP</b> | Targa: GP923FL",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/40f415ce791f01844ecb6800d12657ec2dfe9fb9f12277f5751f2b829c852e4285936167d249d05fb49f3105062c60d09113c96e3bb2125ddda6d7165baf7214"
   },
   "GP470BB": {
     "desc": "<b>BMW X3 (PC) XDRIVE 20D MH48V MSPORT FP</b> | Targa: GP470BB",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/e33b8796462fe1257b6185193240ce47f783048dafd7cf76981ab2166b43b462502206a1adb0071195702eedcb61982249660dc43c9b3906b855f3f34307a09e"
   },
   "GN083RZ": {
@@ -591,7 +581,7 @@
   },
   "GK166ZT": {
     "desc": "<b>VOLKSWAGEN TIGUAN (PC) 2.0 TDI SCR 110KW LIFE DSG FP</b> | Targa: GK166ZT",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/c568c0badca9b9a2e191bab30965cef4918cf5c4c7f66eeed501e69c97185add1460dc9da3e4ee734b5a2d6408bd6ca759b0a8817f4f45a7183586a5abbb8a44"
   },
   "GS985ER": {
@@ -666,12 +656,12 @@
   },
   "GK940ZN": {
     "desc": "<b>RENAULT CLIO (PC) 1.5 DCI BLUE 74KW BUSINESS FP</b> | Targa: GK940ZN",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/c881973e045a24c9dad17b43fd75cc2b3e2fa12037f89be7010c1e45cf7651adc4e7d140d086469746b6a65e5acea18179318fd003f0916c8418a27b5469888d"
   },
   "GK348FT": {
     "desc": "<b>AUDI Q2 2.0 30 TDI S TRONIC FP</b> | Targa: GK348FT",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/442237d30ce7a0c51a8a631a21816ad7b6be5c5a2f5cb694d6a89cc36be479dcb10590d1897c69173d05b2203866ace6d4c616d9327f93d00c3bf375c28c697f"
   },
   "GX641SW": {
@@ -731,7 +721,7 @@
   },
   "GL023HW": {
     "desc": "<b>AUDI A4 SW 2.0 40 TDI QUAT. BUSINESS S TRONIC FP</b> | Targa: GL023HW",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/f3b09d4c23804f2a3d5e7fe02d041646863ea16183f75edc239bad446471dccebb95fb09aee39198f46c196fdd88327d1b7c06a4d9e53302760e4ed8a7a3aea1"
   },
   "GH074GX": {
@@ -746,7 +736,7 @@
   },
   "GV280VT": {
     "desc": "<b>OPEL CORSA (PC) 1.2 75CV GS MT5 FP</b> | Targa: GV280VT",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/af1c8fa51d9b8ad5c24fedcb1dff2c1ff68bafbc431f8dff1d75504d964e95c4378c12bf6d75a6ae11b4caebd3ce0c0c75bac0b35dca3d638a084ee230e9ea4b"
   }
 }
