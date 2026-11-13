@@ -1,13 +1,8 @@
 {
   "GK341ZH": {
     "desc": "<b>CITRO\u00cbN C3 PureTech 83 S&S Feel Neo patentati Hatchback 5-door (Euro 6D)</b> | Targa: GK341ZH",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/a06242782fc931605e778e87b3ce8c7ae279a8dd3fdcd973895995ac0cdfd983df44c6beee12027490b2f8421d232fe96f04516ec42b9df56c2b64bbc5878494"
-  },
-  "GK945GE": {
-    "desc": "<b>FORD FIESTA 1.0 EcoBoost Hybrid 125CV Titanium Hatchback 5-door (Euro 6.2)</b> | Targa: GK945GE",
     "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/6184c09bfb03bc0028bd102670a9731758af12a71f1eb1647f924cc06140aba6a077e387c38dbdf6bd9247e1afe730078e454eb22e27d9a668196ce43a10fd91"
+    "url_foto": "https://auto.nextlane.com/public/player/a06242782fc931605e778e87b3ce8c7ae279a8dd3fdcd973895995ac0cdfd983df44c6beee12027490b2f8421d232fe96f04516ec42b9df56c2b64bbc5878494"
   },
   "GK521ZR": {
     "desc": "<b>VOLVO XC60 T6 Plug-in AWD auto Core Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GK521ZR",
@@ -96,7 +91,7 @@
   },
   "GP200SZ": {
     "desc": "<b>SUZUKI IGNIS 1.2 Hybrid Top 2WD Hatchback 5-door (Euro 6D)</b> | Targa: GP200SZ",
-    "options": 2,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/69e145a2714d2447f43d64e595c23c05783466a9f4e571eff3f623b19d4270972e9b5e258662b2f072e19221b2dbbf60cf4ab79c86367933929ea15b3eec974e"
   },
   "GR872EV": {
@@ -251,7 +246,7 @@
   },
   "GL974ZW": {
     "desc": "<b>AUDI Q3 35 TDI S TRONIC BUSINESS ADVANCED FP</b> | Targa: GL974ZW",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/3d22bb2227add24c2e19a3852d5c5351fbb1d96684c2ec9fa04f246c6df023832a5c720ec864daea3452094455c38bee5068ed8d6e693b1a2441c492c5b8a10d"
   },
   "GL779EW": {
@@ -384,11 +379,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/0e319151d8970ed70972d65da7e868dbd2cf67e47e1f73a71ebfc8a21ba282afcf085d486c8ada1efb6af6f660087a15b9ddfab89cdd1b0229a4af5966a66e6d"
   },
-  "GH418VH": {
-    "desc": "<b>FIAT PANDA 1.0 FireFly 70cv S&S Hybrid Hatchback 5-door (Euro 6D)</b> | Targa: GH418VH",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/167bb9b25ec871ef41d3902d5556fff3c9e08b270dc5a817052a0d33dcc1b7c79848c149ae08144761c202831c8d0b45b0cabb819a06a2d3d8d4b3612ad04bfd"
-  },
   "GM422KT": {
     "desc": "<b>TESLA MODEL Y 75 kWh Performance Dual Motor 4WD aut Sport utility vehicle 5-door</b> | Targa: GM422KT",
     "options": 2,
@@ -439,11 +429,6 @@
     "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/2ada09d1df6d122a9e323ab7b03bf0f5ee12225e1f4ebd07908d7ece4c2d6530350a9a40baf70047dd0305bf4af689952828755d05166e1d8d43f98ed1f3c451"
   },
-  "GP642BH": {
-    "desc": "<b>ALFA ROMEO TONALE 1.5 130cv Hybrid TCT7 Sprint Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP642BH",
-    "options": 2,
-    "url_foto": "https://auto.nextlane.com/public/player/9bc6de4c40b03ab3075794eefbba6a5040f386374a1fbdd56307f2c0de24558be7f68ab7d99a4f932e70a19c2712cd11372456eef2d464495b4c9a56ab6551bb"
-  },
   "GP518AX": {
     "desc": "<b>ALFA ROMEO STELVIO 2.2 TD 190 CV Sprint AT8 Q4 Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GP518AX",
     "options": 0,
@@ -481,7 +466,7 @@
   },
   "GP376FP": {
     "desc": "<b>FORD PUMA 1.0 Ecoboost Hybrid 125CV ST-Line X Sport utility vehicle 5-door (Euro 6.2)</b> | Targa: GP376FP",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/1fefa77be7a57889b0717bc2c36a9f5cea1843a48d11b678db0c12786f5e9de73444e0ea9a84e8650169592074097c06bb23db2814917d431be609e712e032a8"
   },
   "GV553VW": {
@@ -496,7 +481,7 @@
   },
   "GP866ZX": {
     "desc": "<b>FORD MUSTANG MACH-E 269CV Standard Range</b> | Targa: GP866ZX",
-    "options": 1,
+    "options": 0,
     "url_foto": "https://auto.nextlane.com/public/player/972b290c8fcb95118f3a641c457ec9eefd89ed13e28854a6729a0d97542db0b835201d90f87919e6f29295e9167372b51441cf75cfa11ff7f3aa2e4597740632"
   },
   "GR488VH": {
@@ -513,11 +498,6 @@
     "desc": "<b>FORD MUSTANG MACH-E 269CV Standard Range Sport utility vehicle 5-door</b> | Targa: GR636MD",
     "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/f9eea48f9d49e18d808f6ea7326757254608a515d42c8cac653e332c8a6d1d70cd0c9836d0371bcc46ba8c93ed78dfdb12267e984fde2d13fd62c5156f603c38"
-  },
-  "GR364VN": {
-    "desc": "<b>FORD MUSTANG MACH-E 351CV Extended Range Premium AWD Sport utility vehicle 5-door</b> | Targa: GR364VN",
-    "options": 1,
-    "url_foto": "https://auto.nextlane.com/public/player/9960a82735614b48d4a3b3b95c95574e1d40eb7e9d540d39f47cf1148b32f973680dfbbba5657cf971c63f2b92371c4c0fe55700781a055391f3332417c5325d"
   },
   "GR090LZ": {
     "desc": "<b>HYUNDAI TUCSON 1.6 CRDi MHEV 2wd 136cv Exellence DCT Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GR090LZ",
@@ -541,7 +521,7 @@
   },
   "GV370ZS": {
     "desc": "<b>HYUNDAI TUCSON 1.6 HEV 2wd 230cv Exellence Auto Sport utility vehicle 5-door (Euro 6D)</b> | Targa: GV370ZS",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/da968909363db8d393ebbd02da4092e5d02a527f927bc2cc13d158604ba2fa47d58809e99f27ea42b1f5b00067524f369ca2a2b3e2aa3528dda9ad4c7f76fdbb"
   },
   "GV633ZS": {
@@ -586,7 +566,7 @@
   },
   "GL783SR": {
     "desc": "<b>VOLVO V60 CROSS COUNT B4 D AWD AUTOM. CORE FP</b> | Targa: GL783SR",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/aaba0643e123a92944bc69ca3cc148cf53d5ba940ed1fcee0dc54bc64d5527b402f006c8f75449e8390550203de66418aafcca92f089101e4d6ab690f86f1949"
   },
   "GS276YW": {
@@ -651,7 +631,7 @@
   },
   "GP825FR": {
     "desc": "<b>FIAT 500X (PC) 1.0 T3 120CV MT6 FP</b> | Targa: GP825FR",
-    "options": 0,
+    "options": 1,
     "url_foto": "https://auto.nextlane.com/public/player/bbd5f0d7f5c1d323560b238a8ed05ed1d3ded91f517edc9d3f1cf98334e3a55be2fff8754473f281290ea1789f367e943b4ac79bf07ee215d2166dd6e2456326"
   },
   "GP470BB": {
@@ -811,7 +791,7 @@
   },
   "HA580NE": {
     "desc": "<b>FIAT DOBLO COMBI 1.5 BLUEHDI 100CV MT6 (N1)</b> | Targa: HA580NE",
-    "options": 1,
+    "options": 2,
     "url_foto": "https://auto.nextlane.com/public/player/42d35bab9d690575830ade03b123a3d11e770784c3dbd707d0eb850a23d9e00b4151a45f5430d5e9ecda94e2cfb64d490fc1f307af4b02c510d479795282b73e"
   },
   "GV107KN": {
